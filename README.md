@@ -1,42 +1,38 @@
-# WANI.SYS — half on land, half in water
+# WANI.SYS — project hub
 
-악어(wani)처럼 땅(학업)과 물(음악) 두 세계를 오가는 컨셉의 글리치 포트폴리오. 순수 HTML/CSS/JS로 빌드 도구 없이 GitHub Pages에 바로 배포됩니다. 모든 핸들: @toowani.
+`toowani.com` — 김창완(@toowani)이 운영하는 프로젝트 서브도메인들을 모아 보여주는 랜딩 허브. 순수 HTML/CSS/JS, 빌드 도구 없이 GitHub Pages에 바로 배포됩니다.
+
+이력서·포트폴리오(옛 WANI.SYS CV)는 별도 저장소로 분리되어 [cv.toowani.com](https://cv.toowani.com)에서 서비스됩니다.
 
 ## 파일 구조
 
 ```
-index.html          페이지 뼈대 (부팅 오버레이 / HUD / 랜딩 / 콘텐츠 영역)
-css/style.css       스타일 전체 (모드별 네온 팔레트, 글리치, 반응형, FX 레벨)
-js/data.js          ★ 콘텐츠 데이터 — 이 파일만 고치면 내용이 바뀝니다
-js/engine.js        배경 캔버스 엔진 (매트릭스/파티클/스펙트럼 + Web Audio 분석)
-js/main.js          부팅 시퀀스, 모드/언어/FX 전환, 스크롤 연출
-assets/audio/       track.mp3 를 넣으면 오디오 반응형 비주얼 활성화
+index.html          허브 페이지 뼈대 (HUD / 자기소개 / 프로젝트 그리드 / 푸터)
+css/style.css        스타일 전체 (다크·라이트 테마, 카드 그리드, 반응형)
+js/hub.js             ★ projects.json을 읽어 카드 렌더 + 테마 토글 + 옛 CV 딥링크 리다이렉트
+projects.json        ★ 프로젝트 목록 데이터 — 이 파일만 고치면 카드가 바뀝니다
+podcast4life/        YouTube 감사·검증용 공개 페이지 (프로젝트 목록과 무관, 그대로 유지)
+p4l-ywt2ce/           옛 P4L 쇼츠 미리보기 경로 → p4l.toowani.com으로 안내 리다이렉트
 ```
 
-## 이력서 PDF 재생성
+## 프로젝트 추가/수정 방법
 
-`assets/resume_wani.pdf`는 `scripts/make_resume.py`로 생성됩니다. 사이트 내용(js/data.js)을 수정했다면 스크립트도 맞춰 고친 뒤 재실행하세요:
+`projects.json`에 항목을 추가·수정하면 됩니다. 각 필드:
 
-```
-pip install reportlab koreanize-matplotlib
-python scripts/make_resume.py
-```
+| 필드 | 설명 |
+|---|---|
+| `id` | 내부 식별용 문자열 |
+| `name` | 카드에 표시될 이름 |
+| `url` | 서브도메인 주소 |
+| `description` | 한 줄 설명 |
+| `tags` | 태그 배열 |
+| `status` | `"live"` \| `"dev"`(개발중 배지) \| `"private"`(🔒 잠금 표시, 링크 비활성화) |
+| `thumbnail` | 썸네일 이미지 경로, 없으면 `null` (이니셜 플레이스홀더 표시) |
+| `public` | `false`면 카드 목록에서 완전히 제외 |
 
-## 배포 후 교체할 URL (현재 `https://toowani.github.io/`로 임시 설정)
-
-`index.html`의 og:url·JSON-LD url, `robots.txt`의 Sitemap 주소, `sitemap.xml`의 loc
-
-## 이스터에그
-
-홈 화면에서 좌측 상단 WANI.SYS 로고를 빠르게 3번 클릭 → 악어 미로 게임 「WANI MAZE」 (매 판 랜덤 미로, 칩튠 BGM, 최고점수 저장)
-
-## 콘텐츠 교체 방법
-
-`js/data.js`를 열어 `[교체]` / `[replace]` 표시가 있는 값을 실제 내용으로 바꾸면 됩니다. 모든 텍스트는 `{ ko: "...", en: "..." }` 형태로 한국어/영어를 같이 가집니다. 링크 URL(`your-id` 부분)도 잊지 말고 교체하세요.
+> 주의: 이 사이트는 정적 호스팅이라 `projects.json` 자체는 누구나 fetch해서 원문을 볼 수 있습니다. `public: false`는 화면에 안 보이게 할 뿐, 파일 안에 있는 내용은 숨겨지지 않습니다. 존재 자체를 완전히 비밀로 하고 싶은 프로젝트는 애초에 이 파일에 넣지 마세요.
 
 ## 로컬에서 보기
-
-브라우저에서 `index.html`을 바로 열어도 되지만, 오디오 기능까지 확인하려면 간단한 서버로 여세요:
 
 ```
 python3 -m http.server 8000
@@ -45,27 +41,8 @@ python3 -m http.server 8000
 
 ## GitHub Pages 배포
 
-1. GitHub에 새 저장소 생성 (예: `wani-portfolio` 또는 `<username>.github.io`)
-2. 이 폴더 전체를 push:
-   ```
-   git init
-   git add .
-   git commit -m "launch WANI.SYS"
-   git branch -M main
-   git remote add origin https://github.com/<username>/<repo>.git
-   git push -u origin main
-   ```
-3. 저장소 Settings → Pages → Source를 `main` 브랜치 `/ (root)`로 설정
-4. 잠시 후 `https://<username>.github.io/<repo>/` 에서 접속 가능
+이 저장소(`toowani.github.io`)는 `toowani.com`으로 커스텀 도메인이 연결되어 있습니다. `main` 브랜치에 push하면 자동 배포됩니다.
 
-빌드 과정이 없으므로 GitHub Actions는 필요 없습니다.
+## 옛 CV 딥링크 처리
 
-## 기능 요약
-
-- **수면 분할 랜딩**: 화면 위쪽=땅(DEV_WANI, 라임/앰버), 아래쪽=물(ARTIST_WANI, 시안/딥블루). 중앙의 수면 웨이브가 마우스에 반응해 출렁이고, ASCII 악어가 수면에 걸쳐 있음. 각 영역 클릭으로 모드 진입, 우측 상단 ⇄ 버튼으로 전환, 로고 클릭 시 랜딩 복귀
-- **마우스 중심 인터랙션**: 파티클 떼가 물고기처럼 커서를 따라 유영. 떨어지는 모션 없음
-- **중앙정렬 레이아웃**: 섹션 제목·카드·타임라인·링크 모두 중앙 기준 (터미널 박스 내부 텍스트만 가독성 위해 좌측)
-- **KO/EN**: 우측 상단 버튼으로 언어 전환 (선택은 저장됨)
-- **오디오 반응**: `assets/audio/track.mp3` 존재 시 ▶ AUDIO로 재생 → 파티클 속도·스펙트럼 바·수면 파고가 실제 음악 진폭/주파수에 반응. 파일이 없으면 잔잔한 기본 애니메이션
-- **FX 레벨**: FX:HIGH → LOW → OFF 순환. LOW는 노이즈 제거·파티클 감소, OFF는 모든 모션 정지. `prefers-reduced-motion` 사용자는 자동으로 OFF 시작
-- **성능**: 단일 rAF 루프, DPR 1.5 상한, 탭 비활성 시 정지, 파티클 수 화면 크기 비례
+과거 `toowani.com/#dev`, `#artist`, `#journey`, `#game`으로 유입되던 링크는 `index.html`의 인라인 스크립트가 즉시 `cv.toowani.com`의 동일 해시로 리다이렉트합니다. 그 외 이력서 등 옛 정적 자산 링크로 들어온 방문자는 404 페이지에서 `cv.toowani.com` 안내를 받습니다.

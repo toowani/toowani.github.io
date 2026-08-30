@@ -1,0 +1,32 @@
+[
+  {
+    "id": "p4l",
+    "name": "P4L",
+    "url": "https://p4l.toowani.com",
+    "description": "10인조 힙합 크루 P4L의 공식 사이트",
+    "tags": ["music", "crew"],
+    "status": "live",
+    "thumbnail": null,
+    "public": true
+  },
+  {
+    "id": "status",
+    "name": "STATUS",
+    "url": "https://status.toowani.com",
+    "description": "Claude Code 세션 관제 대시보드",
+    "tags": ["dev-tools", "dashboard"],
+    "status": "dev",
+    "thumbnail": null,
+    "public": true
+  },
+  {
+    "id": "dbdreamleader",
+    "name": "DB드림리더",
+    "url": "https://dbdreamleader.toowani.com",
+    "description": "DB드림리더 봉사활동 아카이브 (예정)",
+    "tags": ["service", "archive"],
+    "status": "dev",
+    "thumbnail": null,
+    "public": true
+  }
+]

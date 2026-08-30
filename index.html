@@ -3,29 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WANI.SYS</title>
-<meta name="description" content="김창완(@toowani) — GIST 전기전자컴퓨터공학(ML/DL·AI 연구) · 힙합 베이스 전자음악/하이퍼팝 프로듀서. 개발·연구·음악 작업 아카이브.">
-<!-- OG / 공유 미리보기 (배포 후 og:url을 실제 주소로 교체하세요) -->
+<title>WANI.SYS — PROJECTS</title>
+<meta name="description" content="김창완(@toowani)이 운영하는 프로젝트 모음 — P4L, STATUS, DB드림리더 등. 이력서·포트폴리오는 cv.toowani.com에서 확인하세요.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="WANI.SYS">
-<meta property="og:description" content="김창완(@toowani) — GIST EECS · ML/DL · AI 연구 · 힙합 베이스 전자음악/하이퍼팝 프로듀서.">
+<meta property="og:title" content="WANI.SYS — PROJECTS">
+<meta property="og:description" content="김창완(@toowani)이 운영하는 프로젝트 모음.">
 <meta property="og:image" content="assets/og.png">
-<meta property="og:url" content="https://toowani.github.io/">
+<meta property="og:url" content="https://toowani.com/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <meta name="theme-color" content="#0f0f0f">
-<!-- 검색엔진용 구조화 데이터 (배포 후 url을 실제 주소로 교체) -->
+<!-- 옛 CV 딥링크(#dev/#artist/#journey/#game)로 들어온 방문자를 cv.toowani.com으로 즉시 이동 -->
+<script>
+(function () {
+  var h = location.hash.replace("#", "");
+  var LEGACY = { dev: 1, artist: 1, journey: 1, game: 1 };
+  if (LEGACY[h]) location.replace("https://cv.toowani.com/#" + h);
+})();
+</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Changwan Kim",
   "alternateName": "wani",
-  "url": "https://toowani.github.io/",
+  "url": "https://toowani.com/",
   "email": "mailto:changwan@gm.gist.ac.kr",
   "affiliation": { "@type": "CollegeOrUniversity", "name": "GIST (Gwangju Institute of Science and Technology)" },
-  "jobTitle": "EECS Student · Electronic Music Artist",
   "sameAs": [
+    "https://cv.toowani.com/",
     "https://github.com/toowani",
     "https://linkedin.com/in/toowani",
     "https://www.youtube.com/@toowani",
@@ -40,200 +46,30 @@
 <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body data-mode="none" data-fx="high" data-lang="ko">
+<body>
 
-<!-- ============================================================
-     BOOT OVERLAY : 터미널 부팅 시퀀스
-============================================================ -->
-<div id="boot" aria-hidden="true">
-  <pre id="boot-log"></pre>
-  <div id="boot-bar"><div id="boot-bar-fill"></div></div>
-  <p id="boot-skip">[ CLICK OR PRESS ANY KEY TO SKIP ]</p>
-</div>
-
-<!-- ============================================================
-     GLOBAL FX LAYERS
-============================================================ -->
-<canvas id="bg-canvas"></canvas>
-<div class="fx-scanlines" aria-hidden="true"></div>
-
-<!-- 커스텀 악어 커서: 평소 입 벌림 / 클릭 시 깨물기 / 스크롤 시 회전 -->
-<div id="croc-cursor" aria-hidden="true">
-  <svg class="croc-body" width="42" height="30" viewBox="0 0 42 30">
-    <!-- 원래의 슬림 디자인. 힌지 연결부(고정)로 턱 사이 틈만 가림 -->
-    <rect class="croc-skin" x="33" y="11" width="7" height="9" fill="var(--c3)"/>
-    <g class="jaw-top">
-      <polygon class="croc-skin" points="2,13 28,8 38,9 38,14 2,14" fill="var(--c1)"/>
-      <rect class="croc-skin" x="30" y="2" width="7" height="7" fill="var(--c1)"/>
-      <rect x="32" y="4" width="3" height="3" fill="#0f0f0f"/>
-      <rect x="7" y="11" width="2" height="3" fill="#fff"/>
-      <rect x="13" y="11" width="2" height="3" fill="#fff"/>
-      <rect x="19" y="11" width="2" height="3" fill="#fff"/>
-    </g>
-    <g class="jaw-bot">
-      <polygon class="croc-skin" points="2,17 38,17 38,22 28,23 2,18" fill="var(--c3)"/>
-      <rect x="9" y="16" width="2" height="3" fill="#fff"/>
-      <rect x="16" y="16" width="2" height="3" fill="#fff"/>
-    </g>
-  </svg>
-</div>
-<div class="fx-noise" aria-hidden="true"></div>
-<div class="fx-vignette" aria-hidden="true"></div>
-<div id="mode-flash" aria-hidden="true"></div>
-
-<!-- ============================================================
-     HEADER / HUD
-============================================================ -->
 <header id="hud">
-  <a href="#" id="logo" class="glitch-text" data-text="WANI.SYS">WANI.SYS</a>
-  <div id="hud-status">
-    <span id="hud-clock">--:--:--</span>
-    <span id="hud-mode-label">MODE: NULL</span>
-  </div>
-  <nav id="hud-controls">
-    <button id="btn-mode" class="hud-btn" title="모드 전환">⇄ <span data-ui="switchMode">모드 전환</span></button>
-    <button id="btn-audio" class="hud-btn" title="오디오 재생/정지">▶ <span class="btn-label">AUDIO</span></button>
-    <button id="btn-lang" class="hud-btn" title="Language">KO/EN</button>
-    <button id="btn-fx" class="hud-btn" title="이펙트 강도">FX:HIGH</button>
-    <button id="btn-theme" class="hud-btn" title="라이트/다크 전환">◐ <span class="btn-label">THEME</span></button>
-    <button id="btn-print" class="hud-btn" title="전체 이력 인쇄/저장">⎙ <span class="btn-label">PRINT</span></button>
-  </nav>
+  <a href="./" id="logo">WANI.SYS</a>
+  <button id="btn-theme" class="hud-btn" title="라이트/다크 전환">◐ THEME</button>
 </header>
 
-<!-- 인쇄 전용 뷰 (⎙ PRINT 클릭 시 두 모드 전체가 채워짐, 화면에는 안 보임) -->
-<div id="print-root" aria-hidden="true"></div>
-
-<div class="ticker ticker-top" aria-hidden="true"><div class="ticker-inner" id="ticker-top-inner"></div></div>
-
-<!-- ============================================================
-     LANDING : 수면 분할 — 위(땅/학업) · 아래(물/음악)
-============================================================ -->
-<section id="landing">
-  <button class="half half-land" data-choose="dev">
-    <span class="half-inner">
-      <span class="half-tag" data-ui="landTag">▲ DEV</span>
-      <span class="half-title glitch-text" data-text="R&D_WANI">R&D_WANI</span>
-      <span class="half-desc" data-ui="devCardDesc">GIST 전기전자컴퓨터공학 — ML/DL · AI 연구</span>
-      <span class="half-enter" data-ui="enter">[ ENTER ]</span>
-    </span>
-  </button>
-  <button class="half half-water" data-choose="artist">
-    <span class="half-inner">
-      <span class="half-tag" data-ui="waterTag">▼ MUSIC</span>
-      <span class="half-title glitch-text" data-text="ART_WANI">ART_WANI</span>
-      <span class="half-desc" data-ui="artistCardDesc">힙합 베이스 전자음악 · 하이퍼팝 프로듀서</span>
-      <span class="half-enter" data-ui="enter">[ ENTER ]</span>
-    </span>
-  </button>
-
-  <!-- 수면(파도) — 마우스에 반응해 출렁임 (engine.js가 그림) -->
-  <canvas id="waterline-canvas" aria-hidden="true"></canvas>
-
-  <!-- 수면 위 중앙 타이틀 + 악어 -->
-  <div id="landing-center" aria-hidden="true">
-    <p class="landing-eyebrow" data-ui="landingEyebrow">// KIM CHANGWAN — GIST EECS × ELECTRONIC MUSIC</p>
-    <h1 class="landing-title glitch-text" data-text="WANI" role="button" tabindex="0"
-        title="LIFE MAP — 시간 여행 지도 열기">WANI<span class="wani-note" data-ui="waniNote"><b>wani</b> [와니]<br>① 일본어로 '악어(わに, ワニ)'.<br>② 김창완의 별명 — 이름의 '완'에서.<br>③ 땅과 물을 오가는 악어처럼, 개발과 음악을 오간다.</span></h1>
-    <pre class="croc-ascii" id="croc">            _   _
-          _(o)_(o)_
-   ~~~~~~/  ~ ~ ~  \_______.~~~~~~
-    \/\_/  t o o w a n i  /\_/\/
-        '--..________..--'</pre>
-    <p class="landing-id" data-ui="landingId">김창완 KIM CHANGWAN · GIST 전기전자컴퓨터공학 · @toowani</p>
-    <p class="landing-map-hint" data-ui="mapHint">[ TAP WANI → LIFE MAP ]</p>
-  </div>
+<section id="intro">
+  <p class="intro-eyebrow">// KIM CHANGWAN — GIST EECS × ELECTRONIC MUSIC</p>
+  <h1 class="intro-title">WANI.SYS</h1>
+  <p class="intro-desc">개발·연구와 음악을 오가며 만든 것들을 모아둔 프로젝트 허브입니다.</p>
+  <a class="cv-link" href="https://cv.toowani.com">이력서 · 포트폴리오 보기 → cv.toowani.com</a>
 </section>
 
-<!-- ============================================================
-     LIFE MAP : WANI 타이틀 클릭 → 악어가 걸어온 시간 여행 지도
-     (세로 스크롤 → 지도가 왼쪽에서 오른쪽으로 흐름)
-============================================================ -->
-<section id="journey" hidden>
-  <div id="jy-sticky">
-    <div id="jy-year" aria-hidden="true"></div>
-    <div id="jy-track">
-      <svg id="jy-svg" aria-hidden="true"></svg>
-      <div id="jy-nodes"></div>
-      <div id="jy-croc" aria-hidden="true">
-        <svg width="66" height="38" viewBox="0 0 66 38">
-          <rect x="0"  y="15" width="10" height="5"  fill="var(--land1)"/>
-          <rect x="8"  y="11" width="34" height="12" fill="var(--land1)"/>
-          <rect x="13" y="8"  width="4"  height="4"  fill="var(--water1)"/>
-          <rect x="21" y="8"  width="4"  height="4"  fill="var(--water1)"/>
-          <rect x="29" y="8"  width="4"  height="4"  fill="var(--water1)"/>
-          <rect x="40" y="7"  width="9"  height="9"  fill="var(--land1)"/>
-          <rect x="43" y="9"  width="3"  height="3"  fill="#0f0f0f"/>
-          <rect x="47" y="12" width="17" height="6"  fill="var(--land1)"/>
-          <rect x="50" y="18" width="2"  height="2"  fill="#fff"/>
-          <rect x="56" y="18" width="2"  height="2"  fill="#fff"/>
-          <rect class="leg leg-a" x="13" y="23" width="5" height="9" fill="var(--water2)"/>
-          <rect class="leg leg-b" x="25" y="23" width="5" height="9" fill="var(--water2)"/>
-          <rect class="leg leg-a" x="36" y="23" width="5" height="9" fill="var(--water2)"/>
-        </svg>
-      </div>
-    </div>
-    <div class="jy-side-label jy-label-land" data-ui="jyLand">▲ DEV</div>
-    <div class="jy-side-label jy-label-water" data-ui="jyWater">▼ MUSIC · VISUAL</div>
-    <p id="jy-hint" data-ui="jyHint">SCROLL ↓</p>
-  </div>
-</section>
+<main id="projects">
+  <h2 class="section-title">PROJECTS</h2>
+  <div id="project-grid" class="card-grid"></div>
+</main>
 
-<noscript>
-  <div style="position:relative;z-index:20;max-width:720px;margin:40px auto;padding:24px;font-family:monospace;color:#e8e8f0;border:1px solid #cfcdc6;text-align:center;">
-    <h1>김창완 (wani, @toowani)</h1>
-    <p>GIST 전기전자컴퓨터공학과 3학년 — ML/DL·AI 연구, 힙합 베이스 전자음악·하이퍼팝 프로듀서.</p>
-    <p>이 사이트는 JavaScript가 필요합니다. 연락: changwan@gm.gist.ac.kr ·
-       <a href="https://github.com/toowani" style="color:#aad59e">GitHub</a> ·
-       <a href="https://www.youtube.com/@toowani" style="color:#aad59e">YouTube</a></p>
-  </div>
-</noscript>
-
-<!-- 늪지대 지도 내비게이션 (스크롤 위치 표시, main.js가 채움) -->
-<nav id="map-nav" hidden aria-label="섹션 지도"></nav>
-
-<!-- ============================================================
-     MAIN CONTENT : data.js 렌더링 영역
-============================================================ -->
-<main id="content" hidden></main>
-
-<div class="ticker ticker-bottom" aria-hidden="true"><div class="ticker-inner" id="ticker-bottom-inner"></div></div>
-
-<footer id="site-footer" hidden>
-  <p>© 2026 WANI (@toowani) — built with vanilla HTML/CSS/JS · <span data-ui="footerNote">이 사이트는 GitHub Pages에서 구동됩니다</span></p>
-  <p class="footer-ascii" aria-hidden="true">[ WANI.SYS // ALL SYSTEMS NOMINAL ]</p>
+<footer>
+  <p><a href="mailto:contact@toowani.com">contact@toowani.com</a> · <a href="https://github.com/toowani" target="_blank" rel="noopener">GitHub</a></p>
+  <p>© 2026 WANI (@toowani)</p>
 </footer>
 
-<!--
-  오디오 파일 자리:
-  assets/audio/track.mp3 에 본인 음원(mp3)을 넣으면
-  ▶ AUDIO 버튼으로 재생 + 배경 비주얼이 음악에 반응합니다.
--->
-<audio id="audio-el" src="assets/audio/track.mp3" preload="none" crossorigin="anonymous"></audio>
-
-<!-- ============================================================
-     EASTER EGG : 악어 미로 게임 (홈에서 WANI.SYS 로고 3연타)
-============================================================ -->
-<div id="game-overlay" hidden>
-  <div id="egg-toast" hidden>
-    <p class="egg-title glitch-text" data-text="EASTER EGG!">EASTER EGG!</p>
-    <p class="egg-sub"></p>
-  </div>
-  <div id="game-hud">
-    <span id="g-score">SCORE 0</span>
-    <span id="g-best"></span>
-    <span id="g-phase">▲ LAND</span>
-    <span id="g-time">90</span>
-    <span id="g-lives">◆◆◆</span>
-    <button id="g-exit" title="게임 종료 (ESC)">✕</button>
-  </div>
-  <canvas id="game-canvas"></canvas>
-  <div id="game-msg"></div>
-</div>
-
-<script src="js/data.js"></script>
-<script src="js/engine.js"></script>
-<script src="js/journey.js"></script>
-<script src="js/game.js"></script>
-<script src="js/main.js"></script>
+<script src="js/hub.js"></script>
 </body>
 </html>

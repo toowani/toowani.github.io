@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://toowani.github.io/sitemap.xml
+Sitemap: https://toowani.com/sitemap.xml
