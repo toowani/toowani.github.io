@@ -26,7 +26,7 @@ p4l-ywt2ce/           옛 P4L 쇼츠 미리보기 경로 → p4l.toowani.com으�
 | `url` | 서브도메인 주소 |
 | `description` | 한 줄 설명 |
 | `tags` | 태그 배열 |
-| `status` | `"live"` \| `"dev"`(개발중 배지) \| `"private"`(🔒 잠금 표시, 링크 비활성화) |
+| `status` | `"live"` \| `"dev"`(개발중 배지) \| `"private"`(🔒 배지, 링크는 유지 — 실제 접근 제어는 Cloudflare Access가 담당) |
 | `thumbnail` | 썸네일 이미지 경로, 없으면 `null` (이니셜 플레이스홀더 표시) |
 | `public` | `false`면 카드 목록에서 완전히 제외 |
 

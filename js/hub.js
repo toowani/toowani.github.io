@@ -40,9 +40,9 @@
     var thumb = p.thumbnail
       ? '<div class="card-thumb"><img src="' + p.thumbnail + '" alt=""></div>'
       : '<div class="card-thumb">' + initial + "</div>";
-    var link = locked
-      ? '<span class="card-link disabled">비공개</span>'
-      : '<a class="card-link" href="' + p.url + '" target="_blank" rel="noopener">바로가기</a>';
+    // private이어도 링크는 살려둔다 — 실제 접근 제어는 Cloudflare Access가 담당하므로
+    // 클릭하면 그쪽 로그인 벽으로 자연스럽게 넘어간다. 배지로만 비공개임을 표시.
+    var link = '<a class="card-link" href="' + p.url + '" target="_blank" rel="noopener">바로가기</a>';
     var tags = (p.tags && p.tags.length)
       ? '<div class="card-tags">' + p.tags.map(function (t) { return '<span class="tag">' + t + "</span>"; }).join("") + "</div>"
       : "";
