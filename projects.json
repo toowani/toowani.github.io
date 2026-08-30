@@ -20,6 +20,16 @@
     "public": true
   },
   {
+    "id": "class",
+    "name": "CLASS",
+    "url": "https://class.toowani.com",
+    "description": "학교 공부를 위한 개인 사이트",
+    "tags": ["study"],
+    "status": "live",
+    "thumbnail": null,
+    "public": true
+  },
+  {
     "id": "dbdreamleader",
     "name": "DB드림리더",
     "url": "https://dbdreamleader.toowani.com",
