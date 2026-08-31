@@ -9,9 +9,11 @@
    필수. 상세 규칙은 워크스페이스 루트 CLAUDE.md 참고.
 
    호환: 호스트 페이지 레이아웃은 건드리지 않는다(오버레이 방식). 호스트가
-   자기 헤더를 내리고 싶으면 --tw-topbar-height CSS 변수(호스트 요소에 노출)
+   자기 헤더를 내리고 싶으면 --tw-topbar-height CSS 변수(document.documentElement,
+   즉 :root에 노출 -- 페이지 어디서나 var(--tw-topbar-height, 0px)로 참조 가능)
    또는 "tw-topbar-ready" 커스텀 이벤트(document에 발행, detail.height)를
-   써서 알아서 보정한다.
+   써서 알아서 보정한다. status 통합 때는 헤더 하나로 안 끝나고 그 아래
+   캔버스·패널까지 같이 밀어야 해서 이벤트 쪽을 씀 -- 둘 다 유효한 선택지.
    ============================================================ */
 (function () {
   'use strict';
@@ -130,6 +132,9 @@
   }
 
   document.documentElement.appendChild(host);
+  // --tw-topbar-height도 함께: host 요소 자신에 준 변수는 <body> 쪽(형제 트리)
+  // 엔 상속 안 되므로, 페이지 어디서든 var()로 쓸 수 있게 documentElement에도 건다.
+  document.documentElement.style.setProperty('--tw-topbar-height', HEIGHT_PX + 'px');
 
   fetch(PROJECTS_URL)
     .then(function (r) { return r.ok ? r.json() : []; })
