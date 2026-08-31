@@ -1,0 +1,49 @@
+/* ============================================================
+   WANI.SYS — SHARED DESIGN TOKENS
+   toowani.com이 https://toowani.com/shared/tokens.css로 정적 배포.
+   hub 자신도 이 파일을 쓴다 (한 벌 유지). 다른 서브도메인의 채택은
+   강제하지 않음 — 원하는 세션이 알아서 <link>.
+
+   신뢰 경계: 이 파일은 여러 서브도메인에서 그대로 로드될 수 있다.
+   변경 시 diff 리뷰 필수, 외부 리소스 참조 추가 금지. 상세 규칙은
+   워크스페이스 루트 CLAUDE.md 참고.
+   ============================================================ */
+
+:root {
+  --bg: #0f0f0f;
+  --fg: #e8e6df;
+  --dim: #8f8d86;
+  --c1: #cfcdc6;
+  --c2: #9a9890;
+  --acc: #aad59e;
+  --hairline: rgba(255,255,255,.12);
+  --stroke-strong: rgba(255,255,255,.25);
+  --chip: rgba(255,255,255,.03);
+  --glass-bg: rgba(18,18,18,.55);
+  --glass-blur: blur(20px) saturate(150%);
+  --inner-hl: inset 0 1px 0 rgba(255,255,255,.08);
+  --shadow-glass:
+    0 1px 1px rgba(0,0,0,.14),
+    0 6px 16px rgba(0,0,0,.22),
+    0 20px 48px rgba(0,0,0,.26);
+  --r-s: 2px;
+  --r-m: 4px;
+  --ease-spring: cubic-bezier(.32,.72,0,1);
+  --mono: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
+  --disp: "Archivo Black", "Pretendard Variable", Pretendard, sans-serif;
+  --kr: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Noto Sans KR", sans-serif;
+}
+
+body[data-theme="light"] {
+  --bg: #f2f0ea;
+  --fg: #191917;
+  --dim: #6d6b64;
+  --c1: #3a3a36;
+  --c2: #5c5a54;
+  --acc: #6fa562;
+  --hairline: rgba(0,0,0,.12);
+  --stroke-strong: rgba(0,0,0,.3);
+  --chip: rgba(0,0,0,.04);
+  --glass-bg: rgba(255,255,255,.6);
+  --inner-hl: inset 0 1px 0 rgba(255,255,255,.7);
+}

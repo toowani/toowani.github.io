@@ -1,46 +1,9 @@
 /* ============================================================
    WANI.SYS — PROJECT HUB
-   다크 하드웨어-글리치 톤 유지, CV(WANI.SYS 풀버전)의 디자인 토큰 재사용
+   다크 하드웨어-글리치 톤 유지, CV(WANI.SYS 풀버전)의 디자인 토큰 재사용.
+   CSS 변수(:root, [data-theme="light"])는 shared/tokens.css로 분리됨 —
+   index.html이 style.css보다 먼저 그 파일을 <link>한다.
    ============================================================ */
-
-:root {
-  --bg: #0f0f0f;
-  --fg: #e8e6df;
-  --dim: #8f8d86;
-  --c1: #cfcdc6;
-  --c2: #9a9890;
-  --acc: #aad59e;
-  --hairline: rgba(255,255,255,.12);
-  --stroke-strong: rgba(255,255,255,.25);
-  --chip: rgba(255,255,255,.03);
-  --glass-bg: rgba(18,18,18,.55);
-  --glass-blur: blur(20px) saturate(150%);
-  --inner-hl: inset 0 1px 0 rgba(255,255,255,.08);
-  --shadow-glass:
-    0 1px 1px rgba(0,0,0,.14),
-    0 6px 16px rgba(0,0,0,.22),
-    0 20px 48px rgba(0,0,0,.26);
-  --r-s: 2px;
-  --r-m: 4px;
-  --ease-spring: cubic-bezier(.32,.72,0,1);
-  --mono: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, sans-serif;
-  --disp: "Archivo Black", "Pretendard Variable", Pretendard, sans-serif;
-  --kr: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Noto Sans KR", sans-serif;
-}
-
-body[data-theme="light"] {
-  --bg: #f2f0ea;
-  --fg: #191917;
-  --dim: #6d6b64;
-  --c1: #3a3a36;
-  --c2: #5c5a54;
-  --acc: #6fa562;
-  --hairline: rgba(0,0,0,.12);
-  --stroke-strong: rgba(0,0,0,.3);
-  --chip: rgba(0,0,0,.04);
-  --glass-bg: rgba(255,255,255,.6);
-  --inner-hl: inset 0 1px 0 rgba(255,255,255,.7);
-}
 
 /* ---------- base ---------- */
 * { margin:0; padding:0; box-sizing:border-box; }
