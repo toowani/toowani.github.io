@@ -98,7 +98,10 @@
 
   function renderAuthBtn(session) {
     if (session && session.email) {
-      authBtn.textContent = session.email.split('@')[0] + ' · 로그아웃';
+      // textContent -- never innerHTML -- so name(Google 계정 표시 이름,
+      // 임의 문자열)이 그대로 들어와도 HTML로 해석되지 않는다.
+      var label = session.name || session.email.split('@')[0];
+      authBtn.textContent = label + ' · 로그아웃';
       authBtn.title = session.email;
       authBtn.onclick = function () {
         location.href = AUTH_ORIGIN + '/logout?redirect=' + encodeURIComponent(location.href);
