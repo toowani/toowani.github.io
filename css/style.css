@@ -65,6 +65,7 @@ a:hover { color: var(--acc); }
   border-bottom: 1px solid var(--hairline);
 }
 #logo { font-family:var(--disp); font-size:14px; letter-spacing:3px; color:var(--fg); }
+.hud-actions { display:flex; align-items:center; gap:8px; }
 .hud-btn {
   background:none; border:1px solid var(--hairline); color:var(--dim);
   font-family: var(--mono); font-size:11px; letter-spacing:2px;
@@ -72,6 +73,7 @@ a:hover { color: var(--acc); }
   transition: color .2s var(--ease-spring), border-color .2s var(--ease-spring);
 }
 .hud-btn:hover { color:var(--acc); border-color:var(--acc); }
+#btn-auth { max-width:38vw; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 
 /* ---------- intro ---------- */
 #intro {
