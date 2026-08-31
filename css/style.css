@@ -169,6 +169,24 @@ footer {
 footer a { color:var(--c1); }
 footer a:hover { color:var(--acc); }
 
+/* ---------- policy page (privacy) — 기존 토큰만 재사용 ---------- */
+.policy .section-title { margin-bottom:8px; }
+.policy-meta { text-align:center; font-family:var(--mono); font-size:12px; color:var(--dim); margin-bottom:48px; }
+.policy-section { max-width:640px; margin:0 auto 32px; }
+.policy-section h2 {
+  font-family:var(--disp); font-size:15px; letter-spacing:.5px; color:var(--fg);
+  border-bottom:1px solid var(--hairline); padding-bottom:10px; margin-bottom:14px;
+}
+.policy-section p, .policy-section li { font-size:14px; color:var(--dim); line-height:1.9; }
+.policy-section p { margin-bottom:10px; }
+.policy-section ul { padding-left:20px; }
+.policy-section li { margin-bottom:8px; }
+.policy-section strong { color:var(--c1); }
+.policy-footnote {
+  text-align:center; font-family:var(--mono); font-size:11px; color:var(--dim);
+  margin-top:50px; padding-top:24px; border-top:1px solid var(--hairline);
+}
+
 /* ---------- responsive ---------- */
 @media (max-width:720px) {
   #hud { padding:10px 14px; }
