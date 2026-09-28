@@ -1,0 +1,39 @@
+# CONTEST RADAR 자동 수집 — 6시간마다 scripts/scrape-contests.mjs 를 돌려
+# contests/data.json 이 바뀌면 커밋한다. push → GitHub Pages 자동 배포.
+name: scrape-contests
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # UTC 기준 6시간마다 (KST 02:17, 08:17, 14:17, 20:17)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-contests
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scrape
+        run: node scripts/scrape-contests.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "contest-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add contests/data.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "contests: auto-update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          fi

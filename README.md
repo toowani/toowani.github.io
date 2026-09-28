@@ -57,3 +57,36 @@ python3 -m http.server 8000
 ## 옛 CV 딥링크 처리
 
 과거 `toowani.com/#dev`, `#artist`, `#journey`, `#game`으로 유입되던 링크는 `index.html`의 인라인 스크립트가 즉시 `cv.toowani.com`의 동일 해시로 리다이렉트합니다. 그 외 이력서 등 옛 정적 자산 링크로 들어온 방문자는 404 페이지에서 `cv.toowani.com` 안내를 받습니다.
+
+## contests/ — CONTEST RADAR
+
+AI 공모전 · 개발 해커톤/경진대회 · 창업 공모전 공고를 여러 사이트에서 모아
+마감일 순으로 보여주는 개인용 페이지 (`https://toowani.com/contests/`, `noindex`).
+
+```
+contests/index.html      페이지 뼈대
+contests/contests.css    전용 스타일 (shared/tokens.css 위에 얹음)
+contests/contests.js     data.json → 목록 렌더, 필터/정렬, 관심·지원함·숨김·메모(localStorage)
+contests/data.json       ★ 수집 산출물 — 손으로 고치지 말 것 (봇 커밋이 덮어씀)
+scripts/scrape-contests.mjs   수집기 (Node 20+, 의존성 없음)
+.github/workflows/scrape-contests.yml   6시간마다 수집기 실행 → data.json 변경 시 자동 커밋
+```
+
+| 소스 | 방식 | 범위 |
+|---|---|---|
+| 링커리어 | GraphQL (`api.linkareer.com`) | 공모전 전체(OPEN) 중 키워드 매칭 |
+| 홀라 (holaworld.io) | REST (`api.holaworld.io/api/events`) | hackathon / contest |
+| 위비티 | HTML 목록 + 상세 | 게임/SW · 웹/IT · 과학/공학 · 기획/아이디어 · 영상/UCC 분야 |
+| Dev-Event (GitHub) | README 마크다운 | 분류 `대회` 또는 제목에 해커톤/공모전 |
+| K-Startup | HTML 목록 | 모집중 사업공고 중 공모/대회/데모데이 성격 |
+
+- 분류 태그(`ai` / `dev` / `startup` / `video`)는 `scripts/scrape-contests.mjs`의 `RULES`
+  정규식으로 제목에서 자동 부여. 태그가 하나도 안 붙으면 버림. 청소년·아동 전용,
+  취업 멘토링·포럼 같은 비(非)공모 행사는 `YOUTH_ONLY`/`NOISE`로 걸러냄.
+  → 놓치는 공고가 있으면 이 정규식을 손보면 된다.
+- 소스 하나가 실패해도 직전 결과를 유지하고 페이지 상단 출처 표시가 빨간 점으로 바뀐다.
+- 같은 공고가 여러 사이트에 올라오면 제목 정규화로 하나로 합치고 출처 링크를 전부 남긴다.
+- 관심(★)·지원함·숨김·메모는 브라우저 localStorage에만 저장. 상단 "백업/복원"으로 JSON
+  내보내기·불러오기 가능(기기 간 이동용).
+- 수동 실행: `node scripts/scrape-contests.mjs` (hub/ 루트에서) 또는 GitHub Actions
+  탭에서 `scrape-contests` → Run workflow.

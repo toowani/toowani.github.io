@@ -11,6 +11,17 @@
     "public": true
   },
   {
+    "id": "contests",
+    "name": "CONTEST RADAR",
+    "url": "https://toowani.com/contests/",
+    "description": "AI 공모전 · 개발 해커톤 · 창업 경진대회 마감일 레이더 (6시간마다 자동 수집)",
+    "tags": ["career", "radar", "auto"],
+    "status": "live",
+    "access": "public",
+    "thumbnail": null,
+    "public": true
+  },
+  {
     "id": "status",
     "name": "STATUS",
     "url": "https://status.toowani.com",
