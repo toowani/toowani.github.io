@@ -16,7 +16,7 @@
   var theme = localStorage.getItem("wani-hub-theme") || "dark";
   if (theme === "light") body.dataset.theme = "light";
   var themeBtn = $("#btn-theme");
-  function syncThemeBtn() { themeBtn.textContent = theme === "light" ? "◐ DARK" : "◐ LIGHT"; }
+  function syncThemeBtn() { themeBtn.textContent = theme === "light" ? "◐ Dark" : "◐ Light"; }
   syncThemeBtn();
   themeBtn.addEventListener("click", function () {
     theme = theme === "dark" ? "light" : "dark";

@@ -7,8 +7,8 @@
 ## 파일 구조
 
 ```
-index.html          허브 페이지 뼈대 (HUD / 자기소개 / 프로젝트 그리드 / 푸터)
-css/style.css        스타일 전체 (다크·라이트 테마, 카드 그리드, 반응형) — shared/tokens.css를 먼저 불러와 씀
+index.html          허브 페이지 뼈대 (site-header / hero / 프로젝트 카드 / 푸터) — p4l.toowani.com 룩
+css/style.css        ★ 스타일 전체 + hub 전용 테마 토큰(:root — 연한 초록 강조, 다크·라이트). contests·privacy도 이 파일을 베이스로 씀
 js/hub.js             ★ projects.json을 읽어 카드 렌더 + 테마 토글 + 로그인 상태(C 패턴) + 옛 CV 딥링크 리다이렉트
 projects.json        ★ 프로젝트 목록 데이터 — 이 파일만 고치면 카드가 바뀝니다
 shared/topbar.js     다른 서브도메인이 <script> 한 줄로 삽입하는 공통 상단바 (아래 "shared/" 절 참고)
@@ -45,6 +45,21 @@ python3 -m http.server 8000
 ## GitHub Pages 배포
 
 이 저장소(`toowani.github.io`)는 `toowani.com`으로 커스텀 도메인이 연결되어 있습니다. `main` 브랜치에 push하면 자동 배포됩니다.
+
+## 디자인 — party4life 룩 (2026-09-28)
+
+hub의 모든 페이지(index · contests · privacy · 404)는 p4l.toowani.com(party4life)의
+"night sky / glow" 룩을 그대로 따른다 — 둥근 패널(18px), 필 버튼, `Baloo 2` +
+`Gothic A1`(Google Fonts, 각 HTML `<head>`에서 link), 배경 글로우, `.chrome-text`
+그라데이션 제목, `.section-title` + `.idx`, `.entry-card`. 단 강조색은 남색·파랑
+대신 hub 고유의 **연한 초록(`--acc: #aad59e`, 라이트 `#6fa562`)**이고 배경도
+초록빛이 도는 짙은 밤색이다.
+
+토큰(`--panel`, `--line`, `--acc-glow`, `--radius` …)은 `css/style.css` 맨 위
+`:root` / `body[data-theme="light"]` 블록에 있다. `shared/tokens.css`는 다른
+서브도메인이 로드하는 신뢰 경계 파일이라 **건드리지 않았고**, style.css가 그 뒤에
+로드되므로 같은 이름(`--acc`, `--fg` …)은 style.css 값이 이긴다. 옛 변수명
+(`--bg`, `--dim`, `--hairline`, `--mono` …)은 별칭으로 남겨 뒀다.
 
 ## shared/ — 신뢰 경계
 

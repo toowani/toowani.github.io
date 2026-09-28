@@ -12,24 +12,40 @@
 <meta property="og:url" content="https://toowani.com/privacy">
 <link rel="canonical" href="https://toowani.com/privacy">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-<meta name="theme-color" content="#0f0f0f">
+<meta name="theme-color" content="#0a1410">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-<link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Gothic+A1:wght@400;500;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../shared/tokens.css">
 <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-<header id="hud">
-  <a href="../" id="logo">WANI.SYS</a>
-  <button id="btn-theme" class="hud-btn" title="라이트/다크 전환">◐ THEME</button>
+<header class="site-header">
+  <div class="brand-group">
+    <a class="brand" href="../">
+      <span class="chrome-text gothic">WANI.SYS</span>
+      <small>privacy policy</small>
+    </a>
+  </div>
+  <div class="header-right">
+    <button id="btn-theme" class="pill-btn" title="라이트/다크 전환">◐ Theme</button>
+    <a class="back-link" href="../">← Home</a>
+  </div>
 </header>
 
-<main id="projects" class="policy">
-  <h1 class="section-title">개인정보처리방침</h1>
-  <p class="policy-meta">시행일자 2026년 8월 31일</p>
+<main>
+  <section class="hero">
+    <span class="eyebrow">Privacy Policy</span>
+    <h1 class="gothic chrome-text">개인정보처리방침</h1>
+    <p class="lede">toowani.com 및 그 하위 도메인에서 운영되는 개인 프로젝트에 적용됩니다.</p>
+  </section>
+
+  <section class="block">
+    <div class="section-title">
+      <h2 class="gothic">POLICY</h2>
+      <span class="idx">시행일자 2026-08-31</span>
+    </div>
 
   <section class="policy-section">
     <p>이 개인정보처리방침(이하 "본 방침")은 toowani.com 및 그 하위 도메인에서 운영되는 개인 프로젝트들(이하 "이 사이트")에 적용됩니다. 이 사이트는 상업적 서비스가 아닌 개인 프로젝트 허브이며, 운영자 김창완(@toowani, 이하 "운영자")은 아래와 같이 개인정보를 처리합니다.</p>
@@ -103,11 +119,11 @@
   </section>
 
   <p class="policy-footnote">시행일자: 2026-08-31</p>
+  </section>
 </main>
 
-<footer>
-  <p><a href="mailto:contact@toowani.com">contact@toowani.com</a> · <a href="../">← WANI.SYS</a></p>
-  <p>© 2026 WANI (@toowani)</p>
+<footer class="site-footer">
+  WANI · @toowani · <a href="mailto:contact@toowani.com">contact@toowani.com</a> · <a href="../">← WANI.SYS</a>
 </footer>
 
 <script>
@@ -118,7 +134,7 @@
   if (theme === "light") body.dataset.theme = "light";
 
   var btn = document.getElementById("btn-theme");
-  function sync() { btn.textContent = theme === "light" ? "◐ DARK" : "◐ LIGHT"; }
+  function sync() { btn.textContent = theme === "light" ? "◐ Dark" : "◐ Light"; }
   sync();
   btn.addEventListener("click", function () {
     theme = theme === "dark" ? "light" : "dark";

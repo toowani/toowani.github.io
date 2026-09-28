@@ -11,85 +11,98 @@
 <meta property="og:description" content="AI 공모전 · 개발 해커톤 · 창업 경진대회 마감일 레이더">
 <meta property="og:url" content="https://toowani.com/contests/">
 <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
-<meta name="theme-color" content="#0f0f0f">
+<meta name="theme-color" content="#0a1410">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-<link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Gothic+A1:wght@400;500;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../shared/tokens.css">
+<link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="contests.css">
 </head>
 <body>
 
-<header id="hud">
-  <div class="hud-left">
-    <a href="../" id="logo">WANI.SYS</a>
-    <span class="hud-sep">/</span>
-    <span class="hud-page">CONTEST RADAR</span>
+<header class="site-header">
+  <div class="brand-group">
+    <a class="brand" href="../">
+      <span class="chrome-text gothic">WANI.SYS</span>
+      <small>contest radar</small>
+    </a>
   </div>
-  <div class="hud-actions">
-    <button id="btn-export" class="hud-btn" title="관심·지원 상태를 JSON으로 내보내기">↓ 백업</button>
-    <button id="btn-import" class="hud-btn" title="백업한 JSON 불러오기">↑ 복원</button>
+  <div class="header-right">
+    <button id="btn-export" class="pill-btn" title="관심·지원 상태를 JSON으로 내보내기">↓ 백업</button>
+    <button id="btn-import" class="pill-btn" title="백업한 JSON 불러오기">↑ 복원</button>
     <input id="file-import" type="file" accept="application/json" hidden>
-    <button id="btn-theme" class="hud-btn" title="라이트/다크 전환">◐ THEME</button>
+    <button id="btn-theme" class="pill-btn" title="라이트/다크 전환">◐ Theme</button>
+    <a class="back-link" href="../">← Home</a>
   </div>
 </header>
 
-<section id="summary">
-  <div class="stat"><span class="stat-n" id="st-open">–</span><span class="stat-l">접수중</span></div>
-  <div class="stat urgent"><span class="stat-n" id="st-week">–</span><span class="stat-l">7일 내 마감</span></div>
-  <div class="stat new"><span class="stat-n" id="st-new">–</span><span class="stat-l">지난 방문 후 신규</span></div>
-  <div class="stat star"><span class="stat-n" id="st-star">–</span><span class="stat-l">관심</span></div>
-  <div class="stat applied"><span class="stat-n" id="st-applied">–</span><span class="stat-l">지원함</span></div>
-  <div class="meta">
-    <div id="updated">불러오는 중…</div>
-    <div id="sources-health" class="sources-health"></div>
-  </div>
-</section>
+<main>
+  <section class="hero hero-compact">
+    <span class="eyebrow">Career Radar</span>
+    <h1 class="gothic chrome-text">CONTEST RADAR</h1>
+    <p class="lede">AI 공모전 · 개발 해커톤 · 창업 경진대회 공고를 5개 사이트에서 모아 <strong>마감일 순</strong>으로 보여줍니다. 6시간마다 자동 갱신.</p>
+  </section>
 
-<section id="controls">
-  <div class="row">
-    <input id="q" type="search" placeholder="제목 · 주최 · 분야 검색  ( / 로 포커스 )" autocomplete="off">
-    <select id="sort" title="정렬">
-      <option value="deadline">마감 임박순</option>
-      <option value="new">최근 등록순</option>
-      <option value="start">접수 시작순</option>
-      <option value="title">제목순</option>
-    </select>
-  </div>
-  <div class="row chips" id="chips-cat" role="group" aria-label="분야">
-    <span class="chips-label">분야</span>
-    <button class="chip on" data-cat="ai">AI</button>
-    <button class="chip on" data-cat="dev">해커톤 · 개발</button>
-    <button class="chip on" data-cat="startup">창업</button>
-    <button class="chip on" data-cat="video">AI 영상 · 콘텐츠</button>
-  </div>
-  <div class="row chips" id="chips-status" role="group" aria-label="상태">
-    <span class="chips-label">상태</span>
-    <button class="chip on" data-status="open">접수중</button>
-    <button class="chip on" data-status="upcoming">접수 예정</button>
-    <button class="chip" data-status="closed">마감됨</button>
-    <span class="chips-gap"></span>
-    <button class="chip" id="f-star">★ 관심만</button>
-    <button class="chip" id="f-hide-applied">지원함 숨기기</button>
-    <button class="chip" id="f-show-hidden">숨긴 항목 보기</button>
-    <button class="chip" id="f-new">NEW만</button>
-  </div>
-  <div class="row chips" id="chips-src" role="group" aria-label="출처"></div>
-</section>
+  <section class="block">
+    <div id="summary" class="stat-grid">
+      <div class="stat"><span class="stat-n" id="st-open">–</span><span class="stat-l">접수중</span></div>
+      <div class="stat urgent"><span class="stat-n" id="st-week">–</span><span class="stat-l">7일 내 마감</span></div>
+      <div class="stat new"><span class="stat-n" id="st-new">–</span><span class="stat-l">지난 방문 후 신규</span></div>
+      <div class="stat star"><span class="stat-n" id="st-star">–</span><span class="stat-l">관심</span></div>
+      <div class="stat applied"><span class="stat-n" id="st-applied">–</span><span class="stat-l">지원함</span></div>
+    </div>
+    <div class="meta">
+      <div id="updated">불러오는 중…</div>
+      <div id="sources-health" class="sources-health"></div>
+    </div>
 
-<main id="list" aria-live="polite">
-  <p class="empty-note">불러오는 중…</p>
+    <div id="controls" class="controls">
+      <div class="row search-row">
+        <input id="q" type="search" class="search-input" placeholder="제목 · 주최 · 분야 검색  ( / 로 포커스 )" autocomplete="off">
+        <select id="sort" class="select" title="정렬">
+          <option value="deadline">마감 임박순</option>
+          <option value="new">최근 등록순</option>
+          <option value="start">접수 시작순</option>
+          <option value="title">제목순</option>
+        </select>
+      </div>
+      <div class="row chips" id="chips-cat" role="group" aria-label="분야">
+        <span class="chips-label">분야</span>
+        <button class="chip on" data-cat="ai">AI</button>
+        <button class="chip on" data-cat="dev">해커톤 · 개발</button>
+        <button class="chip on" data-cat="startup">창업</button>
+        <button class="chip on" data-cat="video">AI 영상 · 콘텐츠</button>
+      </div>
+      <div class="row chips" id="chips-status" role="group" aria-label="상태">
+        <span class="chips-label">상태</span>
+        <button class="chip on" data-status="open">접수중</button>
+        <button class="chip on" data-status="upcoming">접수 예정</button>
+        <button class="chip" data-status="closed">마감됨</button>
+        <span class="chips-gap"></span>
+        <button class="chip" id="f-star">★ 관심만</button>
+        <button class="chip" id="f-hide-applied">지원함 숨기기</button>
+        <button class="chip" id="f-show-hidden">숨긴 항목 보기</button>
+        <button class="chip" id="f-new">NEW만</button>
+      </div>
+      <div class="row chips" id="chips-src" role="group" aria-label="출처"></div>
+    </div>
+
+    <div id="list" aria-live="polite">
+      <p class="empty-note">불러오는 중…</p>
+    </div>
+  </section>
 </main>
 
-<footer>
-  <p>출처 사이트: <a href="https://linkareer.com/list/contest" target="_blank" rel="noopener">링커리어</a> ·
+<footer class="site-footer">
+  <span class="plain">출처: <a href="https://linkareer.com/list/contest" target="_blank" rel="noopener">링커리어</a> ·
     <a href="https://holaworld.io/hola-it" target="_blank" rel="noopener">홀라</a> ·
     <a href="https://www.wevity.com" target="_blank" rel="noopener">위비티</a> ·
     <a href="https://github.com/brave-people/Dev-Event" target="_blank" rel="noopener">Dev-Event</a> ·
     <a href="https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do" target="_blank" rel="noopener">K-Startup</a>
-    — 6시간마다 자동 수집. 마감일·상세는 반드시 공고 원문에서 다시 확인하세요.</p>
-  <p>관심·지원·숨김 표시는 이 브라우저에만 저장됩니다(백업/복원으로 옮길 수 있음). <a href="../">← WANI.SYS</a></p>
+    — 마감일·상세는 반드시 공고 원문에서 다시 확인하세요.<br>
+    관심·지원·숨김 표시는 이 브라우저에만 저장됩니다(백업/복원으로 옮길 수 있음).</span><br>
+  WANI · @toowani · <a href="../">← WANI.SYS</a>
 </footer>
 
 <script src="contests.js"></script>
