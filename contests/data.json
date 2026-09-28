@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-09-28T11:11:59.452Z",
- "today": "2026-09-28",
+ "generatedAt": "2026-09-28T19:41:55.353Z",
+ "today": "2026-09-29",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 156,
-   "fetchedAt": "2026-09-28T11:11:59.435Z"
+   "count": 150,
+   "fetchedAt": "2026-09-28T19:41:55.319Z"
   },
   "hola": {
    "ok": true,
-   "count": 53,
-   "fetchedAt": "2026-09-28T11:11:59.435Z"
+   "count": 56,
+   "fetchedAt": "2026-09-28T19:41:55.319Z"
   },
   "wevity": {
    "ok": true,
    "count": 50,
-   "fetchedAt": "2026-09-28T11:11:59.435Z"
+   "fetchedAt": "2026-09-28T19:41:55.319Z"
   },
   "devevent": {
    "ok": true,
    "count": 29,
-   "fetchedAt": "2026-09-28T11:11:59.435Z"
+   "fetchedAt": "2026-09-28T19:41:55.319Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-09-28T11:11:59.435Z"
+   "fetchedAt": "2026-09-28T19:41:55.319Z"
   }
  },
- "count": 217,
+ "count": 215,
  "items": [
   {
    "id": "hola:6aa0324fd7320aa752356719",
@@ -94,76 +94,48 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:349050",
-   "source": "linkareer",
+   "id": "hola:6aa751dd847411b719e2e562",
+   "source": "hola",
    "title": "[SDU COSS] 미래 개발자를 위한 안전한 소프트웨어 개발 대회!",
-   "host": "(주)컬처메이커스",
-   "url": "https://linkareer.com/activity/349050",
+   "host": "과학기술정보통신부·교육부·행정안전부",
+   "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e562",
    "officialUrl": "https://sducoss.ac.kr",
    "applyStart": "2026-09-01",
    "applyEnd": "2026-09-28",
-   "postedAt": "2026-09-08",
+   "eventStart": "2026-09-01",
+   "eventEnd": "2026-09-28",
+   "postedAt": "2026-09-14",
    "prize": null,
    "place": "온라인",
-   "target": "대학생",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349050"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e562"
     }
    ],
+   "firstSeen": "2026-09-29"
+  },
+  {
+   "id": "hola:6a9d969bd7320aa75232b194",
+   "source": "hola",
+   "title": "[문화체육관광부×한국문화정보원] 문화데이터 활용 영상 제작 AI 챌린지",
+   "host": "한국문화정보원/스튜디오프리윌루전",
+   "url": "https://holaworld.io/hola-it/6a9d969bd7320aa75232b194",
+   "officialUrl": "https://aikive.com/event",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-09-28",
    "eventStart": "2026-09-01",
    "eventEnd": "2026-09-28",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348351",
-   "source": "linkareer",
-   "title": "[김포시] 2026년 김포시 AI로 만드는 기후대응 숏폼 공모전",
-   "host": "김포시청",
-   "url": "https://linkareer.com/activity/348351",
-   "officialUrl": "https://www.gimpo.go.kr/portal/index.do",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-09-28",
-   "postedAt": "2026-09-04",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348351"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348269",
-   "source": "linkareer",
-   "title": "[문화체육관광부×한국문화정보원] 문화데이터 활용 영상 제작 AI 챌린지",
-   "host": "(주)스튜디오프리윌루전",
-   "url": "https://linkareer.com/activity/348269",
-   "officialUrl": "https://aikive.com/",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-09-28",
-   "postedAt": "2026-09-04",
+   "postedAt": "2026-09-07",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 문학/시나리오",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev",
@@ -171,80 +143,11 @@
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348269"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a9d969bd7320aa75232b194"
     }
    ],
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-09-28",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:344874",
-   "source": "linkareer",
-   "title": "2026 재생에너지의 날 기념 AI 숏폼 공모전",
-   "host": "기후에너지환경부",
-   "url": "https://linkareer.com/activity/344874",
-   "officialUrl": null,
-   "applyStart": "2026-08-21",
-   "applyEnd": "2026-09-28",
-   "postedAt": "2026-08-24",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/344874"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:110929",
-   "source": "wevity",
-   "title": "2026 충남권역 모빌리티 자율주행 경진대회",
-   "host": "호서대학교",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110929",
-   "officialUrl": "https://forms.gle/eH5fzEfaZJBfH9P9A",
-   "applyStart": "2026-09-10",
-   "applyEnd": "2026-09-28",
-   "postedAt": "2026-09-11",
-   "prize": "1천만원이하 · 1등 50만원",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350192"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110929",
-     "_detail": {
-      "applyStart": "2026-09-10",
-      "applyEnd": "2026-09-28",
-      "prize": "1천만원이하 · 1등 50만원",
-      "officialUrl": "https://forms.gle/eH5fzEfaZJBfH9P9A",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "devevent:https://www.kisa.or.kr/401/form?postSeq=3762",
@@ -301,38 +204,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110836",
-   "source": "wevity",
-   "title": "SDU COSS와 함께하는 소개딩 (소프트웨어 개발보안 시큐어코딩 경진대회)",
-   "host": "과학기술정보통신부·교육부·행정안전부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110836",
-   "officialUrl": "https://sducoss.ac.kr/ko/community/notice/inno/view/282?p=1",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-09-28",
-   "postedAt": null,
-   "prize": "3천만원~1천만원",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110836",
-     "_detail": {
-      "applyStart": "2026-09-01",
-      "applyEnd": "2026-09-28",
-      "prize": "3천만원~1천만원",
-      "officialUrl": "https://sducoss.ac.kr/ko/community/notice/inno/view/282?p=1",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "hola:6aa751b4847411b719e2e4e6",
    "source": "hola",
    "title": "SDU COSS와 함께하는 소개딩 (소프트웨어 개발보안 시큐어코딩 경진대회) 신규",
@@ -360,51 +231,36 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111265",
-   "source": "wevity",
+   "id": "hola:6ab4c299fdf75b86efbf556e",
+   "source": "hola",
    "title": "SK하이닉스 AI 해커톤 2026",
-   "host": "SK하이닉스",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111265",
-   "officialUrl": "https://skhynix-hackathon.com/ai-2026?utm_source=wevity&utm_medium=referral&utm_campaign=skhynix_ai_2026",
+   "host": "SK하이닉스 / 멋쟁이사자처럼",
+   "url": "https://holaworld.io/hola-it/6ab4c299fdf75b86efbf556e",
+   "officialUrl": "https://skhynix-hackathon.com/ai-2026",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-09-28",
-   "postedAt": "2026-09-24",
-   "prize": "다양한 혜택",
-   "place": "오프라인",
-   "target": "일반인, 대학생",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "dev"
-   ],
    "eventStart": "2026-09-21",
    "eventEnd": "2026-09-28",
+   "postedAt": "2026-09-24",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352990"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c299fdf75b86efbf556e"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111265",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-09-28",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://skhynix-hackathon.com/ai-2026?utm_source=wevity&utm_medium=referral&utm_campaign=skhynix_ai_2026",
-      "target": "일반인, 대학생"
-     }
     },
     {
      "source": "devevent",
      "url": "https://skhynix-hackathon.com/ai-2026"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "linkareer:343794",
@@ -970,19 +826,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:350672",
-   "source": "linkareer",
+   "id": "wevity:110971",
+   "source": "wevity",
    "title": "2026 KOOM FILM CHALLENGE",
    "host": "UKF",
-   "url": "https://linkareer.com/activity/350672",
-   "officialUrl": null,
-   "applyStart": "2026-09-14",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110971",
+   "officialUrl": "https://challenge.koom.nyc/",
+   "applyStart": "2026-09-04",
    "applyEnd": "2026-09-30",
    "postedAt": "2026-09-14",
-   "prize": null,
+   "prize": "3천만원~1천만원 · 1등 1,000만원",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
    "tags": [
     "dev",
     "video"
@@ -991,9 +847,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/350672"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110971",
+     "_detail": {
+      "applyStart": "2026-09-04",
+      "applyEnd": "2026-09-30",
+      "prize": "3천만원~1천만원 · 1등 1,000만원",
+      "officialUrl": "https://challenge.koom.nyc/",
+      "target": "제한없음"
+     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "devevent:https://ai4scikorea.org/#competition",
@@ -2748,6 +2615,39 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "wevity:110951",
+   "source": "wevity",
+   "title": "삼척시 홍보를 위한 AI 영상 제작 전국 공모전 (제2회 삼척시 AI영상제)",
+   "host": "삼척시청",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110951",
+   "officialUrl": "https://scaif.inov.kr/",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-10-07",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 200만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110951",
+     "_detail": {
+      "applyStart": "2026-09-08",
+      "applyEnd": "2026-10-07",
+      "prize": "1천만원이하 · 1등 200만원",
+      "officialUrl": "https://scaif.inov.kr/",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-09-29"
+  },
+  {
    "id": "linkareer:350864",
    "source": "linkareer",
    "title": "상상을 현실로, AI로 그리는 삼척의 미래",
@@ -3012,33 +2912,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "devevent:https://luma.com/kdth-2026",
-   "source": "devevent",
-   "title": "Korea Defense Tech Hackathon",
-   "host": "European Defense Tech Hub(EDTH) / Deploy for Defense(D4D)",
-   "url": "https://luma.com/kdth-2026",
-   "officialUrl": "https://luma.com/kdth-2026",
-   "applyStart": null,
-   "applyEnd": "2026-10-09",
-   "eventStart": "2026-10-09",
-   "eventEnd": "2026-10-11",
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 강남구)",
-   "target": null,
-   "sourceCategory": "대회, 기술일반",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://luma.com/kdth-2026"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "linkareer:353008",
    "source": "linkareer",
    "title": "디자인-부산2026 <디자인해커톤> 참가자 모집",
@@ -3112,6 +2985,40 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111322",
+   "source": "wevity",
+   "title": "[서울대학교 창업지원단·H1R AI] 2026 SNU X Croche AI 앱 해커톤",
+   "host": "하이어에이아이",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111322",
+   "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-10",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 500만원",
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "웹/모바일/IT, 취업/창업",
+   "tags": [
+    "ai",
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111322",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-10-10",
+      "prize": "1천만원이하 · 1등 500만원",
+      "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
+      "target": "대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "wevity:110898",
@@ -3218,6 +3125,37 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "hola:6aba73e3ee012963f80a4be7",
+   "source": "hola",
+   "title": "Korea Defense Tech Hackathon",
+   "host": "European Defense Tech Hub(EDTH) / Deploy for Defense(D4D)",
+   "url": "https://holaworld.io/hola-it/6aba73e3ee012963f80a4be7",
+   "officialUrl": "https://luma.com/kdth-2026",
+   "applyStart": "2026-10-09",
+   "applyEnd": "2026-10-11",
+   "eventStart": "2026-10-09",
+   "eventEnd": "2026-10-11",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6aba73e3ee012963f80a4be7"
+    },
+    {
+     "source": "devevent",
+     "url": "https://luma.com/kdth-2026"
+    }
+   ],
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "wevity:111283",
@@ -4642,32 +4580,36 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "devevent:https://luma.com/06x2etd7",
-   "source": "devevent",
+   "id": "hola:6aba73e2ee012963f80a4bce",
+   "source": "hola",
    "title": "Cursor Hackathon Seoul 4th",
    "host": "Cursor Korea",
-   "url": "https://luma.com/06x2etd7",
+   "url": "https://holaworld.io/hola-it/6aba73e2ee012963f80a4bce",
    "officialUrl": "https://luma.com/06x2etd7",
-   "applyStart": null,
+   "applyStart": "2026-10-24",
    "applyEnd": "2026-10-24",
    "eventStart": "2026-10-24",
    "eventEnd": "2026-10-24",
-   "postedAt": null,
+   "postedAt": "2026-09-28",
    "prize": null,
-   "place": "오프라인(서울)",
+   "place": "오프라인",
    "target": null,
-   "sourceCategory": "대회, AI",
+   "sourceCategory": "해커톤",
    "tags": [
     "dev",
     "ai"
    ],
    "sources": [
     {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6aba73e2ee012963f80a4bce"
+    },
+    {
      "source": "devevent",
      "url": "https://luma.com/06x2etd7"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "wevity:111290",
@@ -5942,7 +5884,7 @@
    "applyEnd": "2026-11-09",
    "postedAt": "2026-09-08",
    "prize": null,
-   "place": null,
+   "place": "오프라인 · 온라인",
    "target": "대학생",
    "sourceCategory": "기획/아이디어, 사진/영상/UCC",
    "tags": [
@@ -5953,8 +5895,14 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/348889"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6aba73e1ee012963f80a4bb5"
     }
    ],
+   "eventStart": "2026-11-02",
+   "eventEnd": "2026-11-09",
    "firstSeen": "2026-09-28"
   },
   {
