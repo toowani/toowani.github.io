@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-09-28T19:41:55.353Z",
+ "generatedAt": "2026-09-29T05:46:23.130Z",
  "today": "2026-09-29",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 150,
-   "fetchedAt": "2026-09-28T19:41:55.319Z"
+   "count": 158,
+   "fetchedAt": "2026-09-29T05:46:23.112Z"
   },
   "hola": {
    "ok": true,
    "count": 56,
-   "fetchedAt": "2026-09-28T19:41:55.319Z"
+   "fetchedAt": "2026-09-29T05:46:23.112Z"
   },
   "wevity": {
    "ok": true,
-   "count": 50,
-   "fetchedAt": "2026-09-28T19:41:55.319Z"
+   "count": 49,
+   "fetchedAt": "2026-09-29T05:46:23.112Z"
   },
   "devevent": {
    "ok": true,
    "count": 29,
-   "fetchedAt": "2026-09-28T19:41:55.319Z"
+   "fetchedAt": "2026-09-29T05:46:23.112Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-09-28T19:41:55.319Z"
+   "fetchedAt": "2026-09-29T05:46:23.112Z"
   }
  },
- "count": 215,
+ "count": 219,
  "items": [
   {
    "id": "hola:6aa0324fd7320aa752356719",
@@ -2615,39 +2615,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110951",
-   "source": "wevity",
-   "title": "삼척시 홍보를 위한 AI 영상 제작 전국 공모전 (제2회 삼척시 AI영상제)",
-   "host": "삼척시청",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110951",
-   "officialUrl": "https://scaif.inov.kr/",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-07",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110951",
-     "_detail": {
-      "applyStart": "2026-09-08",
-      "applyEnd": "2026-10-07",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://scaif.inov.kr/",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-29"
-  },
-  {
    "id": "linkareer:350864",
    "source": "linkareer",
    "title": "상상을 현실로, AI로 그리는 삼척의 미래",
@@ -2995,17 +2962,21 @@
    "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-10-10",
-   "postedAt": null,
+   "postedAt": "2026-09-28",
    "prize": "1천만원이하 · 1등 500만원",
    "place": null,
    "target": "대학생",
    "sourceCategory": "웹/모바일/IT, 취업/창업",
    "tags": [
+    "startup",
     "ai",
-    "dev",
-    "startup"
+    "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353364"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111322",
@@ -3153,6 +3124,31 @@
     {
      "source": "devevent",
      "url": "https://luma.com/kdth-2026"
+    }
+   ],
+   "firstSeen": "2026-09-29"
+  },
+  {
+   "id": "linkareer:353536",
+   "source": "linkareer",
+   "title": "orhena AI 콘테스트 (주제 자유)",
+   "host": "orhena",
+   "url": "https://linkareer.com/activity/353536",
+   "officialUrl": "https://orhena.com/contest",
+   "applyStart": "2026-09-27",
+   "applyEnd": "2026-10-11",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 디자인/순수미술/공예",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353536"
     }
    ],
    "firstSeen": "2026-09-29"
@@ -3474,6 +3470,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:353380",
+   "source": "linkareer",
+   "title": "2026년 제1회 AMT AI 작곡대회",
+   "host": "AI뮤직타운",
+   "url": "https://linkareer.com/activity/353380",
+   "officialUrl": null,
+   "applyStart": "2026-10-05",
+   "applyEnd": "2026-10-12",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "예체능/패션",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353380"
+    }
+   ],
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "linkareer:351263",
@@ -4501,6 +4522,32 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:353405",
+   "source": "linkareer",
+   "title": "2026 충북영상자서전 [사랑나눔 스마트 AI 영상자서전 공모전]",
+   "host": "충청북도",
+   "url": "https://linkareer.com/activity/353405",
+   "officialUrl": null,
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-10-23",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353405"
+    }
+   ],
+   "firstSeen": "2026-09-29"
+  },
+  {
    "id": "wevity:111220",
    "source": "wevity",
    "title": "2026 충북영상자서전 사업 사랑나눔 스마트 AI 영상자서전 공모전",
@@ -4896,7 +4943,7 @@
    "officialUrl": "https://dataen.ai/challenge",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": null,
+   "postedAt": "2026-09-28",
    "prize": "3천만원~1천만원 · 1등 500만원",
    "place": null,
    "target": "대학생",
@@ -4906,6 +4953,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353328"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111314",
@@ -5267,6 +5318,32 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:353451",
+   "source": "linkareer",
+   "title": "2026년 AI 라이프 솔루션 챌린지",
+   "host": "한국산업기술기획평가원",
+   "url": "https://linkareer.com/activity/353451",
+   "officialUrl": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353451"
+    }
+   ],
+   "firstSeen": "2026-09-29"
+  },
+  {
    "id": "linkareer:349047",
    "source": "linkareer",
    "title": "2026년「국가정책연구포털 AI 쇼츠 영상공모전」",
@@ -5540,7 +5617,7 @@
    "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
    "applyStart": "2026-09-28",
    "applyEnd": "2026-11-01",
-   "postedAt": null,
+   "postedAt": "2026-09-28",
    "prize": "1천만원이하 · 1등 150만원",
    "place": null,
    "target": "제한없음",
@@ -5549,6 +5626,10 @@
     "ai"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353386"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111299",
@@ -5872,6 +5953,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:353374",
+   "source": "linkareer",
+   "title": "[대학생 킥오프 챌린지] 나 사실, 이거 해보고 싶었어!",
+   "host": "키키스튜디오",
+   "url": "https://linkareer.com/activity/353374",
+   "officialUrl": "https://www.kikickstudio.co.kr/test/1",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-11-09",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "광고/마케팅, 기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353374"
+    }
+   ],
+   "firstSeen": "2026-09-29"
   },
   {
    "id": "linkareer:348889",
