@@ -1,98 +1,35 @@
 {
- "generatedAt": "2026-09-29T12:56:10.861Z",
- "today": "2026-09-29",
+ "generatedAt": "2026-09-29T22:17:31.909Z",
+ "today": "2026-09-30",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 161,
-   "fetchedAt": "2026-09-29T12:56:10.709Z"
+   "count": 159,
+   "fetchedAt": "2026-09-29T22:17:31.757Z"
   },
   "hola": {
    "ok": true,
-   "count": 56,
-   "fetchedAt": "2026-09-29T12:56:10.709Z"
+   "count": 54,
+   "fetchedAt": "2026-09-29T22:17:31.758Z"
   },
   "wevity": {
    "ok": true,
-   "count": 50,
-   "fetchedAt": "2026-09-29T12:56:10.709Z"
+   "count": 48,
+   "fetchedAt": "2026-09-29T22:17:31.758Z"
   },
   "devevent": {
    "ok": true,
-   "count": 29,
-   "fetchedAt": "2026-09-29T12:56:10.709Z"
+   "count": 27,
+   "fetchedAt": "2026-09-29T22:17:31.758Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-09-29T12:56:10.709Z"
+   "fetchedAt": "2026-09-29T22:17:31.758Z"
   }
  },
- "count": 223,
+ "count": 220,
  "items": [
-  {
-   "id": "hola:6aa0324fd7320aa752356719",
-   "source": "hola",
-   "title": "Midnight Korea Hackathon 2026",
-   "host": "Midnight Korea",
-   "url": "https://holaworld.io/hola-it/6aa0324fd7320aa752356719",
-   "officialUrl": "https://luma.com/2pnv2fwk",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-09-27",
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-09-27",
-   "postedAt": "2026-09-09",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa0324fd7320aa752356719"
-    },
-    {
-     "source": "devevent",
-     "url": "https://luma.com/2pnv2fwk"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6aa751b0847411b719e2e4d8",
-   "source": "hola",
-   "title": "PAC 2026 (Physical AI Challenge)",
-   "host": "경북대학교",
-   "url": "https://holaworld.io/hola-it/6aa751b0847411b719e2e4d8",
-   "officialUrl": "https://ainnov.co.kr/event/view/2617",
-   "applyStart": "2026-08-17",
-   "applyEnd": "2026-09-27",
-   "eventStart": "2026-08-17",
-   "eventEnd": "2026-09-27",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751b0847411b719e2e4d8"
-    },
-    {
-     "source": "devevent",
-     "url": "https://ainnov.co.kr/event/view/2617"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
   {
    "id": "hola:6aa751dd847411b719e2e562",
    "source": "hola",
@@ -263,28 +200,26 @@
    "firstSeen": "2026-09-29"
   },
   {
-   "id": "linkareer:343794",
-   "source": "linkareer",
+   "id": "hola:6a8a6313b5748aed45fbf66f",
+   "source": "hola",
    "title": "[데이콘] 나라장터 자체입찰 공고 법령 위반사항 모니터링 AI 경진대회(~9/30)",
-   "host": "데이콘 주식회사",
-   "url": "https://linkareer.com/activity/343794",
+   "host": "행정안전부, 한국지능정보사회진흥원, 조달청",
+   "url": "https://holaworld.io/hola-it/6a8a6313b5748aed45fbf66f",
    "officialUrl": "https://dacon.io/competitions/official/236754/overview/description",
    "applyStart": "2026-08-18",
    "applyEnd": "2026-09-29",
-   "postedAt": "2026-08-19",
+   "eventStart": "2026-08-18",
+   "eventEnd": "2026-09-29",
+   "postedAt": "2026-08-23",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/343794"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a8a6313b5748aed45fbf66f"
@@ -294,9 +229,7 @@
      "url": "https://dacon.io/competitions/official/236754/overview/description"
     }
    ],
-   "eventStart": "2026-08-18",
-   "eventEnd": "2026-09-29",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "hola:6a8537bfb5748aed45f73503",
@@ -364,79 +297,32 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110962",
-   "source": "wevity",
-   "title": "2026년 충청권 인디게임 공모전 인디유(indie·U)",
-   "host": "대전정보문화산업진흥원, 충남콘텐츠진흥원, 청주시문화산업진흥재단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110962",
-   "officialUrl": "https://indie-u-connect.lovable.app",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-09-29",
-   "postedAt": null,
-   "prize": "3천만원~1천만원 · 1등 500만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "게임/소프트웨어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110962",
-     "_detail": {
-      "applyStart": "2026-09-08",
-      "applyEnd": "2026-09-29",
-      "prize": "3천만원~1천만원 · 1등 500만원",
-      "officialUrl": "https://indie-u-connect.lovable.app",
-      "target": "일반인, 대학생, 청소년"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111062",
-   "source": "wevity",
+   "id": "hola:6aae2710fdf75b86efb99e51",
+   "source": "hola",
    "title": "제4회 경남 AI·SW 경진대회",
-   "host": "경상남도, 창원특례시, 진주시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111062",
+   "host": "경상남도, 창원특례시, 진주시 / (사)경남인공ICT협회, 재단법인 경남테크노파크, 경상국립대학교",
+   "url": "https://holaworld.io/hola-it/6aae2710fdf75b86efb99e51",
    "officialUrl": "https://www.gnict.org/게시판/sw경진대회/제4회-경남aisw경진대회-공고/",
    "applyStart": "2026-09-07",
    "applyEnd": "2026-09-29",
-   "postedAt": "2026-09-16",
-   "prize": "5천만원~3천만원",
+   "eventStart": "2026-09-07",
+   "eventEnd": "2026-09-29",
+   "postedAt": "2026-09-19",
+   "prize": null,
    "place": "온라인",
-   "target": "일반인, 대학생, 청소년, 기타",
-   "sourceCategory": "게임/소프트웨어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-09-29",
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351294"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aae2710fdf75b86efb99e51"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111062",
-     "_detail": {
-      "applyStart": "2026-09-07",
-      "applyEnd": "2026-09-29",
-      "prize": "5천만원~3천만원",
-      "officialUrl": "https://www.gnict.org/게시판/sw경진대회/제4회-경남aisw경진대회-공고/",
-      "target": "일반인, 대학생, 청소년, 기타"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "linkareer:347946",
