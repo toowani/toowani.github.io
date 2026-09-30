@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-09-30T05:35:15.598Z",
+ "generatedAt": "2026-09-30T12:37:22.818Z",
  "today": "2026-09-30",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 163,
-   "fetchedAt": "2026-09-30T05:35:15.578Z"
+   "count": 164,
+   "fetchedAt": "2026-09-30T12:37:22.796Z"
   },
   "hola": {
    "ok": true,
    "count": 54,
-   "fetchedAt": "2026-09-30T05:35:15.578Z"
+   "fetchedAt": "2026-09-30T12:37:22.796Z"
   },
   "wevity": {
    "ok": true,
    "count": 48,
-   "fetchedAt": "2026-09-30T05:35:15.578Z"
+   "fetchedAt": "2026-09-30T12:37:22.796Z"
   },
   "devevent": {
    "ok": true,
    "count": 27,
-   "fetchedAt": "2026-09-30T05:35:15.578Z"
+   "fetchedAt": "2026-09-30T12:37:22.796Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-09-30T05:35:15.578Z"
+   "count": 14,
+   "fetchedAt": "2026-09-30T12:37:22.796Z"
   }
  },
- "count": 224,
+ "count": 225,
  "items": [
   {
    "id": "hola:6aa751dd847411b719e2e562",
@@ -383,15 +383,15 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:340148",
+   "id": "linkareer:351148",
    "source": "linkareer",
-   "title": "[기간 연장] 청년들이 만드는 첨단 공공서비스 AI영상 공모전 [~9.30(수)]",
+   "title": "[기간연장] 청년들이 만드는 첨단 공공서비스 AI영상 공모전 [-09.30(수)]",
    "host": "행정안전부 / 한국지역정보개발원",
-   "url": "https://linkareer.com/activity/340148",
+   "url": "https://linkareer.com/activity/351148",
    "officialUrl": "https://forms.gle/mQzKEgqVvNBPsTc17",
-   "applyStart": "2026-08-03",
+   "applyStart": "2026-09-03",
    "applyEnd": "2026-09-30",
-   "postedAt": "2026-08-04",
+   "postedAt": "2026-09-16",
    "prize": null,
    "place": "온라인",
    "target": "대학생, 직장인/일반인",
@@ -403,6 +403,10 @@
    "sources": [
     {
      "source": "linkareer",
+     "url": "https://linkareer.com/activity/351148"
+    },
+    {
+     "source": "linkareer",
      "url": "https://linkareer.com/activity/340148"
     },
     {
@@ -412,7 +416,7 @@
    ],
    "eventStart": "2026-08-03",
    "eventEnd": "2026-09-11",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "linkareer:348982",
@@ -1025,10 +1029,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aae2717fdf75b86efb99e74"
-    },
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179299"
     }
    ],
    "eventStart": "2026-09-16",
@@ -2041,19 +2041,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110988",
-   "source": "wevity",
+   "id": "linkareer:350663",
+   "source": "linkareer",
    "title": "디오니 AI 시리즈 콘테스트",
    "host": "디오니",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110988",
-   "officialUrl": "https://dioni.io/contest",
+   "url": "https://linkareer.com/activity/350663",
+   "officialUrl": null,
    "applyStart": "2026-09-14",
    "applyEnd": "2026-10-04",
    "postedAt": "2026-09-14",
-   "prize": "다양한 혜택",
+   "prize": null,
    "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "사진/영상/UCC",
    "tags": [
     "ai",
     "video"
@@ -2062,20 +2062,9 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/350663"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110988",
-     "_detail": {
-      "applyStart": "2026-09-14",
-      "applyEnd": "2026-10-04",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://dioni.io/contest",
-      "target": "일반인, 대학생, 기타"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "linkareer:352619",
@@ -2396,32 +2385,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:353700",
-   "source": "linkareer",
-   "title": "[영화 예고편 숏폼 챌린지] 일단에디터 구함!",
-   "host": "(주)퓨어글로벌",
-   "url": "https://linkareer.com/activity/353700",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-09-29",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353700"
-    }
-   ],
-   "firstSeen": "2026-09-30"
   },
   {
    "id": "devevent:https://k-ctf.org/contests/6aaba42311c4d10a2394911e",
@@ -3094,6 +3057,39 @@
     }
    ],
    "firstSeen": "2026-09-29"
+  },
+  {
+   "id": "wevity:111356",
+   "source": "wevity",
+   "title": "나만의 한우 즐기는법 챌린지",
+   "host": "울산광역시 울주군",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111356",
+   "officialUrl": "https://www.youtube.com/@uljugun/posts",
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-10-11",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111356",
+     "_detail": {
+      "applyStart": "2026-09-29",
+      "applyEnd": "2026-10-11",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.youtube.com/@uljugun/posts",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "wevity:111283",
@@ -3819,19 +3815,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:353780",
-   "source": "linkareer",
+   "id": "wevity:111363",
+   "source": "wevity",
    "title": "2026년 K-푸드테크 해커톤 대회",
-   "host": "경북ICT융합산업진흥협회",
-   "url": "https://linkareer.com/activity/353780",
-   "officialUrl": "https://gbict.or.kr/",
+   "host": "경상북도,포항시",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111363",
+   "officialUrl": "https://gbict.or.kr/page/bsi/noticeList.do",
    "applyStart": "2026-09-29",
    "applyEnd": "2026-10-16",
    "postedAt": "2026-09-30",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 500만원",
    "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 기타",
+   "target": "일반인, 대학생",
+   "sourceCategory": "기획/아이디어",
    "tags": [
     "dev"
    ],
@@ -3839,6 +3835,17 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353780"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111363",
+     "_detail": {
+      "applyStart": "2026-09-29",
+      "applyEnd": "2026-10-16",
+      "prize": "1천만원이하 · 1등 500만원",
+      "officialUrl": "https://gbict.or.kr/page/bsi/noticeList.do",
+      "target": "일반인, 대학생"
+     }
     }
    ],
    "firstSeen": "2026-09-30"
@@ -4883,6 +4890,32 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:353700",
+   "source": "linkareer",
+   "title": "[영화 예고편 숏폼 챌린지] 일단에디터 구함!",
+   "host": "(주)퓨어글로벌",
+   "url": "https://linkareer.com/activity/353700",
+   "officialUrl": null,
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-10-28",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353700"
+    }
+   ],
+   "firstSeen": "2026-09-30"
+  },
+  {
    "id": "wevity:111192",
    "source": "wevity",
    "title": "2027 전국 대학생 자작 미래자동차 경진대회",
@@ -5556,38 +5589,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110635",
-   "source": "wevity",
-   "title": "제1회 소방정책 아이디어 발굴 경진대회",
-   "host": "한국소방단체총연합회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110635",
-   "officialUrl": "https://www.kffa119.or.kr/board/view?board_article_id=371",
-   "applyStart": "2026-08-12",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110635",
-     "_detail": {
-      "applyStart": "2026-08-12",
-      "applyEnd": "2026-10-31",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.kffa119.or.kr/board/view?board_article_id=371",
-      "target": "일반인, 대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "linkareer:347082",
    "source": "linkareer",
    "title": "제1회 소방정책 아이디어 발굴 경진대회 개최 안내",
@@ -5824,6 +5825,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:353847",
+   "source": "linkareer",
+   "title": "[데이콘] 항만 문제해결을 위한 AI 기술 공모전(~11/2)",
+   "host": "데이콘 주식회사",
+   "url": "https://linkareer.com/activity/353847",
+   "officialUrl": "https://dacon.io/competitions/official/236771/overview/description",
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-11-02",
+   "postedAt": "2026-09-30",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353847"
+    }
+   ],
+   "firstSeen": "2026-09-30"
   },
   {
    "id": "wevity:111009",
