@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-01T05:57:35.639Z",
+ "generatedAt": "2026-10-01T13:19:00.728Z",
  "today": "2026-10-01",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 129,
-   "fetchedAt": "2026-10-01T05:57:35.507Z"
+   "count": 132,
+   "fetchedAt": "2026-10-01T13:19:00.703Z"
   },
   "hola": {
    "ok": true,
    "count": 48,
-   "fetchedAt": "2026-10-01T05:57:35.507Z"
+   "fetchedAt": "2026-10-01T13:19:00.703Z"
   },
   "wevity": {
    "ok": true,
-   "count": 47,
-   "fetchedAt": "2026-10-01T05:57:35.508Z"
+   "count": 46,
+   "fetchedAt": "2026-10-01T13:19:00.703Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-01T05:57:35.508Z"
+   "fetchedAt": "2026-10-01T13:19:00.703Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-10-01T05:57:35.508Z"
+   "count": 15,
+   "fetchedAt": "2026-10-01T13:19:00.703Z"
   }
  },
- "count": 192,
+ "count": 197,
  "items": [
   {
    "id": "hola:6a8a6313b5748aed45fbf66f",
@@ -54,10 +54,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a8a6313b5748aed45fbf66f"
-    },
-    {
-     "source": "devevent",
-     "url": "https://dacon.io/competitions/official/236754/overview/description"
     }
    ],
    "firstSeen": "2026-09-30"
@@ -86,10 +82,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a8537bfb5748aed45f73503"
-    },
-    {
-     "source": "devevent",
-     "url": "https://dacon.io/competitions/official/236749/overview/description"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -119,10 +111,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a8537c2b5748aed45f7350a"
-    },
-    {
-     "source": "devevent",
-     "url": "https://dacon.io/competitions/official/236753/overview/description"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -289,10 +277,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a9d96aad7320aa75232b1ef"
-    },
-    {
-     "source": "devevent",
-     "url": "https://devcontest-digitalsolveup.kr/"
     }
    ],
    "firstSeen": "2026-10-01"
@@ -349,10 +333,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a9d9688d7320aa75232b141"
-    },
-    {
-     "source": "devevent",
-     "url": "https://maicon.kr/"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -1494,18 +1474,18 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:109794",
-   "source": "wevity",
+   "id": "linkareer:340055",
+   "source": "linkareer",
    "title": "2026 제9회 핀테크 아이디어 공모전",
-   "host": "금융위원회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=109794",
-   "officialUrl": "https://fintech.or.kr/web/expo/idea.do?menu_id=10300",
+   "host": "금융위원회 핀테크지원센터",
+   "url": "https://linkareer.com/activity/340055",
+   "officialUrl": null,
    "applyStart": "2026-08-03",
    "applyEnd": "2026-10-08",
    "postedAt": "2026-08-03",
-   "prize": "5천만원이상 · 1등 2,000만원",
+   "prize": null,
    "place": null,
-   "target": "제한없음",
+   "target": "대상 제한 없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
     "dev"
@@ -1514,17 +1494,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/340055"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=109794",
-     "_detail": {
-      "applyStart": "2026-08-03",
-      "applyEnd": "2026-10-08",
-      "prize": "5천만원이상 · 1등 2,000만원",
-      "officialUrl": "https://fintech.or.kr/web/expo/idea.do?menu_id=10300",
-      "target": "제한없음"
-     }
     }
    ],
    "firstSeen": "2026-10-01"
@@ -2427,7 +2396,7 @@
    "applyEnd": "2026-10-13",
    "postedAt": "2026-09-30",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대학생, 직장인/일반인",
    "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
@@ -2437,6 +2406,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353765"
+    },
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/blaybus/event/136364"
     }
    ],
    "firstSeen": "2026-09-30"
@@ -2466,6 +2439,38 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111359",
+   "source": "wevity",
+   "title": "2026 대전 콘텐츠페어 이스포츠 대전 브롤스타즈 참가자 모집",
+   "host": "대전광역시",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111359",
+   "officialUrl": "https://dje.dicia.or.kr/dreamarena/notice/7",
+   "applyStart": "2026-09-28",
+   "applyEnd": "2026-10-14",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "일반인, 대학생, 청소년, 기타",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111359",
+     "_detail": {
+      "applyStart": "2026-09-28",
+      "applyEnd": "2026-10-14",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://dje.dicia.or.kr/dreamarena/notice/7",
+      "target": "일반인, 대학생, 청소년, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:354035",
@@ -3081,12 +3086,12 @@
    "title": "[데이콘]합성 미세구조 기반 재료 물성 예측 AI 경진대회(~10/19)",
    "host": "데이콘 주식회사",
    "url": "https://linkareer.com/activity/353657",
-   "officialUrl": null,
+   "officialUrl": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai",
    "applyStart": "2026-09-29",
    "applyEnd": "2026-10-19",
    "postedAt": "2026-09-29",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대상 제한 없음",
    "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
@@ -3097,6 +3102,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353657"
+    },
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai"
     }
    ],
    "firstSeen": "2026-09-29"
@@ -3261,6 +3270,32 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354161",
+   "source": "linkareer",
+   "title": "2026년 대구광역시 중구「2030청년창업지원센터」 중구 관광 융복합 비즈니스모델 경진대회(~10/21)",
+   "host": "더컴퍼니씨 협동조합(The Company C)",
+   "url": "https://linkareer.com/activity/354161",
+   "officialUrl": "https://thecompanyc.com/",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-21",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "광고/마케팅, 기획/아이디어",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354161"
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "wevity:111242",
@@ -3775,6 +3810,34 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "devevent:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
+   "source": "devevent",
+   "title": "AI Platform Build Challenge 예선",
+   "host": "서울특별시 / 관악구 / 금천청년꿈터 / 서울대학교 앵커사업단",
+   "url": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
+   "officialUrl": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-10-25",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "devevent:https://www.bigcontest.or.kr/",
    "source": "devevent",
    "title": "2026 제14회 빅콘테스트 AI·데이터 경진대회",
@@ -4051,6 +4114,31 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "kstartup:179281",
+   "source": "kstartup",
+   "title": "2026 경기스포츠산업 공모전",
+   "host": "(주)스펙토리",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281",
+   "officialUrl": null,
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "민간, 행사ㆍ네트워크",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "wevity:111385",
    "source": "wevity",
    "title": "2026 자선냄비 나눔 AI 영상공모전",
@@ -4059,7 +4147,7 @@
    "officialUrl": "https://www.thesalvationarmy.or.kr/story/news/3341?uid=news&page=0&text=",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": null,
+   "postedAt": "2026-10-01",
    "prize": "1천만원이하 · 1등 100만원",
    "place": null,
    "target": "제한없음",
@@ -4069,6 +4157,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354265"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111385",
@@ -4135,19 +4227,44 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111024",
-   "source": "wevity",
+   "id": "linkareer:354272",
+   "source": "linkareer",
+   "title": "2026년 양자내성암호 전환 경진대회·해커톤",
+   "host": "과학기술정보통신부/한국인터넷진흥원",
+   "url": "https://linkareer.com/activity/354272",
+   "officialUrl": null,
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354272"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "linkareer:350891",
+   "source": "linkareer",
    "title": "2026년 완주군 사진·AI영상 공모전",
    "host": "완주군",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111024",
-   "officialUrl": "https://www.wanju.go.kr/index.9is?contentUid=ff8080818b024d8e018b274f41dd2af8&subPath=",
+   "url": "https://linkareer.com/activity/350891",
+   "officialUrl": null,
    "applyStart": "2026-09-04",
    "applyEnd": "2026-10-30",
    "postedAt": "2026-09-15",
-   "prize": "1천만원이하 · 1등 150만원",
+   "prize": null,
    "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
    "tags": [
     "ai",
     "video"
@@ -4156,20 +4273,9 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/350891"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111024",
-     "_detail": {
-      "applyStart": "2026-09-04",
-      "applyEnd": "2026-10-30",
-      "prize": "1천만원이하 · 1등 150만원",
-      "officialUrl": "https://www.wanju.go.kr/index.9is?contentUid=ff8080818b024d8e018b274f41dd2af8&subPath=",
-      "target": "제한없음"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:350668",
@@ -4867,16 +4973,21 @@
    "applyEnd": "2026-11-02",
    "postedAt": "2026-09-30",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대상 제한 없음",
    "sourceCategory": "과학/공학",
    "tags": [
-    "ai"
+    "ai",
+    "dev"
    ],
    "sources": [
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353847"
+    },
+    {
+     "source": "devevent",
+     "url": "https://dacon.io/competitions/official/236771/overview/description"
     }
    ],
    "firstSeen": "2026-09-30"
@@ -5311,21 +5422,26 @@
    "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전 (~11/12)",
    "host": "데이콘 주식회사",
    "url": "https://linkareer.com/activity/354109",
-   "officialUrl": null,
+   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-11-12",
    "postedAt": "2026-10-01",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대상 제한 없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
-    "ai"
+    "ai",
+    "dev"
    ],
    "sources": [
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/354109"
+    },
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
     }
    ],
    "firstSeen": "2026-10-01"
