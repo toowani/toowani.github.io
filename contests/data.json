@@ -1,148 +1,35 @@
 {
- "generatedAt": "2026-10-01T13:19:00.728Z",
- "today": "2026-10-01",
+ "generatedAt": "2026-10-01T22:43:02.758Z",
+ "today": "2026-10-02",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 132,
-   "fetchedAt": "2026-10-01T13:19:00.703Z"
+   "fetchedAt": "2026-10-01T22:43:02.737Z"
   },
   "hola": {
    "ok": true,
-   "count": 48,
-   "fetchedAt": "2026-10-01T13:19:00.703Z"
+   "count": 50,
+   "fetchedAt": "2026-10-01T22:43:02.738Z"
   },
   "wevity": {
    "ok": true,
    "count": 46,
-   "fetchedAt": "2026-10-01T13:19:00.703Z"
+   "fetchedAt": "2026-10-01T22:43:02.738Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-01T13:19:00.703Z"
+   "fetchedAt": "2026-10-01T22:43:02.738Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-01T13:19:00.703Z"
+   "fetchedAt": "2026-10-01T22:43:02.738Z"
   }
  },
- "count": 197,
+ "count": 193,
  "items": [
-  {
-   "id": "hola:6a8a6313b5748aed45fbf66f",
-   "source": "hola",
-   "title": "[데이콘] 나라장터 자체입찰 공고 법령 위반사항 모니터링 AI 경진대회(~9/30)",
-   "host": "행정안전부, 한국지능정보사회진흥원, 조달청",
-   "url": "https://holaworld.io/hola-it/6a8a6313b5748aed45fbf66f",
-   "officialUrl": "https://dacon.io/competitions/official/236754/overview/description",
-   "applyStart": "2026-08-18",
-   "applyEnd": "2026-09-29",
-   "eventStart": "2026-08-18",
-   "eventEnd": "2026-09-29",
-   "postedAt": "2026-08-23",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a8a6313b5748aed45fbf66f"
-    }
-   ],
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "hola:6a8537bfb5748aed45f73503",
-   "source": "hola",
-   "title": "[데이콘] 딥보이스 범죄 대응을 위한 AI 탐지 모델 경진대회",
-   "host": "행정안전부, 한국지능정보사회진흥원 / 국립과학수사연구원",
-   "url": "https://holaworld.io/hola-it/6a8537bfb5748aed45f73503",
-   "officialUrl": "https://dacon.io/competitions/official/236749/overview/description",
-   "applyStart": "2026-08-18",
-   "applyEnd": "2026-09-29",
-   "eventStart": "2026-08-18",
-   "eventEnd": "2026-09-29",
-   "postedAt": "2026-08-19",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a8537bfb5748aed45f73503"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6a8537c2b5748aed45f7350a",
-   "source": "hola",
-   "title": "[데이콘] 블랙박스 영상 기반 지능형 고의사고 분석 모델 AI 경진대회(~9/30)",
-   "host": "행정안전부, 한국지능정보사회진흥원, 국립과학수사연구원",
-   "url": "https://holaworld.io/hola-it/6a8537c2b5748aed45f7350a",
-   "officialUrl": "https://dacon.io/competitions/official/236753/overview/description",
-   "applyStart": "2026-08-18",
-   "applyEnd": "2026-09-29",
-   "eventStart": "2026-08-18",
-   "eventEnd": "2026-09-29",
-   "postedAt": "2026-08-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a8537c2b5748aed45f7350a"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6aae2710fdf75b86efb99e51",
-   "source": "hola",
-   "title": "제4회 경남 AI·SW 경진대회",
-   "host": "경상남도, 창원특례시, 진주시 / (사)경남인공ICT협회, 재단법인 경남테크노파크, 경상국립대학교",
-   "url": "https://holaworld.io/hola-it/6aae2710fdf75b86efb99e51",
-   "officialUrl": "https://www.gnict.org/게시판/sw경진대회/제4회-경남aisw경진대회-공고/",
-   "applyStart": "2026-09-07",
-   "applyEnd": "2026-09-29",
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-09-29",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2710fdf75b86efb99e51"
-    }
-   ],
-   "firstSeen": "2026-09-30"
-  },
   {
    "id": "hola:6a9d969ad7320aa75232b18d",
    "source": "hola",
@@ -1655,7 +1542,7 @@
    "applyEnd": "2026-10-10",
    "postedAt": "2026-09-29",
    "prize": "1천만원이하 · 1등 500만원",
-   "place": null,
+   "place": "오프라인",
    "target": "대학생",
    "sourceCategory": "웹/모바일/IT, 취업/창업",
    "tags": [
@@ -1663,6 +1550,8 @@
     "dev",
     "startup"
    ],
+   "eventStart": "2026-09-21",
+   "eventEnd": "2026-10-10",
    "sources": [
     {
      "source": "linkareer",
@@ -1671,6 +1560,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353364"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e"
     },
     {
      "source": "wevity",
@@ -2396,7 +2289,7 @@
    "applyEnd": "2026-10-13",
    "postedAt": "2026-09-30",
    "prize": null,
-   "place": "온라인",
+   "place": "오프라인",
    "target": "대학생, 직장인/일반인",
    "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
@@ -2408,10 +2301,20 @@
      "url": "https://linkareer.com/activity/353765"
     },
     {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
+    },
+    {
      "source": "devevent",
      "url": "https://event-us.kr/blaybus/event/136364"
     }
    ],
+   "eventStart": "2026-09-30",
+   "eventEnd": "2026-10-13",
    "firstSeen": "2026-09-30"
   },
   {
@@ -3104,10 +3007,16 @@
      "url": "https://linkareer.com/activity/353657"
     },
     {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe2f"
+    },
+    {
      "source": "devevent",
      "url": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai"
     }
    ],
+   "eventStart": "2026-09-29",
+   "eventEnd": "2026-10-19",
    "firstSeen": "2026-09-29"
   },
   {
@@ -3583,17 +3492,23 @@
    "applyEnd": "2026-10-23",
    "postedAt": "2026-09-29",
    "prize": "다양한 혜택",
-   "place": null,
+   "place": "온라인",
    "target": "대학생, 기타",
    "sourceCategory": "게임/소프트웨어",
    "tags": [
     "ai",
     "dev"
    ],
+   "eventStart": "2026-09-29",
+   "eventEnd": "2026-10-23",
    "sources": [
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353664"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe2a"
     },
     {
      "source": "wevity",
@@ -4837,7 +4752,7 @@
    "applyEnd": "2026-11-01",
    "postedAt": "2026-09-29",
    "prize": null,
-   "place": null,
+   "place": "오프라인 · 온라인",
    "target": "대학생",
    "sourceCategory": "기획/아이디어",
    "tags": [
@@ -4848,8 +4763,14 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353592"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b21ee012963f80ebe57"
     }
    ],
+   "eventStart": "2026-09-28",
+   "eventEnd": "2026-11-01",
    "firstSeen": "2026-09-29"
   },
   {
@@ -4863,16 +4784,22 @@
    "applyEnd": "2026-11-01",
    "postedAt": "2026-09-28",
    "prize": "1천만원이하 · 1등 150만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
     "ai"
    ],
+   "eventStart": "2026-09-28",
+   "eventEnd": "2026-11-01",
    "sources": [
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353386"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d"
     },
     {
      "source": "wevity",
