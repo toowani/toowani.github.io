@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-09-30T22:18:13.327Z",
+ "generatedAt": "2026-10-01T05:57:35.639Z",
  "today": "2026-10-01",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 123,
-   "fetchedAt": "2026-09-30T22:18:13.181Z"
+   "count": 129,
+   "fetchedAt": "2026-10-01T05:57:35.507Z"
   },
   "hola": {
    "ok": true,
    "count": 48,
-   "fetchedAt": "2026-09-30T22:18:13.181Z"
+   "fetchedAt": "2026-10-01T05:57:35.507Z"
   },
   "wevity": {
    "ok": true,
-   "count": 45,
-   "fetchedAt": "2026-09-30T22:18:13.181Z"
+   "count": 47,
+   "fetchedAt": "2026-10-01T05:57:35.508Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-09-30T22:18:13.181Z"
+   "fetchedAt": "2026-10-01T05:57:35.508Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 13,
-   "fetchedAt": "2026-09-30T22:18:13.181Z"
+   "count": 14,
+   "fetchedAt": "2026-10-01T05:57:35.508Z"
   }
  },
- "count": 184,
+ "count": 192,
  "items": [
   {
    "id": "hola:6a8a6313b5748aed45fbf66f",
@@ -586,32 +586,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aae2708fdf75b86efb99dd7"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348802",
-   "source": "linkareer",
-   "title": "「2026 창업 경진대회」 참가자 모집 안내",
-   "host": "주식회사 이공이공",
-   "url": "https://linkareer.com/activity/348802",
-   "officialUrl": null,
-   "applyStart": "2026-09-04",
-   "applyEnd": "2026-10-02",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348802"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -1914,7 +1888,7 @@
    "officialUrl": "https://www.youtube.com/@uljugun/posts",
    "applyStart": "2026-09-29",
    "applyEnd": "2026-10-11",
-   "postedAt": null,
+   "postedAt": "2026-09-30",
    "prize": "다양한 혜택",
    "place": null,
    "target": "제한없음",
@@ -1924,6 +1898,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353989"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111356",
@@ -2055,6 +2033,32 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:353996",
+   "source": "linkareer",
+   "title": "【국립강원전문과학관】 AI 경진대회 - 동화책 만들기 / 4컷 과학만화 만들기",
+   "host": "국립강원전문과학관",
+   "url": "https://linkareer.com/activity/353996",
+   "officialUrl": null,
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-10-12",
+   "postedAt": "2026-09-30",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "캐릭터/만화/게임, 과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353996"
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:349739",
@@ -2282,6 +2286,32 @@
    "firstSeen": "2026-09-29"
   },
   {
+   "id": "linkareer:354077",
+   "source": "linkareer",
+   "title": "제1회 AMT AI 작곡대회 챌린지",
+   "host": "프롬프트뱅크",
+   "url": "https://linkareer.com/activity/354077",
+   "officialUrl": "https://www.aimusictown.com/",
+   "applyStart": "2026-10-05",
+   "applyEnd": "2026-10-12",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "예체능/패션, 전시/페스티벌",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354077"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "linkareer:351263",
    "source": "linkareer",
    "title": "[한국농수산식품유통공사] 2026 AI 농산물 가격예측 온라인 해커톤",
@@ -2436,6 +2466,36 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354035",
+   "source": "linkareer",
+   "title": "[재공고] 「2026 창업 경진대회」 참가자 모집 안내 (기간 연장)",
+   "host": "주식회사 이공이공",
+   "url": "https://linkareer.com/activity/354035",
+   "officialUrl": null,
+   "applyStart": "2026-09-04",
+   "applyEnd": "2026-10-15",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354035"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/348802"
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "wevity:110953",
@@ -2602,6 +2662,39 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111390",
+   "source": "wevity",
+   "title": "2026 K-MEDI AI 혁신 아이디어 챌린지 공모전",
+   "host": "대구경북첨단의료산업진흥재단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111390",
+   "officialUrl": "https://www.kmedihub.re.kr/",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-16",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 30만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111390",
+     "_detail": {
+      "applyStart": "2026-10-01",
+      "applyEnd": "2026-10-16",
+      "prize": "1천만원이하 · 1등 30만원",
+      "officialUrl": "https://www.kmedihub.re.kr/",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:348257",
@@ -3009,6 +3102,32 @@
    "firstSeen": "2026-09-29"
   },
   {
+   "id": "linkareer:353721",
+   "source": "linkareer",
+   "title": "[한국탄소산업진흥원] 2026 AI 영상 콘텐츠 공모전 「탄소, 다시 보다」",
+   "host": "주식회사 제이레퍼토리",
+   "url": "https://linkareer.com/activity/353721",
+   "officialUrl": "http://carbon-c.co.kr/",
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-10-19",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "디자인/순수미술/공예, 과학/공학",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353721"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "linkareer:351593",
    "source": "linkareer",
    "title": "[해양심층수산업 고성진흥원] 2026 고성 해양심층수 브랜드 AI 영상 공모전",
@@ -3392,6 +3511,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "kstartup:179375",
+   "source": "kstartup",
+   "title": "쇼미더임팩트 시즌6 참가자 모집 [IMPACT IR 경연대회]",
+   "host": "충남사회적경제지원센터",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375",
+   "officialUrl": null,
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-10-22",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 멘토링ㆍ컨설팅ㆍ교육",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375"
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "wevity:111346",
@@ -3905,6 +4049,39 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111385",
+   "source": "wevity",
+   "title": "2026 자선냄비 나눔 AI 영상공모전",
+   "host": "구세군",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111385",
+   "officialUrl": "https://www.thesalvationarmy.or.kr/story/news/3341?uid=news&page=0&text=",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-30",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111385",
+     "_detail": {
+      "applyStart": "2026-10-01",
+      "applyEnd": "2026-10-30",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://www.thesalvationarmy.or.kr/story/news/3341?uid=news&page=0&text=",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:299678",
@@ -4705,6 +4882,31 @@
    "firstSeen": "2026-09-30"
   },
   {
+   "id": "linkareer:353986",
+   "source": "linkareer",
+   "title": "2026 한국외식산업연구원 외식경영스타 아이디어 공모전",
+   "host": "한국외식산업연구원",
+   "url": "https://linkareer.com/activity/353986",
+   "officialUrl": null,
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-11-02",
+   "postedAt": "2026-09-30",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353986"
+    }
+   ],
+   "firstSeen": "2026-10-01"
+  },
+  {
    "id": "wevity:111009",
    "source": "wevity",
    "title": "2026 스페이스 해커톤",
@@ -5102,6 +5304,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354109",
+   "source": "linkareer",
+   "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전 (~11/12)",
+   "host": "데이콘 주식회사",
+   "url": "https://linkareer.com/activity/354109",
+   "officialUrl": null,
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-11-12",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354109"
+    }
+   ],
+   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:352004",
