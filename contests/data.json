@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-02T05:40:21.430Z",
+ "generatedAt": "2026-10-02T12:38:07.076Z",
  "today": "2026-10-02",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 136,
-   "fetchedAt": "2026-10-02T05:40:21.271Z"
+   "count": 138,
+   "fetchedAt": "2026-10-02T12:38:06.977Z"
   },
   "hola": {
    "ok": true,
    "count": 50,
-   "fetchedAt": "2026-10-02T05:40:21.272Z"
+   "fetchedAt": "2026-10-02T12:38:06.977Z"
   },
   "wevity": {
    "ok": true,
    "count": 46,
-   "fetchedAt": "2026-10-02T05:40:21.272Z"
+   "fetchedAt": "2026-10-02T12:38:06.977Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-02T05:40:21.272Z"
+   "fetchedAt": "2026-10-02T12:38:06.977Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 16,
-   "fetchedAt": "2026-10-02T05:40:21.272Z"
+   "count": 15,
+   "fetchedAt": "2026-10-02T12:38:06.977Z"
   }
  },
- "count": 198,
+ "count": 199,
  "items": [
   {
    "id": "hola:6a9d969ad7320aa75232b18d",
@@ -562,32 +562,6 @@
    ],
    "eventStart": "2026-06-08",
    "eventEnd": "2026-10-02",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179246",
-   "source": "kstartup",
-   "title": "2026년 초기창업패키지 로켓십 IR 경진대회 참가기업 모집 (2회차: 콘텐츠·플랫폼)",
-   "host": "씨엔티테크(주)",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179246",
-   "officialUrl": null,
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-02",
-   "postedAt": "2026-09-17",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179246"
-    }
-   ],
    "firstSeen": "2026-09-28"
   },
   {
@@ -2343,6 +2317,31 @@
    "firstSeen": "2026-09-30"
   },
   {
+   "id": "linkareer:354688",
+   "source": "linkareer",
+   "title": "롯데몰 벨리타운 청량리 : AI 뮤직 공모전",
+   "host": "롯데백화점",
+   "url": "https://linkareer.com/activity/354688",
+   "officialUrl": null,
+   "applyStart": "2026-10-02",
+   "applyEnd": "2026-10-13",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기타",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354688"
+    }
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  {
    "id": "linkareer:352976",
    "source": "linkareer",
    "title": "[네이버플러스 스토어] 넾다세일 AI 광고제",
@@ -3255,6 +3254,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354564",
+   "source": "linkareer",
+   "title": "기술과 시장을 잇는, 예비창업자를 찾습니다 「UNIST연구자-예비창업자 팀빌딩 프로그램」",
+   "host": "에스이메이커스(주)",
+   "url": "https://linkareer.com/activity/354564",
+   "officialUrl": null,
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-19",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354564"
+    }
+   ],
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "linkareer:354161",
