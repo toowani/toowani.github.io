@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-01T22:43:02.758Z",
+ "generatedAt": "2026-10-02T05:40:21.430Z",
  "today": "2026-10-02",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 132,
-   "fetchedAt": "2026-10-01T22:43:02.737Z"
+   "count": 136,
+   "fetchedAt": "2026-10-02T05:40:21.271Z"
   },
   "hola": {
    "ok": true,
    "count": 50,
-   "fetchedAt": "2026-10-01T22:43:02.738Z"
+   "fetchedAt": "2026-10-02T05:40:21.272Z"
   },
   "wevity": {
    "ok": true,
    "count": 46,
-   "fetchedAt": "2026-10-01T22:43:02.738Z"
+   "fetchedAt": "2026-10-02T05:40:21.272Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-01T22:43:02.738Z"
+   "fetchedAt": "2026-10-02T05:40:21.272Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-01T22:43:02.738Z"
+   "count": 16,
+   "fetchedAt": "2026-10-02T05:40:21.272Z"
   }
  },
- "count": 193,
+ "count": 198,
  "items": [
   {
    "id": "hola:6a9d969ad7320aa75232b18d",
@@ -939,6 +939,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354287",
+   "source": "linkareer",
+   "title": "2026 모두의 AI 라운지(수도권) <마이 AI 랩> 참여팀 공모",
+   "host": "이모션웨이브",
+   "url": "https://linkareer.com/activity/354287",
+   "officialUrl": "https://mewz.mew31.com/notices/9",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-06",
+   "postedAt": "2026-10-01",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354287"
+    }
+   ],
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "linkareer:350419",
@@ -2572,6 +2597,57 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:354410",
+   "source": "linkareer",
+   "title": "[대구경북첨단의료산업진흥재단] 2026 K-MEDI AI 혁신 아이디어 챌린지",
+   "host": "대구경북첨단의료산업진흥재단",
+   "url": "https://linkareer.com/activity/354410",
+   "officialUrl": "https://www.kmedihub.re.kr/",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-16",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354410"
+    }
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "kstartup:179414",
+   "source": "kstartup",
+   "title": "[창업] 창업가를 위한 IR 피칭 기초 부스팅",
+   "host": "마포청년창업취업지원센터 나루",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179414",
+   "officialUrl": null,
+   "applyStart": "2026-10-02",
+   "applyEnd": "2026-10-16",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 창업교육",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179414"
+    }
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  {
    "id": "wevity:111390",
    "source": "wevity",
    "title": "2026 K-MEDI AI 혁신 아이디어 챌린지 공모전",
@@ -4142,29 +4218,33 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:354272",
+   "id": "linkareer:354289",
    "source": "linkareer",
    "title": "2026년 양자내성암호 전환 경진대회·해커톤",
-   "host": "과학기술정보통신부/한국인터넷진흥원",
-   "url": "https://linkareer.com/activity/354272",
+   "host": "(주)컬처메이커스",
+   "url": "https://linkareer.com/activity/354289",
    "officialUrl": null,
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
    "postedAt": "2026-10-01",
    "prize": null,
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 기타",
    "tags": [
     "dev"
    ],
    "sources": [
     {
      "source": "linkareer",
+     "url": "https://linkareer.com/activity/354289"
+    },
+    {
+     "source": "linkareer",
      "url": "https://linkareer.com/activity/354272"
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "linkareer:350891",
@@ -5704,6 +5784,57 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:354441",
+   "source": "linkareer",
+   "title": "[리라운더 채용연계 공모전] 7일 B2B 영업 챌린지",
+   "host": "주식회사 어치브모먼트",
+   "url": "https://linkareer.com/activity/354441",
+   "officialUrl": "https://www.blaybus.com/activities/1123/landing?utm_source=linkareer&utm_medium=referral&utm_campaign=rerounder_b2bsales&utm_content=activity",
+   "applyStart": "2026-10-02",
+   "applyEnd": "2026-12-31",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 기타",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354441"
+    }
+   ],
+   "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "linkareer:354452",
+   "source": "linkareer",
+   "title": "[스타트업코드 채용연계 공모전] 7일 교육운영 매니저 챌린지",
+   "host": "주식회사 어치브모먼트",
+   "url": "https://linkareer.com/activity/354452",
+   "officialUrl": "https://www.blaybus.com/activities/1124/landing?utm_source=linkareer&utm_medium=referral&utm_campaign=startupcode_eduops&utm_content=activity",
+   "applyStart": "2026-10-02",
+   "applyEnd": "2026-12-31",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 기타",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354452"
+    }
+   ],
+   "firstSeen": "2026-10-02"
   },
   {
    "id": "linkareer:338415",
