@@ -1,403 +1,35 @@
 {
- "generatedAt": "2026-10-02T12:38:07.076Z",
- "today": "2026-10-02",
+ "generatedAt": "2026-10-02T22:16:10.291Z",
+ "today": "2026-10-03",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 138,
-   "fetchedAt": "2026-10-02T12:38:06.977Z"
+   "count": 133,
+   "fetchedAt": "2026-10-02T22:16:10.273Z"
   },
   "hola": {
    "ok": true,
-   "count": 50,
-   "fetchedAt": "2026-10-02T12:38:06.977Z"
+   "count": 37,
+   "fetchedAt": "2026-10-02T22:16:10.273Z"
   },
   "wevity": {
    "ok": true,
    "count": 46,
-   "fetchedAt": "2026-10-02T12:38:06.977Z"
+   "fetchedAt": "2026-10-02T22:16:10.273Z"
   },
   "devevent": {
    "ok": true,
-   "count": 25,
-   "fetchedAt": "2026-10-02T12:38:06.977Z"
+   "count": 24,
+   "fetchedAt": "2026-10-02T22:16:10.273Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-02T12:38:06.977Z"
+   "fetchedAt": "2026-10-02T22:16:10.273Z"
   }
  },
- "count": 199,
+ "count": 183,
  "items": [
-  {
-   "id": "hola:6a9d969ad7320aa75232b18d",
-   "source": "hola",
-   "title": "[2026 디지털헤리티지페스타] AI 헤리티지 공모전",
-   "host": "공주시/공주문화관광재단",
-   "url": "https://holaworld.io/hola-it/6a9d969ad7320aa75232b18d",
-   "officialUrl": "https://dh-festa.com/",
-   "applyStart": "2026-09-05",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-05",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d969ad7320aa75232b18d"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6a79cbe59e53088cf12cf80b",
-   "source": "hola",
-   "title": "[방마통위, 한국인터넷진흥원] 2026년 위치정보 사업자를 위한 클라우드 인프라 지원사업",
-   "host": "방송미디어통신위원회 / 한국인터넷진흥원",
-   "url": "https://holaworld.io/hola-it/6a79cbe59e53088cf12cf80b",
-   "officialUrl": "https://cloudlbs.kr/",
-   "applyStart": "2025-12-01",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2025-12-01",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-08-10",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a79cbe59e53088cf12cf80b"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6a86c42fb5748aed45f902e8",
-   "source": "hola",
-   "title": "「제6회 그린리모델링 챌린지」 대학생 해커톤 참가 안내",
-   "host": "국토교통부/국토안전관리원",
-   "url": "https://holaworld.io/hola-it/6a86c42fb5748aed45f902e8",
-   "officialUrl": "https://2026grchallenge.com/",
-   "applyStart": "2026-08-12",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-08-12",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-08-20",
-   "prize": null,
-   "place": "오프라인 · 온라인 예선 후 결선(경기도 양평) 진행",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a86c42fb5748aed45f902e8"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6aa751b2847411b719e2e4e1",
-   "source": "hola",
-   "title": "2026 AI 창업 경진대회",
-   "host": "부산광역시",
-   "url": "https://holaworld.io/hola-it/6aa751b2847411b719e2e4e1",
-   "officialUrl": "https://ai-startup-competition.kr/",
-   "applyStart": "2026-09-07",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751b2847411b719e2e4e1"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6a9d96aad7320aa75232b1ef",
-   "source": "hola",
-   "title": "2026 AI·디지털 기반 사회문제 해결 챌린지(~9/30)",
-   "host": "과학기술정보통신부",
-   "url": "https://holaworld.io/hola-it/6a9d96aad7320aa75232b1ef",
-   "officialUrl": "https://devcontest-digitalsolveup.kr/",
-   "applyStart": "2026-08-21",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-08-21",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d96aad7320aa75232b1ef"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "devevent:https://ai4scikorea.org/#competition",
-   "source": "devevent",
-   "title": "2026 NAIS AI 해커톤 (AI4Sci Korea 2026)",
-   "host": "국가과학기술연구회(NST) / 국가과학기술연구센터(NAIS)",
-   "url": "https://ai4scikorea.org/#competition",
-   "officialUrl": "https://ai4scikorea.org/#competition",
-   "applyStart": null,
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-30",
-   "eventEnd": "2026-10-01",
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 용산구)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://ai4scikorea.org/#competition"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6a9d9688d7320aa75232b141",
-   "source": "hola",
-   "title": "2026 국방 AI 경진대회(~9/30)",
-   "host": "대한민국 국방부",
-   "url": "https://holaworld.io/hola-it/6a9d9688d7320aa75232b141",
-   "officialUrl": "https://maicon.kr/",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d9688d7320aa75232b141"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6a94e519d7320aa7522a2c34",
-   "source": "hola",
-   "title": "2026 김해·인제대학교 All-City Campus 국제청년 AI 아트 콘테스트",
-   "host": "인제대학교/인제대학교 글로벌대학사업본부",
-   "url": "https://holaworld.io/hola-it/6a94e519d7320aa7522a2c34",
-   "officialUrl": "https://ai-art-contest-2026.gonggamore.co.kr/",
-   "applyStart": "2026-08-24",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-08-24",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-08-31",
-   "prize": null,
-   "place": "오프라인 · 온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a94e519d7320aa7522a2c34"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6aae2717fdf75b86efb99e74",
-   "source": "hola",
-   "title": "2026 제4회 SB 스타트업 네트워킹 페스티벌: AI 기반 지역문제 해결 해커톤 참가자 모집 (~9/30)",
-   "host": "주최: 캠퍼스타운성북클러스터, 주관: 성북구청, 성북구 6개 대학, 서울캠퍼스타운, 코비아",
-   "url": "https://holaworld.io/hola-it/6aae2717fdf75b86efb99e74",
-   "officialUrl": "https://forms.gle/RqcVhLGVpXT7h3gA9",
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-16",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2717fdf75b86efb99e74"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6a7d1caebcb0b5b2e75371f6",
-   "source": "hola",
-   "title": "2026 한국관광 데이터랩 활용 경진대회",
-   "host": "한국관광콘텐츠랩 / 한국관광공사",
-   "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f6",
-   "officialUrl": "https://datalab.visitkorea.or.kr/site/portal/ex/bbs/View.do?cbIdx=1135&bcIdx=311064&pageIndex=1&tgtTypeCd=&searchKey=&searchKey2=",
-   "applyStart": "2026-08-04",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-08-04",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f6"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6a7d1cacbcb0b5b2e75371ec",
-   "source": "hola",
-   "title": "2026년 창원시 AIㆍ데이터 활용 공모전",
-   "host": "창원시",
-   "url": "https://holaworld.io/hola-it/6a7d1cacbcb0b5b2e75371ec",
-   "officialUrl": "https://www.changwon.go.kr/cwportal/10311/13851/13863.web?amode=view&ctIdx=224",
-   "applyStart": "2026-06-01",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-06-01",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a7d1cacbcb0b5b2e75371ec"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a79cb6c9e53088cf12cf71e"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6a9d96b4d7320aa75232b2ac",
-   "source": "hola",
-   "title": "2026년 한국식품안전관리인증원 공공데이터 분석·활용 경진대회",
-   "host": "한국식품안전관리인증",
-   "url": "https://holaworld.io/hola-it/6a9d96b4d7320aa75232b2ac",
-   "officialUrl": "https://www.loud.kr/contest/view/210256/brief",
-   "applyStart": "2026-08-31",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-08-31",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d96b4d7320aa75232b2ac"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "hola:6aae2712fdf75b86efb99e5b",
-   "source": "hola",
-   "title": "청년들이 만드는 공공서비스 AI 영상 공모전",
-   "host": "에코마이스",
-   "url": "https://holaworld.io/hola-it/6aae2712fdf75b86efb99e5b",
-   "officialUrl": "https://event-us.kr/ecom1ce/event/135548",
-   "applyStart": "2026-09-17",
-   "applyEnd": "2026-09-30",
-   "eventStart": "2026-09-17",
-   "eventEnd": "2026-09-30",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2712fdf75b86efb99e5b"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2707fdf75b86efb99dca"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
   {
    "id": "hola:6ab4c29dfdf75b86efbf558c",
    "source": "hola",
@@ -458,99 +90,53 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110855",
-   "source": "wevity",
+   "id": "hola:6aa751d3847411b719e2e531",
+   "source": "hola",
    "title": "2026 AI 활용 아이디어 공모전",
    "host": "과학기술정보통신부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110855",
-   "officialUrl": "https://www.kfict.or.kr/03_dat/dat02_view.asp?idx=15711&page=1&params=",
+   "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531",
+   "officialUrl": "https://www.kfict.or.kr/03_dat/dat02_view.asp?idx=15715&page=1&params=",
    "applyStart": "2026-09-07",
    "applyEnd": "2026-10-02",
-   "postedAt": "2026-09-09",
-   "prize": "1천만원이하 · 1등 200만원",
+   "eventStart": "2026-09-07",
+   "eventEnd": "2026-10-02",
+   "postedAt": "2026-09-14",
+   "prize": null,
    "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai"
    ],
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-10-02",
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349388"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110855",
-     "_detail": {
-      "applyStart": "2026-09-07",
-      "applyEnd": "2026-10-02",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.kfict.or.kr/03_dat/dat02_view.asp?idx=15711&page=1&params=",
-      "target": "제한없음"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-03"
   },
   {
-   "id": "linkareer:344675",
-   "source": "linkareer",
-   "title": "2026 부산 수제맥주 마스터스 챌린지 버스킹 모집",
-   "host": "부산광역시",
-   "url": "https://linkareer.com/activity/344675",
-   "officialUrl": null,
-   "applyStart": "2026-08-21",
-   "applyEnd": "2026-10-02",
-   "postedAt": "2026-08-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "예체능/패션, 전시/페스티벌",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/344675"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:328330",
-   "source": "linkareer",
+   "id": "hola:6a7d1caebcb0b5b2e75371f1",
+   "source": "hola",
    "title": "2026년 국민체육진흥공단 공공데이터 활용 경진대회",
-   "host": "서울올림픽기념국민체육진흥공단",
-   "url": "https://linkareer.com/activity/328330",
-   "officialUrl": "http://www.kspo.or.kr",
+   "host": "국민체육진흥공단",
+   "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f1",
+   "officialUrl": "https://www.kspo.or.kr/kspo/bbs/B0000027/view.do?nttId=64088&menuNo=200149",
    "applyStart": "2026-06-08",
    "applyEnd": "2026-10-02",
-   "postedAt": "2026-06-15",
+   "eventStart": "2026-06-08",
+   "eventEnd": "2026-10-02",
+   "postedAt": "2026-08-13",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학, 기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/328330"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/328125"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f1"
@@ -560,65 +146,7 @@
      "url": "https://holaworld.io/hola-it/6a2f577411366908aa77abd7"
     }
    ],
-   "eventStart": "2026-06-08",
-   "eventEnd": "2026-10-02",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:351995",
-   "source": "linkareer",
-   "title": "배재대학교 스마트 ICT 메이커톤",
-   "host": "배재대학교",
-   "url": "https://linkareer.com/activity/351995",
-   "officialUrl": "https://event-us.kr/m/135060/61443",
-   "applyStart": "2026-09-18",
-   "applyEnd": "2026-10-02",
-   "postedAt": "2026-09-18",
-   "prize": null,
-   "place": "오프라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351995"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2708fdf75b86efb99ddc"
-    }
-   ],
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-09-27",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:349310",
-   "source": "linkareer",
-   "title": "스파크업 : 모두의 에너지 (에너지 창업 경연대회) 공모전",
-   "host": "기후에너지환경부",
-   "url": "https://linkareer.com/activity/349310",
-   "officialUrl": "https://www.spark-up.kr/",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-02",
-   "postedAt": "2026-09-09",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349310"
-    }
-   ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-03"
   },
   {
    "id": "wevity:111155",
@@ -1360,18 +888,18 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:340055",
-   "source": "linkareer",
+   "id": "wevity:109794",
+   "source": "wevity",
    "title": "2026 제9회 핀테크 아이디어 공모전",
-   "host": "금융위원회 핀테크지원센터",
-   "url": "https://linkareer.com/activity/340055",
-   "officialUrl": null,
+   "host": "금융위원회",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=109794",
+   "officialUrl": "https://fintech.or.kr/web/expo/idea.do?menu_id=10300",
    "applyStart": "2026-08-03",
    "applyEnd": "2026-10-08",
    "postedAt": "2026-08-03",
-   "prize": null,
+   "prize": "5천만원이상 · 1등 2,000만원",
    "place": null,
-   "target": "대상 제한 없음",
+   "target": "제한없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
     "dev"
@@ -1380,9 +908,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/340055"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=109794",
+     "_detail": {
+      "applyStart": "2026-08-03",
+      "applyEnd": "2026-10-08",
+      "prize": "5천만원이상 · 1등 2,000만원",
+      "officialUrl": "https://fintech.or.kr/web/expo/idea.do?menu_id=10300",
+      "target": "제한없음"
+     }
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-03"
   },
   {
    "id": "wevity:110696",
@@ -2421,10 +1960,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/354035"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348802"
     }
    ],
    "firstSeen": "2026-10-01"
@@ -4154,6 +3689,46 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "wevity:111368",
+   "source": "wevity",
+   "title": "2026 양자내성암호 전환 경진대회·해커톤",
+   "host": "과학기술정보통신부",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111368",
+   "officialUrl": "https://www.kisa.or.kr/401/form?postSeq=3777",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-01",
+   "prize": "1천만원이하 · 1등 300만원",
+   "place": null,
+   "target": "대학생, 기타",
+   "sourceCategory": "과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354289"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354272"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111368",
+     "_detail": {
+      "applyStart": "2026-10-01",
+      "applyEnd": "2026-10-30",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://www.kisa.or.kr/401/form?postSeq=3777",
+      "target": "대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-03"
+  },
+  {
    "id": "wevity:111385",
    "source": "wevity",
    "title": "2026 자선냄비 나눔 AI 영상공모전",
@@ -4240,35 +3815,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:354289",
-   "source": "linkareer",
-   "title": "2026년 양자내성암호 전환 경진대회·해커톤",
-   "host": "(주)컬처메이커스",
-   "url": "https://linkareer.com/activity/354289",
-   "officialUrl": null,
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-30",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 기타",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354289"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354272"
-    }
-   ],
-   "firstSeen": "2026-10-02"
   },
   {
    "id": "linkareer:350891",
@@ -5342,47 +4888,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:110023",
-   "source": "wevity",
-   "title": "2026 DATA·AI 분석 경진대회",
-   "host": "한국과학기술정보연구원",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110023",
-   "officialUrl": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-   "applyStart": "2026-08-11",
-   "applyEnd": "2026-11-10",
-   "postedAt": "2026-08-11",
-   "prize": "3천만원~1천만원",
-   "place": "온라인",
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/342034"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110023",
-     "_detail": {
-      "applyStart": "2026-08-11",
-      "applyEnd": "2026-11-10",
-      "prize": "3천만원~1천만원",
-      "officialUrl": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-      "target": "일반인, 대학생, 청소년"
-     }
-    },
-    {
-     "source": "devevent",
-     "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "hola:6a7d1cb1bcb0b5b2e7537200",
    "source": "hola",
    "title": "2026 DATA·AI 분석 경진대회 신규",
@@ -5693,6 +5198,36 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:342034",
+   "source": "linkareer",
+   "title": "[한국과학기술정보연구원] 2026 DATA·AI 분석 경진대회",
+   "host": "한국과학기술정보연구원",
+   "url": "https://linkareer.com/activity/342034",
+   "officialUrl": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
+   "applyStart": "2026-08-11",
+   "applyEnd": "2026-11-25",
+   "postedAt": "2026-08-11",
+   "prize": null,
+   "place": "온라인",
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학, 학술",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/342034"
+    },
+    {
+     "source": "devevent",
+     "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
+    }
+   ],
+   "firstSeen": "2026-10-03"
   },
   {
    "id": "wevity:110305",
