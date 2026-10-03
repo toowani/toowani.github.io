@@ -1,67 +1,35 @@
 {
- "generatedAt": "2026-10-03T11:42:00.128Z",
- "today": "2026-10-03",
+ "generatedAt": "2026-10-03T16:19:21.347Z",
+ "today": "2026-10-04",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 133,
-   "fetchedAt": "2026-10-03T11:42:00.092Z"
+   "count": 132,
+   "fetchedAt": "2026-10-03T16:19:21.321Z"
   },
   "hola": {
    "ok": true,
-   "count": 37,
-   "fetchedAt": "2026-10-03T11:42:00.093Z"
+   "count": 38,
+   "fetchedAt": "2026-10-03T16:19:21.322Z"
   },
   "wevity": {
    "ok": true,
-   "count": 46,
-   "fetchedAt": "2026-10-03T11:42:00.093Z"
+   "count": 45,
+   "fetchedAt": "2026-10-03T16:19:21.322Z"
   },
   "devevent": {
    "ok": true,
-   "count": 24,
-   "fetchedAt": "2026-10-03T11:42:00.093Z"
+   "count": 23,
+   "fetchedAt": "2026-10-03T16:19:21.322Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-03T11:42:00.093Z"
+   "fetchedAt": "2026-10-03T16:19:21.322Z"
   }
  },
  "count": 183,
  "items": [
-  {
-   "id": "hola:6ab4c29dfdf75b86efbf558c",
-   "source": "hola",
-   "title": "DIGITAL AF Seoul: Hackathon - In person",
-   "host": "BuilderBase / Comooooab",
-   "url": "https://holaworld.io/hola-it/6ab4c29dfdf75b86efbf558c",
-   "officialUrl": "https://luma.com/builde-5cd9",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-01",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-10-01",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ab4c29dfdf75b86efbf558c"
-    },
-    {
-     "source": "devevent",
-     "url": "https://luma.com/builde-5cd9"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
   {
    "id": "hola:6aae2708fdf75b86efb99dd7",
    "source": "hola",
@@ -149,45 +117,32 @@
    "firstSeen": "2026-10-03"
   },
   {
-   "id": "wevity:111155",
-   "source": "wevity",
+   "id": "devevent:https://nova.snubhai.org/",
+   "source": "devevent",
    "title": "N.O.V.A. 2026 대화형 의료 진단 AI 에이전트 대회",
-   "host": "분당서울대학교병원 의료인공지능센터, 엘리스(elice)",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111155",
+   "host": "분당서울대학교병원 의료인공지능센터 / 엘리스",
+   "url": "https://nova.snubhai.org/",
    "officialUrl": "https://nova.snubhai.org/",
    "applyStart": "2026-09-13",
    "applyEnd": "2026-10-03",
-   "postedAt": "2026-09-20",
-   "prize": "1천만원이하 · 1등 250만원",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
    "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "대회, AI",
    "tags": [
-    "ai",
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352068"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111155",
-     "_detail": {
-      "applyStart": "2026-09-13",
-      "applyEnd": "2026-10-03",
-      "prize": "1천만원이하 · 1등 250만원",
-      "officialUrl": "https://nova.snubhai.org/",
-      "target": "제한없음"
-     }
-    },
     {
      "source": "devevent",
      "url": "https://nova.snubhai.org/"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-04"
   },
   {
    "id": "linkareer:350886",
@@ -466,6 +421,33 @@
     }
    ],
    "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "hola:6ac125ddee012963f812bef7",
+   "source": "hola",
+   "title": "2026년 모두의 AI 라운지 거점 운영 사업 (수도권) <마이 AI 랩>",
+   "host": "주최: 과학기술정보통신부, 한국지능정보사회진흥원(NIA)",
+   "url": "https://holaworld.io/hola-it/6ac125ddee012963f812bef7",
+   "officialUrl": "http://www.krmedia.org/pages/news.php?act_module=board_board_2&act_type=read&sn=11102&page=1",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-06",
+   "eventStart": "2026-09-21",
+   "eventEnd": "2026-10-06",
+   "postedAt": "2026-10-04",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ac125ddee012963f812bef7"
+    }
+   ],
+   "firstSeen": "2026-10-04"
   },
   {
    "id": "linkareer:350419",
@@ -3699,12 +3681,14 @@
    "applyEnd": "2026-10-30",
    "postedAt": "2026-10-01",
    "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
+   "place": "온라인",
    "target": "대학생, 기타",
    "sourceCategory": "과학/공학",
    "tags": [
     "dev"
    ],
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-10-30",
    "sources": [
     {
      "source": "linkareer",
@@ -3713,6 +3697,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/354272"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ac125e3ee012963f812bf19"
     },
     {
      "source": "wevity",
