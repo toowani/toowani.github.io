@@ -1,121 +1,35 @@
 {
- "generatedAt": "2026-10-04T12:24:16.213Z",
- "today": "2026-10-04",
+ "generatedAt": "2026-10-04T21:27:46.936Z",
+ "today": "2026-10-05",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 132,
-   "fetchedAt": "2026-10-04T12:24:16.048Z"
+   "count": 130,
+   "fetchedAt": "2026-10-04T21:27:46.527Z"
   },
   "hola": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-04T12:24:16.048Z"
+   "count": 35,
+   "fetchedAt": "2026-10-04T21:27:46.527Z"
   },
   "wevity": {
    "ok": true,
    "count": 45,
-   "fetchedAt": "2026-10-04T12:24:16.048Z"
+   "fetchedAt": "2026-10-04T21:27:46.527Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-04T12:24:16.048Z"
+   "fetchedAt": "2026-10-04T21:27:46.527Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-04T12:24:16.049Z"
+   "fetchedAt": "2026-10-04T21:27:46.527Z"
   }
  },
- "count": 183,
+ "count": 178,
  "items": [
-  {
-   "id": "hola:6aae2708fdf75b86efb99dd7",
-   "source": "hola",
-   "title": "[활동비 100만원 지원] AI로 우리 지역·기업의 변화를 만드는 ‘마이AI랩’ 참가팀 모집",
-   "host": "에이블런",
-   "url": "https://holaworld.io/hola-it/6aae2708fdf75b86efb99dd7",
-   "officialUrl": "https://event-us.kr/YV7SqV3glfKc/event/135633",
-   "applyStart": "2026-09-17",
-   "applyEnd": "2026-10-02",
-   "eventStart": "2026-10-03",
-   "eventEnd": "2026-12-09",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "오프라인 · 대구테크노파크 스포츠산업지원센터 2층 대강당",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2708fdf75b86efb99dd7"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6aa751d3847411b719e2e531",
-   "source": "hola",
-   "title": "2026 AI 활용 아이디어 공모전",
-   "host": "과학기술정보통신부",
-   "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531",
-   "officialUrl": "https://www.kfict.or.kr/03_dat/dat02_view.asp?idx=15715&page=1&params=",
-   "applyStart": "2026-09-07",
-   "applyEnd": "2026-10-02",
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-10-02",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531"
-    }
-   ],
-   "firstSeen": "2026-10-03"
-  },
-  {
-   "id": "hola:6a7d1caebcb0b5b2e75371f1",
-   "source": "hola",
-   "title": "2026년 국민체육진흥공단 공공데이터 활용 경진대회",
-   "host": "국민체육진흥공단",
-   "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f1",
-   "officialUrl": "https://www.kspo.or.kr/kspo/bbs/B0000027/view.do?nttId=64088&menuNo=200149",
-   "applyStart": "2026-06-08",
-   "applyEnd": "2026-10-02",
-   "eventStart": "2026-06-08",
-   "eventEnd": "2026-10-02",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a7d1caebcb0b5b2e75371f1"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a2f577411366908aa77abd7"
-    }
-   ],
-   "firstSeen": "2026-10-03"
-  },
   {
    "id": "devevent:https://nova.snubhai.org/",
    "source": "devevent",
@@ -143,62 +57,6 @@
     }
    ],
    "firstSeen": "2026-10-04"
-  },
-  {
-   "id": "linkareer:350886",
-   "source": "linkareer",
-   "title": "디오니 AI 숏시리즈 콘테스트",
-   "host": "토네디오",
-   "url": "https://linkareer.com/activity/350886",
-   "officialUrl": "https://dioni.io/contest?utm_source=linkcareer&utm_medium=referral&utm_content=post&utm_campaign=dioni_contest",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-04",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "사진/영상/UCC, 문학/시나리오",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350886"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350822"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:350663",
-   "source": "linkareer",
-   "title": "디오니 AI 시리즈 콘테스트",
-   "host": "디오니",
-   "url": "https://linkareer.com/activity/350663",
-   "officialUrl": null,
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-04",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350663"
-    }
-   ],
-   "firstSeen": "2026-09-30"
   },
   {
    "id": "linkareer:352619",
