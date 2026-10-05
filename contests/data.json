@@ -1,63 +1,35 @@
 {
- "generatedAt": "2026-10-05T05:43:56.503Z",
+ "generatedAt": "2026-10-05T14:43:20.086Z",
  "today": "2026-10-05",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 130,
-   "fetchedAt": "2026-10-05T05:43:56.484Z"
+   "fetchedAt": "2026-10-05T14:43:20.069Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-05T05:43:56.484Z"
+   "fetchedAt": "2026-10-05T14:43:20.069Z"
   },
   "wevity": {
    "ok": true,
-   "count": 46,
-   "fetchedAt": "2026-10-05T05:43:56.484Z"
+   "count": 47,
+   "fetchedAt": "2026-10-05T14:43:20.069Z"
   },
   "devevent": {
    "ok": true,
-   "count": 23,
-   "fetchedAt": "2026-10-05T05:43:56.484Z"
+   "count": 26,
+   "fetchedAt": "2026-10-05T14:43:20.069Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-05T05:43:56.484Z"
+   "count": 14,
+   "fetchedAt": "2026-10-05T14:43:20.069Z"
   }
  },
- "count": 179,
+ "count": 180,
  "items": [
-  {
-   "id": "devevent:https://nova.snubhai.org/",
-   "source": "devevent",
-   "title": "N.O.V.A. 2026 대화형 의료 진단 AI 에이전트 대회",
-   "host": "분당서울대학교병원 의료인공지능센터 / 엘리스",
-   "url": "https://nova.snubhai.org/",
-   "officialUrl": "https://nova.snubhai.org/",
-   "applyStart": "2026-09-13",
-   "applyEnd": "2026-10-03",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://nova.snubhai.org/"
-    }
-   ],
-   "firstSeen": "2026-10-04"
-  },
   {
    "id": "linkareer:352619",
    "source": "linkareer",
@@ -106,31 +78,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/349138"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179304",
-   "source": "kstartup",
-   "title": "2026년 10월 크립톤 IR피칭 & 오피스아워 신청 접수",
-   "host": "주식회사 크립톤 부산센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304",
-   "officialUrl": null,
-   "applyStart": "2026-09-17",
-   "applyEnd": "2026-10-05",
-   "postedAt": "2026-09-21",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179304"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -953,6 +900,10 @@
       "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
       "target": "대학생"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://linkareer.com/activity/353364"
     }
    ],
    "firstSeen": "2026-09-29"
@@ -1062,6 +1013,39 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111461",
+   "source": "wevity",
+   "title": "4.16생명안전비엔날레 생명안전 AI숏폼 공모전",
+   "host": "4.16재단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111461",
+   "officialUrl": "https://416foundation.org/notice/?uid=3604&mod=document",
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-10-11",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 30만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111461",
+     "_detail": {
+      "applyStart": "2026-09-29",
+      "applyEnd": "2026-10-11",
+      "prize": "1천만원이하 · 1등 30만원",
+      "officialUrl": "https://416foundation.org/notice/?uid=3604&mod=document",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-05"
   },
   {
    "id": "hola:6aba73e3ee012963f80a4be7",
@@ -1777,6 +1761,35 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "devevent:https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
+   "source": "devevent",
+   "title": "Replit x OpenAI x AWS x Gold House Ventures Hackathon",
+   "host": "Replit / OpenAI / AWS / Gold House Ventures",
+   "url": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
+   "officialUrl": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
+   "applyStart": null,
+   "applyEnd": "2026-10-14",
+   "eventStart": "2026-10-14",
+   "eventEnd": "2026-10-14",
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(서울)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3"
+    }
+   ],
+   "firstSeen": "2026-10-05"
   },
   {
    "id": "linkareer:354035",
@@ -3957,7 +3970,7 @@
    "applyEnd": "2026-10-31",
    "postedAt": "2026-09-29",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대상 제한 없음",
    "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
@@ -3968,6 +3981,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/353451"
+    },
+    {
+     "source": "devevent",
+     "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385"
     }
    ],
    "firstSeen": "2026-09-29"
@@ -4925,6 +4942,33 @@
    "eventStart": "2026-09-14",
    "eventEnd": "2026-11-13",
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "devevent:https://www.spaceappschallenge.org/2026/local-events/seoul/",
+   "source": "devevent",
+   "title": "2026 NASA International Space Apps Challenge Seoul",
+   "host": "NASA Space Apps Seoul",
+   "url": "https://www.spaceappschallenge.org/2026/local-events/seoul/",
+   "officialUrl": "https://www.spaceappschallenge.org/2026/local-events/seoul/",
+   "applyStart": null,
+   "applyEnd": "2026-11-14",
+   "eventStart": "2026-11-14",
+   "eventEnd": "2026-11-15",
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, 기술일반",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://www.spaceappschallenge.org/2026/local-events/seoul/"
+    }
+   ],
+   "firstSeen": "2026-10-05"
   },
   {
    "id": "linkareer:343445",
