@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-04T21:27:46.936Z",
+ "generatedAt": "2026-10-05T05:43:56.503Z",
  "today": "2026-10-05",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 130,
-   "fetchedAt": "2026-10-04T21:27:46.527Z"
+   "fetchedAt": "2026-10-05T05:43:56.484Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-04T21:27:46.527Z"
+   "fetchedAt": "2026-10-05T05:43:56.484Z"
   },
   "wevity": {
    "ok": true,
-   "count": 45,
-   "fetchedAt": "2026-10-04T21:27:46.527Z"
+   "count": 46,
+   "fetchedAt": "2026-10-05T05:43:56.484Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-04T21:27:46.527Z"
+   "fetchedAt": "2026-10-05T05:43:56.484Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-04T21:27:46.527Z"
+   "fetchedAt": "2026-10-05T05:43:56.484Z"
   }
  },
- "count": 178,
+ "count": 179,
  "items": [
   {
    "id": "devevent:https://nova.snubhai.org/",
@@ -4077,6 +4077,38 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111460",
+   "source": "wevity",
+   "title": "전국대학생 FTA 활용 비즈니스 경진대회",
+   "host": "한국통상정보학회",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111460",
+   "officialUrl": "https://www.cybertrade.or.kr/user/news/notice/userNewsNotice_view/1V7R1kM03Io",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111460",
+     "_detail": {
+      "applyStart": "2026-10-01",
+      "applyEnd": "2026-10-31",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.cybertrade.or.kr/user/news/notice/userNewsNotice_view/1V7R1kM03Io",
+      "target": "대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-05"
   },
   {
    "id": "linkareer:323822",
