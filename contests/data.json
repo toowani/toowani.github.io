@@ -1,113 +1,35 @@
 {
- "generatedAt": "2026-10-05T14:43:20.086Z",
- "today": "2026-10-05",
+ "generatedAt": "2026-10-06T00:05:58.130Z",
+ "today": "2026-10-06",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 130,
-   "fetchedAt": "2026-10-05T14:43:20.069Z"
+   "count": 127,
+   "fetchedAt": "2026-10-06T00:05:57.978Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-05T14:43:20.069Z"
+   "fetchedAt": "2026-10-06T00:05:57.978Z"
   },
   "wevity": {
    "ok": true,
    "count": 47,
-   "fetchedAt": "2026-10-05T14:43:20.069Z"
+   "fetchedAt": "2026-10-06T00:05:57.978Z"
   },
   "devevent": {
    "ok": true,
    "count": 26,
-   "fetchedAt": "2026-10-05T14:43:20.069Z"
+   "fetchedAt": "2026-10-06T00:05:57.978Z"
   },
   "kstartup": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-10-05T14:43:20.069Z"
+   "fetchedAt": "2026-10-06T00:05:57.978Z"
   }
  },
- "count": 180,
+ "count": 177,
  "items": [
-  {
-   "id": "linkareer:352619",
-   "source": "linkareer",
-   "title": "[경기도] 2027 경기도 대학생 자율주행 경진대회",
-   "host": "경기도",
-   "url": "https://linkareer.com/activity/352619",
-   "officialUrl": "https://www.ggzerocity.or.kr/?p=38&page=1&viewMode=view&reqIdx=202609211320453864",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-05",
-   "postedAt": "2026-09-22",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352619"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:349138",
-   "source": "linkareer",
-   "title": "[한국폴리텍IV대학 대전캠퍼스] 지역 청소년이 참가하는 관계성 범죄예방 AI 영상콘텐츠 공모전",
-   "host": "한국폴리텍IV대학 대전캠퍼스",
-   "url": "https://linkareer.com/activity/349138",
-   "officialUrl": "https://www.kopo.ac.kr/daejeon/index.do",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-10-05",
-   "postedAt": "2026-09-08",
-   "prize": null,
-   "place": null,
-   "target": "청소년, 대학생",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349138"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:347566",
-   "source": "linkareer",
-   "title": "2026년 청소년활동 안전캠페인 PLAY SAFF 숏폼 챌린지 공모전",
-   "host": "성평등가족부 / 한국청소년활동진흥원",
-   "url": "https://linkareer.com/activity/347566",
-   "officialUrl": null,
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-10-05",
-   "postedAt": "2026-09-02",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/347566"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
   {
    "id": "linkareer:340563",
    "source": "linkareer",
