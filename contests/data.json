@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-07T13:27:15.299Z",
- "today": "2026-10-07",
+ "generatedAt": "2026-10-07T23:07:09.179Z",
+ "today": "2026-10-08",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 135,
-   "fetchedAt": "2026-10-07T13:27:15.278Z"
+   "count": 129,
+   "fetchedAt": "2026-10-07T23:07:09.153Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-07T13:27:15.278Z"
+   "fetchedAt": "2026-10-07T23:07:09.153Z"
   },
   "wevity": {
    "ok": true,
-   "count": 45,
-   "fetchedAt": "2026-10-07T13:27:15.278Z"
+   "count": 43,
+   "fetchedAt": "2026-10-07T23:07:09.153Z"
   },
   "devevent": {
    "ok": true,
    "count": 26,
-   "fetchedAt": "2026-10-07T13:27:15.278Z"
+   "fetchedAt": "2026-10-07T23:07:09.153Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-07T13:27:15.278Z"
+   "fetchedAt": "2026-10-07T23:07:09.153Z"
   }
  },
- "count": 185,
+ "count": 180,
  "items": [
   {
    "id": "hola:6a9d96b4d7320aa75232b2a3",
@@ -118,24 +118,24 @@
    "firstSeen": "2026-10-04"
   },
   {
-   "id": "wevity:107956",
-   "source": "wevity",
+   "id": "hola:6a7d1c8fbcb0b5b2e753719b",
+   "source": "hola",
    "title": "[넥슨] 메이플스토리 글로벌 개발 콘테스트 (MapleStory Global Creator Challenge)",
    "host": "넥슨",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=107956",
+   "url": "https://holaworld.io/hola-it/6a7d1c8fbcb0b5b2e753719b",
    "officialUrl": "https://abr.ge/bjkgcx",
    "applyStart": "2026-06-04",
    "applyEnd": "2026-10-07",
+   "eventStart": "2026-06-04",
+   "eventEnd": "2026-10-07",
    "postedAt": "2026-08-13",
-   "prize": "5천만원이상",
+   "prize": null,
    "place": "온라인",
-   "target": "일반인, 대학생, 청소년, 기타",
-   "sourceCategory": "게임/소프트웨어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
-   "eventStart": "2026-06-04",
-   "eventEnd": "2026-10-07",
    "sources": [
     {
      "source": "hola",
@@ -148,97 +148,9 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a2100212b670e246e8a9943"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=107956",
-     "_detail": {
-      "applyStart": "2026-06-04",
-      "applyEnd": "2026-10-07",
-      "prize": "5천만원이상",
-      "officialUrl": "https://abr.ge/bjkgcx",
-      "target": "일반인, 대학생, 청소년, 기타"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:322969",
-   "source": "linkareer",
-   "title": "[넥슨코리아] MapleStory 글로벌 개발 콘테스트",
-   "host": "넥슨코리아",
-   "url": "https://linkareer.com/activity/322969",
-   "officialUrl": "https://maplestoryworlds.nexon.com/events/ko/2026globalcontest",
-   "applyStart": "2026-05-28",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-05-20",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 캐릭터/만화/게임",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/322969"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:351144",
-   "source": "linkareer",
-   "title": "[삼척시] 제2회 삼척시 AI영상제 공모전",
-   "host": "삼척시",
-   "url": "https://linkareer.com/activity/351144",
-   "officialUrl": "https://scaif.inovv.kr",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-09-16",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351144"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:354835",
-   "source": "linkareer",
-   "title": "[제주소통협력센터X제주랩스] 2026 새활용 리메이커톤 참가자 모집 (총 상금 250만원)",
-   "host": "주식회사 제주시트러스랩스",
-   "url": "https://linkareer.com/activity/354835",
-   "officialUrl": null,
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-10-06",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354835"
-    }
-   ],
-   "firstSeen": "2026-10-06"
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "devevent:https://k-ctf.org/contests/6aaba42311c4d10a2394911e",
@@ -295,132 +207,31 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111280",
-   "source": "wevity",
-   "title": "Pollo AI K-pop MV 챌린지",
-   "host": "COCOSOFT TECHNOLOGY PTE. LTD.",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111280",
-   "officialUrl": "https://www.instagram.com/polloai_kr/p/DdnLr6OE6Iz/",
-   "applyStart": "2026-09-23",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-09-28",
-   "prize": "1천만원이하",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353117"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111280",
-     "_detail": {
-      "applyStart": "2026-09-23",
-      "applyEnd": "2026-10-07",
-      "prize": "1천만원이하",
-      "officialUrl": "https://www.instagram.com/polloai_kr/p/DdnLr6OE6Iz/",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:350864",
-   "source": "linkareer",
-   "title": "상상을 현실로, AI로 그리는 삼척의 미래",
-   "host": "삼척시청",
-   "url": "https://linkareer.com/activity/350864",
-   "officialUrl": "https://scaif.inov.kr/",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-07",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350864"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111342",
-   "source": "wevity",
-   "title": "영화 예고편 숏폼 챌린지 - 일단에디터 구함",
-   "host": "(주)퓨어글로벌",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111342",
-   "officialUrl": "https://brivyy.co.kr/buzzbox/editor-event",
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-07",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111342",
-     "_detail": {
-      "applyStart": "2026-09-30",
-      "applyEnd": "2026-10-07",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://brivyy.co.kr/buzzbox/editor-event",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "linkareer:343089",
-   "source": "linkareer",
+   "id": "hola:6a8a6311b5748aed45fbf668",
+   "source": "hola",
    "title": "제3회 미래융합인재 발굴 소프트웨어 챌린지",
-   "host": "잡포유",
-   "url": "https://linkareer.com/activity/343089",
+   "host": "과학기술정보통신부, 경산시",
+   "url": "https://holaworld.io/hola-it/6a8a6311b5748aed45fbf668",
    "officialUrl": "https://www.gsia.kr",
-   "applyStart": "2026-08-15",
+   "applyStart": "2026-08-19",
    "applyEnd": "2026-10-07",
-   "postedAt": "2026-08-14",
+   "eventStart": "2026-08-19",
+   "eventEnd": "2026-10-07",
+   "postedAt": "2026-08-23",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/343089"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a8a6311b5748aed45fbf668"
     }
    ],
-   "eventStart": "2026-08-19",
-   "eventEnd": "2026-10-07",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "devevent:https://k-ctf.org/contests/6ab33df611c4d10a23949148",
@@ -3922,6 +3733,39 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111164",
+   "source": "wevity",
+   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
+   "host": "CTS기독교TV",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+   "officialUrl": "https://www.cts.tv/post/2470793",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-10-31",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.cts.tv/post/2470793",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:353451",
