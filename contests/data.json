@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-07T06:02:49.659Z",
+ "generatedAt": "2026-10-07T13:27:15.299Z",
  "today": "2026-10-07",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 133,
-   "fetchedAt": "2026-10-07T06:02:49.634Z"
+   "count": 135,
+   "fetchedAt": "2026-10-07T13:27:15.278Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-07T06:02:49.634Z"
+   "fetchedAt": "2026-10-07T13:27:15.278Z"
   },
   "wevity": {
    "ok": true,
-   "count": 47,
-   "fetchedAt": "2026-10-07T06:02:49.634Z"
+   "count": 45,
+   "fetchedAt": "2026-10-07T13:27:15.278Z"
   },
   "devevent": {
    "ok": true,
    "count": 26,
-   "fetchedAt": "2026-10-07T06:02:49.634Z"
+   "fetchedAt": "2026-10-07T13:27:15.278Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-07T06:02:49.634Z"
+   "fetchedAt": "2026-10-07T13:27:15.278Z"
   }
  },
- "count": 184,
+ "count": 185,
  "items": [
   {
    "id": "hola:6a9d96b4d7320aa75232b2a3",
@@ -3098,6 +3098,32 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:355047",
+   "source": "linkareer",
+   "title": "『2026 SVC Seoul AI 해커톤』 | 하나투어 관광 AI 아이디어 도전",
+   "host": "앤에이솔루션(주)",
+   "url": "https://linkareer.com/activity/355047",
+   "officialUrl": "https://nasolution.co.kr",
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-10-25",
+   "postedAt": "2026-10-06",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355047"
+    }
+   ],
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "linkareer:350244",
    "source": "linkareer",
    "title": "2026 AI 활용 저작권 콘텐츠 공모전",
@@ -3205,32 +3231,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:355261",
-   "source": "linkareer",
-   "title": "[하이라이트TV] 제7회 하이라이트TV AI 공모전",
-   "host": "하이라이트TV",
-   "url": "https://linkareer.com/activity/355261",
-   "officialUrl": "http://highlighttv.co.kr/sub/notice.php?boardid=notice&mode=view&idx=86&sk=&sw=&offset=&category=",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-10-27",
-   "postedAt": "2026-10-07",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/355261"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
    "id": "linkareer:349585",
    "source": "linkareer",
    "title": "2026 대구정원박람회 AI 아트 챌린지",
@@ -3282,6 +3282,36 @@
     }
    ],
    "firstSeen": "2026-10-06"
+  },
+  {
+   "id": "linkareer:355291",
+   "source": "linkareer",
+   "title": "제7회 하이라이트TV AI 공모전",
+   "host": "서울에스티비(주)",
+   "url": "https://linkareer.com/activity/355291",
+   "officialUrl": "http://highlighttv.co.kr/sub/notice.php?boardid=notice&mode=view&idx=86&sk=&sw=&offset=&category=",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-27",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355291"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355261"
+    }
+   ],
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "linkareer:353700",
@@ -3825,24 +3855,28 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:347260",
+   "id": "linkareer:355244",
    "source": "linkareer",
    "title": "[제주관광공사] 2026 제주 관광 데이터 활용사례 공모전(~10/31)",
    "host": "아라한",
-   "url": "https://linkareer.com/activity/347260",
+   "url": "https://linkareer.com/activity/355244",
    "officialUrl": "https://data.ijto.or.kr/bbs/BBSMSTR_000000000080/view.do?nttId=H000000000801Cs2zE7k",
    "applyStart": "2026-09-01",
    "applyEnd": "2026-10-31",
-   "postedAt": "2026-09-01",
+   "postedAt": "2026-10-07",
    "prize": null,
    "place": "온라인",
    "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 창업",
+   "sourceCategory": "창업, 광고/마케팅",
    "tags": [
     "startup",
     "ai"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355244"
+    },
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/347260"
@@ -3854,7 +3888,7 @@
    ],
    "eventStart": "2026-09-01",
    "eventEnd": "2026-10-31",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "wevity:111223",
@@ -3884,39 +3918,6 @@
       "prize": "1천만원이하 · 1등 250천원",
       "officialUrl": "https://www.ijongno.co.kr/www/136?action=read&action-value=106fcd9959f96067785b962b1a65cc24",
       "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111164",
-   "source": "wevity",
-   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
-   "host": "CTS기독교TV",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-   "officialUrl": "https://www.cts.tv/post/2470793",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-31",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.cts.tv/post/2470793",
-      "target": "일반인, 대학생, 기타"
      }
     }
    ],
@@ -4658,19 +4659,44 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111132",
-   "source": "wevity",
+   "id": "linkareer:355217",
+   "source": "linkareer",
+   "title": "[한국어촌어항공단] 2026 청년 어촌창업 아이디어 공모전",
+   "host": "㈜모라비안앤코",
+   "url": "https://linkareer.com/activity/355217",
+   "officialUrl": "https://www.moravian.co.kr/",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-11-08",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355217"
+    }
+   ],
+   "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "linkareer:351976",
+   "source": "linkareer",
    "title": "2026 대한지방행정공제회 생성형 AI 콘텐츠 공모전",
    "host": "대한지방행정공제회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111132",
-   "officialUrl": "https://www.poba.or.kr/bbs/selectNttDetail?sechBbsSeq=10&sechBbstSeq=97367&sechWrdTySeCd=T&sechWrd=",
-   "applyStart": "2026-09-14",
+   "url": "https://linkareer.com/activity/351976",
+   "officialUrl": null,
+   "applyStart": "2026-09-18",
    "applyEnd": "2026-11-08",
    "postedAt": "2026-09-18",
-   "prize": "1천만원이하 · 1등 150만원",
+   "prize": null,
    "place": null,
-   "target": "기타",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
    "tags": [
     "ai",
     "video"
@@ -4679,20 +4705,9 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/351976"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111132",
-     "_detail": {
-      "applyStart": "2026-09-14",
-      "applyEnd": "2026-11-08",
-      "prize": "1천만원이하 · 1등 150만원",
-      "officialUrl": "https://www.poba.or.kr/bbs/selectNttDetail?sechBbsSeq=10&sechBbstSeq=97367&sechWrdTySeCd=T&sechWrd=",
-      "target": "기타"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "linkareer:351460",
