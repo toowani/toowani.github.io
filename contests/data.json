@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-06T18:24:05.153Z",
+ "generatedAt": "2026-10-07T06:02:49.659Z",
  "today": "2026-10-07",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 131,
-   "fetchedAt": "2026-10-06T18:24:05.130Z"
+   "count": 133,
+   "fetchedAt": "2026-10-07T06:02:49.634Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-06T18:24:05.130Z"
+   "fetchedAt": "2026-10-07T06:02:49.634Z"
   },
   "wevity": {
    "ok": true,
    "count": 47,
-   "fetchedAt": "2026-10-06T18:24:05.130Z"
+   "fetchedAt": "2026-10-07T06:02:49.634Z"
   },
   "devevent": {
    "ok": true,
    "count": 26,
-   "fetchedAt": "2026-10-06T18:24:05.130Z"
+   "fetchedAt": "2026-10-07T06:02:49.634Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-06T18:24:05.130Z"
+   "fetchedAt": "2026-10-07T06:02:49.634Z"
   }
  },
- "count": 182,
+ "count": 184,
  "items": [
   {
    "id": "hola:6a9d96b4d7320aa75232b2a3",
@@ -3035,6 +3035,32 @@
    "firstSeen": "2026-09-29"
   },
   {
+   "id": "linkareer:355264",
+   "source": "linkareer",
+   "title": "[강릉과학산업진흥원] 2026 강원SW미래채움 AI 디지털 인재 페스티벌",
+   "host": "강릉과학산업진흥원",
+   "url": "https://linkareer.com/activity/355264",
+   "officialUrl": "https://www.gsipa.or.kr/",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-25",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "청소년, 직장인/일반인",
+   "sourceCategory": "전시/페스티벌, 과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355264"
+    }
+   ],
+   "firstSeen": "2026-10-07"
+  },
+  {
    "id": "wevity:111290",
    "source": "wevity",
    "title": "[드론플레이x곰랩] 드론 영상•사진 공모전",
@@ -3070,32 +3096,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:355047",
-   "source": "linkareer",
-   "title": "『2026 SVC Seoul AI 해커톤』 | 관광 AI 아이디어 도전",
-   "host": "앤에이솔루션(주)",
-   "url": "https://linkareer.com/activity/355047",
-   "officialUrl": "https://nasolution.co.kr",
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-10-25",
-   "postedAt": "2026-10-06",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/355047"
-    }
-   ],
-   "firstSeen": "2026-10-07"
   },
   {
    "id": "linkareer:350244",
@@ -3203,6 +3203,32 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:355261",
+   "source": "linkareer",
+   "title": "[하이라이트TV] 제7회 하이라이트TV AI 공모전",
+   "host": "하이라이트TV",
+   "url": "https://linkareer.com/activity/355261",
+   "officialUrl": "http://highlighttv.co.kr/sub/notice.php?boardid=notice&mode=view&idx=86&sk=&sw=&offset=&category=",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-27",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355261"
+    }
+   ],
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "linkareer:349585",
@@ -3955,6 +3981,32 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:355331",
+   "source": "linkareer",
+   "title": "AI 뮤직비디오 제작 이벤트 <모두의 프로듀서>",
+   "host": "한국정보통신기술협회",
+   "url": "https://linkareer.com/activity/355331",
+   "officialUrl": "https://www.tta.or.kr/tta",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355331"
+    }
+   ],
+   "firstSeen": "2026-10-07"
   },
   {
    "id": "linkareer:348838",
