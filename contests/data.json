@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-07T23:07:09.179Z",
+ "generatedAt": "2026-10-08T06:07:43.188Z",
  "today": "2026-10-08",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 129,
-   "fetchedAt": "2026-10-07T23:07:09.153Z"
+   "count": 131,
+   "fetchedAt": "2026-10-08T06:07:43.163Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-07T23:07:09.153Z"
+   "fetchedAt": "2026-10-08T06:07:43.164Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-07T23:07:09.153Z"
+   "fetchedAt": "2026-10-08T06:07:43.164Z"
   },
   "devevent": {
    "ok": true,
    "count": 26,
-   "fetchedAt": "2026-10-07T23:07:09.153Z"
+   "fetchedAt": "2026-10-08T06:07:43.164Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 13,
-   "fetchedAt": "2026-10-07T23:07:09.153Z"
+   "count": 14,
+   "fetchedAt": "2026-10-08T06:07:43.164Z"
   }
  },
- "count": 180,
+ "count": 183,
  "items": [
   {
    "id": "hola:6a9d96b4d7320aa75232b2a3",
@@ -256,32 +256,6 @@
     {
      "source": "devevent",
      "url": "https://k-ctf.org/contests/6ab33df611c4d10a23949148"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179328",
-   "source": "kstartup",
-   "title": "2026 서초AICT 데모데이 참가기업 모집 공고",
-   "host": "서초AICT운영센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179328",
-   "officialUrl": null,
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-08",
-   "postedAt": "2026-09-28",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "지자체, 행사ㆍ네트워크",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179328"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -3588,6 +3562,31 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:355412",
+   "source": "linkareer",
+   "title": "초광역 외 유입인력 장려금 지원사업 참여 근로자 모집 공고",
+   "host": "전자신문 영남권본부",
+   "url": "https://linkareer.com/activity/355412",
+   "officialUrl": null,
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "직장인/일반인",
+   "sourceCategory": "창업, 기타",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355412"
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "linkareer:347584",
    "source": "linkareer",
    "title": "[과학기술정보통신부] 전국민 AI활용 사례 공모전 시즌 3",
@@ -4082,6 +4081,32 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:355523",
+   "source": "linkareer",
+   "title": "제28회 말 사진·AI 이미지 공모전 「찰나의 말, 영원한 이야기」",
+   "host": "한국마사회",
+   "url": "https://linkareer.com/activity/355523",
+   "officialUrl": null,
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355523"
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "linkareer:343483",
    "source": "linkareer",
    "title": "제5회 기아 PBV 아이디어 공모전",
@@ -4503,31 +4528,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:355217",
-   "source": "linkareer",
-   "title": "[한국어촌어항공단] 2026 청년 어촌창업 아이디어 공모전",
-   "host": "㈜모라비안앤코",
-   "url": "https://linkareer.com/activity/355217",
-   "officialUrl": "https://www.moravian.co.kr/",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-07",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/355217"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
    "id": "linkareer:351976",
    "source": "linkareer",
    "title": "2026 대한지방행정공제회 생성형 AI 콘텐츠 공모전",
@@ -4582,6 +4582,56 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "kstartup:179448",
+   "source": "kstartup",
+   "title": "2026년 청년 어촌창업 아이디어 공모전",
+   "host": "한국어촌어항공단",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448",
+   "officialUrl": null,
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-11-08",
+   "postedAt": "2026-10-08",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 사업화",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "id": "kstartup:179447",
+   "source": "kstartup",
+   "title": "의정부 FIT데이(Demo Day) 2회차 기업 모집 공고",
+   "host": "경기창조경제혁신센터",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447",
+   "officialUrl": null,
+   "applyStart": "2026-10-08",
+   "applyEnd": "2026-11-08",
+   "postedAt": "2026-10-08",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 행사ㆍ네트워크",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447"
+    }
+   ],
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "hola:6a60d0194e4a0d457b180963",
@@ -4984,6 +5034,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:355507",
+   "source": "linkareer",
+   "title": "제2회 AI전자그림책 공모전 'AI 이야기 숲'",
+   "host": "사단법인 한국독서문화재단",
+   "url": "https://linkareer.com/activity/355507",
+   "officialUrl": null,
+   "applyStart": "2026-11-02",
+   "applyEnd": "2026-11-16",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "문학/시나리오",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355507"
+    }
+   ],
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:334310",
