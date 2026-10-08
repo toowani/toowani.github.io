@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-08T06:07:43.188Z",
+ "generatedAt": "2026-10-08T13:33:04.418Z",
  "today": "2026-10-08",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 131,
-   "fetchedAt": "2026-10-08T06:07:43.163Z"
+   "count": 133,
+   "fetchedAt": "2026-10-08T13:33:04.391Z"
   },
   "hola": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-10-08T06:07:43.164Z"
+   "fetchedAt": "2026-10-08T13:33:04.392Z"
   },
   "wevity": {
    "ok": true,
-   "count": 43,
-   "fetchedAt": "2026-10-08T06:07:43.164Z"
+   "count": 44,
+   "fetchedAt": "2026-10-08T13:33:04.392Z"
   },
   "devevent": {
    "ok": true,
-   "count": 26,
-   "fetchedAt": "2026-10-08T06:07:43.164Z"
+   "count": 25,
+   "fetchedAt": "2026-10-08T13:33:04.392Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-10-08T06:07:43.164Z"
+   "count": 13,
+   "fetchedAt": "2026-10-08T13:33:04.392Z"
   }
  },
  "count": 183,
@@ -54,10 +54,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a9d96b4d7320aa75232b2a3"
-    },
-    {
-     "source": "devevent",
-     "url": "https://aifactory.space/ko/page/knps"
     }
    ],
    "firstSeen": "2026-10-07"
@@ -153,60 +149,6 @@
    "firstSeen": "2026-10-08"
   },
   {
-   "id": "devevent:https://k-ctf.org/contests/6aaba42311c4d10a2394911e",
-   "source": "devevent",
-   "title": "2026 제2회 영남권 사이버 공격 방어 대회",
-   "host": "한국동서발전 / 국가정보원 외",
-   "url": "https://k-ctf.org/contests/6aaba42311c4d10a2394911e",
-   "officialUrl": "https://k-ctf.org/contests/6aaba42311c4d10a2394911e",
-   "applyStart": "2026-09-11",
-   "applyEnd": "2026-10-07",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, 기술일반",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://k-ctf.org/contests/6aaba42311c4d10a2394911e"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "devevent:https://maplestoryworlds.nexon.com/events/ko/2026globalcontest",
-   "source": "devevent",
-   "title": "MapleStory Worlds 글로벌 개발 콘테스트 2026",
-   "host": "넥슨코리아",
-   "url": "https://maplestoryworlds.nexon.com/events/ko/2026globalcontest",
-   "officialUrl": "https://maplestoryworlds.nexon.com/events/ko/2026globalcontest",
-   "applyStart": "2026-06-04",
-   "applyEnd": "2026-10-07",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://maplestoryworlds.nexon.com/events/ko/2026globalcontest"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "hola:6a8a6311b5748aed45fbf668",
    "source": "hola",
    "title": "제3회 미래융합인재 발굴 소프트웨어 챌린지",
@@ -292,32 +234,6 @@
       "officialUrl": "https://app.notion.com/p/2026-3dd73725d49e80e59cbbc509af77bf74",
       "target": "대학생"
      }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179309",
-   "source": "kstartup",
-   "title": "2026 제10회 G밸리창업경진대회 참가기업 모집",
-   "host": "비디씨엑셀러레이터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179309",
-   "officialUrl": null,
-   "applyStart": "2026-09-18",
-   "applyEnd": "2026-10-08",
-   "postedAt": "2026-09-21",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179309"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -1882,6 +1798,34 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "devevent:https://luma.com/2guk5d34",
+   "source": "devevent",
+   "title": "YUMITHON — 맛집 검색부터 예약까지, 헤이유미 MCP로 만드는 새로운 앱·서비스",
+   "host": "헤이유미 (주식회사 하이드미플리즈)",
+   "url": "https://luma.com/2guk5d34",
+   "officialUrl": "https://luma.com/2guk5d34",
+   "applyStart": null,
+   "applyEnd": "2026-10-17",
+   "eventStart": "2026-10-17",
+   "eventEnd": "2026-10-17",
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(서울 중구)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://luma.com/2guk5d34"
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "linkareer:351309",
    "source": "linkareer",
    "title": "「2026 별별화성 Awards」화성특례시 AI CF 공모전",
@@ -2337,6 +2281,34 @@
     }
    ],
    "firstSeen": "2026-10-02"
+  },
+  {
+   "id": "devevent:https://event-us.kr/aicslaunch2025/event/136861",
+   "source": "devevent",
+   "title": "2026 청년취업사관학교 해커톤",
+   "host": "서울특별시 / 서울경제진흥원(SBA)",
+   "url": "https://event-us.kr/aicslaunch2025/event/136861",
+   "officialUrl": "https://event-us.kr/aicslaunch2025/event/136861",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-20",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/aicslaunch2025/event/136861"
+    }
+   ],
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:354161",
@@ -2935,6 +2907,39 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "wevity:111550",
+   "source": "wevity",
+   "title": "2026 초·중·고 AI 디지털콘텐츠 경진대회",
+   "host": "연암공과대학교",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111550",
+   "officialUrl": "https://thinkai.yc.ac.kr",
+   "applyStart": "2026-10-05",
+   "applyEnd": "2026-10-25",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "청소년, 어린이",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111550",
+     "_detail": {
+      "applyStart": "2026-10-05",
+      "applyEnd": "2026-10-25",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://thinkai.yc.ac.kr",
+      "target": "청소년, 어린이"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "devevent:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
    "source": "devevent",
    "title": "AI Platform Build Challenge 예선",
@@ -3069,19 +3074,19 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "linkareer:355291",
-   "source": "linkareer",
+   "id": "wevity:111553",
+   "source": "wevity",
    "title": "제7회 하이라이트TV AI 공모전",
-   "host": "서울에스티비(주)",
-   "url": "https://linkareer.com/activity/355291",
-   "officialUrl": "http://highlighttv.co.kr/sub/notice.php?boardid=notice&mode=view&idx=86&sk=&sw=&offset=&category=",
+   "host": "하이라이트TV",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111553",
+   "officialUrl": "http://highlighttv.co.kr/sub/contest.php",
    "applyStart": "2026-10-07",
    "applyEnd": "2026-10-27",
    "postedAt": "2026-10-07",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 300만원",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
    "tags": [
     "ai",
     "video"
@@ -3094,9 +3099,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/355261"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111553",
+     "_detail": {
+      "applyStart": "2026-10-07",
+      "applyEnd": "2026-10-27",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "http://highlighttv.co.kr/sub/contest.php",
+      "target": "제한없음"
+     }
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:353700",
@@ -3732,39 +3748,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111164",
-   "source": "wevity",
-   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
-   "host": "CTS기독교TV",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-   "officialUrl": "https://www.cts.tv/post/2470793",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-31",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.cts.tv/post/2470793",
-      "target": "일반인, 대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:353451",
@@ -4492,6 +4475,31 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:355771",
+   "source": "linkareer",
+   "title": "구름톤 아레나 2026 — 전국 프로그래밍 챔피언십 안내",
+   "host": "주식회사 구름",
+   "url": "https://linkareer.com/activity/355771",
+   "officialUrl": "https://raphael-at-goorm.github.io/goormthon-arena-2026/",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-11-06",
+   "postedAt": "2026-10-08",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355771"
+    }
+   ],
+   "firstSeen": "2026-10-08"
+  },
+  {
    "id": "wevity:111087",
    "source": "wevity",
    "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
@@ -4526,6 +4534,35 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:355217",
+   "source": "linkareer",
+   "title": "[한국어촌어항공단] 2026 청년 어촌창업 아이디어 공모전",
+   "host": "㈜모라비안앤코",
+   "url": "https://linkareer.com/activity/355217",
+   "officialUrl": "https://co-vill.imweb.me/",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-11-08",
+   "postedAt": "2026-10-07",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355217"
+    },
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
+    }
+   ],
+   "firstSeen": "2026-10-08"
   },
   {
    "id": "linkareer:351976",
@@ -4582,31 +4619,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179448",
-   "source": "kstartup",
-   "title": "2026년 청년 어촌창업 아이디어 공모전",
-   "host": "한국어촌어항공단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448",
-   "officialUrl": null,
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-08",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 사업화",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
-    }
-   ],
-   "firstSeen": "2026-10-08"
   },
   {
    "id": "kstartup:179447",
