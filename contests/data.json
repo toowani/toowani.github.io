@@ -1,118 +1,35 @@
 {
- "generatedAt": "2026-10-08T13:33:04.418Z",
- "today": "2026-10-08",
+ "generatedAt": "2026-10-08T23:22:45.635Z",
+ "today": "2026-10-09",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 133,
-   "fetchedAt": "2026-10-08T13:33:04.391Z"
+   "count": 130,
+   "fetchedAt": "2026-10-08T23:22:45.612Z"
   },
   "hola": {
    "ok": true,
-   "count": 35,
-   "fetchedAt": "2026-10-08T13:33:04.392Z"
+   "count": 32,
+   "fetchedAt": "2026-10-08T23:22:45.612Z"
   },
   "wevity": {
    "ok": true,
-   "count": 44,
-   "fetchedAt": "2026-10-08T13:33:04.392Z"
+   "count": 43,
+   "fetchedAt": "2026-10-08T23:22:45.612Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-08T13:33:04.392Z"
+   "fetchedAt": "2026-10-08T23:22:45.612Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-08T13:33:04.392Z"
+   "fetchedAt": "2026-10-08T23:22:45.612Z"
   }
  },
- "count": 183,
+ "count": 179,
  "items": [
-  {
-   "id": "hola:6a9d96b4d7320aa75232b2a3",
-   "source": "hola",
-   "title": "2026 국립공원 위성 모니터링 AI 챌린지",
-   "host": "국립공원공단",
-   "url": "https://holaworld.io/hola-it/6a9d96b4d7320aa75232b2a3",
-   "officialUrl": "https://aifactory.space/ko/page/knps",
-   "applyStart": "2026-07-31",
-   "applyEnd": "2026-10-06",
-   "eventStart": "2026-07-31",
-   "eventEnd": "2026-10-06",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d96b4d7320aa75232b2a3"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "hola:6aae271efdf75b86efb99ea9",
-   "source": "hola",
-   "title": "2026 마포 청년 창업 아이디어 경진대회 MAPO NEXT STAGE",
-   "host": "마포청년창업취업지원센터 나루",
-   "url": "https://holaworld.io/hola-it/6aae271efdf75b86efb99ea9",
-   "officialUrl": "https://www.naroo.or.kr/bbs/board.php?bo_table=notice_01&wr_id=276",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-06",
-   "eventStart": "2026-09-14",
-   "eventEnd": "2026-10-06",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae271efdf75b86efb99ea9"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "hola:6ac125ddee012963f812bef7",
-   "source": "hola",
-   "title": "2026년 모두의 AI 라운지 거점 운영 사업 (수도권) <마이 AI 랩>",
-   "host": "주최: 과학기술정보통신부, 한국지능정보사회진흥원(NIA)",
-   "url": "https://holaworld.io/hola-it/6ac125ddee012963f812bef7",
-   "officialUrl": "http://www.krmedia.org/pages/news.php?act_module=board_board_2&act_type=read&sn=11102&page=1",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-06",
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-10-06",
-   "postedAt": "2026-10-04",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ac125ddee012963f812bef7"
-    }
-   ],
-   "firstSeen": "2026-10-04"
-  },
   {
    "id": "hola:6a7d1c8fbcb0b5b2e753719b",
    "source": "hola",
@@ -203,111 +120,31 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111218",
-   "source": "wevity",
-   "title": "2026 수영 로컬 콘텐츠 개발 경진대회 (공모전)",
-   "host": "수영구청",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111218",
-   "officialUrl": "https://app.notion.com/p/2026-3dd73725d49e80e59cbbc509af77bf74",
-   "applyStart": "2026-09-22",
-   "applyEnd": "2026-10-08",
-   "postedAt": "2026-09-22",
-   "prize": "3천만원~1천만원 · 1등 400만원",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352677"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111218",
-     "_detail": {
-      "applyStart": "2026-09-22",
-      "applyEnd": "2026-10-08",
-      "prize": "3천만원~1천만원 · 1등 400만원",
-      "officialUrl": "https://app.notion.com/p/2026-3dd73725d49e80e59cbbc509af77bf74",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:340055",
-   "source": "linkareer",
-   "title": "2026 제9회 핀테크 아이디어 공모전",
-   "host": "금융위원회 핀테크지원센터",
-   "url": "https://linkareer.com/activity/340055",
-   "officialUrl": null,
-   "applyStart": "2026-08-03",
-   "applyEnd": "2026-10-08",
-   "postedAt": "2026-08-03",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/340055"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "wevity:110696",
-   "source": "wevity",
+   "id": "hola:6aa751dd847411b719e2e55d",
+   "source": "hola",
    "title": "2026년 전통시장 디지털 혁신 아이디어 공모전",
    "host": "서울지방중소벤처기업청·소상공인시장진흥공단·두나무",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110696",
-   "officialUrl": "https://mss.go.kr/site/seoul/ex/bbs/View.do?cbIdx=146&bcIdx=1070847",
+   "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e55d",
+   "officialUrl": "https://www.sbiz24.kr/#/cmmn/gnrl/bbs/4/25512?aditFieldNm1&pstTtl=%EA%B3%B5%EB%AA%A8%EC%A0%84&mySearch=N",
    "applyStart": "2026-08-31",
    "applyEnd": "2026-10-08",
-   "postedAt": "2026-09-29",
-   "prize": "1천만원이하 · 1등 300만원",
+   "eventStart": "2026-08-31",
+   "eventEnd": "2026-10-08",
+   "postedAt": "2026-09-14",
+   "prize": null,
    "place": "온라인",
-   "target": "기타",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
-   "eventStart": "2026-08-31",
-   "eventEnd": "2026-10-08",
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353572"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349041"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e55d"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110696",
-     "_detail": {
-      "applyStart": "2026-08-31",
-      "applyEnd": "2026-10-08",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://mss.go.kr/site/seoul/ex/bbs/View.do?cbIdx=146&bcIdx=1070847",
-      "target": "기타"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "kstartup:179265",
@@ -1652,6 +1489,38 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "wevity:111459",
+   "source": "wevity",
+   "title": "2026 KSMS 추계 인천국제공항공사 대학생 아이디어 경진대회",
+   "host": "사단법인 한국서비스경영학회",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111459",
+   "officialUrl": "https://koreaservice.or.kr/board/mainboard/article/285093",
+   "applyStart": "2026-09-17",
+   "applyEnd": "2026-10-16",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111459",
+     "_detail": {
+      "applyStart": "2026-09-17",
+      "applyEnd": "2026-10-16",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://koreaservice.or.kr/board/mainboard/article/285093",
+      "target": "대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "linkareer:348257",
