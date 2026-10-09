@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-09T06:11:37.036Z",
+ "generatedAt": "2026-10-09T13:20:10.821Z",
  "today": "2026-10-09",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 130,
-   "fetchedAt": "2026-10-09T06:11:37.018Z"
+   "count": 131,
+   "fetchedAt": "2026-10-09T13:20:10.803Z"
   },
   "hola": {
    "ok": true,
    "count": 32,
-   "fetchedAt": "2026-10-09T06:11:37.018Z"
+   "fetchedAt": "2026-10-09T13:20:10.803Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-09T06:11:37.019Z"
+   "fetchedAt": "2026-10-09T13:20:10.803Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-09T06:11:37.019Z"
+   "fetchedAt": "2026-10-09T13:20:10.803Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-09T06:11:37.019Z"
+   "fetchedAt": "2026-10-09T13:20:10.803Z"
   }
  },
- "count": 179,
+ "count": 180,
  "items": [
   {
    "id": "hola:6a7d1c8fbcb0b5b2e753719b",
@@ -2835,6 +2835,32 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "linkareer:355879",
+   "source": "linkareer",
+   "title": "2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤",
+   "host": "마이스플랜즈",
+   "url": "https://linkareer.com/activity/355879",
+   "officialUrl": "https://www.aimobilhack.com/",
+   "applyStart": "2026-10-09",
+   "applyEnd": "2026-10-26",
+   "postedAt": "2026-10-09",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355879"
+    }
+   ],
+   "firstSeen": "2026-10-09"
   },
   {
    "id": "devevent:https://www.bigcontest.or.kr/",
