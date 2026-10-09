@@ -1,97 +1,35 @@
 {
- "generatedAt": "2026-10-09T13:20:10.821Z",
- "today": "2026-10-09",
+ "generatedAt": "2026-10-09T22:40:18.990Z",
+ "today": "2026-10-10",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 131,
-   "fetchedAt": "2026-10-09T13:20:10.803Z"
+   "count": 129,
+   "fetchedAt": "2026-10-09T22:40:18.971Z"
   },
   "hola": {
    "ok": true,
-   "count": 32,
-   "fetchedAt": "2026-10-09T13:20:10.803Z"
+   "count": 30,
+   "fetchedAt": "2026-10-09T22:40:18.971Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-09T13:20:10.803Z"
+   "fetchedAt": "2026-10-09T22:40:18.971Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-09T13:20:10.803Z"
+   "fetchedAt": "2026-10-09T22:40:18.971Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 13,
-   "fetchedAt": "2026-10-09T13:20:10.803Z"
+   "count": 12,
+   "fetchedAt": "2026-10-09T22:40:18.971Z"
   }
  },
- "count": 180,
+ "count": 175,
  "items": [
-  {
-   "id": "hola:6a7d1c8fbcb0b5b2e753719b",
-   "source": "hola",
-   "title": "[넥슨] 메이플스토리 글로벌 개발 콘테스트 (MapleStory Global Creator Challenge)",
-   "host": "넥슨",
-   "url": "https://holaworld.io/hola-it/6a7d1c8fbcb0b5b2e753719b",
-   "officialUrl": "https://abr.ge/bjkgcx",
-   "applyStart": "2026-06-04",
-   "applyEnd": "2026-10-07",
-   "eventStart": "2026-06-04",
-   "eventEnd": "2026-10-07",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a7d1c8fbcb0b5b2e753719b"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a79cb709e53088cf12cf735"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a2100212b670e246e8a9943"
-    }
-   ],
-   "firstSeen": "2026-10-08"
-  },
-  {
-   "id": "hola:6a8a6311b5748aed45fbf668",
-   "source": "hola",
-   "title": "제3회 미래융합인재 발굴 소프트웨어 챌린지",
-   "host": "과학기술정보통신부, 경산시",
-   "url": "https://holaworld.io/hola-it/6a8a6311b5748aed45fbf668",
-   "officialUrl": "https://www.gsia.kr",
-   "applyStart": "2026-08-19",
-   "applyEnd": "2026-10-07",
-   "eventStart": "2026-08-19",
-   "eventEnd": "2026-10-07",
-   "postedAt": "2026-08-23",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a8a6311b5748aed45fbf668"
-    }
-   ],
-   "firstSeen": "2026-10-08"
-  },
   {
    "id": "devevent:https://k-ctf.org/contests/6ab33df611c4d10a23949148",
    "source": "devevent",
@@ -145,81 +83,6 @@
     }
    ],
    "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "kstartup:179265",
-   "source": "kstartup",
-   "title": "2026-11회 호남권 엔젤투자 피칭룸 in 전남광주",
-   "host": "한국엔젤투자협회",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179265",
-   "officialUrl": null,
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-09",
-   "postedAt": "2026-09-17",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179265"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:353008",
-   "source": "linkareer",
-   "title": "디자인-부산2026 <디자인해커톤> 참가자 모집",
-   "host": "부산광역시",
-   "url": "https://linkareer.com/activity/353008",
-   "officialUrl": null,
-   "applyStart": "2026-09-24",
-   "applyEnd": "2026-10-09",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "디자인/순수미술/공예",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353008"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:351992",
-   "source": "linkareer",
-   "title": "제32회 전국 창의성 IT코딩 경시대회",
-   "host": "사단법인 한국학원총연합회 경기도지회",
-   "url": "https://linkareer.com/activity/351992",
-   "officialUrl": null,
-   "applyStart": "2026-09-18",
-   "applyEnd": "2026-10-09",
-   "postedAt": "2026-09-18",
-   "prize": null,
-   "place": null,
-   "target": "청소년, 대학생",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351992"
-    }
-   ],
-   "firstSeen": "2026-09-28"
   },
   {
    "id": "linkareer:335523",
