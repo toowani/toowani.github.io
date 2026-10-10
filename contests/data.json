@@ -1,165 +1,67 @@
 {
- "generatedAt": "2026-10-10T12:34:53.100Z",
- "today": "2026-10-10",
+ "generatedAt": "2026-10-10T21:46:41.630Z",
+ "today": "2026-10-11",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 129,
-   "fetchedAt": "2026-10-10T12:34:52.935Z"
+   "count": 127,
+   "fetchedAt": "2026-10-10T21:46:41.604Z"
   },
   "hola": {
    "ok": true,
-   "count": 30,
-   "fetchedAt": "2026-10-10T12:34:52.935Z"
+   "count": 29,
+   "fetchedAt": "2026-10-10T21:46:41.604Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-10T12:34:52.935Z"
+   "fetchedAt": "2026-10-10T21:46:41.604Z"
   },
   "devevent": {
    "ok": true,
-   "count": 25,
-   "fetchedAt": "2026-10-10T12:34:52.935Z"
+   "count": 24,
+   "fetchedAt": "2026-10-10T21:46:41.604Z"
   },
   "kstartup": {
    "ok": true,
    "count": 12,
-   "fetchedAt": "2026-10-10T12:34:52.935Z"
+   "fetchedAt": "2026-10-10T21:46:41.604Z"
   }
  },
- "count": 175,
+ "count": 173,
  "items": [
   {
-   "id": "devevent:https://k-ctf.org/contests/6ab33df611c4d10a23949148",
-   "source": "devevent",
-   "title": "2026 ELECCON",
-   "host": "한국전력공사 외",
-   "url": "https://k-ctf.org/contests/6ab33df611c4d10a23949148",
-   "officialUrl": "https://k-ctf.org/contests/6ab33df611c4d10a23949148",
-   "applyStart": "2026-09-28",
-   "applyEnd": "2026-10-08",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, 기술일반",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://k-ctf.org/contests/6ab33df611c4d10a23949148"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6aa751dd847411b719e2e55d",
+   "id": "hola:6abe8b20ee012963f80ebe3e",
    "source": "hola",
-   "title": "2026년 전통시장 디지털 혁신 아이디어 공모전",
-   "host": "서울지방중소벤처기업청·소상공인시장진흥공단·두나무",
-   "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e55d",
-   "officialUrl": "https://www.sbiz24.kr/#/cmmn/gnrl/bbs/4/25512?aditFieldNm1&pstTtl=%EA%B3%B5%EB%AA%A8%EC%A0%84&mySearch=N",
-   "applyStart": "2026-08-31",
-   "applyEnd": "2026-10-08",
-   "eventStart": "2026-08-31",
-   "eventEnd": "2026-10-08",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751dd847411b719e2e55d"
-    }
-   ],
-   "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "linkareer:335523",
-   "source": "linkareer",
-   "title": "[Muzig AI] AI 음악·BGM 공모전",
-   "host": "아티움그룹 주식회사 (Muzig AI)",
-   "url": "https://linkareer.com/activity/335523",
-   "officialUrl": "https://muzig.ai/",
-   "applyStart": "2026-07-14",
-   "applyEnd": "2026-10-10",
-   "postedAt": "2026-07-14",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 예체능/패션",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/335523"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111322",
-   "source": "wevity",
    "title": "[서울대학교 창업지원단·H1R AI] 2026 SNU X Croche AI 앱 해커톤",
-   "host": "하이어에이아이",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111322",
+   "host": "하이어에이아이 / 서울대학교 창업지원단",
+   "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e",
    "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-10-10",
-   "postedAt": "2026-09-29",
-   "prize": "1천만원이하 · 1등 500만원",
-   "place": "오프라인",
-   "target": "대학생",
-   "sourceCategory": "웹/모바일/IT, 취업/창업",
-   "tags": [
-    "ai",
-    "dev",
-    "startup"
-   ],
    "eventStart": "2026-09-21",
    "eventEnd": "2026-10-10",
+   "postedAt": "2026-10-02",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai",
+    "startup"
+   ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353594"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353364"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e"
     },
     {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111322",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-10",
-      "prize": "1천만원이하 · 1등 500만원",
-      "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
-      "target": "대학생"
-     }
-    },
-    {
      "source": "devevent",
      "url": "https://linkareer.com/activity/353364"
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "wevity:110898",
@@ -3506,6 +3408,39 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111164",
+   "source": "wevity",
+   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
+   "host": "CTS기독교TV",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+   "officialUrl": "https://www.cts.tv/post/2470793",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-10-31",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.cts.tv/post/2470793",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:353451",
