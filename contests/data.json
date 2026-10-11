@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-11T12:53:15.036Z",
- "today": "2026-10-11",
+ "generatedAt": "2026-10-11T21:59:56.193Z",
+ "today": "2026-10-12",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 128,
-   "fetchedAt": "2026-10-11T12:53:14.992Z"
+   "count": 121,
+   "fetchedAt": "2026-10-11T21:59:56.170Z"
   },
   "hola": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-11T12:53:14.992Z"
+   "fetchedAt": "2026-10-11T21:59:56.170Z"
   },
   "wevity": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-10-11T12:53:14.992Z"
+   "count": 41,
+   "fetchedAt": "2026-10-11T21:59:56.170Z"
   },
   "devevent": {
    "ok": true,
    "count": 24,
-   "fetchedAt": "2026-10-11T12:53:14.992Z"
+   "fetchedAt": "2026-10-11T21:59:56.170Z"
   },
   "kstartup": {
    "ok": true,
    "count": 12,
-   "fetchedAt": "2026-10-11T12:53:14.992Z"
+   "fetchedAt": "2026-10-11T21:59:56.170Z"
   }
  },
- "count": 178,
+ "count": 173,
  "items": [
   {
    "id": "hola:6acb3e06ee012963f81ccbad",
@@ -68,147 +68,32 @@
    "firstSeen": "2026-10-11"
   },
   {
-   "id": "wevity:110898",
-   "source": "wevity",
-   "title": "[KOICA] 2026 인도적 지원 청년・대학생 아이디어 경진대회",
-   "host": "KOICA",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110898",
-   "officialUrl": "https://idea4betterworld.kr/",
-   "applyStart": "2026-09-11",
+   "id": "hola:6aae271ffdf75b86efb99eb3",
+   "source": "hola",
+   "title": "2026년 DMC 이노베이션 캠프 창업경진대회(DMC2026)",
+   "host": "(재)DMC산학진흥재단/(사)디엠씨코넷",
+   "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eb3",
+   "officialUrl": "https://dmcportal.kr/dic",
+   "applyStart": "2026-09-15",
    "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-12",
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "대학생, 기타",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350236"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350194"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110898",
-     "_detail": {
-      "applyStart": "2026-09-11",
-      "applyEnd": "2026-10-11",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://idea4betterworld.kr/",
-      "target": "대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:352461",
-   "source": "linkareer",
-   "title": "2026년 DMC이노베이션캠프 창업경진대회(DIC2026)",
-   "host": "(재)DMC산학진흥재단",
-   "url": "https://linkareer.com/activity/352461",
-   "officialUrl": "https://dmcportal.kr/",
-   "applyStart": "2026-09-22",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-22",
+   "eventStart": "2026-09-15",
+   "eventEnd": "2026-10-11",
+   "postedAt": "2026-09-19",
    "prize": null,
    "place": "오프라인",
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "창업, 기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
-    "startup",
-    "dev"
+    "dev",
+    "startup"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352461"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350925"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eb3"
     }
    ],
-   "eventStart": "2026-09-15",
-   "eventEnd": "2026-10-11",
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348715",
-   "source": "linkareer",
-   "title": "2026년 서울 영테크 공모전",
-   "host": "서울경제진흥원",
-   "url": "https://linkareer.com/activity/348715",
-   "officialUrl": "http://sba-youngtech.co.kr/",
-   "applyStart": "2026-09-07",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 문학/시나리오",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348715"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348661"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111461",
-   "source": "wevity",
-   "title": "4.16생명안전비엔날레 생명안전 AI숏폼 공모전",
-   "host": "4.16재단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111461",
-   "officialUrl": "https://416foundation.org/notice/?uid=3604&mod=document",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-10-06",
-   "prize": "1천만원이하 · 1등 30만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354979"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111461",
-     "_detail": {
-      "applyStart": "2026-09-29",
-      "applyEnd": "2026-10-11",
-      "prize": "1천만원이하 · 1등 30만원",
-      "officialUrl": "https://416foundation.org/notice/?uid=3604&mod=document",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-05"
+   "firstSeen": "2026-10-12"
   },
   {
    "id": "hola:6aba73e3ee012963f80a4be7",
@@ -240,104 +125,6 @@
     }
    ],
    "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "linkareer:353536",
-   "source": "linkareer",
-   "title": "orhena AI 콘테스트 (주제 자유)",
-   "host": "orhena",
-   "url": "https://linkareer.com/activity/353536",
-   "officialUrl": "https://orhena.com/contest",
-   "applyStart": "2026-09-27",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-29",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 디자인/순수미술/공예",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353536"
-    }
-   ],
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "wevity:111356",
-   "source": "wevity",
-   "title": "나만의 한우 즐기는법 챌린지",
-   "host": "울산광역시 울주군",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111356",
-   "officialUrl": "https://www.youtube.com/@uljugun/posts",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-30",
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353989"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111356",
-     "_detail": {
-      "applyStart": "2026-09-29",
-      "applyEnd": "2026-10-11",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.youtube.com/@uljugun/posts",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "wevity:111283",
-   "source": "wevity",
-   "title": "제1회 지역 현안 해결 솔루션 챌린지",
-   "host": "과학기술정보통신부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111283",
-   "officialUrl": "https://www.kistep.re.kr/board.es?mid=a10402000000&bid=0003&list_no=94865&act=view",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-11",
-   "postedAt": "2026-09-28",
-   "prize": "5천만원~3천만원 · 1등 1,000만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353123"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111283",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-11",
-      "prize": "5천만원~3천만원 · 1등 1,000만원",
-      "officialUrl": "https://www.kistep.re.kr/board.es?mid=a10402000000&bid=0003&list_no=94865&act=view",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
   },
   {
    "id": "wevity:111185",
@@ -3550,6 +3337,39 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "wevity:111164",
+   "source": "wevity",
+   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
+   "host": "CTS기독교TV",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+   "officialUrl": "https://www.cts.tv/post/2470793",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-10-31",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.cts.tv/post/2470793",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-12"
+  },
+  {
    "id": "linkareer:353451",
    "source": "linkareer",
    "title": "2026년 AI 라이프 솔루션 챌린지",
@@ -4426,19 +4246,19 @@
    "firstSeen": "2026-10-08"
   },
   {
-   "id": "linkareer:351976",
-   "source": "linkareer",
+   "id": "wevity:111132",
+   "source": "wevity",
    "title": "2026 대한지방행정공제회 생성형 AI 콘텐츠 공모전",
    "host": "대한지방행정공제회",
-   "url": "https://linkareer.com/activity/351976",
-   "officialUrl": null,
-   "applyStart": "2026-09-18",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111132",
+   "officialUrl": "https://www.poba.or.kr/bbs/selectNttDetail?sechBbsSeq=10&sechBbstSeq=97367&sechWrdTySeCd=T&sechWrd=",
+   "applyStart": "2026-09-14",
    "applyEnd": "2026-11-08",
    "postedAt": "2026-09-18",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 150만원",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
+   "target": "기타",
+   "sourceCategory": "영상/UCC/사진",
    "tags": [
     "ai",
     "video"
@@ -4447,9 +4267,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/351976"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111132",
+     "_detail": {
+      "applyStart": "2026-09-14",
+      "applyEnd": "2026-11-08",
+      "prize": "1천만원이하 · 1등 150만원",
+      "officialUrl": "https://www.poba.or.kr/bbs/selectNttDetail?sechBbsSeq=10&sechBbstSeq=97367&sechWrdTySeCd=T&sechWrd=",
+      "target": "기타"
+     }
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-12"
   },
   {
    "id": "linkareer:351460",
@@ -4679,19 +4510,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:351840",
-   "source": "linkareer",
+   "id": "wevity:111104",
+   "source": "wevity",
    "title": "제 3회 송파 글로벌 AI영화음악 축제",
-   "host": "AI영화조직위원회 / AI융합산업협회, Global K",
-   "url": "https://linkareer.com/activity/351840",
-   "officialUrl": null,
+   "host": "AI영화조직위원회",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111104",
+   "officialUrl": "http://ai-film.kr/",
    "applyStart": "2026-09-15",
    "applyEnd": "2026-11-11",
    "postedAt": "2026-09-18",
-   "prize": null,
+   "prize": "1천만원이하",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "예체능/패션",
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
    "tags": [
     "ai",
     "video"
@@ -4700,9 +4531,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/351840"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111104",
+     "_detail": {
+      "applyStart": "2026-09-15",
+      "applyEnd": "2026-11-11",
+      "prize": "1천만원이하",
+      "officialUrl": "http://ai-film.kr/",
+      "target": "제한없음"
+     }
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-12"
   },
   {
    "id": "linkareer:354705",
