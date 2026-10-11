@@ -1,47 +1,47 @@
 {
- "generatedAt": "2026-10-11T05:49:42.393Z",
+ "generatedAt": "2026-10-11T12:53:15.036Z",
  "today": "2026-10-11",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 128,
-   "fetchedAt": "2026-10-11T05:49:42.372Z"
+   "fetchedAt": "2026-10-11T12:53:14.992Z"
   },
   "hola": {
    "ok": true,
-   "count": 29,
-   "fetchedAt": "2026-10-11T05:49:42.372Z"
+   "count": 39,
+   "fetchedAt": "2026-10-11T12:53:14.992Z"
   },
   "wevity": {
    "ok": true,
-   "count": 43,
-   "fetchedAt": "2026-10-11T05:49:42.372Z"
+   "count": 42,
+   "fetchedAt": "2026-10-11T12:53:14.992Z"
   },
   "devevent": {
    "ok": true,
    "count": 24,
-   "fetchedAt": "2026-10-11T05:49:42.372Z"
+   "fetchedAt": "2026-10-11T12:53:14.992Z"
   },
   "kstartup": {
    "ok": true,
    "count": 12,
-   "fetchedAt": "2026-10-11T05:49:42.372Z"
+   "fetchedAt": "2026-10-11T12:53:14.992Z"
   }
  },
- "count": 174,
+ "count": 178,
  "items": [
   {
-   "id": "hola:6abe8b20ee012963f80ebe3e",
+   "id": "hola:6acb3e06ee012963f81ccbad",
    "source": "hola",
-   "title": "[서울대학교 창업지원단·H1R AI] 2026 SNU X Croche AI 앱 해커톤",
-   "host": "하이어에이아이 / 서울대학교 창업지원단",
-   "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e",
-   "officialUrl": "https://app.notion.com/p/2026-SNU-Croche-AI-3e1fbb01ebbb815ca8f6eab806ecbfcc",
-   "applyStart": "2026-09-21",
+   "title": "2026 SNU X Croche AI 앱 해커톤",
+   "host": "서울대학교 창업지원단 / 하이어에이아이",
+   "url": "https://holaworld.io/hola-it/6acb3e06ee012963f81ccbad",
+   "officialUrl": "https://linkareer.com/activity/353364",
+   "applyStart": "2026-09-10",
    "applyEnd": "2026-10-10",
-   "eventStart": "2026-09-21",
+   "eventStart": "2026-09-10",
    "eventEnd": "2026-10-10",
-   "postedAt": "2026-10-02",
+   "postedAt": "2026-10-11",
    "prize": null,
    "place": "오프라인",
    "target": null,
@@ -52,6 +52,10 @@
     "startup"
    ],
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3e06ee012963f81ccbad"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e"
@@ -951,33 +955,37 @@
    "firstSeen": "2026-10-01"
   },
   {
-   "id": "devevent:https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
-   "source": "devevent",
+   "id": "hola:6acb3e05ee012963f81ccba1",
+   "source": "hola",
    "title": "Replit x OpenAI x AWS x Gold House Ventures Hackathon",
    "host": "Replit / OpenAI / AWS / Gold House Ventures",
-   "url": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
+   "url": "https://holaworld.io/hola-it/6acb3e05ee012963f81ccba1",
    "officialUrl": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
-   "applyStart": null,
+   "applyStart": "2026-10-14",
    "applyEnd": "2026-10-14",
    "eventStart": "2026-10-14",
    "eventEnd": "2026-10-14",
-   "postedAt": null,
+   "postedAt": "2026-10-11",
    "prize": null,
-   "place": "오프라인(서울)",
+   "place": "오프라인",
    "target": null,
-   "sourceCategory": "대회, AI",
+   "sourceCategory": "해커톤",
    "tags": [
     "dev",
-    "ai",
-    "startup"
+    "startup",
+    "ai"
    ],
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3e05ee012963f81ccba1"
+    },
     {
      "source": "devevent",
      "url": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3"
     }
    ],
-   "firstSeen": "2026-10-05"
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:354035",
@@ -1430,6 +1438,37 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "hola:6acb3de3ee012963f81ccaaf",
+   "source": "hola",
+   "title": "Daytona HackSprint Seoul 해커톤",
+   "host": "황인수",
+   "url": "https://holaworld.io/hola-it/6acb3de3ee012963f81ccaaf",
+   "officialUrl": "https://event-us.kr/aibuildersglobal/event/137263",
+   "applyStart": "2026-10-11",
+   "applyEnd": "2026-10-17",
+   "eventStart": "2026-10-18",
+   "eventEnd": "2026-10-18",
+   "postedAt": "2026-10-11",
+   "prize": null,
+   "place": "오프라인 · 그라운드 옥탑, 3층 2호",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3de3ee012963f81ccaaf"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6a90ead8d7320aa752266c23"
+    }
+   ],
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "devevent:https://luma.com/2guk5d34",
@@ -1917,32 +1956,36 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "id": "devevent:https://event-us.kr/aicslaunch2025/event/136861",
-   "source": "devevent",
+   "id": "hola:6acb3df9ee012963f81ccb37",
+   "source": "hola",
    "title": "2026 청년취업사관학교 해커톤",
-   "host": "서울특별시 / 서울경제진흥원(SBA)",
-   "url": "https://event-us.kr/aicslaunch2025/event/136861",
+   "host": "AllAZITLAB",
+   "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37",
    "officialUrl": "https://event-us.kr/aicslaunch2025/event/136861",
    "applyStart": "2026-10-07",
    "applyEnd": "2026-10-20",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
+   "eventStart": "2026-11-09",
+   "eventEnd": "2026-11-09",
+   "postedAt": "2026-10-11",
    "prize": null,
-   "place": "온라인",
+   "place": "오프라인 · 동대문디자인플라자(DDP) 컨퍼런스홀",
    "target": null,
-   "sourceCategory": "대회, AI",
+   "sourceCategory": "해커톤",
    "tags": [
     "dev",
     "ai"
    ],
    "sources": [
     {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37"
+    },
+    {
      "source": "devevent",
      "url": "https://event-us.kr/aicslaunch2025/event/136861"
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:354161",
@@ -2489,6 +2532,34 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "hola:6acb3dfeee012963f81ccb57",
+   "source": "hola",
+   "title": "『2026 SVC Seoul AI 해커톤』 | 관광 AI 아이디어 도전",
+   "host": "창업진흥원, 한국관광공사, 하나투어, SVC Seoul",
+   "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb57",
+   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfpeegts55JCRaFSsG_o7iSJsID49k0fj6-3D-pmWckKvKlrA/viewform?usp=dialog",
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-10-25",
+   "eventStart": "2026-10-06",
+   "eventEnd": "2026-10-25",
+   "postedAt": "2026-10-11",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb57"
+    }
+   ],
+   "firstSeen": "2026-10-11"
+  },
+  {
    "id": "linkareer:355047",
    "source": "linkareer",
    "title": "『2026 SVC Seoul AI 해커톤』 | 하나투어 관광 AI 아이디어 도전",
@@ -2638,7 +2709,7 @@
    "applyEnd": "2026-10-26",
    "postedAt": "2026-10-09",
    "prize": null,
-   "place": null,
+   "place": "오프라인",
    "target": "대학생, 직장인/일반인",
    "sourceCategory": "기획/아이디어, 창업",
    "tags": [
@@ -2649,8 +2720,18 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/355879"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3deaee012963f81ccac6"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3de8ee012963f81ccaba"
     }
    ],
+   "eventStart": "2026-10-09",
+   "eventEnd": "2026-10-26",
    "firstSeen": "2026-10-09"
   },
   {
@@ -2770,13 +2851,15 @@
    "applyEnd": "2026-10-27",
    "postedAt": "2026-10-07",
    "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "영상/UCC/사진",
    "tags": [
     "ai",
     "video"
    ],
+   "eventStart": "2026-10-07",
+   "eventEnd": "2026-10-27",
    "sources": [
     {
      "source": "linkareer",
@@ -2785,6 +2868,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/355261"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb4c"
     },
     {
      "source": "wevity",
@@ -3403,6 +3490,33 @@
    "firstSeen": "2026-10-07"
   },
   {
+   "id": "hola:6acb3dfaee012963f81ccb3c",
+   "source": "hola",
+   "title": "[활동비·상금 2,000만원 상당 지원] 기업의 실제 문제를 AI로 해결할 프로젝트팀 모집",
+   "host": "에이블런",
+   "url": "https://holaworld.io/hola-it/6acb3dfaee012963f81ccb3c",
+   "officialUrl": "https://event-us.kr/YV7SqV3glfKc/event/136956",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-31",
+   "eventStart": "2026-10-16",
+   "eventEnd": "2026-11-18",
+   "postedAt": "2026-10-11",
+   "prize": null,
+   "place": "오프라인 · 대구 테크노파크 스포츠산업지원센터",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3dfaee012963f81ccb3c"
+    }
+   ],
+   "firstSeen": "2026-10-11"
+  },
+  {
    "id": "wevity:111223",
    "source": "wevity",
    "title": "2026 AI 활용 숏폼 영상 공모전 (나의 공단, 나의 이야기)",
@@ -3434,39 +3548,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111164",
-   "source": "wevity",
-   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
-   "host": "CTS기독교TV",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-   "officialUrl": "https://www.cts.tv/post/2470793",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-31",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.cts.tv/post/2470793",
-      "target": "일반인, 대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:353451",
@@ -3539,7 +3620,7 @@
    "applyEnd": "2026-10-31",
    "postedAt": "2026-10-07",
    "prize": null,
-   "place": null,
+   "place": "온라인",
    "target": "대상 제한 없음",
    "sourceCategory": "사진/영상/UCC",
    "tags": [
@@ -3550,8 +3631,14 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/355331"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3dffee012963f81ccb5e"
     }
    ],
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-10-31",
    "firstSeen": "2026-10-07"
   },
   {
@@ -3604,6 +3691,34 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "hola:6acb3dffee012963f81ccb65",
+   "source": "hola",
+   "title": "HACK:ON 선릉 바이브코딩 해커톤 (하루 안에, 배포까지 · 참가비 무료)",
+   "host": "mandeun · HACK:ON(해커온)",
+   "url": "https://holaworld.io/hola-it/6acb3dffee012963f81ccb65",
+   "officialUrl": "https://hackon.kr/e/1a32b615",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-31",
+   "eventStart": "2026-10-07",
+   "eventEnd": "2026-10-31",
+   "postedAt": "2026-10-11",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3dffee012963f81ccb65"
+    }
+   ],
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:344250",
@@ -4192,6 +4307,33 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "hola:6acb3df4ee012963f81ccafe",
+   "source": "hola",
+   "title": "구름톤 아레나 2026 — 전국 프로그래밍 챔피언십",
+   "host": "주식회사 구름",
+   "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe",
+   "officialUrl": "https://raphael-at-goorm.github.io/goormthon-arena-2026/",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-11-06",
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-11-06",
+   "postedAt": "2026-10-11",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe"
+    }
+   ],
+   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:355771",
