@@ -1,72 +1,35 @@
 {
- "generatedAt": "2026-10-12T06:01:19.161Z",
- "today": "2026-10-12",
+ "generatedAt": "2026-10-12T15:29:05.150Z",
+ "today": "2026-10-13",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 122,
-   "fetchedAt": "2026-10-12T06:01:19.143Z"
+   "count": 115,
+   "fetchedAt": "2026-10-12T15:29:05.128Z"
   },
   "hola": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-12T06:01:19.144Z"
+   "count": 40,
+   "fetchedAt": "2026-10-12T15:29:05.128Z"
   },
   "wevity": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-10-12T06:01:19.144Z"
+   "count": 39,
+   "fetchedAt": "2026-10-12T15:29:05.128Z"
   },
   "devevent": {
    "ok": true,
-   "count": 24,
-   "fetchedAt": "2026-10-12T06:01:19.144Z"
+   "count": 25,
+   "fetchedAt": "2026-10-12T15:29:05.128Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 12,
-   "fetchedAt": "2026-10-12T06:01:19.144Z"
+   "count": 13,
+   "fetchedAt": "2026-10-12T15:29:05.128Z"
   }
  },
- "count": 175,
+ "count": 168,
  "items": [
-  {
-   "id": "hola:6acb3e06ee012963f81ccbad",
-   "source": "hola",
-   "title": "2026 SNU X Croche AI 앱 해커톤",
-   "host": "서울대학교 창업지원단 / 하이어에이아이",
-   "url": "https://holaworld.io/hola-it/6acb3e06ee012963f81ccbad",
-   "officialUrl": "https://linkareer.com/activity/353364",
-   "applyStart": "2026-09-10",
-   "applyEnd": "2026-10-10",
-   "eventStart": "2026-09-10",
-   "eventEnd": "2026-10-10",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3e06ee012963f81ccbad"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe3e"
-    },
-    {
-     "source": "devevent",
-     "url": "https://linkareer.com/activity/353364"
-    }
-   ],
-   "firstSeen": "2026-10-11"
-  },
   {
    "id": "hola:6aae271ffdf75b86efb99eb3",
    "source": "hola",
@@ -118,372 +81,9 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aba73e3ee012963f80a4be7"
-    },
-    {
-     "source": "devevent",
-     "url": "https://luma.com/kdth-2026"
     }
    ],
    "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "wevity:111185",
-   "source": "wevity",
-   "title": "[방송미디어통신위원회] 생성형 AI 위험성 찾기 이벤트 시즌3",
-   "host": "방송미디어통신위원회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111185",
-   "officialUrl": "https://ai.wiseuser.go.kr/event/index.do",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-12",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111185",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-12",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://ai.wiseuser.go.kr/event/index.do",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:352202",
-   "source": "linkareer",
-   "title": "[방송미디어통신위원회] 생성형AI 위험성 찾기 이벤트",
-   "host": "한국정보통신진흥협회",
-   "url": "https://linkareer.com/activity/352202",
-   "officialUrl": "https://ai.wiseuser.go.kr/usermain.do",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기타",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352202"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179394",
-   "source": "kstartup",
-   "title": "「 동명청년창작소 D-MADE 오디션」참여기업 모집",
-   "host": "동명청년창작소",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-10-06",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394"
-    }
-   ],
-   "firstSeen": "2026-10-07"
-  },
-  {
-   "id": "linkareer:351064",
-   "source": "linkareer",
-   "title": "「식물에 시(詩)를 심자, 마음속 꽃이 피어나다」 2026 제2회 반려식물 시화작품 경진대회",
-   "host": "국립원예특작과학원",
-   "url": "https://linkareer.com/activity/351064",
-   "officialUrl": "https://www.nihhs.go.kr/usr/nihhs/news_Notice_view.do?idx=38466&mc=MN0000000135",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-16",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "문학/시나리오, 기타",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351064"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:353996",
-   "source": "linkareer",
-   "title": "【국립강원전문과학관】 AI 경진대회 - 동화책 만들기 / 4컷 과학만화 만들기",
-   "host": "국립강원전문과학관",
-   "url": "https://linkareer.com/activity/353996",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-30",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "캐릭터/만화/게임, 과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353996"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "linkareer:349739",
-   "source": "linkareer",
-   "title": "2026 AI 단편영화 창작 지원 프로그램 (청소년/청년)",
-   "host": "재단법인 스마일게이트 퓨처랩",
-   "url": "https://linkareer.com/activity/349739",
-   "officialUrl": "https://futurelab.center",
-   "applyStart": "2026-09-10",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-10",
-   "prize": null,
-   "place": null,
-   "target": "청소년, 대학생",
-   "sourceCategory": "사진/영상/UCC, 기타",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349739"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:352748",
-   "source": "linkareer",
-   "title": "2026 재도전 네트워킹 데이 「Re-Boot Networking Day」",
-   "host": "주식회사 렛츠",
-   "url": "https://linkareer.com/activity/352748",
-   "officialUrl": null,
-   "applyStart": "2026-09-22",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-22",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352748"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:351133",
-   "source": "linkareer",
-   "title": "2026 제2회 반려식물 시화작품 경진대회",
-   "host": "국립원예특작과학원",
-   "url": "https://linkareer.com/activity/351133",
-   "officialUrl": "https://www.nihhs.go.kr/usr/nihhs/news_Notice_view.do?idx=38466&mc=MN0000000135",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-16",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "디자인/순수미술/공예",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351133"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:342142",
-   "source": "linkareer",
-   "title": "2026 청주영상위원회 AI 영상 공모전",
-   "host": "청주시",
-   "url": "https://linkareer.com/activity/342142",
-   "officialUrl": null,
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-08-12",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/342142"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111143",
-   "source": "wevity",
-   "title": "2026 커피 퓨처스 챌린지 (Coffee Futures Challenge)",
-   "host": "월드커피포럼 조직위원회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111143",
-   "officialUrl": "https://wclforum.org/kr/",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-21",
-   "prize": "1천만원이하 · 1등 100만원",
-   "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352223"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352090"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111143",
-     "_detail": {
-      "applyStart": "2026-09-14",
-      "applyEnd": "2026-10-12",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://wclforum.org/kr/",
-      "target": "일반인, 대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111122",
-   "source": "wevity",
-   "title": "2026년 국립강원전문과학관 AI경진대회 (동화책 만들기, 4컷 과학만화 만들기)",
-   "host": "국립강원전문과학관",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111122",
-   "officialUrl": "https://www.gwnsm.or.kr/community/notice/840049494",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-12",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 50만원",
-   "place": null,
-   "target": "제한없음, 기타",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111122",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-12",
-      "prize": "1천만원이하 · 1등 50만원",
-      "officialUrl": "https://www.gwnsm.or.kr/community/notice/840049494",
-      "target": "제한없음, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:353380",
-   "source": "linkareer",
-   "title": "2026년 제1회 AMT AI 작곡대회",
-   "host": "AI뮤직타운",
-   "url": "https://linkareer.com/activity/353380",
-   "officialUrl": null,
-   "applyStart": "2026-10-05",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-09-28",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "예체능/패션",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353380"
-    }
-   ],
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "linkareer:354077",
-   "source": "linkareer",
-   "title": "제1회 AMT AI 작곡대회 챌린지",
-   "host": "프롬프트뱅크",
-   "url": "https://linkareer.com/activity/354077",
-   "officialUrl": "https://www.aimusictown.com/",
-   "applyStart": "2026-10-05",
-   "applyEnd": "2026-10-12",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "예체능/패션, 전시/페스티벌",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354077"
-    }
-   ],
-   "firstSeen": "2026-10-01"
   },
   {
    "id": "linkareer:351263",
@@ -683,6 +283,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "kstartup:179481",
+   "source": "kstartup",
+   "title": "[대전창조경제혁신센터] 모두의창업 대전지역 오디션 '3라운드 진출 도전자 공개 오디션' 관람객 모집",
+   "host": "대전창조경제혁신센터",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179481",
+   "officialUrl": null,
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-10-14",
+   "postedAt": "2026-10-12",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 행사ㆍ네트워크",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179481"
+    }
+   ],
+   "firstSeen": "2026-10-13"
   },
   {
    "id": "wevity:111359",
@@ -1218,7 +843,8 @@
    "target": null,
    "sourceCategory": "해커톤",
    "tags": [
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
     {
@@ -1228,6 +854,10 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6a90ead8d7320aa752266c23"
+    },
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/aibuildersglobal/event/137263"
     }
    ],
    "firstSeen": "2026-10-11"
@@ -2325,12 +1955,12 @@
    "title": "[서울대학교 앵커사업단] 2026 AI 플랫폼 구축 경진대회",
    "host": "서울특별시",
    "url": "https://linkareer.com/activity/356000",
-   "officialUrl": null,
+   "officialUrl": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
    "applyStart": "2026-09-30",
    "applyEnd": "2026-10-25",
    "postedAt": "2026-10-12",
    "prize": null,
-   "place": null,
+   "place": "오프라인",
    "target": "대상 제한 없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
@@ -2341,8 +1971,14 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/356000"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acce4d2ee012963f81ebc8f"
     }
    ],
+   "eventStart": "2026-09-30",
+   "eventEnd": "2026-10-25",
    "firstSeen": "2026-10-12"
   },
   {
@@ -2511,6 +2147,61 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "hola:6acce4d1ee012963f81ebc8a",
+   "source": "hola",
+   "title": "나랏돈 50조 찾기 : 나라장터 해커톤",
+   "host": "개혁신당홍보국",
+   "url": "https://holaworld.io/hola-it/6acce4d1ee012963f81ebc8a",
+   "officialUrl": "https://event-us.kr/reformparty/event/137321",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-10-25",
+   "eventStart": "2026-10-26",
+   "eventEnd": "2026-10-26",
+   "postedAt": "2026-10-12",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acce4d1ee012963f81ebc8a"
+    }
+   ],
+   "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "devevent:https://hackathon.savetax.now/",
+   "source": "devevent",
+   "title": "나랏돈 50조 찾기 프로젝트 : 나라장터 해커톤",
+   "host": "개혁신당 / 국회의원 이준석 의원실",
+   "url": "https://hackathon.savetax.now/",
+   "officialUrl": "https://hackathon.savetax.now/",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-10-25",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://hackathon.savetax.now/"
+    }
+   ],
+   "firstSeen": "2026-10-13"
   },
   {
    "id": "linkareer:355879",
@@ -2964,6 +2655,10 @@
       "officialUrl": "https://www.kisa.or.kr/401/form?postSeq=3777",
       "target": "대학생, 기타"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://www.pqcchallenge.kr/"
     }
    ],
    "firstSeen": "2026-10-03"
@@ -3427,6 +3122,33 @@
    "firstSeen": "2026-09-29"
   },
   {
+   "id": "linkareer:356125",
+   "source": "linkareer",
+   "title": "2026년 제2회 AMT AI 작곡대회 – K-POP 챌린지",
+   "host": "프롬프트뱅크",
+   "url": "https://linkareer.com/activity/356125",
+   "officialUrl": "https://www.aimusictown.com/",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-10-12",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "예체능/패션, 사진/영상/UCC",
+   "tags": [
+    "ai",
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356125"
+    }
+   ],
+   "firstSeen": "2026-10-13"
+  },
+  {
    "id": "linkareer:349047",
    "source": "linkareer",
    "title": "2026년「국가정책연구포털 AI 쇼츠 영상공모전」",
@@ -3848,6 +3570,31 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "linkareer:356021",
+   "source": "linkareer",
+   "title": "2026 슈퍼코더 AI 면접 대회",
+   "host": "주식회사 세컨드팀",
+   "url": "https://linkareer.com/activity/356021",
+   "officialUrl": "https://www.supercoder.co",
+   "applyStart": "2026-10-08",
+   "applyEnd": "2026-11-01",
+   "postedAt": "2026-10-12",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기타",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356021"
+    }
+   ],
+   "firstSeen": "2026-10-13"
+  },
+  {
    "id": "linkareer:353592",
    "source": "linkareer",
    "title": "2026 전국 대학생 SW 창업아이디어톤",
@@ -4074,6 +3821,32 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "kstartup:179472",
+   "source": "kstartup",
+   "title": "[구리시 청년내일센터] 2026 창업아이디어 경진대회 참가자 모집",
+   "host": "광운대학교산학협력단",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472",
+   "officialUrl": null,
+   "applyStart": "2026-10-08",
+   "applyEnd": "2026-11-05",
+   "postedAt": "2026-10-12",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "시설ㆍ공간ㆍ보육",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472"
+    }
+   ],
+   "firstSeen": "2026-10-13"
   },
   {
    "id": "wevity:111009",
@@ -4641,6 +4414,32 @@
    "eventStart": "2026-09-21",
    "eventEnd": "2026-11-13",
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:353862",
+   "source": "linkareer",
+   "title": "5극3특 성장엔진 미래지도 AI 영상 공모전",
+   "host": "한국산업기술진흥원",
+   "url": "https://linkareer.com/activity/353862",
+   "officialUrl": null,
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-11-13",
+   "postedAt": "2026-09-30",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353862"
+    }
+   ],
+   "firstSeen": "2026-10-13"
   },
   {
    "id": "linkareer:350361",
