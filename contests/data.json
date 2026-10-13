@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-12T15:29:05.150Z",
+ "generatedAt": "2026-10-13T00:42:40.906Z",
  "today": "2026-10-13",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 115,
-   "fetchedAt": "2026-10-12T15:29:05.128Z"
+   "fetchedAt": "2026-10-13T00:42:40.515Z"
   },
   "hola": {
    "ok": true,
    "count": 40,
-   "fetchedAt": "2026-10-12T15:29:05.128Z"
+   "fetchedAt": "2026-10-13T00:42:40.515Z"
   },
   "wevity": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-12T15:29:05.128Z"
+   "count": 40,
+   "fetchedAt": "2026-10-13T00:42:40.515Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-12T15:29:05.128Z"
+   "fetchedAt": "2026-10-13T00:42:40.515Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-12T15:29:05.128Z"
+   "fetchedAt": "2026-10-13T00:42:40.515Z"
   }
  },
- "count": 168,
+ "count": 169,
  "items": [
   {
    "id": "hola:6aae271ffdf75b86efb99eb3",
@@ -201,7 +201,7 @@
    "applyEnd": "2026-10-13",
    "postedAt": "2026-09-30",
    "prize": null,
-   "place": "오프라인",
+   "place": "온라인",
    "target": "대학생, 직장인/일반인",
    "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
@@ -214,19 +214,19 @@
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
+     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
+     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
     },
     {
      "source": "devevent",
      "url": "https://event-us.kr/blaybus/event/136364"
     }
    ],
-   "eventStart": "2026-09-30",
-   "eventEnd": "2026-10-13",
+   "eventStart": "2026-10-14",
+   "eventEnd": "2026-10-30",
    "firstSeen": "2026-09-30"
   },
   {
@@ -2176,26 +2176,35 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "devevent:https://hackathon.savetax.now/",
-   "source": "devevent",
-   "title": "나랏돈 50조 찾기 프로젝트 : 나라장터 해커톤",
-   "host": "개혁신당 / 국회의원 이준석 의원실",
-   "url": "https://hackathon.savetax.now/",
-   "officialUrl": "https://hackathon.savetax.now/",
+   "id": "wevity:111588",
+   "source": "wevity",
+   "title": "나랏돈 50조 찾기 프로젝트 - 나라장터 해커톤",
+   "host": "개혁신당",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111588",
+   "officialUrl": "https://reformparty.kr/",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-10-25",
-   "eventStart": null,
-   "eventEnd": null,
    "postedAt": null,
-   "prize": null,
+   "prize": "1천만원이하",
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
+   "target": "제한없음",
+   "sourceCategory": "웹/모바일/IT",
    "tags": [
     "dev",
     "ai"
    ],
    "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111588",
+     "_detail": {
+      "applyStart": "2026-10-12",
+      "applyEnd": "2026-10-25",
+      "prize": "1천만원이하",
+      "officialUrl": "https://reformparty.kr/",
+      "target": "제한없음"
+     }
+    },
     {
      "source": "devevent",
      "url": "https://hackathon.savetax.now/"
@@ -3823,6 +3832,38 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "wevity:111614",
+   "source": "wevity",
+   "title": "2026 충남 로컬메이드 제품개발 공모전",
+   "host": "선문대학교 앵커사업단, 식품공학·영양학부",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111614",
+   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111614",
+   "applyStart": "2026-10-08",
+   "applyEnd": "2026-11-04",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "대학생, 청소년",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111614",
+     "_detail": {
+      "applyStart": "2026-10-08",
+      "applyEnd": "2026-11-04",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111614",
+      "target": "대학생, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-13"
+  },
+  {
    "id": "kstartup:179472",
    "source": "kstartup",
    "title": "[구리시 청년내일센터] 2026 창업아이디어 경진대회 참가자 모집",
@@ -4310,19 +4351,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111104",
-   "source": "wevity",
+   "id": "linkareer:351840",
+   "source": "linkareer",
    "title": "제 3회 송파 글로벌 AI영화음악 축제",
-   "host": "AI영화조직위원회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111104",
-   "officialUrl": "http://ai-film.kr/",
+   "host": "AI영화조직위원회 / AI융합산업협회, Global K",
+   "url": "https://linkareer.com/activity/351840",
+   "officialUrl": null,
    "applyStart": "2026-09-15",
    "applyEnd": "2026-11-11",
    "postedAt": "2026-09-18",
-   "prize": "1천만원이하",
+   "prize": null,
    "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대상 제한 없음",
+   "sourceCategory": "예체능/패션",
    "tags": [
     "ai",
     "video"
@@ -4331,20 +4372,9 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/351840"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111104",
-     "_detail": {
-      "applyStart": "2026-09-15",
-      "applyEnd": "2026-11-11",
-      "prize": "1천만원이하",
-      "officialUrl": "http://ai-film.kr/",
-      "target": "제한없음"
-     }
     }
    ],
-   "firstSeen": "2026-10-12"
+   "firstSeen": "2026-10-13"
   },
   {
    "id": "linkareer:354705",
