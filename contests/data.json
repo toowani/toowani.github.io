@@ -1,116 +1,35 @@
 {
- "generatedAt": "2026-10-13T14:14:36.880Z",
- "today": "2026-10-13",
+ "generatedAt": "2026-10-13T22:47:14.133Z",
+ "today": "2026-10-14",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 122,
-   "fetchedAt": "2026-10-13T14:14:36.860Z"
+   "count": 118,
+   "fetchedAt": "2026-10-13T22:47:14.115Z"
   },
   "hola": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-10-13T14:14:36.860Z"
+   "count": 38,
+   "fetchedAt": "2026-10-13T22:47:14.115Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-13T14:14:36.860Z"
+   "fetchedAt": "2026-10-13T22:47:14.115Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-13T14:14:36.860Z"
+   "fetchedAt": "2026-10-13T22:47:14.115Z"
   },
   "kstartup": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-10-13T14:14:36.860Z"
+   "fetchedAt": "2026-10-13T22:47:14.115Z"
   }
  },
- "count": 176,
+ "count": 171,
  "items": [
-  {
-   "id": "hola:6aae271ffdf75b86efb99eb3",
-   "source": "hola",
-   "title": "2026년 DMC 이노베이션 캠프 창업경진대회(DMC2026)",
-   "host": "(재)DMC산학진흥재단/(사)디엠씨코넷",
-   "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eb3",
-   "officialUrl": "https://dmcportal.kr/dic",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-11",
-   "eventStart": "2026-09-15",
-   "eventEnd": "2026-10-11",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eb3"
-    }
-   ],
-   "firstSeen": "2026-10-12"
-  },
-  {
-   "id": "hola:6aba73e3ee012963f80a4be7",
-   "source": "hola",
-   "title": "Korea Defense Tech Hackathon",
-   "host": "European Defense Tech Hub(EDTH) / Deploy for Defense(D4D)",
-   "url": "https://holaworld.io/hola-it/6aba73e3ee012963f80a4be7",
-   "officialUrl": "https://luma.com/kdth-2026",
-   "applyStart": "2026-10-09",
-   "applyEnd": "2026-10-11",
-   "eventStart": "2026-10-09",
-   "eventEnd": "2026-10-11",
-   "postedAt": "2026-09-28",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aba73e3ee012963f80a4be7"
-    }
-   ],
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "linkareer:351263",
-   "source": "linkareer",
-   "title": "[한국농수산식품유통공사] 2026 AI 농산물 가격예측 온라인 해커톤",
-   "host": "한국농수산식품유통공사",
-   "url": "https://linkareer.com/activity/351263",
-   "officialUrl": "https://at-hackathon-landing-production.up.railway.app/apply",
-   "applyStart": "2026-09-07",
-   "applyEnd": "2026-10-13",
-   "postedAt": "2026-09-16",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351263"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
   {
    "id": "hola:6aae2712fdf75b86efb99e56",
    "source": "hola",
@@ -144,119 +63,71 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111124",
-   "source": "wevity",
+   "id": "hola:6ab4c29bfdf75b86efbf5573",
+   "source": "hola",
    "title": "2026 고용24 국민참여 AI 고용서비스 발굴 온라인 해커톤",
    "host": "고용노동부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111124",
+   "url": "https://holaworld.io/hola-it/6ab4c29bfdf75b86efbf5573",
    "officialUrl": "https://www.국민참여고용서비스발굴온라인해커톤.com",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-10-13",
-   "postedAt": "2026-09-22",
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": "온라인",
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "dev"
-   ],
    "eventStart": "2026-09-21",
    "eventEnd": "2026-10-13",
+   "postedAt": "2026-09-24",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352470"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c29bfdf75b86efbf5573"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111124",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-13",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://www.국민참여고용서비스발굴온라인해커톤.com",
-      "target": "일반인, 대학생, 기타"
-     }
     },
     {
      "source": "devevent",
      "url": "https://www.국민참여고용서비스발굴온라인해커톤.com"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-14"
   },
   {
-   "id": "linkareer:353765",
-   "source": "linkareer",
+   "id": "hola:6abe8b1fee012963f80ebe34",
+   "source": "hola",
    "title": "2026 우연한식탁 MVP 개발 해커톤",
-   "host": "주식회사 어치브모먼트",
-   "url": "https://linkareer.com/activity/353765",
-   "officialUrl": "https://www.blaybus.com/activities/1122/landing?utm_source=linkareer&utm_medium=referral&utm_campaign=uyeonhan_mvp_hackathon_2026&utm_content=activity",
+   "host": "어치브모먼트",
+   "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34",
+   "officialUrl": "https://www.blaybus.com/activities/1122/landing?utm_source=allforyoung&utm_medium=referral&utm_campaign=uyeonhan_mvp_hackathon_2026&utm_content=activity",
    "applyStart": "2026-09-30",
    "applyEnd": "2026-10-13",
-   "postedAt": "2026-09-30",
+   "eventStart": "2026-09-30",
+   "eventEnd": "2026-10-13",
+   "postedAt": "2026-10-02",
    "prize": null,
-   "place": "온라인",
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
    "tags": [
     "dev"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353765"
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
     },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
     },
     {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
-    },
-    {
      "source": "devevent",
      "url": "https://event-us.kr/blaybus/event/136364"
     }
    ],
-   "eventStart": "2026-10-14",
-   "eventEnd": "2026-10-30",
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "linkareer:354688",
-   "source": "linkareer",
-   "title": "롯데몰 벨리타운 청량리 : AI 뮤직 공모전",
-   "host": "롯데백화점",
-   "url": "https://linkareer.com/activity/354688",
-   "officialUrl": null,
-   "applyStart": "2026-10-02",
-   "applyEnd": "2026-10-13",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기타",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354688"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354686"
-    }
-   ],
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:352976",
@@ -1126,32 +997,6 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "linkareer:356516",
-   "source": "linkareer",
-   "title": "[경상북도/김천대학교] 2026 경상북도 K-U시티 청년 AI영상제",
-   "host": "경상북도청",
-   "url": "https://linkareer.com/activity/356516",
-   "officialUrl": null,
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356516"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
    "id": "linkareer:353657",
    "source": "linkareer",
    "title": "[데이콘]합성 미세구조 기반 재료 물성 예측 AI 경진대회(~10/19)",
@@ -1264,6 +1109,43 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111581",
+   "source": "wevity",
+   "title": "2026 경상북도 K-U시티 청년 AI영상제",
+   "host": "경상북도",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111581",
+   "officialUrl": "https://www.instagram.com/p/Dd8HSZnxisy",
+   "applyStart": "2026-09-15",
+   "applyEnd": "2026-10-19",
+   "postedAt": "2026-10-13",
+   "prize": "1천만원이하 · 1등 300만원",
+   "place": null,
+   "target": "기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356516"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111581",
+     "_detail": {
+      "applyStart": "2026-09-15",
+      "applyEnd": "2026-10-19",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://www.instagram.com/p/Dd8HSZnxisy",
+      "target": "기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:351991",
@@ -3196,39 +3078,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "wevity:111164",
-   "source": "wevity",
-   "title": "2026 CTS 국제 AI 단편영화 제작지원사업",
-   "host": "CTS기독교TV",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-   "officialUrl": "https://www.cts.tv/post/2470793",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111164",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-31",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.cts.tv/post/2470793",
-      "target": "일반인, 대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-12"
-  },
-  {
    "id": "linkareer:353451",
    "source": "linkareer",
    "title": "2026년 AI 라이프 솔루션 챌린지",
@@ -4835,19 +4684,19 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:356503",
-   "source": "linkareer",
-   "title": "2026 대구광역시 기후·환경·탄소중립 공공데이터 AI 활용대회",
-   "host": "대구광역시 탄소중립지원센터",
-   "url": "https://linkareer.com/activity/356503",
-   "officialUrl": null,
+   "id": "wevity:111567",
+   "source": "wevity",
+   "title": "2026 대구광역시 기후·환경·탄소중립 공공 데이터 AI 활용대회",
+   "host": "대구광역시 탄소중립지원센",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111567",
+   "officialUrl": "https://dcnc.or.kr/bbs/board.php?bo_table=notice&wr_id=193",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-11-20",
    "postedAt": "2026-10-13",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 130만원",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
+   "target": "제한없음",
+   "sourceCategory": "웹/모바일/IT",
    "tags": [
     "ai"
    ],
@@ -4855,9 +4704,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/356503"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111567",
+     "_detail": {
+      "applyStart": "2026-10-12",
+      "applyEnd": "2026-11-20",
+      "prize": "1천만원이하 · 1등 130만원",
+      "officialUrl": "https://dcnc.or.kr/bbs/board.php?bo_table=notice&wr_id=193",
+      "target": "제한없음"
+     }
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:330183",
