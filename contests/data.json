@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-14T17:12:55.068Z",
+ "generatedAt": "2026-10-14T21:42:57.099Z",
  "today": "2026-10-15",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 122,
-   "fetchedAt": "2026-10-14T17:12:54.913Z"
+   "fetchedAt": "2026-10-14T21:42:57.075Z"
   },
   "hola": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-14T17:12:54.913Z"
+   "fetchedAt": "2026-10-14T21:42:57.075Z"
   },
   "wevity": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-14T17:12:54.913Z"
+   "count": 40,
+   "fetchedAt": "2026-10-14T21:42:57.076Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-14T17:12:54.913Z"
+   "fetchedAt": "2026-10-14T21:42:57.076Z"
   },
   "kstartup": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-10-14T17:12:54.913Z"
+   "fetchedAt": "2026-10-14T21:42:57.076Z"
   }
  },
  "count": 177,
@@ -3937,19 +3937,19 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "linkareer:356890",
-   "source": "linkareer",
+   "id": "wevity:111592",
+   "source": "wevity",
    "title": "2026 로보틱스 작품공모전",
-   "host": "마이스플랜즈",
-   "url": "https://linkareer.com/activity/356890",
+   "host": "과학기술정보통신부",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111592",
    "officialUrl": "https://apply.kosac.re.kr/onlnRcpt/getBscInfo.do?pbancNo=2026-S747",
    "applyStart": "2026-10-08",
    "applyEnd": "2026-11-02",
    "postedAt": "2026-10-14",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 300만원",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학, 전시/페스티벌",
+   "target": "기타",
+   "sourceCategory": "과학/공학",
    "tags": [
     "ai"
    ],
@@ -3957,9 +3957,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/356890"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111592",
+     "_detail": {
+      "applyStart": "2026-10-08",
+      "applyEnd": "2026-11-02",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://apply.kosac.re.kr/onlnRcpt/getBscInfo.do?pbancNo=2026-S747",
+      "target": "기타"
+     }
     }
    ],
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "linkareer:354703",
