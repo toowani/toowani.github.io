@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-13T22:47:14.133Z",
+ "generatedAt": "2026-10-14T04:56:22.026Z",
  "today": "2026-10-14",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 118,
-   "fetchedAt": "2026-10-13T22:47:14.115Z"
+   "count": 122,
+   "fetchedAt": "2026-10-14T04:56:22.006Z"
   },
   "hola": {
    "ok": true,
    "count": 38,
-   "fetchedAt": "2026-10-13T22:47:14.115Z"
+   "fetchedAt": "2026-10-14T04:56:22.006Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-13T22:47:14.115Z"
+   "fetchedAt": "2026-10-14T04:56:22.006Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-13T22:47:14.115Z"
+   "fetchedAt": "2026-10-14T04:56:22.006Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-10-13T22:47:14.115Z"
+   "count": 15,
+   "fetchedAt": "2026-10-14T04:56:22.006Z"
   }
  },
- "count": 171,
+ "count": 175,
  "items": [
   {
    "id": "hola:6aae2712fdf75b86efb99e56",
@@ -1282,26 +1282,29 @@
    "firstSeen": "2026-10-02"
   },
   {
-   "id": "hola:6acb3df9ee012963f81ccb37",
-   "source": "hola",
-   "title": "2026 청년취업사관학교 해커톤",
-   "host": "AllAZITLAB",
-   "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37",
+   "id": "linkareer:356483",
+   "source": "linkareer",
+   "title": "청년취업사관학교 해커톤",
+   "host": "청년취업사관학교 해커톤",
+   "url": "https://linkareer.com/activity/356483",
    "officialUrl": "https://event-us.kr/aicslaunch2025/event/136861",
    "applyStart": "2026-10-07",
    "applyEnd": "2026-10-20",
-   "eventStart": "2026-11-09",
-   "eventEnd": "2026-11-09",
-   "postedAt": "2026-10-11",
+   "postedAt": "2026-10-13",
    "prize": null,
    "place": "오프라인 · 동대문디자인플라자(DDP) 컨퍼런스홀",
-   "target": null,
-   "sourceCategory": "해커톤",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
    "tags": [
+    "startup",
     "dev",
     "ai"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356483"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37"
@@ -1311,7 +1314,9 @@
      "url": "https://event-us.kr/aicslaunch2025/event/136861"
     }
    ],
-   "firstSeen": "2026-10-11"
+   "eventStart": "2026-11-09",
+   "eventEnd": "2026-11-09",
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:354161",
@@ -1684,6 +1689,32 @@
    "firstSeen": "2026-10-13"
   },
   {
+   "id": "kstartup:179496",
+   "source": "kstartup",
+   "title": "2026 산업단지 오픈이노베이션프로그램 KICXUP 챌린지 & 로컬 스타트업 2차 모집 공고",
+   "host": "한국산업단지공단",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496",
+   "officialUrl": null,
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-10-23",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 사업화",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496"
+    }
+   ],
+   "firstSeen": "2026-10-14"
+  },
+  {
    "id": "linkareer:353405",
    "source": "linkareer",
    "title": "2026 충북영상자서전 [사랑나눔 스마트 AI 영상자서전 공모전]",
@@ -1940,6 +1971,32 @@
    "eventStart": "2026-09-30",
    "eventEnd": "2026-10-25",
    "firstSeen": "2026-10-12"
+  },
+  {
+   "id": "linkareer:351309",
+   "source": "linkareer",
+   "title": "「2026 별별화성 Awards」화성특례시 AI CF 공모전",
+   "host": "화성특례시",
+   "url": "https://linkareer.com/activity/351309",
+   "officialUrl": "https://aihscity.com/",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-10-25",
+   "postedAt": "2026-09-16",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/351309"
+    }
+   ],
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "hola:6acb3dfeee012963f81ccb57",
@@ -2797,6 +2854,32 @@
    "firstSeen": "2026-10-01"
   },
   {
+   "id": "linkareer:356760",
+   "source": "linkareer",
+   "title": "Hello World AI 해커톤",
+   "host": "해커온",
+   "url": "https://linkareer.com/activity/356760",
+   "officialUrl": "https://hackon.kr/e/1a32b615",
+   "applyStart": "2026-10-13",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": "청소년, 대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356760"
+    }
+   ],
+   "firstSeen": "2026-10-14"
+  },
+  {
    "id": "linkareer:350668",
    "source": "linkareer",
    "title": "디자인 잇 어워드 챌린지 2026",
@@ -3076,6 +3159,31 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:356726",
+   "source": "linkareer",
+   "title": "2026 국가유산형 드론콘텐츠 디자인 공모전",
+   "host": "코코드론",
+   "url": "https://linkareer.com/activity/356726",
+   "officialUrl": null,
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "디자인/순수미술/공예",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356726"
+    }
+   ],
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:353451",
