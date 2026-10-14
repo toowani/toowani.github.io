@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-14T11:55:49.458Z",
- "today": "2026-10-14",
+ "generatedAt": "2026-10-14T17:12:55.068Z",
+ "today": "2026-10-15",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 123,
-   "fetchedAt": "2026-10-14T11:55:49.436Z"
+   "count": 122,
+   "fetchedAt": "2026-10-14T17:12:54.913Z"
   },
   "hola": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-14T11:55:49.436Z"
+   "count": 43,
+   "fetchedAt": "2026-10-14T17:12:54.913Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-14T11:55:49.436Z"
+   "fetchedAt": "2026-10-14T17:12:54.913Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-14T11:55:49.436Z"
+   "fetchedAt": "2026-10-14T17:12:54.913Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-14T11:55:49.436Z"
+   "count": 14,
+   "fetchedAt": "2026-10-14T17:12:54.913Z"
   }
  },
- "count": 176,
+ "count": 177,
  "items": [
   {
    "id": "hola:6aae2712fdf75b86efb99e56",
@@ -128,89 +128,6 @@
     }
    ],
    "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "linkareer:352976",
-   "source": "linkareer",
-   "title": "[네이버플러스 스토어] 넾다세일 AI 광고제",
-   "host": "네이버플러스 스토어",
-   "url": "https://linkareer.com/activity/352976",
-   "officialUrl": "https://blog.naver.com/naverofficial/224421149097",
-   "applyStart": "2026-09-23",
-   "applyEnd": "2026-10-14",
-   "postedAt": "2026-09-23",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352976"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179481",
-   "source": "kstartup",
-   "title": "[대전창조경제혁신센터] 모두의창업 대전지역 오디션 '3라운드 진출 도전자 공개 오디션' 관람객 모집",
-   "host": "대전창조경제혁신센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179481",
-   "officialUrl": null,
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-10-14",
-   "postedAt": "2026-10-12",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179481"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
-   "id": "wevity:111359",
-   "source": "wevity",
-   "title": "2026 대전 콘텐츠페어 이스포츠 대전 브롤스타즈 참가자 모집",
-   "host": "대전광역시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111359",
-   "officialUrl": "https://dje.dicia.or.kr/dreamarena/notice/7",
-   "applyStart": "2026-09-28",
-   "applyEnd": "2026-10-14",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 100만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년, 기타",
-   "sourceCategory": "게임/소프트웨어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111359",
-     "_detail": {
-      "applyStart": "2026-09-28",
-      "applyEnd": "2026-10-14",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://dje.dicia.or.kr/dreamarena/notice/7",
-      "target": "일반인, 대학생, 청소년, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-01"
   },
   {
    "id": "hola:6acb3e05ee012963f81ccba1",
@@ -1282,6 +1199,33 @@
    "firstSeen": "2026-10-02"
   },
   {
+   "id": "hola:6acf7baeee012963f8216b4c",
+   "source": "hola",
+   "title": "「2026 청년취업사관학교 해커톤」 참가자 모집",
+   "host": "청년취업사관학교 해커톤",
+   "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b4c",
+   "officialUrl": "https://event-us.kr/m/136861/62896",
+   "applyStart": "2026-10-07",
+   "applyEnd": "2026-10-20",
+   "eventStart": "2026-10-07",
+   "eventEnd": "2026-10-20",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b4c"
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "linkareer:356483",
    "source": "linkareer",
    "title": "청년취업사관학교 해커톤",
@@ -1661,6 +1605,34 @@
     }
    ],
    "firstSeen": "2026-09-29"
+  },
+  {
+   "id": "hola:6acf7bb3ee012963f8216b79",
+   "source": "hola",
+   "title": "2026 Tech Discovery 실험실창업 경진대회",
+   "host": "과학기술정보통신부, 과학기술사업화진흥원",
+   "url": "https://holaworld.io/hola-it/6acf7bb3ee012963f8216b79",
+   "officialUrl": "https://learncle.com/event/hAP5b",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-23",
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-10-23",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7bb3ee012963f8216b79"
+    }
+   ],
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "linkareer:356430",
@@ -2201,7 +2173,7 @@
    "officialUrl": "https://reformparty.kr/",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-10-25",
-   "postedAt": null,
+   "postedAt": "2026-10-14",
    "prize": "1천만원이하",
    "place": "온라인",
    "target": "제한없음",
@@ -2210,7 +2182,17 @@
     "dev",
     "ai"
    ],
+   "eventStart": "2026-10-12",
+   "eventEnd": "2026-10-25",
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7bb6ee012963f8216ba1"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7bb3ee012963f8216b74"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111588",
@@ -2228,6 +2210,33 @@
     }
    ],
    "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "hola:6acf7baeee012963f8216b42",
+   "source": "hola",
+   "title": "2026 AI해킹방어대회(ACDC) 참가자 모집(~10/26(월) 14:00)",
+   "host": "최지용",
+   "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b42",
+   "officialUrl": "https://event-us.kr/2026acd/event/137541",
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-26",
+   "eventStart": "2026-12-01",
+   "eventEnd": "2026-12-02",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": "오프라인 · 그랜드 인터컨티넨탈 서울 파르나스",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b42"
+    }
+   ],
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "linkareer:355879",
@@ -2628,6 +2637,34 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "hola:6acf323cee012963f8210b73",
+   "source": "hola",
+   "title": "10/31 Hello World AI 해커톤",
+   "host": "HACK:ON 해커온",
+   "url": "https://holaworld.io/hola-it/6acf323cee012963f8210b73",
+   "officialUrl": "https://hackon.kr/e/1a32b615",
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-30",
+   "eventStart": "2026-10-31",
+   "eventEnd": "2026-10-31",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": "오프라인 · 서울",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf323cee012963f8210b73"
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "wevity:111314",
    "source": "wevity",
    "title": "2026 POSTECH OIBC 빅데이터 경진대회",
@@ -2700,7 +2737,7 @@
    "applyEnd": "2026-10-30",
    "postedAt": "2026-10-01",
    "prize": "1천만원이하 · 1등 300만원",
-   "place": "온라인",
+   "place": "오프라인",
    "target": "대학생, 기타",
    "sourceCategory": "과학/공학",
    "tags": [
@@ -2716,6 +2753,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/354272"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7bb6ee012963f8216b92"
     },
     {
      "source": "hola",
@@ -3243,6 +3284,38 @@
    "firstSeen": "2026-10-13"
   },
   {
+   "id": "wevity:111675",
+   "source": "wevity",
+   "title": "2026년 한국산림복지진흥원 지식재산 아이디어 경진대회",
+   "host": "한국산림복지진흥원",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111675",
+   "officialUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=12&bbsId=9254",
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "1천만원이하",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111675",
+     "_detail": {
+      "applyStart": "2026-10-14",
+      "applyEnd": "2026-10-31",
+      "prize": "1천만원이하",
+      "officialUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=12&bbsId=9254",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "linkareer:349047",
    "source": "linkareer",
    "title": "2026년「국가정책연구포털 AI 쇼츠 영상공모전」",
@@ -3354,34 +3427,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6acb3dffee012963f81ccb65",
-   "source": "hola",
-   "title": "HACK:ON 선릉 바이브코딩 해커톤 (하루 안에, 배포까지 · 참가비 무료)",
-   "host": "mandeun · HACK:ON(해커온)",
-   "url": "https://holaworld.io/hola-it/6acb3dffee012963f81ccb65",
-   "officialUrl": "https://hackon.kr/e/1a32b615",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-10-31",
-   "eventStart": "2026-10-07",
-   "eventEnd": "2026-10-31",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3dffee012963f81ccb65"
-    }
-   ],
-   "firstSeen": "2026-10-11"
   },
   {
    "id": "linkareer:344250",
@@ -4827,16 +4872,22 @@
    "applyEnd": "2026-11-20",
    "postedAt": "2026-10-13",
    "prize": "1천만원이하 · 1등 130만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "웹/모바일/IT",
    "tags": [
     "ai"
    ],
+   "eventStart": "2026-10-12",
+   "eventEnd": "2026-11-20",
    "sources": [
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/356503"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acf7ba8ee012963f8216b27"
     },
     {
      "source": "wevity",
