@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-14T04:56:22.026Z",
+ "generatedAt": "2026-10-14T11:55:49.458Z",
  "today": "2026-10-14",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 122,
-   "fetchedAt": "2026-10-14T04:56:22.006Z"
+   "count": 123,
+   "fetchedAt": "2026-10-14T11:55:49.436Z"
   },
   "hola": {
    "ok": true,
    "count": 38,
-   "fetchedAt": "2026-10-14T04:56:22.006Z"
+   "fetchedAt": "2026-10-14T11:55:49.436Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-14T04:56:22.006Z"
+   "fetchedAt": "2026-10-14T11:55:49.436Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-14T04:56:22.006Z"
+   "fetchedAt": "2026-10-14T11:55:49.436Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-14T04:56:22.006Z"
+   "fetchedAt": "2026-10-14T11:55:49.436Z"
   }
  },
- "count": 175,
+ "count": 176,
  "items": [
   {
    "id": "hola:6aae2712fdf75b86efb99e56",
@@ -3890,6 +3890,31 @@
     }
    ],
    "firstSeen": "2026-10-13"
+  },
+  {
+   "id": "linkareer:356890",
+   "source": "linkareer",
+   "title": "2026 로보틱스 작품공모전",
+   "host": "마이스플랜즈",
+   "url": "https://linkareer.com/activity/356890",
+   "officialUrl": "https://apply.kosac.re.kr/onlnRcpt/getBscInfo.do?pbancNo=2026-S747",
+   "applyStart": "2026-10-08",
+   "applyEnd": "2026-11-02",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학, 전시/페스티벌",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356890"
+    }
+   ],
+   "firstSeen": "2026-10-14"
   },
   {
    "id": "linkareer:354703",
