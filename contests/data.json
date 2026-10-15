@@ -1,126 +1,35 @@
 {
- "generatedAt": "2026-10-15T11:32:13.184Z",
- "today": "2026-10-15",
+ "generatedAt": "2026-10-15T17:03:26.856Z",
+ "today": "2026-10-16",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 125,
-   "fetchedAt": "2026-10-15T11:32:13.156Z"
+   "count": 119,
+   "fetchedAt": "2026-10-15T17:03:26.706Z"
   },
   "hola": {
    "ok": true,
-   "count": 43,
-   "fetchedAt": "2026-10-15T11:32:13.156Z"
+   "count": 40,
+   "fetchedAt": "2026-10-15T17:03:26.706Z"
   },
   "wevity": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-15T11:32:13.156Z"
+   "count": 37,
+   "fetchedAt": "2026-10-15T17:03:26.706Z"
   },
   "devevent": {
    "ok": true,
-   "count": 23,
-   "fetchedAt": "2026-10-15T11:32:13.156Z"
+   "count": 22,
+   "fetchedAt": "2026-10-15T17:03:26.706Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-15T11:32:13.156Z"
+   "fetchedAt": "2026-10-15T17:03:26.706Z"
   }
  },
- "count": 179,
+ "count": 171,
  "items": [
-  {
-   "id": "hola:6aae2712fdf75b86efb99e56",
-   "source": "hola",
-   "title": "2026 AI 농산물 가격예측 해커톤",
-   "host": "조재승",
-   "url": "https://holaworld.io/hola-it/6aae2712fdf75b86efb99e56",
-   "officialUrl": "https://event-us.kr/illusionists1004/event/135490",
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-10-13",
-   "eventStart": "2026-10-22",
-   "eventEnd": "2026-11-04",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2712fdf75b86efb99e56"
-    },
-    {
-     "source": "devevent",
-     "url": "https://hackathon.imaginationgroup.co.kr/nongnet"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "hola:6ab4c29bfdf75b86efbf5573",
-   "source": "hola",
-   "title": "2026 고용24 국민참여 AI 고용서비스 발굴 온라인 해커톤",
-   "host": "고용노동부",
-   "url": "https://holaworld.io/hola-it/6ab4c29bfdf75b86efbf5573",
-   "officialUrl": "https://www.국민참여고용서비스발굴온라인해커톤.com",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-13",
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-10-13",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ab4c29bfdf75b86efbf5573"
-    }
-   ],
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "hola:6abe8b1fee012963f80ebe34",
-   "source": "hola",
-   "title": "2026 우연한식탁 MVP 개발 해커톤",
-   "host": "어치브모먼트",
-   "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34",
-   "officialUrl": "https://www.blaybus.com/activities/1122/landing?utm_source=allforyoung&utm_medium=referral&utm_campaign=uyeonhan_mvp_hackathon_2026&utm_content=activity",
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-13",
-   "eventStart": "2026-09-30",
-   "eventEnd": "2026-10-13",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe34"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
-    }
-   ],
-   "firstSeen": "2026-10-14"
-  },
   {
    "id": "hola:6acb3e05ee012963f81ccba1",
    "source": "hola",
@@ -155,196 +64,36 @@
    "firstSeen": "2026-10-11"
   },
   {
-   "id": "linkareer:354035",
-   "source": "linkareer",
-   "title": "[재공고] 「2026 창업 경진대회」 참가자 모집 안내 (기간 연장)",
-   "host": "주식회사 이공이공",
-   "url": "https://linkareer.com/activity/354035",
-   "officialUrl": null,
-   "applyStart": "2026-09-04",
-   "applyEnd": "2026-10-15",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354035"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "wevity:110953",
-   "source": "wevity",
-   "title": "2026 KoMaP AI 경진대회",
-   "host": "산업통상부,한국산업기술진흥원",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110953",
+   "id": "hola:6aa92b65fdf75b86efb38266",
+   "source": "hola",
+   "title": "KoMaP AI 경진대회",
+   "host": "산업통상자원부,한국산업기술진흥원",
+   "url": "https://holaworld.io/hola-it/6aa92b65fdf75b86efb38266",
    "officialUrl": "https://komap.ai",
    "applyStart": "2026-09-03",
    "applyEnd": "2026-10-15",
+   "eventStart": "2026-09-03",
+   "eventEnd": "2026-10-15",
    "postedAt": "2026-09-15",
-   "prize": "3천만원~1천만원 · 1등 500만원",
+   "prize": null,
    "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "웹/모바일/IT",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
-   "eventStart": "2026-09-03",
-   "eventEnd": "2026-10-15",
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350821"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350422"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aa92b65fdf75b86efb38266"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110953",
-     "_detail": {
-      "applyStart": "2026-09-03",
-      "applyEnd": "2026-10-15",
-      "prize": "3천만원~1천만원 · 1등 500만원",
-      "officialUrl": "https://komap.ai",
-      "target": "제한없음"
-     }
     },
     {
      "source": "devevent",
      "url": "https://komap.ai/front/competition2026"
     }
    ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:342609",
-   "source": "linkareer",
-   "title": "광둥 여행 스팟 인증 챌린지",
-   "host": "주식회사 쓰리큐브드",
-   "url": "https://linkareer.com/activity/342609",
-   "officialUrl": null,
-   "applyStart": "2026-04-27",
-   "applyEnd": "2026-10-15",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "해외, 사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/342609"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:342549",
-   "source": "linkareer",
-   "title": "광둥의 매력을 느껴보세요 광둥 여행 스팟 인증 챌린지",
-   "host": "중국주서울관광사무소",
-   "url": "https://linkareer.com/activity/342549",
-   "officialUrl": "https://event.visitchina.or.kr/",
-   "applyStart": "2026-04-27",
-   "applyEnd": "2026-10-15",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/342549"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:342268",
-   "source": "linkareer",
-   "title": "제1회 BIFAN Ⅹ 더만타스토리 AI 숏폼 드라마 대본 공모전",
-   "host": "사단법인 부천국제판타스틱영화제 조직위원회",
-   "url": "https://linkareer.com/activity/342268",
-   "officialUrl": "https://www.bifan.kr/community/comm01_view.asp?pk_seq=92414&sc_board_seq=1&sc_num=-2&sc_top_cond=all&actEvent=view&page=1&",
-   "applyStart": "2026-07-12",
-   "applyEnd": "2026-10-15",
-   "postedAt": "2026-08-12",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "문학/시나리오, 기획/아이디어",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/342268"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111279",
-   "source": "wevity",
-   "title": "충청북도 과학여행 이야기 AI 이미지‧영상 공모전",
-   "host": "충북과학문화거점센터",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111279",
-   "officialUrl": "https://csi.chungbuk.kr/notice/?bmode=view&idx=174134581&back_url=Lw%3D%3D&t=board&page=1",
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-10-15",
-   "postedAt": "2026-09-28",
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353118"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111279",
-     "_detail": {
-      "applyStart": "2026-09-16",
-      "applyEnd": "2026-10-15",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://csi.chungbuk.kr/notice/?bmode=view&idx=174134581&back_url=Lw%3D%3D&t=board&page=1",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-16"
   },
   {
    "id": "linkareer:354410",
