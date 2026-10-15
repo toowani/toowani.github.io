@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-14T21:42:57.099Z",
+ "generatedAt": "2026-10-15T04:42:27.146Z",
  "today": "2026-10-15",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 122,
-   "fetchedAt": "2026-10-14T21:42:57.075Z"
+   "count": 124,
+   "fetchedAt": "2026-10-15T04:42:27.126Z"
   },
   "hola": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-14T21:42:57.075Z"
+   "fetchedAt": "2026-10-15T04:42:27.126Z"
   },
   "wevity": {
    "ok": true,
    "count": 40,
-   "fetchedAt": "2026-10-14T21:42:57.076Z"
+   "fetchedAt": "2026-10-15T04:42:27.126Z"
   },
   "devevent": {
    "ok": true,
-   "count": 25,
-   "fetchedAt": "2026-10-14T21:42:57.076Z"
+   "count": 23,
+   "fetchedAt": "2026-10-15T04:42:27.126Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-10-14T21:42:57.076Z"
+   "count": 15,
+   "fetchedAt": "2026-10-15T04:42:27.126Z"
   }
  },
- "count": 177,
+ "count": 179,
  "items": [
   {
    "id": "hola:6aae2712fdf75b86efb99e56",
@@ -86,10 +86,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c29bfdf75b86efbf5573"
-    },
-    {
-     "source": "devevent",
-     "url": "https://www.국민참여고용서비스발굴온라인해커톤.com"
     }
    ],
    "firstSeen": "2026-10-14"
@@ -121,10 +117,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe1a"
-    },
-    {
-     "source": "devevent",
-     "url": "https://event-us.kr/blaybus/event/136364"
     }
    ],
    "firstSeen": "2026-10-14"
@@ -1746,6 +1738,31 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "kstartup:179516",
+   "source": "kstartup",
+   "title": "2026-9회 충청권 엔젤투자 피칭룸 프로그램 참가기업 모집",
+   "host": "한국엔젤투자협회",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516",
+   "officialUrl": null,
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-23",
+   "postedAt": "2026-10-15",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516"
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "kstartup:179474",
    "source": "kstartup",
    "title": "2026년 초기창업패키지 로켓십 IR 경진대회 참가기업 모집 (3회차: 기후·ESG)",
@@ -3292,15 +3309,20 @@
    "officialUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=12&bbsId=9254",
    "applyStart": "2026-10-14",
    "applyEnd": "2026-10-31",
-   "postedAt": null,
+   "postedAt": "2026-10-14",
    "prize": "1천만원이하",
    "place": null,
    "target": "제한없음",
    "sourceCategory": "기획/아이디어",
    "tags": [
+    "startup",
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356948"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111675",
@@ -4505,6 +4527,31 @@
     }
    ],
    "firstSeen": "2026-10-07"
+  },
+  {
+   "id": "linkareer:357087",
+   "source": "linkareer",
+   "title": "2026년 국립낙동강생물자원관 제3회 생물 체험 교구 개발 공모전",
+   "host": "국립낙동강생물자원관",
+   "url": "https://linkareer.com/activity/357087",
+   "officialUrl": null,
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-11-09",
+   "postedAt": "2026-10-15",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "디자인/순수미술/공예",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357087"
+    }
+   ],
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "hola:6a7d1cb1bcb0b5b2e7537200",
