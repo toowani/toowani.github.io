@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-15T04:42:27.146Z",
+ "generatedAt": "2026-10-15T11:32:13.184Z",
  "today": "2026-10-15",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 124,
-   "fetchedAt": "2026-10-15T04:42:27.126Z"
+   "count": 125,
+   "fetchedAt": "2026-10-15T11:32:13.156Z"
   },
   "hola": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-15T04:42:27.126Z"
+   "fetchedAt": "2026-10-15T11:32:13.156Z"
   },
   "wevity": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-10-15T04:42:27.126Z"
+   "count": 39,
+   "fetchedAt": "2026-10-15T11:32:13.156Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-15T04:42:27.126Z"
+   "fetchedAt": "2026-10-15T11:32:13.156Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-15T04:42:27.126Z"
+   "fetchedAt": "2026-10-15T11:32:13.156Z"
   }
  },
  "count": 179,
@@ -1705,39 +1705,6 @@
    "firstSeen": "2026-09-29"
   },
   {
-   "id": "wevity:111220",
-   "source": "wevity",
-   "title": "2026 충북영상자서전 사업 사랑나눔 스마트 AI 영상자서전 공모전",
-   "host": "증평군노인복지관",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111220",
-   "officialUrl": "http://www.jpswelfare.or.kr/sub.php?menukey=27&id=notice&idx=307",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-23",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 50만원",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111220",
-     "_detail": {
-      "applyStart": "2026-09-14",
-      "applyEnd": "2026-10-23",
-      "prize": "1천만원이하 · 1등 50만원",
-      "officialUrl": "http://www.jpswelfare.or.kr/sub.php?menukey=27&id=notice&idx=307",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "kstartup:179516",
    "source": "kstartup",
    "title": "2026-9회 충청권 엔젤투자 피칭룸 프로그램 참가기업 모집",
@@ -2629,6 +2596,39 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "wevity:111611",
+   "source": "wevity",
+   "title": "[의성군] AI활용 서비스 개선 공모제안 경진대회",
+   "host": "의성군",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111611",
+   "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=6e2a656bedb8446f9d275d0e1cacdc1e&pagetype=bbs",
+   "applyStart": "2026-10-15",
+   "applyEnd": "2026-10-30",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 150만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111611",
+     "_detail": {
+      "applyStart": "2026-10-15",
+      "applyEnd": "2026-10-30",
+      "prize": "1천만원이하 · 1등 150만원",
+      "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=6e2a656bedb8446f9d275d0e1cacdc1e&pagetype=bbs",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "kstartup:176296",
    "source": "kstartup",
    "title": "[인천지식재산센터] IP디딤돌 아이디어 권리화 지원사업 모집 공고",
@@ -2859,6 +2859,38 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111685",
+   "source": "wevity",
+   "title": "2026 제8회 TS 보안 허점을 찾아라 공모전",
+   "host": "한국교통안전공단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111685",
+   "officialUrl": "https://main.kotsa.or.kr/portal/bbs/notice_view.do?bbscCode=notice&cateCode=&bbscSeqn=18448&pageNumb=1&sechCdtn=&sechKywd=&menuCode=05010100",
+   "applyStart": "2026-10-23",
+   "applyEnd": "2026-10-30",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 300만원",
+   "place": null,
+   "target": "일반인, 대학생",
+   "sourceCategory": "웹/모바일/IT, 게임/소프트웨어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111685",
+     "_detail": {
+      "applyStart": "2026-10-23",
+      "applyEnd": "2026-10-30",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://main.kotsa.or.kr/portal/bbs/notice_view.do?bbscCode=notice&cateCode=&bbscSeqn=18448&pageNumb=1&sechCdtn=&sechKywd=&menuCode=05010100",
+      "target": "일반인, 대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-15"
   },
   {
    "id": "linkareer:352809",
@@ -3184,39 +3216,6 @@
     }
    ],
    "firstSeen": "2026-10-11"
-  },
-  {
-   "id": "wevity:111223",
-   "source": "wevity",
-   "title": "2026 AI 활용 숏폼 영상 공모전 (나의 공단, 나의 이야기)",
-   "host": "종로구시설관리공단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111223",
-   "officialUrl": "https://www.ijongno.co.kr/www/136?action=read&action-value=106fcd9959f96067785b962b1a65cc24",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 250천원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111223",
-     "_detail": {
-      "applyStart": "2026-10-01",
-      "applyEnd": "2026-10-31",
-      "prize": "1천만원이하 · 1등 250천원",
-      "officialUrl": "https://www.ijongno.co.kr/www/136?action=read&action-value=106fcd9959f96067785b962b1a65cc24",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
   },
   {
    "id": "linkareer:356726",
@@ -4554,6 +4553,32 @@
    "firstSeen": "2026-10-15"
   },
   {
+   "id": "linkareer:357190",
+   "source": "linkareer",
+   "title": "2026 CBC KOREA 창업경진대회",
+   "host": "스마트크리에이터",
+   "url": "https://linkareer.com/activity/357190",
+   "officialUrl": null,
+   "applyStart": "2026-10-15",
+   "applyEnd": "2026-11-10",
+   "postedAt": "2026-10-15",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기타, 창업",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357190"
+    }
+   ],
+   "firstSeen": "2026-10-15"
+  },
+  {
    "id": "hola:6a7d1cb1bcb0b5b2e7537200",
    "source": "hola",
    "title": "2026 DATA·AI 분석 경진대회 신규",
@@ -5119,39 +5144,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/347306"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111222",
-   "source": "wevity",
-   "title": "NEXMUSE AI Music Video Contest 2027",
-   "host": "주식회사 에이아이아트",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-   "officialUrl": "https://nexmuse.kr/",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-12-28",
-   "postedAt": null,
-   "prize": "3천만원~1천만원 · 1등 1,000만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-12-28",
-      "prize": "3천만원~1천만원 · 1등 1,000만원",
-      "officialUrl": "https://nexmuse.kr/",
-      "target": "일반인, 대학생, 청소년"
-     }
     }
    ],
    "firstSeen": "2026-09-28"
