@@ -1,68 +1,35 @@
 {
- "generatedAt": "2026-10-16T11:27:07.970Z",
- "today": "2026-10-16",
+ "generatedAt": "2026-10-16T16:41:34.836Z",
+ "today": "2026-10-17",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 121,
-   "fetchedAt": "2026-10-16T11:27:07.953Z"
+   "count": 117,
+   "fetchedAt": "2026-10-16T16:41:34.820Z"
   },
   "hola": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-10-16T11:27:07.953Z"
+   "count": 39,
+   "fetchedAt": "2026-10-16T16:41:34.820Z"
   },
   "wevity": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-16T11:27:07.954Z"
+   "count": 34,
+   "fetchedAt": "2026-10-16T16:41:34.821Z"
   },
   "devevent": {
    "ok": true,
-   "count": 22,
-   "fetchedAt": "2026-10-16T11:27:07.954Z"
+   "count": 21,
+   "fetchedAt": "2026-10-16T16:41:34.821Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-16T11:27:07.954Z"
+   "fetchedAt": "2026-10-16T16:41:34.821Z"
   }
  },
- "count": 174,
+ "count": 166,
  "items": [
-  {
-   "id": "hola:6acb3e05ee012963f81ccba1",
-   "source": "hola",
-   "title": "Replit x OpenAI x AWS x Gold House Ventures Hackathon",
-   "host": "Replit / OpenAI / AWS / Gold House Ventures",
-   "url": "https://holaworld.io/hola-it/6acb3e05ee012963f81ccba1",
-   "officialUrl": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-14",
-   "eventStart": "2026-10-14",
-   "eventEnd": "2026-10-14",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "startup",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3e05ee012963f81ccba1"
-    },
-    {
-     "source": "devevent",
-     "url": "https://partiful.com/e/PVm8Ehw7QwzympSfwkB3"
-    }
-   ],
-   "firstSeen": "2026-10-11"
-  },
   {
    "id": "hola:6aa92b65fdf75b86efb38266",
    "source": "hola",
@@ -94,216 +61,6 @@
     }
    ],
    "firstSeen": "2026-10-16"
-  },
-  {
-   "id": "linkareer:354410",
-   "source": "linkareer",
-   "title": "[대구경북첨단의료산업진흥재단] 2026 K-MEDI AI 혁신 아이디어 챌린지",
-   "host": "대구경북첨단의료산업진흥재단",
-   "url": "https://linkareer.com/activity/354410",
-   "officialUrl": "https://www.kmedihub.re.kr/",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-16",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354410"
-    }
-   ],
-   "firstSeen": "2026-10-02"
-  },
-  {
-   "id": "wevity:111390",
-   "source": "wevity",
-   "title": "2026 K-MEDI AI 혁신 아이디어 챌린지 공모전",
-   "host": "대구경북첨단의료산업진흥재단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111390",
-   "officialUrl": "https://www.kmedihub.re.kr/",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-16",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 30만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111390",
-     "_detail": {
-      "applyStart": "2026-10-01",
-      "applyEnd": "2026-10-16",
-      "prize": "1천만원이하 · 1등 30만원",
-      "officialUrl": "https://www.kmedihub.re.kr/",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "wevity:111459",
-   "source": "wevity",
-   "title": "2026 KSMS 추계 인천국제공항공사 대학생 아이디어 경진대회",
-   "host": "사단법인 한국서비스경영학회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111459",
-   "officialUrl": "https://koreaservice.or.kr/board/mainboard/article/285093",
-   "applyStart": "2026-09-17",
-   "applyEnd": "2026-10-16",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111459",
-     "_detail": {
-      "applyStart": "2026-09-17",
-      "applyEnd": "2026-10-16",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://koreaservice.or.kr/board/mainboard/article/285093",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-09"
-  },
-  {
-   "id": "linkareer:348257",
-   "source": "linkareer",
-   "title": "2026 국립과천과학관 AI 활용 숏폼 공모전",
-   "host": "국립과천과학관",
-   "url": "https://linkareer.com/activity/348257",
-   "officialUrl": "https://www.sciencecenter.go.kr/event/2026/ai-shortform-contest/#free-topic",
-   "applyStart": "2026-08-25",
-   "applyEnd": "2026-10-16",
-   "postedAt": "2026-09-04",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348257"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:110981",
-   "source": "wevity",
-   "title": "2026 제5회 오픈소스 SW개발 경진대회",
-   "host": "과학기술정보통신부, 정보통신기획평가원",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110981",
-   "officialUrl": "https://www.yu.ac.kr/swedu/notice/notice.do?mode=view&articleNo=231682010",
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-10-16",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 30만원",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "게임/소프트웨어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110981",
-     "_detail": {
-      "applyStart": "2026-09-16",
-      "applyEnd": "2026-10-16",
-      "prize": "1천만원이하 · 1등 30만원",
-      "officialUrl": "https://www.yu.ac.kr/swedu/notice/notice.do?mode=view&articleNo=231682010",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111363",
-   "source": "wevity",
-   "title": "2026년 K-푸드테크 해커톤 대회",
-   "host": "경상북도,포항시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111363",
-   "officialUrl": "https://gbict.or.kr/page/bsi/noticeList.do",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-16",
-   "postedAt": "2026-09-30",
-   "prize": "1천만원이하 · 1등 500만원",
-   "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353780"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111363",
-     "_detail": {
-      "applyStart": "2026-09-29",
-      "applyEnd": "2026-10-16",
-      "prize": "1천만원이하 · 1등 500만원",
-      "officialUrl": "https://gbict.or.kr/page/bsi/noticeList.do",
-      "target": "일반인, 대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-30"
-  },
-  {
-   "id": "linkareer:349495",
-   "source": "linkareer",
-   "title": "The Pattern 2026 콘테스트 : 오픈소스 패션 모델링 어워드",
-   "host": "(사)부산섬유패션산업연합회",
-   "url": "https://linkareer.com/activity/349495",
-   "officialUrl": "https://bfashion.me/",
-   "applyStart": "2026-09-02",
-   "applyEnd": "2026-10-16",
-   "postedAt": "2026-09-09",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "디자인/순수미술/공예, 예체능/패션",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349495"
-    }
-   ],
-   "firstSeen": "2026-09-28"
   },
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
