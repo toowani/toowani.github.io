@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-16T16:41:34.836Z",
+ "generatedAt": "2026-10-16T21:11:39.703Z",
  "today": "2026-10-17",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 117,
-   "fetchedAt": "2026-10-16T16:41:34.820Z"
+   "fetchedAt": "2026-10-16T21:11:39.681Z"
   },
   "hola": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-16T16:41:34.820Z"
+   "fetchedAt": "2026-10-16T21:11:39.681Z"
   },
   "wevity": {
    "ok": true,
-   "count": 34,
-   "fetchedAt": "2026-10-16T16:41:34.821Z"
+   "count": 36,
+   "fetchedAt": "2026-10-16T21:11:39.681Z"
   },
   "devevent": {
    "ok": true,
    "count": 21,
-   "fetchedAt": "2026-10-16T16:41:34.821Z"
+   "fetchedAt": "2026-10-16T21:11:39.681Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-16T16:41:34.821Z"
+   "fetchedAt": "2026-10-16T21:11:39.681Z"
   }
  },
- "count": 166,
+ "count": 168,
  "items": [
   {
    "id": "hola:6aa92b65fdf75b86efb38266",
@@ -3778,6 +3778,38 @@
    "firstSeen": "2026-10-08"
   },
   {
+   "id": "wevity:111624",
+   "source": "wevity",
+   "title": "한미일 미래협력 아이디어 챌린지 공모전",
+   "host": "외교부",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111624",
+   "officialUrl": "https://www.mofa.go.kr/www/brd/m_4075/view.do?seq=369459&page=1&pitem=10",
+   "applyStart": "2026-10-16",
+   "applyEnd": "2026-11-07",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 50만원",
+   "place": null,
+   "target": "대학생, 기타",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111624",
+     "_detail": {
+      "applyStart": "2026-10-16",
+      "applyEnd": "2026-11-07",
+      "prize": "1천만원이하 · 1등 50만원",
+      "officialUrl": "https://www.mofa.go.kr/www/brd/m_4075/view.do?seq=369459&page=1&pitem=10",
+      "target": "대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-17"
+  },
+  {
    "id": "wevity:111087",
    "source": "wevity",
    "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
@@ -4601,6 +4633,40 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "wevity:111628",
+   "source": "wevity",
+   "title": "2026 조달청 AI 게임·콘텐츠 공모전",
+   "host": "조달청",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111628",
+   "officialUrl": "https://blog.naver.com/ppspr/224439199284",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-11-22",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 200만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "ai",
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111628",
+     "_detail": {
+      "applyStart": "2026-10-12",
+      "applyEnd": "2026-11-22",
+      "prize": "1천만원이하 · 1등 200만원",
+      "officialUrl": "https://blog.naver.com/ppspr/224439199284",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-17"
   },
   {
    "id": "linkareer:345081",
