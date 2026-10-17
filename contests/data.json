@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-16T21:11:39.703Z",
+ "generatedAt": "2026-10-17T04:29:37.273Z",
  "today": "2026-10-17",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 117,
-   "fetchedAt": "2026-10-16T21:11:39.681Z"
+   "fetchedAt": "2026-10-17T04:29:36.968Z"
   },
   "hola": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-16T21:11:39.681Z"
+   "fetchedAt": "2026-10-17T04:29:36.968Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-10-16T21:11:39.681Z"
+   "fetchedAt": "2026-10-17T04:29:36.968Z"
   },
   "devevent": {
    "ok": true,
    "count": 21,
-   "fetchedAt": "2026-10-16T21:11:39.681Z"
+   "fetchedAt": "2026-10-17T04:29:36.968Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-16T21:11:39.681Z"
+   "count": 0,
+   "fetchedAt": "2026-10-17T04:29:36.968Z"
   }
  },
- "count": 168,
+ "count": 154,
  "items": [
   {
    "id": "hola:6aa92b65fdf75b86efb38266",
@@ -674,31 +674,6 @@
    "firstSeen": "2026-10-15"
   },
   {
-   "id": "kstartup:179394",
-   "source": "kstartup",
-   "title": "IR 피칭 청년 창업 오디션 「2026 D-MADE 오디션」 참여기업 모집 (~10. 20. 연장)",
-   "host": "동명청년창작소",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-20",
-   "postedAt": "2026-10-06",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394"
-    }
-   ],
-   "firstSeen": "2026-10-16"
-  },
-  {
    "id": "linkareer:356483",
    "source": "linkareer",
    "title": "청년취업사관학교 해커톤",
@@ -1039,31 +1014,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "kstartup:179375",
-   "source": "kstartup",
-   "title": "쇼미더임팩트 시즌6 참가자 모집 [IMPACT IR 경연대회]",
-   "host": "충남사회적경제지원센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375",
-   "officialUrl": null,
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-22",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
    "id": "wevity:111346",
    "source": "wevity",
    "title": "2026 CWNU SW-DNA² 챌린지 대학생 AI·SW 경진대회",
@@ -1161,32 +1111,6 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "kstartup:179496",
-   "source": "kstartup",
-   "title": "2026 산업단지 오픈이노베이션프로그램 KICXUP 챌린지 & 로컬 스타트업 2차 모집 공고",
-   "host": "한국산업단지공단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496",
-   "officialUrl": null,
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-14",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496"
-    }
-   ],
-   "firstSeen": "2026-10-14"
-  },
-  {
    "id": "linkareer:353405",
    "source": "linkareer",
    "title": "2026 충북영상자서전 [사랑나눔 스마트 AI 영상자서전 공모전]",
@@ -1211,57 +1135,6 @@
     }
    ],
    "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "kstartup:179516",
-   "source": "kstartup",
-   "title": "2026-9회 충청권 엔젤투자 피칭룸 프로그램 참가기업 모집",
-   "host": "한국엔젤투자협회",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516",
-   "officialUrl": null,
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-15",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516"
-    }
-   ],
-   "firstSeen": "2026-10-15"
-  },
-  {
-   "id": "kstartup:179474",
-   "source": "kstartup",
-   "title": "2026년 초기창업패키지 로켓십 IR 경진대회 참가기업 모집 (3회차: 기후·ESG)",
-   "host": "씨엔티테크(주)",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179474",
-   "officialUrl": null,
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-12",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179474"
-    }
-   ],
-   "firstSeen": "2026-10-12"
   },
   {
    "id": "wevity:110998",
@@ -1795,31 +1668,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "kstartup:179456",
-   "source": "kstartup",
-   "title": "2026년 광명 글로컬 데모데이 참관객 모집",
-   "host": "씨엔티테크(주)",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179456",
-   "officialUrl": null,
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-10-26",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179456"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
    "id": "linkareer:351981",
    "source": "linkareer",
    "title": "2026년 제6회 SDGs 소셜벤처 챔피언십",
@@ -2169,31 +2017,6 @@
    "firstSeen": "2026-10-15"
   },
   {
-   "id": "kstartup:176296",
-   "source": "kstartup",
-   "title": "[인천지식재산센터] IP디딤돌 아이디어 권리화 지원사업 모집 공고",
-   "host": "인천상공회의소",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176296",
-   "officialUrl": null,
-   "applyStart": "2026-02-11",
-   "applyEnd": "2026-10-30",
-   "postedAt": "2026-02-12",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176296"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "hola:6acf323cee012963f8210b73",
    "source": "hola",
    "title": "10/31 Hello World AI 해커톤",
@@ -2257,31 +2080,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179281",
-   "source": "kstartup",
-   "title": "2026 경기스포츠산업 공모전",
-   "host": "(주)스펙토리",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281",
-   "officialUrl": null,
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-30",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281"
-    }
-   ],
-   "firstSeen": "2026-10-01"
   },
   {
    "id": "wevity:111368",
@@ -3620,32 +3418,6 @@
    "firstSeen": "2026-10-13"
   },
   {
-   "id": "kstartup:179472",
-   "source": "kstartup",
-   "title": "[구리시 청년내일센터] 2026 창업아이디어 경진대회 참가자 모집",
-   "host": "광운대학교산학협력단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472",
-   "officialUrl": null,
-   "applyStart": "2026-10-08",
-   "applyEnd": "2026-11-05",
-   "postedAt": "2026-10-12",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "시설ㆍ공간ㆍ보육",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
    "id": "wevity:111009",
    "source": "wevity",
    "title": "2026 스페이스 해커톤",
@@ -3866,10 +3638,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/355217"
-    },
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
     }
    ],
    "firstSeen": "2026-10-08"
@@ -3955,31 +3723,6 @@
     }
    ],
    "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:179447",
-   "source": "kstartup",
-   "title": "의정부 FIT데이(Demo Day) 2회차 기업 모집 공고",
-   "host": "경기창조경제혁신센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447",
-   "officialUrl": null,
-   "applyStart": "2026-10-08",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-08",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447"
-    }
-   ],
-   "firstSeen": "2026-10-08"
   },
   {
    "id": "hola:6a60d0194e4a0d457b180963",
@@ -4265,31 +4008,6 @@
    "firstSeen": "2026-10-06"
   },
   {
-   "id": "kstartup:179533",
-   "source": "kstartup",
-   "title": "[해수부] 2026년 해양수산 통합데모데이 참가자 모집",
-   "host": "부산지역대학연합기술지주(주)",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179533",
-   "officialUrl": null,
-   "applyStart": "2026-10-15",
-   "applyEnd": "2026-11-12",
-   "postedAt": "2026-10-16",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179533"
-    }
-   ],
-   "firstSeen": "2026-10-16"
-  },
-  {
    "id": "linkareer:352004",
    "source": "linkareer",
    "title": "2026 동남 버그바운티 대회",
@@ -4538,31 +4256,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/334310"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "kstartup:176406",
-   "source": "kstartup",
-   "title": "2026 대경권 엔젤투자 피칭룸 참여기업 모집 공고",
-   "host": "한국엔젤투자협회",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176406",
-   "officialUrl": null,
-   "applyStart": "2026-02-24",
-   "applyEnd": "2026-11-20",
-   "postedAt": "2026-02-25",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176406"
     }
    ],
    "firstSeen": "2026-09-28"
@@ -4889,31 +4582,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "kstartup:176810",
-   "source": "kstartup",
-   "title": "창원시 벤처투자 『매칭&피칭데이』참여기업 모집 공고",
-   "host": "(재)창원산업진흥원",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176810",
-   "officialUrl": null,
-   "applyStart": "2026-03-20",
-   "applyEnd": "2026-12-31",
-   "postedAt": "2026-03-20",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176810"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "linkareer:355997",
    "source": "linkareer",
    "title": "[청년 콘텐츠 공모전] 《인간인 줄 알았는데, AI였습니다.》",
@@ -4938,31 +4606,6 @@
     }
    ],
    "firstSeen": "2026-10-12"
-  },
-  {
-   "id": "kstartup:177113",
-   "source": "kstartup",
-   "title": "경남 수도권 투자유치 거점센터 (G-Space@TIPS) 2026 G-Demoday&G-Mentoring day",
-   "host": "(유)제피러스랩",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177113",
-   "officialUrl": null,
-   "applyStart": "2026-04-09",
-   "applyEnd": "2027-01-31",
-   "postedAt": "2026-04-09",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 시설ㆍ공간ㆍ보육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177113"
-    }
-   ],
-   "firstSeen": "2026-09-28"
   }
  ]
 }
