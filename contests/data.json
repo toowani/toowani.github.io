@@ -1,67 +1,35 @@
 {
- "generatedAt": "2026-10-17T10:46:38.731Z",
- "today": "2026-10-17",
+ "generatedAt": "2026-10-17T15:37:33.875Z",
+ "today": "2026-10-18",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 117,
-   "fetchedAt": "2026-10-17T10:46:38.709Z"
+   "fetchedAt": "2026-10-17T15:37:33.854Z"
   },
   "hola": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-17T10:46:38.709Z"
+   "count": 38,
+   "fetchedAt": "2026-10-17T15:37:33.854Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-10-17T10:46:38.709Z"
+   "fetchedAt": "2026-10-17T15:37:33.854Z"
   },
   "devevent": {
    "ok": true,
-   "count": 21,
-   "fetchedAt": "2026-10-17T10:46:38.709Z"
+   "count": 20,
+   "fetchedAt": "2026-10-17T15:37:33.854Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-17T10:46:38.709Z"
+   "fetchedAt": "2026-10-17T15:37:33.854Z"
   }
  },
- "count": 168,
+ "count": 167,
  "items": [
-  {
-   "id": "hola:6aa92b65fdf75b86efb38266",
-   "source": "hola",
-   "title": "KoMaP AI 경진대회",
-   "host": "산업통상자원부,한국산업기술진흥원",
-   "url": "https://holaworld.io/hola-it/6aa92b65fdf75b86efb38266",
-   "officialUrl": "https://komap.ai",
-   "applyStart": "2026-09-03",
-   "applyEnd": "2026-10-15",
-   "eventStart": "2026-09-03",
-   "eventEnd": "2026-10-15",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa92b65fdf75b86efb38266"
-    },
-    {
-     "source": "devevent",
-     "url": "https://komap.ai/front/competition2026"
-    }
-   ],
-   "firstSeen": "2026-10-16"
-  },
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
    "source": "hola",
