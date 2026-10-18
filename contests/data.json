@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-18T04:36:38.678Z",
+ "generatedAt": "2026-10-18T11:08:53.380Z",
  "today": "2026-10-18",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 117,
-   "fetchedAt": "2026-10-18T04:36:38.492Z"
+   "fetchedAt": "2026-10-18T11:08:53.357Z"
   },
   "hola": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-18T04:36:38.492Z"
+   "count": 44,
+   "fetchedAt": "2026-10-18T11:08:53.357Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-10-18T04:36:38.492Z"
+   "fetchedAt": "2026-10-18T11:08:53.357Z"
   },
   "devevent": {
    "ok": true,
    "count": 20,
-   "fetchedAt": "2026-10-18T04:36:38.492Z"
+   "fetchedAt": "2026-10-18T11:08:53.357Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-18T04:36:38.492Z"
+   "fetchedAt": "2026-10-18T11:08:53.357Z"
   }
  },
- "count": 167,
+ "count": 172,
  "items": [
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
@@ -667,6 +667,35 @@
    "firstSeen": "2026-10-17"
   },
   {
+   "id": "hola:6ad48a7cb2e45876ca5921dc",
+   "source": "hola",
+   "title": "세종 R&D 기업 AI 활용 사업화 MVP 메이커톤",
+   "host": "오영석",
+   "url": "https://holaworld.io/hola-it/6ad48a7cb2e45876ca5921dc",
+   "officialUrl": "https://event-us.kr/sejongtechnopark/event/137677",
+   "applyStart": "2026-10-15",
+   "applyEnd": "2026-10-20",
+   "eventStart": "2026-10-27",
+   "eventEnd": "2026-10-27",
+   "postedAt": "2026-10-18",
+   "prize": null,
+   "place": "오프라인 · 코트야드바이 메리어트 세종",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a7cb2e45876ca5921dc"
+    }
+   ],
+   "firstSeen": "2026-10-18"
+  },
+  {
    "id": "linkareer:356483",
    "source": "linkareer",
    "title": "청년취업사관학교 해커톤",
@@ -849,6 +878,34 @@
    "firstSeen": "2026-09-28"
   },
   {
+   "id": "hola:6ad48a77b2e45876ca5921ac",
+   "source": "hola",
+   "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 인증 이벤트>",
+   "host": "과학기술정보통신부, 한국데이터산업진흥원",
+   "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac",
+   "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/22",
+   "applyStart": "2026-10-16",
+   "applyEnd": "2026-10-22",
+   "eventStart": "2026-10-16",
+   "eventEnd": "2026-10-22",
+   "postedAt": "2026-10-18",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac"
+    }
+   ],
+   "firstSeen": "2026-10-18"
+  },
+  {
    "id": "linkareer:347195",
    "source": "linkareer",
    "title": "2026 데이터+AI 혁신챌린지 ‘데이터안심구역 경진대회’ 참가자 모집 안내",
@@ -920,6 +977,34 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "hola:6ad48a7bb2e45876ca5921c7",
+   "source": "hola",
+   "title": "2026 동해시 AI 활용 해커톤 대회",
+   "host": "동해시 & 한림대학교 G-Lab",
+   "url": "https://holaworld.io/hola-it/6ad48a7bb2e45876ca5921c7",
+   "officialUrl": "https://www.dh.go.kr/www/selectBbsNttView.do?key=478&bbsNo=87&nttNo=205503&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
+   "applyStart": "2026-10-17",
+   "applyEnd": "2026-10-22",
+   "eventStart": "2026-10-17",
+   "eventEnd": "2026-10-22",
+   "postedAt": "2026-10-18",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a7bb2e45876ca5921c7"
+    }
+   ],
+   "firstSeen": "2026-10-18"
   },
   {
    "id": "hola:6aa751d4847411b719e2e536",
@@ -3614,6 +3699,34 @@
    "firstSeen": "2026-10-17"
   },
   {
+   "id": "hola:6ad48a78b2e45876ca5921b4",
+   "source": "hola",
+   "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 수기 이벤트>",
+   "host": "과학기술정보통신부, 한국데이터산업진흥원",
+   "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4",
+   "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/23",
+   "applyStart": "2026-10-23",
+   "applyEnd": "2026-11-05",
+   "eventStart": "2026-10-23",
+   "eventEnd": "2026-11-05",
+   "postedAt": "2026-10-18",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4"
+    }
+   ],
+   "firstSeen": "2026-10-18"
+  },
+  {
    "id": "wevity:111009",
    "source": "wevity",
    "title": "2026 스페이스 해커톤",
@@ -3893,6 +4006,34 @@
     }
    ],
    "firstSeen": "2026-10-16"
+  },
+  {
+   "id": "hola:6ad48a7ab2e45876ca5921c0",
+   "source": "hola",
+   "title": "2026 서울AI디지털배움터 청년 AI 해커톤",
+   "host": "서울AI디지털배움터",
+   "url": "https://holaworld.io/hola-it/6ad48a7ab2e45876ca5921c0",
+   "officialUrl": "https://forms.gle/HNx9CiyYZS3sXuwj9",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-11-08",
+   "eventStart": "2026-10-12",
+   "eventEnd": "2026-11-08",
+   "postedAt": "2026-10-18",
+   "prize": null,
+   "place": "오프라인 · 온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a7ab2e45876ca5921c0"
+    }
+   ],
+   "firstSeen": "2026-10-18"
   },
   {
    "id": "linkareer:351460",
@@ -4611,17 +4752,23 @@
    "officialUrl": "https://blog.naver.com/ppspr/224439199284",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-11-22",
-   "postedAt": null,
+   "postedAt": "2026-10-18",
    "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "게임/소프트웨어",
    "tags": [
     "ai",
-    "dev",
-    "video"
+    "video",
+    "dev"
    ],
+   "eventStart": "2026-10-12",
+   "eventEnd": "2026-11-22",
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad48a76b2e45876ca5921a5"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111628",
