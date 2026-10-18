@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-18T11:08:53.380Z",
- "today": "2026-10-18",
+ "generatedAt": "2026-10-18T15:53:45.226Z",
+ "today": "2026-10-19",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 117,
-   "fetchedAt": "2026-10-18T11:08:53.357Z"
+   "count": 111,
+   "fetchedAt": "2026-10-18T15:53:45.189Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-18T11:08:53.357Z"
+   "fetchedAt": "2026-10-18T15:53:45.189Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-10-18T11:08:53.357Z"
+   "fetchedAt": "2026-10-18T15:53:45.189Z"
   },
   "devevent": {
    "ok": true,
    "count": 20,
-   "fetchedAt": "2026-10-18T11:08:53.357Z"
+   "fetchedAt": "2026-10-18T15:53:45.189Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-18T11:08:53.357Z"
+   "fetchedAt": "2026-10-18T15:53:45.189Z"
   }
  },
- "count": 172,
+ "count": 166,
  "items": [
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
@@ -123,58 +123,6 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:352998",
-   "source": "linkareer",
-   "title": "2026 경남 관광 창업 아이디어 경진대회",
-   "host": "한국관광공사",
-   "url": "https://linkareer.com/activity/352998",
-   "officialUrl": null,
-   "applyStart": "2026-09-24",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352998"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:349137",
-   "source": "linkareer",
-   "title": "2026 대국민 농촌관광 홍보영상 경진대회",
-   "host": "농촌관광 숏폼 공모전",
-   "url": "https://linkareer.com/activity/349137",
-   "officialUrl": "https://form.naver.com/response/Dr7kPzt2Wdo?fbclid=PAT01DUAUMkuxwZG9mAmV4dG4DYWVtAjEwAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp6WbF-ETYJemT6TiqvcDzKUKCQp3xlXbimUQlfsLZ3CFVNiUkn4u9j9NLkLg_aem_UERP3N99dO2rtIFT7h1vnQ",
-   "applyStart": "2026-07-15",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-08",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349137"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
    "id": "hola:6aae2720fdf75b86efb99eb8",
    "source": "hola",
    "title": "2026 별별화성 Awards AI CF 공모전",
@@ -197,108 +145,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aae2720fdf75b86efb99eb8"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:350826",
-   "source": "linkareer",
-   "title": "2026 화성특례시 AI CF 공모전 「제6회 별별화성 Awards」",
-   "host": "화성특례시",
-   "url": "https://linkareer.com/activity/350826",
-   "officialUrl": "https://aihscity.com/",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/350826"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:352168",
-   "source": "linkareer",
-   "title": "WFK 해외봉사단 커리어개발 우수사례 공모전",
-   "host": "KOICA (한국국제협력단)",
-   "url": "https://linkareer.com/activity/352168",
-   "officialUrl": "https://blog.naver.com/wfk2012/224414658493",
-   "applyStart": "2026-09-18",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "해외, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352168"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348157",
-   "source": "linkareer",
-   "title": "송도 여행하고 인증하면 최대 30만원! 송도 여행 챌린지 이벤트",
-   "host": "더아이케이",
-   "url": "https://linkareer.com/activity/348157",
-   "officialUrl": "https://forms.gle/xteSJFuRKy3yWy4aA",
-   "applyStart": "2026-08-24",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-04",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348157"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:349058",
-   "source": "linkareer",
-   "title": "제2회 ZYXCAD AX 경진대회",
-   "host": "직스테크놀로지",
-   "url": "https://linkareer.com/activity/349058",
-   "officialUrl": null,
-   "applyStart": "2026-08-31",
-   "applyEnd": "2026-10-18",
-   "postedAt": "2026-09-08",
-   "prize": null,
-   "place": null,
-   "target": "청소년, 대학생",
-   "sourceCategory": "학술, 과학/공학",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/349058"
     }
    ],
    "firstSeen": "2026-09-28"
