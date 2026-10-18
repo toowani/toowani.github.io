@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-18T15:53:45.226Z",
+ "generatedAt": "2026-10-18T20:45:52.493Z",
  "today": "2026-10-19",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 111,
-   "fetchedAt": "2026-10-18T15:53:45.189Z"
+   "fetchedAt": "2026-10-18T20:45:52.472Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-18T15:53:45.189Z"
+   "fetchedAt": "2026-10-18T20:45:52.473Z"
   },
   "wevity": {
    "ok": true,
-   "count": 36,
-   "fetchedAt": "2026-10-18T15:53:45.189Z"
+   "count": 37,
+   "fetchedAt": "2026-10-18T20:45:52.473Z"
   },
   "devevent": {
    "ok": true,
    "count": 20,
-   "fetchedAt": "2026-10-18T15:53:45.189Z"
+   "fetchedAt": "2026-10-18T20:45:52.473Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-18T15:53:45.189Z"
+   "fetchedAt": "2026-10-18T20:45:52.473Z"
   }
  },
- "count": 166,
+ "count": 167,
  "items": [
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
@@ -2655,6 +2655,39 @@
     }
    ],
    "firstSeen": "2026-10-11"
+  },
+  {
+   "id": "wevity:111223",
+   "source": "wevity",
+   "title": "2026 AI 활용 숏폼 영상 공모전 (나의 공단, 나의 이야기)",
+   "host": "종로구시설관리공단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111223",
+   "officialUrl": "https://www.ijongno.co.kr/www/136?action=read&action-value=106fcd9959f96067785b962b1a65cc24",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-31",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 250천원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111223",
+     "_detail": {
+      "applyStart": "2026-10-01",
+      "applyEnd": "2026-10-31",
+      "prize": "1천만원이하 · 1등 250천원",
+      "officialUrl": "https://www.ijongno.co.kr/www/136?action=read&action-value=106fcd9959f96067785b962b1a65cc24",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "linkareer:356726",
