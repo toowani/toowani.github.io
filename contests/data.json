@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-19T04:43:16.838Z",
+ "generatedAt": "2026-10-19T13:20:13.195Z",
  "today": "2026-10-19",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 115,
-   "fetchedAt": "2026-10-19T04:43:16.819Z"
+   "count": 120,
+   "fetchedAt": "2026-10-19T13:20:13.172Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-19T04:43:16.819Z"
+   "fetchedAt": "2026-10-19T13:20:13.172Z"
   },
   "wevity": {
    "ok": true,
-   "count": 37,
-   "fetchedAt": "2026-10-19T04:43:16.819Z"
+   "count": 38,
+   "fetchedAt": "2026-10-19T13:20:13.172Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-19T04:43:16.819Z"
+   "fetchedAt": "2026-10-19T13:20:13.172Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-19T04:43:16.819Z"
+   "fetchedAt": "2026-10-19T13:20:13.172Z"
   }
  },
- "count": 172,
+ "count": 175,
  "items": [
   {
    "id": "hola:6acb3de3ee012963f81ccaaf",
@@ -723,32 +723,36 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "hola:6ad48a77b2e45876ca5921ac",
-   "source": "hola",
+   "id": "linkareer:357846",
+   "source": "linkareer",
    "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 인증 이벤트>",
-   "host": "과학기술정보통신부, 한국데이터산업진흥원",
-   "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac",
+   "host": "데이터 문제해결은행",
+   "url": "https://linkareer.com/activity/357846",
    "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/22",
-   "applyStart": "2026-10-16",
+   "applyStart": "2026-10-19",
    "applyEnd": "2026-10-22",
-   "eventStart": "2026-10-16",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-10-18",
+   "postedAt": "2026-10-19",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학, 학술",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357846"
+    },
+    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac"
     }
    ],
-   "firstSeen": "2026-10-18"
+   "eventStart": "2026-10-16",
+   "eventEnd": "2026-10-22",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "linkareer:347195",
@@ -1569,6 +1573,31 @@
     }
    ],
    "firstSeen": "2026-10-01"
+  },
+  {
+   "id": "linkareer:357967",
+   "source": "linkareer",
+   "title": "Seoul | Bloom x Genspark x FuriosaAI · THE CLOSER",
+   "host": "클라이원트",
+   "url": "https://linkareer.com/activity/357967",
+   "officialUrl": "https://app.bloomworld.ai/?utm_source=meta&utm_medium=paid_social&utm_campaign=bloom_signup_202610&utm_content=ad01",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-10-25",
+   "postedAt": "2026-10-19",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업, 광고/마케팅",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357967"
+    }
+   ],
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "hola:6acce4d1ee012963f81ebc8a",
@@ -2432,6 +2461,39 @@
    "firstSeen": "2026-10-15"
   },
   {
+   "id": "wevity:111767",
+   "source": "wevity",
+   "title": "2026 충북글로벌게임센터 AI 게임 개발 공모전",
+   "host": "청주시문화산업진흥재단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111767",
+   "officialUrl": "https://cbgame.org/sub.php?code=8&mode=view&no=204&category=&page=1&search=&keyword=",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-10-30",
+   "postedAt": null,
+   "prize": "3천만원~1천만원 · 1등 800만원",
+   "place": null,
+   "target": "기타",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111767",
+     "_detail": {
+      "applyStart": "2026-10-26",
+      "applyEnd": "2026-10-30",
+      "prize": "3천만원~1천만원 · 1등 800만원",
+      "officialUrl": "https://cbgame.org/sub.php?code=8&mode=view&no=204&category=&page=1&search=&keyword=",
+      "target": "기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-19"
+  },
+  {
    "id": "linkareer:352809",
    "source": "linkareer",
    "title": "2026년 산업안전디자인 우수사례 경진대회",
@@ -2668,6 +2730,32 @@
     }
    ],
    "firstSeen": "2026-09-28"
+  },
+  {
+   "id": "linkareer:357936",
+   "source": "linkareer",
+   "title": "[대박 이벤트] MINDSOS X 원밀리언 '한호흡 챌린지' 같이 할 사람?!",
+   "host": "마인드풀커넥트",
+   "url": "https://linkareer.com/activity/357936",
+   "officialUrl": "https://mindsos.org/",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-10-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357936"
+    }
+   ],
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "linkareer:353155",
@@ -3728,32 +3816,36 @@
    "firstSeen": "2026-10-17"
   },
   {
-   "id": "hola:6ad48a78b2e45876ca5921b4",
-   "source": "hola",
+   "id": "linkareer:357852",
+   "source": "linkareer",
    "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 수기 이벤트>",
-   "host": "과학기술정보통신부, 한국데이터산업진흥원",
-   "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4",
+   "host": "데이터 문제해결은행",
+   "url": "https://linkareer.com/activity/357852",
    "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/23",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-05",
-   "eventStart": "2026-10-23",
-   "eventEnd": "2026-11-05",
-   "postedAt": "2026-10-18",
+   "postedAt": "2026-10-19",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학, 기획/아이디어",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357852"
+    },
+    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4"
     }
    ],
-   "firstSeen": "2026-10-18"
+   "eventStart": "2026-10-23",
+   "eventEnd": "2026-11-05",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "wevity:111009",
@@ -3862,31 +3954,35 @@
    "firstSeen": "2026-10-19"
   },
   {
-   "id": "hola:6acb3df4ee012963f81ccafe",
-   "source": "hola",
+   "id": "linkareer:355771",
+   "source": "linkareer",
    "title": "구름톤 아레나 2026 — 전국 프로그래밍 챔피언십",
    "host": "주식회사 구름",
-   "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe",
-   "officialUrl": "https://raphael-at-goorm.github.io/goormthon-arena-2026/",
+   "url": "https://linkareer.com/activity/355771",
+   "officialUrl": "https://9oormthon.goorm.io/arena/",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-11-06",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-11-06",
-   "postedAt": "2026-10-11",
+   "postedAt": "2026-10-08",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "과학/공학",
    "tags": [
     "dev"
    ],
    "sources": [
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/355771"
+    },
+    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe"
     }
    ],
-   "firstSeen": "2026-10-11"
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-11-06",
+   "firstSeen": "2026-10-19"
   },
   {
    "id": "wevity:111624",
