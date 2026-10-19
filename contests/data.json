@@ -1,66 +1,35 @@
 {
- "generatedAt": "2026-10-19T13:20:13.195Z",
- "today": "2026-10-19",
+ "generatedAt": "2026-10-19T22:23:02.285Z",
+ "today": "2026-10-20",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 120,
-   "fetchedAt": "2026-10-19T13:20:13.172Z"
+   "count": 110,
+   "fetchedAt": "2026-10-19T22:23:02.267Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-19T13:20:13.172Z"
+   "fetchedAt": "2026-10-19T22:23:02.268Z"
   },
   "wevity": {
    "ok": true,
    "count": 38,
-   "fetchedAt": "2026-10-19T13:20:13.172Z"
+   "fetchedAt": "2026-10-19T22:23:02.268Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-19T13:20:13.172Z"
+   "fetchedAt": "2026-10-19T22:23:02.268Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-19T13:20:13.172Z"
+   "fetchedAt": "2026-10-19T22:23:02.268Z"
   }
  },
- "count": 175,
+ "count": 166,
  "items": [
-  {
-   "id": "hola:6acb3de3ee012963f81ccaaf",
-   "source": "hola",
-   "title": "Daytona HackSprint Seoul 해커톤",
-   "host": "황인수",
-   "url": "https://holaworld.io/hola-it/6acb3de3ee012963f81ccaaf",
-   "officialUrl": "https://event-us.kr/aibuildersglobal/event/137263",
-   "applyStart": "2026-10-11",
-   "applyEnd": "2026-10-17",
-   "eventStart": "2026-10-18",
-   "eventEnd": "2026-10-18",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "오프라인 · 그라운드 옥탑, 3층 2호",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3de3ee012963f81ccaaf"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a90ead8d7320aa752266c23"
-    }
-   ],
-   "firstSeen": "2026-10-11"
-  },
   {
    "id": "hola:6ab4c298fdf75b86efbf5564",
    "source": "hola",
@@ -117,54 +86,26 @@
    "firstSeen": "2026-09-28"
   },
   {
-   "id": "linkareer:356449",
-   "source": "linkareer",
-   "title": "[MINDSOS] 2026 한 호흡 챌린지",
-   "host": "MINDSOS",
-   "url": "https://linkareer.com/activity/356449",
-   "officialUrl": "https://www.instagram.com/p/DeLHT1Bn8Xo/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA%3D%3D&srtk=MzRlODBiNWFlZA%3D%3D",
-   "applyStart": "2026-10-08",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356449"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
-   "id": "linkareer:353657",
-   "source": "linkareer",
+   "id": "hola:6abe8b1fee012963f80ebe2f",
+   "source": "hola",
    "title": "[데이콘]합성 미세구조 기반 재료 물성 예측 AI 경진대회(~10/19)",
-   "host": "데이콘 주식회사",
-   "url": "https://linkareer.com/activity/353657",
+   "host": "데이콘",
+   "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe2f",
    "officialUrl": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai",
    "applyStart": "2026-09-29",
    "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-29",
+   "eventStart": "2026-09-29",
+   "eventEnd": "2026-10-19",
+   "postedAt": "2026-10-02",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353657"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b1fee012963f80ebe2f"
@@ -174,258 +115,7 @@
      "url": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai"
     }
    ],
-   "eventStart": "2026-09-29",
-   "eventEnd": "2026-10-19",
-   "firstSeen": "2026-09-29"
-  },
-  {
-   "id": "linkareer:356458",
-   "source": "linkareer",
-   "title": "[한 호흡 챌린지] 참여하고 상품권 받자!",
-   "host": "마인드풀커넥트",
-   "url": "https://linkareer.com/activity/356458",
-   "officialUrl": "https://mindsos.org/",
-   "applyStart": "2026-10-13",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356458"
-    }
-   ],
-   "firstSeen": "2026-10-13"
-  },
-  {
-   "id": "linkareer:353721",
-   "source": "linkareer",
-   "title": "[한국탄소산업진흥원] 2026 AI 영상 콘텐츠 공모전 「탄소, 다시 보다」",
-   "host": "주식회사 제이레퍼토리",
-   "url": "https://linkareer.com/activity/353721",
-   "officialUrl": "http://carbon-c.co.kr/",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-29",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "디자인/순수미술/공예, 과학/공학",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353721"
-    }
-   ],
-   "firstSeen": "2026-10-01"
-  },
-  {
-   "id": "linkareer:351593",
-   "source": "linkareer",
-   "title": "[해양심층수산업 고성진흥원] 2026 고성 해양심층수 브랜드 AI 영상 공모전",
-   "host": "해양심층수산업 고성진흥원",
-   "url": "https://linkareer.com/activity/351593",
-   "officialUrl": "https://gdif.co.kr/theme/gdif_02/html/company/01.php",
-   "applyStart": "2026-09-17",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-17",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351593"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111581",
-   "source": "wevity",
-   "title": "2026 경상북도 K-U시티 청년 AI영상제",
-   "host": "경상북도",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111581",
-   "officialUrl": "https://www.instagram.com/p/Dd8HSZnxisy",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-10-13",
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356516"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111581",
-     "_detail": {
-      "applyStart": "2026-09-15",
-      "applyEnd": "2026-10-19",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://www.instagram.com/p/Dd8HSZnxisy",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-14"
-  },
-  {
-   "id": "linkareer:351991",
-   "source": "linkareer",
-   "title": "2026 고성 해양심층수 AI브랜드 영상 공모전",
-   "host": "(재)해양심층수산업고성진흥원",
-   "url": "https://linkareer.com/activity/351991",
-   "officialUrl": null,
-   "applyStart": "2026-09-18",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-18",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351991"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:348781",
-   "source": "linkareer",
-   "title": "2026년 대한민국 물산업 혁신 창업대전(Startup Water 2026) 참가자(팀) 모집 공고",
-   "host": "한국수자원공사",
-   "url": "https://linkareer.com/activity/348781",
-   "officialUrl": "http://www.startupwater.net",
-   "applyStart": "2026-08-20",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "창업, 기획/아이디어",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/348781"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:351358",
-   "source": "linkareer",
-   "title": "SW중심대학사업단 2026년도 제3회 초중고 SW 경진대회",
-   "host": "과학기술정보통신부",
-   "url": "https://linkareer.com/activity/351358",
-   "officialUrl": null,
-   "applyStart": "2026-09-16",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-09-16",
-   "prize": null,
-   "place": null,
-   "target": "청소년",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351358"
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "wevity:111278",
-   "source": "wevity",
-   "title": "과학기술문화 활동가 AI콘텐츠 경진대회",
-   "host": "충북과학문화거점센터",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111278",
-   "officialUrl": "https://csi.chungbuk.kr/notice/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=174661220&t=board",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-19",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111278",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-10-19",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://csi.chungbuk.kr/notice/?q=YToyOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjtzOjQ6InBhZ2UiO2k6MTt9&bmode=view&idx=174661220&t=board",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28"
-  },
-  {
-   "id": "linkareer:354564",
-   "source": "linkareer",
-   "title": "기술과 시장을 잇는, 예비창업자를 찾습니다 「UNIST연구자-예비창업자 팀빌딩 프로그램」",
-   "host": "에스이메이커스(주)",
-   "url": "https://linkareer.com/activity/354564",
-   "officialUrl": null,
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-19",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354564"
-    }
-   ],
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-20"
   },
   {
    "id": "hola:6acf7baeee012963f8216b4c",
@@ -3954,6 +3644,39 @@
    "firstSeen": "2026-10-19"
   },
   {
+   "id": "wevity:111665",
+   "source": "wevity",
+   "title": "2026 광양시 매돌이 AI 영상 공모전",
+   "host": "광양시",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111665",
+   "officialUrl": "https://gwangyang.go.kr/board.es?mid=a11001000000&bid=0001&act=view&list_no=209772",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-06",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111665",
+     "_detail": {
+      "applyStart": "2026-10-26",
+      "applyEnd": "2026-11-06",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://gwangyang.go.kr/board.es?mid=a11001000000&bid=0001&act=view&list_no=209772",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-20"
+  },
+  {
    "id": "linkareer:355771",
    "source": "linkareer",
    "title": "구름톤 아레나 2026 — 전국 프로그래밍 챔피언십",
@@ -4642,6 +4365,44 @@
     }
    ],
    "firstSeen": "2026-10-05"
+  },
+  {
+   "id": "wevity:111666",
+   "source": "wevity",
+   "title": "[한국도로공사] AI 활용 아이디어 공모전",
+   "host": "한국도로공사",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111666",
+   "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=a80de8d7090348d689cffb81b055a62d&pagetype=bbs",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-11-15",
+   "postedAt": "2026-09-14",
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": "온라인",
+   "target": "제한없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai"
+   ],
+   "eventStart": "2026-09-07",
+   "eventEnd": "2026-10-02",
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111666",
+     "_detail": {
+      "applyStart": "2026-10-19",
+      "applyEnd": "2026-11-15",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=a80de8d7090348d689cffb81b055a62d&pagetype=bbs",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-20"
   },
   {
    "id": "linkareer:343445",
