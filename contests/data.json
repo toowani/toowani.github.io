@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-20T17:10:16.574Z",
+ "generatedAt": "2026-10-20T21:39:06.134Z",
  "today": "2026-10-21",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 78,
-   "fetchedAt": "2026-10-20T17:10:16.533Z"
+   "fetchedAt": "2026-10-20T21:39:06.099Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-20T17:10:16.533Z"
+   "fetchedAt": "2026-10-20T21:39:06.099Z"
   },
   "wevity": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-10-20T17:10:16.533Z"
+   "count": 40,
+   "fetchedAt": "2026-10-20T21:39:06.099Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T17:10:16.533Z"
+   "fetchedAt": "2026-10-20T21:39:06.099Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-20T17:10:16.533Z"
+   "fetchedAt": "2026-10-20T21:39:06.099Z"
   }
  },
- "count": 143,
+ "count": 144,
  "items": [
   {
    "id": "hola:6abe8b1fee012963f80ebe2f",
@@ -4805,6 +4805,45 @@
     "지역 불가"
    ],
    "reasonText": "'창원시' 지역 한정으로 보여요."
+  },
+  {
+   "id": "wevity:111713",
+   "source": "wevity",
+   "title": "[방송미디어통신위원회] 제12회 한국문화AI영상대전",
+   "host": "방송미디어통신위원회",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111713",
+   "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=adc1f1357b9341c29b608ef08f46cc4e&pagetype=bbs",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2027-01-06",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "청소년, 어린이, 기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111713",
+     "_detail": {
+      "applyStart": "2026-10-12",
+      "applyEnd": "2027-01-06",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=adc1f1357b9341c29b608ef08f46cc4e&pagetype=bbs",
+      "target": "청소년, 어린이, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-21",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가",
+    "대상 불가"
+   ],
+   "reasonText": "'대전' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:355997",
