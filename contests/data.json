@@ -1,96 +1,35 @@
 {
- "generatedAt": "2026-10-20T11:40:13.133Z",
- "today": "2026-10-20",
+ "generatedAt": "2026-10-20T17:10:16.574Z",
+ "today": "2026-10-21",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 79,
-   "fetchedAt": "2026-10-20T11:40:13.095Z"
+   "count": 78,
+   "fetchedAt": "2026-10-20T17:10:16.533Z"
   },
   "hola": {
    "ok": true,
-   "count": 44,
-   "fetchedAt": "2026-10-20T11:40:13.095Z"
+   "count": 42,
+   "fetchedAt": "2026-10-20T17:10:16.533Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-20T11:40:13.095Z"
+   "fetchedAt": "2026-10-20T17:10:16.533Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T11:40:13.095Z"
+   "fetchedAt": "2026-10-20T17:10:16.533Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 16,
-   "fetchedAt": "2026-10-20T11:40:13.095Z"
+   "count": 15,
+   "fetchedAt": "2026-10-20T17:10:16.533Z"
   }
  },
- "count": 146,
+ "count": 143,
  "items": [
-  {
-   "id": "hola:6ab4c298fdf75b86efbf5564",
-   "source": "hola",
-   "title": "2026 AI 농수산 가격예측 해커톤",
-   "host": "조재승",
-   "url": "https://holaworld.io/hola-it/6ab4c298fdf75b86efbf5564",
-   "officialUrl": "https://event-us.kr/illusionists1004/event/135933",
-   "applyStart": "2026-09-22",
-   "applyEnd": "2026-10-18",
-   "eventStart": "2026-09-22",
-   "eventEnd": "2026-11-20",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ab4c298fdf75b86efbf5564"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6aae2720fdf75b86efb99eb8",
-   "source": "hola",
-   "title": "2026 별별화성 Awards AI CF 공모전",
-   "host": "화성특례시",
-   "url": "https://holaworld.io/hola-it/6aae2720fdf75b86efb99eb8",
-   "officialUrl": "https://aihscity.com/",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-10-18",
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-10-18",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae2720fdf75b86efb99eb8"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6abe8b1fee012963f80ebe2f",
    "source": "hola",
@@ -157,32 +96,39 @@
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "kstartup:179394",
-   "source": "kstartup",
-   "title": "IR 피칭 청년 창업 오디션 「2026 D-MADE 오디션」 참여기업 모집 (~10. 20. 연장)",
-   "host": "동명청년창작소",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
+   "id": "hola:6acb3df9ee012963f81ccb37",
+   "source": "hola",
+   "title": "2026 청년취업사관학교 해커톤",
+   "host": "AllAZITLAB",
+   "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37",
+   "officialUrl": "https://event-us.kr/aicslaunch2025/event/136861",
+   "applyStart": "2026-10-07",
    "applyEnd": "2026-10-20",
-   "postedAt": "2026-10-06",
+   "eventStart": "2026-11-09",
+   "eventEnd": "2026-11-09",
+   "postedAt": "2026-10-11",
    "prize": null,
-   "place": null,
+   "place": "오프라인 · 동대문디자인플라자(DDP) 컨퍼런스홀",
    "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
+   "sourceCategory": "해커톤",
    "tags": [
-    "startup"
+    "dev",
+    "ai"
    ],
    "sources": [
     {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394"
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37"
+    },
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/aicslaunch2025/event/136861"
     }
    ],
-   "firstSeen": "2026-10-17",
+   "firstSeen": "2026-10-21",
    "grade": "추천",
    "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ad48a7cb2e45876ca5921dc",
@@ -221,46 +167,6 @@
     "지역 불가"
    ],
    "reasonText": "'세종' 지역 한정으로 보여요."
-  },
-  {
-   "id": "linkareer:356483",
-   "source": "linkareer",
-   "title": "청년취업사관학교 해커톤",
-   "host": "청년취업사관학교 해커톤",
-   "url": "https://linkareer.com/activity/356483",
-   "officialUrl": "https://event-us.kr/aicslaunch2025/event/136861",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-10-20",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": "오프라인 · 동대문디자인플라자(DDP) 컨퍼런스홀",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup",
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356483"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3df9ee012963f81ccb37"
-    },
-    {
-     "source": "devevent",
-     "url": "https://event-us.kr/aicslaunch2025/event/136861"
-    }
-   ],
-   "eventStart": "2026-11-09",
-   "eventEnd": "2026-11-09",
-   "firstSeen": "2026-10-14",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://event-us.kr/medici/event/137520",
