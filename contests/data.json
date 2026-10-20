@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-20T07:44:16.459Z",
+ "generatedAt": "2026-10-20T07:58:27.131Z",
  "today": "2026-10-20",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 75,
-   "fetchedAt": "2026-10-20T07:44:16.418Z"
+   "fetchedAt": "2026-10-20T07:58:27.104Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-20T07:44:16.418Z"
+   "fetchedAt": "2026-10-20T07:58:27.105Z"
   },
   "wevity": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-10-20T07:44:16.419Z"
+   "count": 39,
+   "fetchedAt": "2026-10-20T07:58:27.105Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T07:44:16.419Z"
+   "fetchedAt": "2026-10-20T07:58:27.105Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-20T07:44:16.419Z"
+   "count": 16,
+   "fetchedAt": "2026-10-20T07:58:27.105Z"
   }
  },
  "count": 144,
@@ -359,7 +359,7 @@
    "reasonTags": [
     "지역 확인 필요"
    ],
-   "reasonText": "대구 관련 조건인데 거주·주민등록 중 어느 기준인지 공고에서 못 찾았어요."
+   "reasonText": "지역 조건이 공고에서 분명하지 않아요."
   },
   {
    "id": "linkareer:357528",
@@ -390,6 +390,37 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "kstartup:179537",
+   "source": "kstartup",
+   "title": "충북테크노파크 차세대에너지 스타트업 DEMO DAY",
+   "host": "충북테크노파크",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179537",
+   "officialUrl": null,
+   "applyStart": "2026-10-15",
+   "applyEnd": "2026-10-21",
+   "postedAt": "2026-10-20",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 행사ㆍ네트워크",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179537"
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'충북' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:352999",
@@ -570,9 +601,11 @@
     }
    ],
    "firstSeen": "2026-10-19",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'동해시' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6aa751d4847411b719e2e536",
@@ -1923,9 +1956,11 @@
     }
    ],
    "firstSeen": "2026-10-15",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'의성군' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:176296",
@@ -2816,41 +2851,6 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:110635",
-   "source": "wevity",
-   "title": "제1회 소방정책 아이디어 발굴 경진대회",
-   "host": "한국소방단체총연합회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110635",
-   "officialUrl": "https://www.kffa119.or.kr/board/view?board_article_id=371",
-   "applyStart": "2026-08-12",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110635",
-     "_detail": {
-      "applyStart": "2026-08-12",
-      "applyEnd": "2026-10-31",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.kffa119.or.kr/board/view?board_article_id=371",
-      "target": "일반인, 대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-01",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "linkareer:355523",
    "source": "linkareer",
    "title": "제28회 말 사진·AI 이미지 공모전 「찰나의 말, 영원한 이야기」",
@@ -3042,9 +3042,11 @@
     }
    ],
    "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'제천시' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111271",
@@ -3383,9 +3385,11 @@
     }
    ],
    "firstSeen": "2026-10-17",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'구리시' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:357852",
@@ -3591,9 +3595,11 @@
     }
    ],
    "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'광양시' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:355771",
@@ -4511,7 +4517,7 @@
    "reasonTags": [
     "지역 확인 필요"
    ],
-   "reasonText": "대구 관련 조건인데 거주·주민등록 중 어느 기준인지 공고에서 못 찾았어요."
+   "reasonText": "지역 조건이 공고에서 분명하지 않아요."
   },
   {
    "id": "wevity:111628",
@@ -4813,9 +4819,11 @@
     }
    ],
    "firstSeen": "2026-10-17",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'창원시' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:355997",
