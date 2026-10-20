@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-20T07:58:27.131Z",
+ "generatedAt": "2026-10-20T08:00:04.685Z",
  "today": "2026-10-20",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 75,
-   "fetchedAt": "2026-10-20T07:58:27.104Z"
+   "count": 76,
+   "fetchedAt": "2026-10-20T08:00:04.653Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-20T07:58:27.105Z"
+   "fetchedAt": "2026-10-20T08:00:04.653Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-20T07:58:27.105Z"
+   "fetchedAt": "2026-10-20T08:00:04.653Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T07:58:27.105Z"
+   "fetchedAt": "2026-10-20T08:00:04.653Z"
   },
   "kstartup": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-10-20T07:58:27.105Z"
+   "fetchedAt": "2026-10-20T08:00:04.653Z"
   }
  },
  "count": 144,
@@ -324,11 +324,9 @@
     }
    ],
    "firstSeen": "2026-10-20",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'경북' 지역 한정으로 보여요."
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:354161",
@@ -863,9 +861,11 @@
     }
    ],
    "firstSeen": "2026-09-29",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'충북' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:179516",
@@ -1107,9 +1107,11 @@
    "eventStart": "2026-09-30",
    "eventEnd": "2026-10-25",
    "firstSeen": "2026-10-12",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6acb3dfeee012963f81ccb57",
@@ -1231,7 +1233,7 @@
    "reasonTags": [
     "지역 불가"
    ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
+   "reasonText": "'제주' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111550",
@@ -1598,9 +1600,11 @@
     }
    ],
    "firstSeen": "2026-10-06",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111553",
@@ -1733,9 +1737,11 @@
     }
    ],
    "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'인천' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111192",
@@ -1920,9 +1926,11 @@
     }
    ],
    "firstSeen": "2026-10-19",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'의성군' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111611",
@@ -2417,9 +2425,10 @@
    "firstSeen": "2026-09-28",
    "grade": "비추천",
    "reasonTags": [
-    "분야 불일치"
+    "분야 불일치",
+    "지역 불가"
    ],
-   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요. '경남' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:355412",
@@ -2541,9 +2550,11 @@
    "eventStart": "2026-09-01",
    "eventEnd": "2026-10-31",
    "firstSeen": "2026-10-07",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'제주' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6acb3dfaee012963f81ccb3c",
@@ -3528,9 +3539,11 @@
     }
    ],
    "firstSeen": "2026-10-19",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'광양시' 지역 한정으로 보여요."
   },
   {
    "id": "devevent:https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
@@ -4178,25 +4191,27 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "hola:6ab4c28dfdf75b86efbf5547",
-   "source": "hola",
+   "id": "linkareer:352004",
+   "source": "linkareer",
    "title": "2026 동남 버그바운티 대회",
-   "host": "과기정통부,부산시,한국인터넷진흥원,부산정보산업진흥원,울산정보산업진흥원,경남테크노파크",
-   "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547",
-   "officialUrl": "http://www.findthegap.co.kr",
+   "host": "파인더갭",
+   "url": "https://linkareer.com/activity/352004",
+   "officialUrl": "http://WWW.findthegap.co.kr",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-11-13",
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-11-13",
-   "postedAt": "2026-09-24",
+   "postedAt": "2026-09-19",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "과학/공학",
    "tags": [
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/352004"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547"
@@ -4206,12 +4221,12 @@
      "url": "https://linkareer.com/activity/352004"
     }
    ],
+   "eventStart": "2026-09-21",
+   "eventEnd": "2026-11-13",
    "firstSeen": "2026-10-20",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'부산' 지역 한정으로 보여요."
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353862",
