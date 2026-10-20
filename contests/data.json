@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-20T04:53:41.431Z",
+ "generatedAt": "2026-10-20T07:44:16.459Z",
  "today": "2026-10-20",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 76,
-   "fetchedAt": "2026-10-20T04:53:41.409Z"
+   "count": 75,
+   "fetchedAt": "2026-10-20T07:44:16.418Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-20T04:53:41.409Z"
+   "fetchedAt": "2026-10-20T07:44:16.418Z"
   },
   "wevity": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-20T04:53:41.410Z"
+   "count": 40,
+   "fetchedAt": "2026-10-20T07:44:16.419Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T04:53:41.410Z"
+   "fetchedAt": "2026-10-20T07:44:16.419Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-20T04:53:41.410Z"
+   "fetchedAt": "2026-10-20T07:44:16.419Z"
   }
  },
- "count": 141,
+ "count": 144,
  "items": [
   {
    "id": "hola:6ab4c298fdf75b86efbf5564",
@@ -56,7 +56,10 @@
      "url": "https://holaworld.io/hola-it/6ab4c298fdf75b86efbf5564"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aae2720fdf75b86efb99eb8",
@@ -83,7 +86,10 @@
      "url": "https://holaworld.io/hola-it/6aae2720fdf75b86efb99eb8"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6abe8b1fee012963f80ebe2f",
@@ -115,7 +121,10 @@
      "url": "https://daker.ai/public/hackathons/synthetic-microstructure-property-prediction-ai"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acf7baeee012963f8216b4c",
@@ -142,7 +151,10 @@
      "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b4c"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179394",
@@ -167,7 +179,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179394"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ad48a7cb2e45876ca5921dc",
@@ -200,7 +215,12 @@
      "url": "https://sejongrnd.ai.kr"
     }
    ],
-   "firstSeen": "2026-10-18"
+   "firstSeen": "2026-10-18",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:356483",
@@ -237,7 +257,10 @@
    ],
    "eventStart": "2026-11-09",
    "eventEnd": "2026-11-09",
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-14",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://event-us.kr/medici/event/137520",
@@ -265,7 +288,12 @@
      "url": "https://event-us.kr/medici/event/137520"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경북' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:358044",
@@ -295,7 +323,12 @@
      "url": "https://linkareer.com/activity/358002"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경북' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:354161",
@@ -321,7 +354,12 @@
      "url": "https://linkareer.com/activity/354161"
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-01",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "지역 확인 필요"
+   ],
+   "reasonText": "대구 관련 조건인데 거주·주민등록 중 어느 기준인지 공고에서 못 찾았어요."
   },
   {
    "id": "linkareer:357528",
@@ -348,22 +386,25 @@
      "url": "https://linkareer.com/activity/357528"
     }
    ],
-   "firstSeen": "2026-10-16"
+   "firstSeen": "2026-10-16",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111242",
-   "source": "wevity",
+   "id": "linkareer:352999",
+   "source": "linkareer",
    "title": "한강버스 운항 1주년 AI 영상 & 사진 공모전",
    "host": "한강버스",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111242",
-   "officialUrl": "https://www.hgbus.co.kr/posts/1/310?menuId=10",
-   "applyStart": "2026-09-18",
+   "url": "https://linkareer.com/activity/352999",
+   "officialUrl": null,
+   "applyStart": "2026-09-24",
    "applyEnd": "2026-10-21",
    "postedAt": "2026-09-24",
-   "prize": "1천만원이하 · 1등 200만원",
+   "prize": null,
    "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
    "tags": [
     "ai",
     "video"
@@ -372,20 +413,12 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/352999"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111242",
-     "_detail": {
-      "applyStart": "2026-09-18",
-      "applyEnd": "2026-10-21",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.hgbus.co.kr/posts/1/310?menuId=10",
-      "target": "제한없음"
-     }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://event-us.kr/kdataaichallenge/event/134967",
@@ -413,7 +446,10 @@
      "url": "https://event-us.kr/kdataaichallenge/event/134967"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357846",
@@ -445,7 +481,10 @@
    ],
    "eventStart": "2026-10-16",
    "eventEnd": "2026-10-22",
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110659",
@@ -484,7 +523,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111734",
@@ -527,7 +569,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aa751d4847411b719e2e536",
@@ -555,7 +600,10 @@
      "url": "https://holaworld.io/hola-it/6aa751d4847411b719e2e536"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6a9d96b0d7320aa75232b252",
@@ -587,7 +635,10 @@
      "url": "https://event-us.kr/eventdatasafetyzone/event/134171"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179375",
@@ -612,7 +663,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'충남' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111346",
@@ -655,7 +711,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acf7bb3ee012963f8216b79",
@@ -683,7 +742,10 @@
      "url": "https://holaworld.io/hola-it/6acf7bb3ee012963f8216b79"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356430",
@@ -709,7 +771,10 @@
      "url": "https://linkareer.com/activity/356430"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179496",
@@ -735,7 +800,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353405",
@@ -761,7 +829,10 @@
      "url": "https://linkareer.com/activity/353405"
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179516",
@@ -786,7 +857,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179474",
@@ -812,7 +886,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179474"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110998",
@@ -854,7 +931,10 @@
      "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aba73e2ee012963f80a4bce",
@@ -886,7 +966,10 @@
      "url": "https://luma.com/06x2etd7"
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355264",
@@ -912,7 +995,13 @@
      "url": "https://linkareer.com/activity/355264"
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가",
+    "대상 불가"
+   ],
+   "reasonText": "'강원' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "wevity:111290",
@@ -949,7 +1038,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(랩)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356000",
@@ -981,7 +1073,10 @@
    ],
    "eventStart": "2026-09-30",
    "eventEnd": "2026-10-25",
-   "firstSeen": "2026-10-12"
+   "firstSeen": "2026-10-12",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acb3dfeee012963f81ccb57",
@@ -1009,7 +1104,10 @@
      "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb57"
     }
    ],
-   "firstSeen": "2026-10-11"
+   "firstSeen": "2026-10-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355047",
@@ -1035,7 +1133,10 @@
      "url": "https://linkareer.com/activity/355047"
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355927",
@@ -1061,7 +1162,10 @@
      "url": "https://linkareer.com/activity/355927"
     }
    ],
-   "firstSeen": "2026-10-11"
+   "firstSeen": "2026-10-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184",
@@ -1089,7 +1193,12 @@
      "url": "https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111550",
@@ -1122,7 +1231,12 @@
      }
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "devevent:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
@@ -1150,7 +1264,12 @@
      "url": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims"
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-01",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:357967",
@@ -1175,7 +1294,10 @@
      "url": "https://linkareer.com/activity/357967"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acce4d1ee012963f81ebc8a",
@@ -1202,7 +1324,10 @@
      "url": "https://holaworld.io/hola-it/6acce4d1ee012963f81ebc8a"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111588",
@@ -1249,7 +1374,10 @@
      "url": "https://hackathon.savetax.now/"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://event-us.kr/2026acd/event/137541",
@@ -1277,7 +1405,10 @@
      "url": "https://event-us.kr/2026acd/event/137541"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acf7baeee012963f8216b42",
@@ -1304,7 +1435,12 @@
      "url": "https://holaworld.io/hola-it/6acf7baeee012963f8216b42"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:355879",
@@ -1340,7 +1476,10 @@
    ],
    "eventStart": "2026-10-09",
    "eventEnd": "2026-10-26",
-   "firstSeen": "2026-10-09"
+   "firstSeen": "2026-10-09",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://www.bigcontest.or.kr/",
@@ -1368,7 +1507,10 @@
      "url": "https://www.bigcontest.or.kr/"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179456",
@@ -1393,32 +1535,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179456"
     }
    ],
-   "firstSeen": "2026-10-17"
-  },
-  {
-   "id": "linkareer:351981",
-   "source": "linkareer",
-   "title": "2026년 제6회 SDGs 소셜벤처 챔피언십",
-   "host": "사단법인 한국지속가능소셜벤처협회",
-   "url": "https://linkareer.com/activity/351981",
-   "officialUrl": null,
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-26",
-   "postedAt": "2026-09-18",
-   "prize": null,
-   "place": null,
-   "target": "직장인/일반인",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/351981"
-    }
-   ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:354668",
@@ -1444,7 +1564,10 @@
      "url": "https://linkareer.com/activity/354668"
     }
    ],
-   "firstSeen": "2026-10-06"
+   "firstSeen": "2026-10-06",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111553",
@@ -1491,7 +1614,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356274",
@@ -1516,7 +1642,10 @@
      "url": "https://linkareer.com/activity/356274"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353700",
@@ -1542,7 +1671,38 @@
      "url": "https://linkareer.com/activity/353700"
     }
    ],
-   "firstSeen": "2026-09-30"
+   "firstSeen": "2026-09-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(숏폼)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:358255",
+   "source": "linkareer",
+   "title": "[인천테크노파크] 2026 인천 가상융합산업 모의 해커톤 참여자 모집",
+   "host": "인천테크노파크",
+   "url": "https://linkareer.com/activity/358255",
+   "officialUrl": "https://itp.or.kr/",
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-10-28",
+   "postedAt": "2026-10-20",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358255"
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111192",
@@ -1578,7 +1738,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111706",
@@ -1614,7 +1777,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-16"
+   "firstSeen": "2026-10-16",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111273",
@@ -1661,7 +1827,12 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:352790",
@@ -1686,7 +1857,10 @@
      "url": "https://linkareer.com/activity/352790"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357818",
@@ -1712,7 +1886,10 @@
      "url": "https://linkareer.com/activity/357818"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111611",
@@ -1745,7 +1922,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:176296",
@@ -1770,7 +1950,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176296"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'인천' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6acf323cee012963f8210b73",
@@ -1798,7 +1983,12 @@
      "url": "https://holaworld.io/hola-it/6acf323cee012963f8210b73"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111314",
@@ -1835,7 +2025,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179281",
@@ -1860,7 +2053,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179281"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경기' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111368",
@@ -1914,7 +2112,10 @@
      "url": "https://www.pqcchallenge.kr/"
     }
    ],
-   "firstSeen": "2026-10-03"
+   "firstSeen": "2026-10-03",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111385",
@@ -1951,7 +2152,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111685",
@@ -1983,7 +2187,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111767",
@@ -2020,7 +2227,12 @@
      }
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'충북' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:352809",
@@ -2045,7 +2257,10 @@
      "url": "https://linkareer.com/activity/352809"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://luma.com/compiled-8lsr",
@@ -2073,7 +2288,12 @@
      "url": "https://luma.com/compiled-8lsr"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:356760",
@@ -2099,7 +2319,12 @@
      "url": "https://linkareer.com/activity/356760"
     }
    ],
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-14",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "hola:6aa92b4bfdf75b86efb381dc",
@@ -2126,7 +2351,10 @@
      "url": "https://holaworld.io/hola-it/6aa92b4bfdf75b86efb381dc"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:352846",
@@ -2151,7 +2379,12 @@
      "url": "https://linkareer.com/activity/352846"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
   },
   {
    "id": "linkareer:355412",
@@ -2176,7 +2409,10 @@
      "url": "https://linkareer.com/activity/355412"
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357936",
@@ -2202,7 +2438,10 @@
      "url": "https://linkareer.com/activity/357936"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353155",
@@ -2228,7 +2467,13 @@
      "url": "https://linkareer.com/activity/353155"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치",
+    "대상 불가"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:355244",
@@ -2260,7 +2505,10 @@
    ],
    "eventStart": "2026-09-01",
    "eventEnd": "2026-10-31",
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acb3dfaee012963f81ccb3c",
@@ -2287,7 +2535,10 @@
      "url": "https://holaworld.io/hola-it/6acb3dfaee012963f81ccb3c"
     }
    ],
-   "firstSeen": "2026-10-11"
+   "firstSeen": "2026-10-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356726",
@@ -2312,7 +2563,12 @@
      "url": "https://linkareer.com/activity/356726"
     }
    ],
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-14",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
   },
   {
    "id": "linkareer:353451",
@@ -2342,7 +2598,10 @@
      "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385"
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356125",
@@ -2369,7 +2628,10 @@
      "url": "https://linkareer.com/activity/356125"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(작곡·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111675",
@@ -2406,7 +2668,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355331",
@@ -2438,7 +2703,10 @@
    ],
    "eventStart": "2026-10-01",
    "eventEnd": "2026-10-31",
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(뮤직비디오·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://hackon.kr/e/1a32b615",
@@ -2466,7 +2734,10 @@
      "url": "https://hackon.kr/e/1a32b615"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111430",
@@ -2500,7 +2771,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(뮤직비디오·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111460",
@@ -2536,7 +2810,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-05"
+   "firstSeen": "2026-10-05",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110635",
@@ -2568,7 +2845,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355523",
@@ -2594,7 +2874,10 @@
      "url": "https://linkareer.com/activity/355523"
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://www.codetree.ai/ko/sheep-sheep-sheep",
@@ -2621,7 +2904,10 @@
      "url": "https://www.codetree.ai/ko/sheep-sheep-sheep"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:358062",
@@ -2647,7 +2933,10 @@
      "url": "https://linkareer.com/activity/358062"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(숏폼)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356021",
@@ -2672,7 +2961,10 @@
      "url": "https://linkareer.com/activity/356021"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353592",
@@ -2704,7 +2996,10 @@
    ],
    "eventStart": "2026-09-28",
    "eventEnd": "2026-11-01",
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111299",
@@ -2746,7 +3041,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111271",
@@ -2783,7 +3081,12 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:110895",
@@ -2820,7 +3123,12 @@
      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:353847",
@@ -2850,7 +3158,10 @@
      "url": "https://dacon.io/competitions/official/236771/overview/description"
     }
    ],
-   "firstSeen": "2026-09-30"
+   "firstSeen": "2026-09-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356311",
@@ -2875,7 +3186,10 @@
      "url": "https://linkareer.com/activity/356311"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111592",
@@ -2911,7 +3225,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:354703",
@@ -2936,7 +3253,10 @@
      "url": "https://linkareer.com/activity/354703"
     }
    ],
-   "firstSeen": "2026-10-06"
+   "firstSeen": "2026-10-06",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353986",
@@ -2961,7 +3281,10 @@
      "url": "https://linkareer.com/activity/353986"
     }
    ],
-   "firstSeen": "2026-10-01"
+   "firstSeen": "2026-10-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://whitehat2026.kr/",
@@ -2988,7 +3311,10 @@
      "url": "https://whitehat2026.kr/"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111614",
@@ -3024,7 +3350,13 @@
      }
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가",
+    "대상 불가"
+   ],
+   "reasonText": "'충남' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "kstartup:179472",
@@ -3050,7 +3382,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179472"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357852",
@@ -3082,7 +3417,10 @@
    ],
    "eventStart": "2026-10-23",
    "eventEnd": "2026-11-05",
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111009",
@@ -3120,7 +3458,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110273",
@@ -3153,7 +3494,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357820",
@@ -3179,7 +3523,10 @@
      "url": "https://linkareer.com/activity/357820"
     }
    ],
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
@@ -3207,7 +3554,10 @@
      "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111665",
@@ -3240,7 +3590,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355771",
@@ -3271,7 +3624,10 @@
    ],
    "eventStart": "2026-10-01",
    "eventEnd": "2026-11-06",
-   "firstSeen": "2026-10-19"
+   "firstSeen": "2026-10-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111624",
@@ -3303,7 +3659,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111087",
@@ -3335,7 +3694,10 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355217",
@@ -3364,7 +3726,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357358",
@@ -3390,7 +3755,12 @@
      "url": "https://linkareer.com/activity/357358"
     }
    ],
-   "firstSeen": "2026-10-16"
+   "firstSeen": "2026-10-16",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6ad48a7ab2e45876ca5921c0",
@@ -3418,7 +3788,12 @@
      "url": "https://holaworld.io/hola-it/6ad48a7ab2e45876ca5921c0"
     }
    ],
-   "firstSeen": "2026-10-18"
+   "firstSeen": "2026-10-18",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:179447",
@@ -3443,7 +3818,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경기' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6a60d0194e4a0d457b180963",
@@ -3471,7 +3851,12 @@
      "url": "https://holaworld.io/hola-it/6a60d0194e4a0d457b180963"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:353374",
@@ -3496,7 +3881,10 @@
      "url": "https://linkareer.com/activity/353374"
     }
    ],
-   "firstSeen": "2026-09-29"
+   "firstSeen": "2026-09-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aba73e1ee012963f80a4bb5",
@@ -3524,7 +3912,10 @@
      "url": "https://holaworld.io/hola-it/6aba73e1ee012963f80a4bb5"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111483",
@@ -3557,7 +3948,12 @@
      }
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:354946",
@@ -3583,7 +3979,10 @@
      "url": "https://linkareer.com/activity/354946"
     }
    ],
-   "firstSeen": "2026-10-07"
+   "firstSeen": "2026-10-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:357087",
@@ -3608,7 +4007,12 @@
      "url": "https://linkareer.com/activity/357087"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
   },
   {
    "id": "linkareer:357190",
@@ -3634,7 +4038,10 @@
      "url": "https://linkareer.com/activity/357190"
     }
    ],
-   "firstSeen": "2026-10-15"
+   "firstSeen": "2026-10-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6a7d1cb1bcb0b5b2e7537200",
@@ -3662,7 +4069,12 @@
      "url": "https://holaworld.io/hola-it/6a7d1cb1bcb0b5b2e7537200"
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:354705",
@@ -3696,7 +4108,10 @@
      "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
     }
    ],
-   "firstSeen": "2026-10-06"
+   "firstSeen": "2026-10-06",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:179533",
@@ -3721,7 +4136,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179533"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:358042",
@@ -3746,30 +4166,31 @@
      "url": "https://linkareer.com/activity/358042"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:352004",
-   "source": "linkareer",
+   "id": "hola:6ab4c28dfdf75b86efbf5547",
+   "source": "hola",
    "title": "2026 동남 버그바운티 대회",
-   "host": "파인더갭",
-   "url": "https://linkareer.com/activity/352004",
-   "officialUrl": "http://WWW.findthegap.co.kr",
+   "host": "과기정통부,부산시,한국인터넷진흥원,부산정보산업진흥원,울산정보산업진흥원,경남테크노파크",
+   "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547",
+   "officialUrl": "http://www.findthegap.co.kr",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-11-13",
-   "postedAt": "2026-09-19",
+   "eventStart": "2026-09-21",
+   "eventEnd": "2026-11-13",
+   "postedAt": "2026-09-24",
    "prize": null,
    "place": "온라인",
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352004"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547"
@@ -3779,9 +4200,12 @@
      "url": "https://linkareer.com/activity/352004"
     }
    ],
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-11-13",
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-10-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:353862",
@@ -3807,7 +4231,10 @@
      "url": "https://linkareer.com/activity/353862"
     }
    ],
-   "firstSeen": "2026-10-13"
+   "firstSeen": "2026-10-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aa92b64fdf75b86efb38247",
@@ -3834,7 +4261,10 @@
      "url": "https://holaworld.io/hola-it/6aa92b64fdf75b86efb38247"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://www.spaceappschallenge.org/2026/local-events/seoul/",
@@ -3861,7 +4291,10 @@
      "url": "https://www.spaceappschallenge.org/2026/local-events/seoul/"
     }
    ],
-   "firstSeen": "2026-10-05"
+   "firstSeen": "2026-10-05",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111666",
@@ -3899,7 +4332,45 @@
      }
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:111802",
+   "source": "wevity",
+   "title": "현대자동차그룹 차량용 앱 개발 공모전",
+   "host": "현대자동차그룹",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111802",
+   "officialUrl": "https://appdevchallenge.auto-hmg.io/landing",
+   "applyStart": "2026-10-21",
+   "applyEnd": "2026-11-15",
+   "postedAt": null,
+   "prize": "5천만원이상",
+   "place": null,
+   "target": "일반인, 대학생",
+   "sourceCategory": "웹/모바일/IT",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111802",
+     "_detail": {
+      "applyStart": "2026-10-21",
+      "applyEnd": "2026-11-15",
+      "prize": "5천만원이상",
+      "officialUrl": "https://appdevchallenge.auto-hmg.io/landing",
+      "target": "일반인, 대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355507",
@@ -3924,7 +4395,12 @@
      "url": "https://linkareer.com/activity/355507"
     }
    ],
-   "firstSeen": "2026-10-08"
+   "firstSeen": "2026-10-08",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "분야 확인 필요"
+   ],
+   "reasonText": "'문학' 키워드가 있지만 관심 분야 키워드도 같이 있어요."
   },
   {
    "id": "wevity:111490",
@@ -3957,7 +4433,10 @@
      }
     }
    ],
-   "firstSeen": "2026-10-12"
+   "firstSeen": "2026-10-12",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:176406",
@@ -3982,7 +4461,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176406"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111567",
@@ -4024,7 +4506,12 @@
      }
     }
    ],
-   "firstSeen": "2026-10-14"
+   "firstSeen": "2026-10-14",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "지역 확인 필요"
+   ],
+   "reasonText": "대구 관련 조건인데 거주·주민등록 중 어느 기준인지 공고에서 못 찾았어요."
   },
   {
    "id": "wevity:111628",
@@ -4068,7 +4555,46 @@
      }
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:111804",
+   "source": "wevity",
+   "title": "나무엑스 AI 숏폼 공모전",
+   "host": "SK인텔릭스(주)",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111804",
+   "officialUrl": "https://www.namuhx.com/events/6f150f44-01e0-4263-a538-d051e8b5f3b8",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-11-22",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 300만원",
+   "place": null,
+   "target": "일반인, 대학생",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111804",
+     "_detail": {
+      "applyStart": "2026-10-19",
+      "applyEnd": "2026-11-22",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://www.namuhx.com/events/6f150f44-01e0-4263-a538-d051e8b5f3b8",
+      "target": "일반인, 대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(숏폼·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110305",
@@ -4100,7 +4626,13 @@
      }
     }
    ],
-   "firstSeen": "2026-09-28"
+   "firstSeen": "2026-09-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치",
+    "대상 불가"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:358054",
@@ -4125,7 +4657,12 @@
      "url": "https://linkareer.com/activity/358054"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요."
   },
   {
    "id": "linkareer:354441",
@@ -4150,7 +4687,10 @@
      "url": "https://linkareer.com/activity/354441"
     }
    ],
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:354452",
@@ -4176,7 +4716,46 @@
      "url": "https://linkareer.com/activity/354452"
     }
    ],
-   "firstSeen": "2026-10-02"
+   "firstSeen": "2026-10-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:111800",
+   "source": "wevity",
+   "title": "2026 AI 플레이 콘텐츠 제작 공모전",
+   "host": "중앙대학교",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111800",
+   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111800",
+   "applyStart": "2026-10-20",
+   "applyEnd": "2026-12-31",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 30만원",
+   "place": null,
+   "target": "기타",
+   "sourceCategory": "웹/모바일/IT",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111800",
+     "_detail": {
+      "applyStart": "2026-10-20",
+      "applyEnd": "2026-12-31",
+      "prize": "1천만원이하 · 1등 30만원",
+      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111800",
+      "target": "기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6a5f30d4ab365fa3b03f4aba",
@@ -4203,7 +4782,12 @@
      "url": "https://holaworld.io/hola-it/6a5f30d4ab365fa3b03f4aba"
     }
    ],
-   "firstSeen": "2026-10-20"
+   "firstSeen": "2026-10-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:176810",
@@ -4228,7 +4812,10 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=176810"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:355997",
@@ -4254,7 +4841,10 @@
      "url": "https://linkareer.com/activity/355997"
     }
    ],
-   "firstSeen": "2026-10-12"
+   "firstSeen": "2026-10-12",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "kstartup:177113",
@@ -4279,7 +4869,12 @@
      "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=177113"
     }
    ],
-   "firstSeen": "2026-10-17"
+   "firstSeen": "2026-10-17",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경남' 지역 한정으로 보여요."
   }
  ]
 }
