@@ -42,7 +42,9 @@ function judgeField(text, rules) {
 }
 
 /* ---------- 지역 (3-2, 개인 판정 기준) ---------- */
-function judgeRegion(text, rules) {
+function judgeRegion(rawText, rules) {
+  // '서울대학교'·'제주대' 같은 학교 이름은 지역 한정이 아니다 — 지역 이름 검사 전에 뺀다
+  const text = rawText.replace(/(서울|부산|인천|대전|울산|세종|경기|강원|충북|충남|전북|전남|경북|경남|제주)(대학교|대학|대)(?![가-힣])/g, "$2");
   if (hasAny(text, rules.nationwideTerms)) return null;
   const gj = findAny(text, rules.gwangjuTerms);
   if (gj) {
