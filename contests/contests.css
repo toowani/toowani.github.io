@@ -162,6 +162,34 @@ body[data-theme="light"] .chip[data-cat].on { color: #fff; }
 .memo input:focus { outline: none; border-bottom-color: var(--acc); }
 .memo input::placeholder { color: var(--fg-faint); }
 
+/* ---------- 맞춤 판정 · 오늘의 추천 ---------- */
+.badge-grade {
+  font-size: 0.6rem; font-weight: 800; letter-spacing: 0.08em; padding: 0.15rem 0.5rem; border-radius: var(--radius-pill);
+  border: 1px solid var(--line); color: var(--fg-dim);
+}
+.badge-grade.g-rec { color: var(--acc-glow); border-color: var(--line-strong); }
+.badge-grade.g-check { color: var(--warn); border-color: rgba(224, 193, 92, 0.6); }
+.badge-grade.g-manual { border-style: dashed; }
+.tag.reason { color: var(--danger); border-color: rgba(255, 138, 122, 0.45); }
+.reason-text { font-size: 0.74rem; line-height: 1.55; color: var(--fg-dim); }
+.grade-select { font-size: 0.68rem; padding: 0.3rem 0.5rem; max-width: 100%; }
+
+.picks { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1.4rem; }
+.picks-title { color: var(--acc-glow); margin-top: 0; }
+.item.pick { border-color: var(--line-strong); box-shadow: var(--glow-sm); }
+.pick-why { color: var(--fg); }
+
+.low-grade { margin-top: 2rem; }
+.low-details > summary {
+  cursor: pointer; font-family: var(--font-gothic); font-weight: 800; font-size: 0.9rem; color: var(--fg-dim);
+  padding: 0.7rem 1rem; border: 1px dashed var(--line); border-radius: var(--radius-sm); list-style: none;
+}
+.low-details > summary::-webkit-details-marker { display: none; }
+.low-details > summary:hover { color: var(--fg); border-color: var(--line-strong); }
+.low-details[open] > summary { margin-bottom: 0.6rem; }
+.low-details .item { margin-bottom: 0.6rem; opacity: 0.8; }
+.low-title { color: var(--danger); font-size: 0.9rem; }
+
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
   .stat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }

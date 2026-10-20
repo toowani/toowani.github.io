@@ -25,9 +25,12 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { loadProfile, gradeItem, buildRecommendation } from "./relevance.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = resolve(ROOT, "contests/data.json");
+const RECOMMEND_OUT = resolve(ROOT, "contests/recommend.json");
+const RULES_PATH = resolve(ROOT, "contests/relevance-rules.json");
 const UA = "Mozilla/5.0 (compatible; toowani-contest-radar/1.0; +https://toowani.com/contests/)";
 const KST_OFFSET_MS = 9 * 60 * 60 * 1000;
 
@@ -531,6 +534,57 @@ async function main() {
   // 소스별 건수는 최종 목록 기준(병합·마감 컷 이후)으로 다시 센다
   for (const name of Object.keys(meta)) {
     meta[name].count = items.filter((it) => it.sources.some((s) => s.source === name)).length;
+  }
+
+  // 맞춤 판정 (docs/notice-relevance.md) — CONTEST_PROFILE이 없으면(로컬 실행,
+  // 시크릿 미설정 CI 등) 건너뛴다. 기존 data.json에 grade류 필드가 없던
+  // 항목과도 호환 — 값을 아예 안 붙인다.
+  // CONTEST_PROFILE: CI는 시크릿(env), 로컬은 gitignore된 contests/.profile.json 둘 다 지원.
+  let profileEnv = process.env.CONTEST_PROFILE;
+  if (!profileEnv) {
+    try {
+      profileEnv = await readFile(resolve(ROOT, "contests/.profile.json"), "utf8");
+    } catch { /* 로컬 프로필 파일 없음 — 판정 건너뜀 */ }
+  }
+  const profile = loadProfile({ CONTEST_PROFILE: profileEnv });
+  if (profile) {
+    let rules = null;
+    try {
+      rules = JSON.parse(await readFile(RULES_PATH, "utf8"));
+    } catch (e) {
+      console.error(`relevance-rules.json을 못 읽어서 판정을 건너뜀: ${e.message}`);
+    }
+    if (rules) {
+      for (const it of items) Object.assign(it, gradeItem(it, profile, rules));
+      const counts = items.reduce((m, it) => ((m[it.grade] = (m[it.grade] || 0) + 1), m), {});
+      console.error(`[relevance] ${JSON.stringify(counts)}`);
+
+      // "오늘의 추천" — 같은 날 재실행(6시간마다 도는 크론 중 하루 중 두 번째 이후
+      // 실행분, workflow_dispatch 재시도 등)이면 그대로 두고, 날짜가 바뀌었을 때만
+      // 새로 계산한다. history는 최근 3일치만 보존.
+      let recState = { date: null, items: [], history: {} };
+      try {
+        recState = JSON.parse(await readFile(RECOMMEND_OUT, "utf8"));
+      } catch { /* 첫 실행 */ }
+      if (recState.date !== today) {
+        const recs = buildRecommendation(items, {
+          today,
+          recommendHistory: recState.history,
+          interestKeywords: rules.interestKeywords,
+        });
+        const history = { ...recState.history, [today]: recs.map((r) => r.id) };
+        for (const d of Object.keys(history)) {
+          if (Math.abs((Date.parse(today) - Date.parse(d)) / 86400000) > 3) delete history[d];
+        }
+        recState = { date: today, items: recs, history };
+        console.error(`[recommend] ${recs.length}건 새로 계산`);
+      } else {
+        console.error(`[recommend] 오늘(${today}) 이미 계산됨 — 유지`);
+      }
+      await writeFile(RECOMMEND_OUT, JSON.stringify(recState, null, 1) + "\n");
+    }
+  } else {
+    console.error("[relevance] CONTEST_PROFILE 미설정 — 판정 건너뜀");
   }
 
   const data = {

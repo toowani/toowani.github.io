@@ -105,3 +105,27 @@ scripts/scrape-contests.mjs   수집기 (Node 20+, 의존성 없음)
   내보내기·불러오기 가능(기기 간 이동용).
 - 수동 실행: `node scripts/scrape-contests.mjs` (hub/ 루트에서) 또는 GitHub Actions
   탭에서 `scrape-contests` → Run workflow.
+
+### 맞춤 판정 · 오늘의 추천
+
+판정 기준은 워크스페이스 루트 `docs/notice-relevance.md`(party4life 사업 공고와 같은 명세).
+
+```
+scripts/relevance.mjs            판정(gradeItem)·점수·오늘의 추천(buildRecommendation) 로직
+contests/relevance-rules.json    ★ 키워드 목록 한 곳 — 분야 불일치·대상 불가·지역 이름 등. 여기만 고치면 됨
+contests/recommend.json          하루 1회 계산되는 추천 후보 10건 + 최근 3일 이력(봇 커밋이 덮어씀)
+```
+
+- 수집기가 항목마다 `grade`(추천/확인 필요/비추천)·`reasonTags`·`reasonText`를 `data.json`에 넣는다.
+  **개인 프로필은 레포에 없다** — GitHub 저장소 시크릿 `CONTEST_PROFILE`(JSON)로 Actions에 주입하고,
+  로컬 실행은 gitignore된 `contests/.profile.json`을 읽는다. 둘 다 없으면 판정을 건너뛰고
+  페이지는 예전과 똑같이 동작한다(등급 UI 없음).
+- `CONTEST_PROFILE` 형태(키만, 값은 직접 채움): `status`, `ageMin`, `ageMax`, `residenceCity`,
+  `registeredCity`, `schoolCity`, `interests`(배열). 나이는 생년월일이 아니라 만 나이 범위만.
+- 화면: 기본 목록 = 추천 + 확인 필요(배지), 비추천은 맨 아래 접힌 "비추천 n건"(첫 사유 태그별 묶음).
+  각 행의 "분류 바꾸기"는 localStorage(`gradeOverride`)에 저장되고 백업/복원 JSON에 포함된다.
+- "오늘의 추천": 날짜가 바뀐 첫 수집 때 한 번만 계산(같은 날 재실행은 유지). 서버는 후보 10건을
+  내려주고, 브라우저가 이미 ★·지원함·숨김인 건 빼고 다음 순위로 채워 5건을 보여준다.
+  이유 문장엔 공고 쪽 조건만 적는다(개인 원값 없음).
+- 알려진 한계: 지역은 시·도 이름만 본다 — "김포시"처럼 시·군 단위 한정은 못 잡는다(추천으로 남음).
+  놓치는 게 있으면 `relevance-rules.json`에 키워드를 추가.

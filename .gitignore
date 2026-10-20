@@ -1,1 +1,4 @@
 .DS_Store
+# 로컬 실행용 CONTEST_PROFILE JSON (docs/notice-relevance.md 5절) — 절대 커밋 금지
+contests/.profile.json
+.env

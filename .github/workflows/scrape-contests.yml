@@ -24,12 +24,14 @@ jobs:
         with:
           node-version: 22
       - name: Scrape
+        env:
+          CONTEST_PROFILE: ${{ secrets.CONTEST_PROFILE }}
         run: node scripts/scrape-contests.mjs
       - name: Commit if changed
         run: |
           git config user.name "contest-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add contests/data.json
+          git add contests/data.json contests/recommend.json
           if git diff --cached --quiet; then
             echo "no changes"
           else

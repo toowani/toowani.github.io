@@ -27,11 +27,11 @@
 
   /* ---------- 개인 상태 ---------- */
   var STATE_KEY = "wani-contests-state";
-  var state = { star: {}, applied: {}, hidden: {}, memo: {}, lastVisit: null, filters: null };
+  var state = { star: {}, applied: {}, hidden: {}, memo: {}, gradeOverride: {}, lastVisit: null, filters: null };
   try {
     var saved = JSON.parse(localStorage.getItem(STATE_KEY) || "null");
     if (saved && typeof saved === "object") {
-      ["star", "applied", "hidden", "memo"].forEach(function (k) { if (saved[k] && typeof saved[k] === "object") state[k] = saved[k]; });
+      ["star", "applied", "hidden", "memo", "gradeOverride"].forEach(function (k) { if (saved[k] && typeof saved[k] === "object") state[k] = saved[k]; });
       state.lastVisit = saved.lastVisit || null;
       state.filters = saved.filters || null;
     }
@@ -95,7 +95,13 @@
     return it;
   }
 
+  /* 맞춤 등급 — 사용자가 "분류 바꾸기"로 고친 값이 자동 판정보다 우선 (notice-relevance.md 3-4).
+     grade가 없는 항목(CONTEST_PROFILE 없이 수집된 data.json)은 null → 등급 UI 전부 생략. */
+  var GRADES = ["추천", "확인 필요", "비추천"];
+  function effectiveGrade(it) { return state.gradeOverride[it.id] || it.grade || null; }
+
   function matches(it) {
+    if (effectiveGrade(it) === "비추천") return false; // 아래 접힌 "비추천" 섹션에서 따로 그림
     if (!filters.showHidden && state.hidden[it.id]) return false;
     if (filters.showHidden && !state.hidden[it.id]) return false;
     if (filters.starOnly && !state.star[it.id]) return false;
@@ -181,6 +187,10 @@
     var primary = it.officialUrl || it.url;
     tl.appendChild(link(primary, "title", it.title, it.officialUrl ? "공식 페이지 열기" : "공고 보기"));
     if (it._new) tl.appendChild(el("span", "badge-new", "NEW"));
+    var g = effectiveGrade(it);
+    if (g === "확인 필요") tl.appendChild(el("span", "badge-grade g-check", "확인 필요"));
+    if (g === "추천") tl.appendChild(el("span", "badge-grade g-rec", "추천"));
+    if (g && state.gradeOverride[it.id]) tl.appendChild(el("span", "badge-grade g-manual", "수동 분류"));
     main.appendChild(tl);
 
     var sub = el("div", "sub");
@@ -199,7 +209,9 @@
     it.tags.forEach(function (t) { tags.appendChild(el("span", "tag t-" + t, TAG_LABEL[t] || t)); });
     if (it.sourceCategory) tags.appendChild(el("span", "tag cat", it.sourceCategory));
     it._srcs.forEach(function (s) { tags.appendChild(link(s.url, "tag src", SOURCE_LABEL[s.source] || s.source, "출처 페이지 열기")); });
+    if (it.reasonTags && it.reasonTags.length) it.reasonTags.forEach(function (t) { tags.appendChild(el("span", "tag reason", t)); });
     main.appendChild(tags);
+    if (it.reasonText && g) main.appendChild(el("div", "reason-text", it.reasonText));
     row.appendChild(main);
 
     var actions = el("div", "actions");
@@ -216,6 +228,19 @@
     bHide.addEventListener("click", function () { toggle("hidden", it.id); });
     r2.appendChild(bStar); r2.appendChild(bApp); r2.appendChild(bHide);
     actions.appendChild(r2);
+    if (it.grade) {
+      var sel = el("select", "select grade-select");
+      sel.title = "분류 바꾸기 — 자동 판정보다 내 선택이 우선";
+      [["", "분류: 자동 (" + it.grade + ")"]].concat(GRADES.map(function (x) { return [x, "→ " + x]; })).forEach(function (o) {
+        var op = el("option", null, o[1]); op.value = o[0]; sel.appendChild(op);
+      });
+      sel.value = state.gradeOverride[it.id] || "";
+      sel.addEventListener("change", function () {
+        if (sel.value) state.gradeOverride[it.id] = sel.value; else delete state.gradeOverride[it.id];
+        save(); render();
+      });
+      actions.appendChild(sel);
+    }
     var memo = el("div", "memo");
     var inp = el("input");
     inp.type = "text"; inp.placeholder = "메모…"; inp.value = state.memo[it.id] || "";
@@ -260,11 +285,72 @@
       items.forEach(function (it) { frag2.appendChild(itemEl(it)); });
       list.appendChild(frag2);
     }
+    renderLow();
+    renderPicks();
     renderStats();
   }
 
+  /* ---------- 비추천 (접힌 하위 섹션, 사유별 묶음) ---------- */
+  function renderLow() {
+    var box = $("#low-grade");
+    var low = DATA.items.filter(function (it) { return effectiveGrade(it) === "비추천" && it._status !== "closed" && !state.hidden[it.id]; });
+    box.textContent = "";
+    if (!low.length) { box.hidden = true; return; }
+    box.hidden = false;
+    var openNow = box.dataset.open === "1";
+    var det = el("details", "low-details");
+    det.open = openNow;
+    det.addEventListener("toggle", function () { box.dataset.open = det.open ? "1" : "0"; });
+    det.appendChild(el("summary", null, "비추천 " + low.length + "건 — 분야·지역·대상이 안 맞는 공고 (펼치기)"));
+    var groups = {};
+    low.forEach(function (it) {
+      var k = (it.reasonTags && it.reasonTags[0]) || "기타";
+      (groups[k] = groups[k] || []).push(it);
+    });
+    Object.keys(groups).sort(function (a, b) { return groups[b].length - groups[a].length; }).forEach(function (k) {
+      var h = el("h3", "group-title low-title", k);
+      h.appendChild(el("span", "n", groups[k].length + "건"));
+      det.appendChild(h);
+      groups[k].sort(SORTERS.deadline).forEach(function (it) { det.appendChild(itemEl(it)); });
+    });
+    box.appendChild(det);
+  }
+
+  /* ---------- 오늘의 추천 (recommend.json) ---------- */
+  var RECO = null;
+  function renderPicks() {
+    var box = $("#picks");
+    box.textContent = "";
+    if (!RECO || !RECO.items || !RECO.items.length) { box.hidden = true; return; }
+    var byId = {};
+    DATA.items.forEach(function (it) { byId[it.id] = it; });
+    // 서버는 개인 ★·지원함을 모르므로 후보를 넉넉히(10건) 내려주고, 여기서 이미 아는 건 빼고 다음 순위로 채운다.
+    var picks = [];
+    RECO.items.forEach(function (r) {
+      var it = byId[r.id];
+      if (!it || picks.length >= 5) return;
+      if (state.star[it.id] || state.applied[it.id] || state.hidden[it.id]) return;
+      if (effectiveGrade(it) === "비추천" || it._status === "closed") return;
+      picks.push({ it: it, r: r });
+    });
+    if (!picks.length) { box.hidden = true; return; }
+    box.hidden = false;
+    var h = el("h2", "group-title picks-title", "오늘의 추천");
+    h.appendChild(el("span", "n", (RECO.date || "") + " · " + picks.length + "건"));
+    box.appendChild(h);
+    picks.forEach(function (p) {
+      var row = itemEl(p.it);
+      row.classList.add("pick");
+      var dup = row.querySelector(".reason-text");
+      if (dup) dup.remove();
+      var why = el("div", "reason-text pick-why", p.r.reasonText || "");
+      row.querySelector(".main").insertBefore(why, row.querySelector(".tags"));
+      box.appendChild(row);
+    });
+  }
+
   function renderStats() {
-    var all = DATA.items.filter(function (it) { return !state.hidden[it.id]; });
+    var all = DATA.items.filter(function (it) { return !state.hidden[it.id] && effectiveGrade(it) !== "비추천"; });
     var open = all.filter(function (it) { return it._status === "open"; });
     $("#st-open").textContent = open.length;
     $("#st-week").textContent = open.filter(function (it) { return it._d != null && it._d <= 7; }).length;
@@ -355,7 +441,7 @@
 
   /* ---------- 백업 / 복원 ---------- */
   $("#btn-export").addEventListener("click", function () {
-    var blob = new Blob([JSON.stringify({ star: state.star, applied: state.applied, hidden: state.hidden, memo: state.memo, exportedAt: new Date().toISOString() }, null, 2)], { type: "application/json" });
+    var blob = new Blob([JSON.stringify({ star: state.star, applied: state.applied, hidden: state.hidden, memo: state.memo, gradeOverride: state.gradeOverride, exportedAt: new Date().toISOString() }, null, 2)], { type: "application/json" });
     var a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = "contest-radar-" + TODAY + ".json";
@@ -370,7 +456,7 @@
     fr.onload = function () {
       try {
         var d = JSON.parse(fr.result);
-        ["star", "applied", "hidden", "memo"].forEach(function (k) {
+        ["star", "applied", "hidden", "memo", "gradeOverride"].forEach(function (k) {
           if (d[k] && typeof d[k] === "object") Object.keys(d[k]).forEach(function (id) { state[k][id] = d[k][id]; });
         });
         save(); render();
@@ -391,6 +477,11 @@
       renderSourceChips();
       renderMeta();
       render();
+      // 오늘의 추천은 없어도(프로필 미설정·첫 실행) 페이지가 그대로 동작해야 한다
+      fetch("recommend.json?t=" + Math.floor(Date.now() / 600000), { cache: "no-cache" })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (rc) { RECO = rc; renderPicks(); })
+        .catch(function () { /* optional */ });
     })
     .catch(function (e) {
       $("#list").textContent = "";
