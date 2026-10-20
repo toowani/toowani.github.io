@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-20T08:00:04.685Z",
+ "generatedAt": "2026-10-20T11:40:13.133Z",
  "today": "2026-10-20",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 76,
-   "fetchedAt": "2026-10-20T08:00:04.653Z"
+   "count": 79,
+   "fetchedAt": "2026-10-20T11:40:13.095Z"
   },
   "hola": {
    "ok": true,
    "count": 44,
-   "fetchedAt": "2026-10-20T08:00:04.653Z"
+   "fetchedAt": "2026-10-20T11:40:13.095Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-20T08:00:04.653Z"
+   "fetchedAt": "2026-10-20T11:40:13.095Z"
   },
   "devevent": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-10-20T08:00:04.653Z"
+   "fetchedAt": "2026-10-20T11:40:13.095Z"
   },
   "kstartup": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-10-20T08:00:04.653Z"
+   "fetchedAt": "2026-10-20T11:40:13.095Z"
   }
  },
- "count": 144,
+ "count": 146,
  "items": [
   {
    "id": "hola:6ab4c298fdf75b86efbf5564",
@@ -317,10 +317,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/358044"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358002"
     }
    ],
    "firstSeen": "2026-10-20",
@@ -1742,6 +1738,35 @@
     "지역 불가"
    ],
    "reasonText": "'인천' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:358224",
+   "source": "linkareer",
+   "title": "2026 크라우드 소싱 데이터 활용 해커톤 (드론 데이터 변화탐지·3D 모델링)",
+   "host": "연세대학교 산학협력단",
+   "url": "https://linkareer.com/activity/358224",
+   "officialUrl": null,
+   "applyStart": "2026-10-21",
+   "applyEnd": "2026-10-28",
+   "postedAt": "2026-10-20",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358224"
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111192",
@@ -4191,27 +4216,25 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:352004",
-   "source": "linkareer",
+   "id": "hola:6ab4c28dfdf75b86efbf5547",
+   "source": "hola",
    "title": "2026 동남 버그바운티 대회",
-   "host": "파인더갭",
-   "url": "https://linkareer.com/activity/352004",
-   "officialUrl": "http://WWW.findthegap.co.kr",
+   "host": "과기정통부,부산시,한국인터넷진흥원,부산정보산업진흥원,울산정보산업진흥원,경남테크노파크",
+   "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547",
+   "officialUrl": "http://www.findthegap.co.kr",
    "applyStart": "2026-09-21",
    "applyEnd": "2026-11-13",
-   "postedAt": "2026-09-19",
+   "eventStart": "2026-09-21",
+   "eventEnd": "2026-11-13",
+   "postedAt": "2026-09-24",
    "prize": null,
    "place": "온라인",
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/352004"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547"
@@ -4221,12 +4244,12 @@
      "url": "https://linkareer.com/activity/352004"
     }
    ],
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-11-13",
    "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:353862",
@@ -4367,7 +4390,7 @@
    "officialUrl": "https://appdevchallenge.auto-hmg.io/landing",
    "applyStart": "2026-10-21",
    "applyEnd": "2026-11-15",
-   "postedAt": null,
+   "postedAt": "2026-10-20",
    "prize": "5천만원이상",
    "place": null,
    "target": "일반인, 대학생",
@@ -4376,6 +4399,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358198"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111802",
@@ -4590,7 +4617,7 @@
    "officialUrl": "https://www.namuhx.com/events/6f150f44-01e0-4263-a538-d051e8b5f3b8",
    "applyStart": "2026-10-19",
    "applyEnd": "2026-11-22",
-   "postedAt": null,
+   "postedAt": "2026-10-20",
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "일반인, 대학생",
@@ -4600,6 +4627,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358366"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111804",
@@ -4771,6 +4802,35 @@
       "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111800",
       "target": "기타"
      }
+    }
+   ],
+   "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:358358",
+   "source": "linkareer",
+   "title": "2026 AI 플레이 콘텐츠 제작 공모전 공모전",
+   "host": "중앙대학교",
+   "url": "https://linkareer.com/activity/358358",
+   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLScWtz2RsHfM6Q5ehhUcYiSG-ccZP31SBEki84mZafwRE9bmlQ/viewform",
+   "applyStart": "2026-10-20",
+   "applyEnd": "2026-12-31",
+   "postedAt": "2026-10-20",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "과학/공학",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358358"
     }
    ],
    "firstSeen": "2026-10-20",
