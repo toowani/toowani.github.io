@@ -47,7 +47,7 @@ function judgeRegion(text, rules) {
   const gj = findAny(text, rules.gwangjuTerms);
   if (gj) {
     if (/광주.{0,10}주민등록|주민등록.{0,10}광주/.test(text)) {
-      return { level: "disallow", tag: "지역 불가", note: "광주 주민등록 기준이라 거주지와 안 맞을 수 있어요" };
+      return { level: "disallow", tag: "지역 불가", note: "지역 조건(주민등록 기준)이 안 맞을 수 있어요" };
     }
     return null; // 광주 거주·재학·활동·소재 — 통과
   }
@@ -55,13 +55,18 @@ function judgeRegion(text, rules) {
   if (dg) {
     if (/대구.{0,10}주민등록|주민등록.{0,10}대구/.test(text)) return null; // 통과
     if (/대구.{0,10}(거주|활동)|(거주|활동).{0,10}대구/.test(text)) {
-      return { level: "disallow", tag: "지역 불가", note: "대구 거주·활동 기준이라 주민등록지와 달라 안 맞을 수 있어요" };
+      return { level: "disallow", tag: "지역 불가", note: "지역 조건(거주·활동 기준)이 안 맞을 수 있어요" };
     }
-    return { level: "uncertain", tag: "지역 확인 필요", note: "대구 관련 조건인데 거주·주민등록 중 어느 기준인지 공고에서 못 찾았어요" };
+    return { level: "uncertain", tag: "지역 확인 필요", note: "지역 조건이 공고에서 분명하지 않아요" };
   }
   const other = findAny(text, rules.otherRegionNames);
   if (other) {
     return { level: "disallow", tag: "지역 불가", note: `'${other}' 지역 한정으로 보여요` };
+  }
+  // 시·군 단위 — 이름 바로 뒤에 시/군이 붙은 경우만(예산시스템·구리시설 같은 오탐 제외)
+  for (const c of rules.otherCityNames || []) {
+    const m = text.match(new RegExp(c + "(시|군)(?!스템|설)"));
+    if (m) return { level: "disallow", tag: "지역 불가", note: `'${m[0]}' 지역 한정으로 보여요` };
   }
   return null;
 }
