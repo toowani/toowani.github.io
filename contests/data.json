@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-22T04:50:21.366Z",
+ "generatedAt": "2026-10-22T11:55:40.261Z",
  "today": "2026-10-22",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 80,
-   "fetchedAt": "2026-10-22T04:50:21.323Z"
+   "count": 78,
+   "fetchedAt": "2026-10-22T11:55:40.219Z"
   },
   "hola": {
    "ok": true,
    "count": 45,
-   "fetchedAt": "2026-10-22T04:50:21.323Z"
+   "fetchedAt": "2026-10-22T11:55:40.219Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-22T04:50:21.323Z"
+   "fetchedAt": "2026-10-22T11:55:40.219Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-22T04:50:21.323Z"
+   "fetchedAt": "2026-10-22T11:55:40.219Z"
   },
   "kstartup": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-10-22T04:50:21.323Z"
+   "fetchedAt": "2026-10-22T11:55:40.219Z"
   }
  },
  "count": 149,
@@ -380,36 +380,6 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "kstartup:179375",
-   "source": "kstartup",
-   "title": "쇼미더임팩트 시즌6 참가자 모집 [IMPACT IR 경연대회]",
-   "host": "충남사회적경제지원센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375",
-   "officialUrl": null,
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-22",
-   "postedAt": "2026-10-01",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179375"
-    }
-   ],
-   "firstSeen": "2026-10-17",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'충남' 지역 한정으로 보여요."
-  },
-  {
    "id": "wevity:111346",
    "source": "wevity",
    "title": "2026 CWNU SW-DNA² 챌린지 대학생 AI·SW 경진대회",
@@ -514,35 +484,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "kstartup:179496",
-   "source": "kstartup",
-   "title": "2026 산업단지 오픈이노베이션프로그램 KICXUP 챌린지 & 로컬 스타트업 2차 모집 공고",
-   "host": "한국산업단지공단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496",
-   "officialUrl": null,
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-14",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496"
-    }
-   ],
-   "firstSeen": "2026-10-17",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:353405",
@@ -1291,6 +1232,35 @@
    "reasonText": "관심 분야(해커톤·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "kstartup:179496",
+   "source": "kstartup",
+   "title": "2026 산업단지 오픈이노베이션프로그램 KICXUP 챌린지 & 로컬 스타트업 2차 모집 공고",
+   "host": "한국산업단지공단",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496",
+   "officialUrl": null,
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-10-26",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 사업화",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179496"
+    }
+   ],
+   "firstSeen": "2026-10-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "devevent:https://www.bigcontest.or.kr/",
    "source": "devevent",
    "title": "2026 제14회 빅콘테스트 AI·데이터 경진대회",
@@ -1682,39 +1652,30 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:353269",
-   "source": "linkareer",
-   "title": "[BytePlus x AI-Kive] Seedance2.5 AI 시리즈 제작지원 공모전",
-   "host": "BytePlus / 스튜디오프리윌루전,AI-Kive",
-   "url": "https://linkareer.com/activity/353269",
-   "officialUrl": "https://aikive.com/event",
+   "id": "hola:6ab4c28bfdf75b86efbf5536",
+   "source": "hola",
+   "title": "[BytePlus × AI-Kive] Seedance 2.5 AI 시리즈 제작지원 공모전",
+   "host": "BytePlus / (주)스튜디오프리윌루전, AI-Kive",
+   "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536",
+   "officialUrl": "https://aikive.com/event/c1f47e0aa9eb45ae9e28305b65c14ce0",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": "2026-09-28",
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-10-30",
+   "postedAt": "2026-09-24",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
-    "ai",
-    "video"
+    "ai"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353269"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353237"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536"
     }
    ],
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-10-30",
    "firstSeen": "2026-10-22",
    "grade": "추천",
    "reasonTags": [],
@@ -1853,6 +1814,34 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
+   "id": "kstartup:179602",
+   "source": "kstartup",
+   "title": "2026 FAST TRACK 농식품 데모데이",
+   "host": "씨엔티테크(주)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179602",
+   "officialUrl": null,
+   "applyStart": "2026-10-22",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-22",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "민간, 사업화",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179602"
+    }
+   ],
+   "firstSeen": "2026-10-22",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "wevity:111314",
    "source": "wevity",
    "title": "2026 POSTECH OIBC 빅데이터 경진대회",
@@ -1861,7 +1850,7 @@
    "officialUrl": "https://dataen.ai/challenge",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": "2026-09-28",
+   "postedAt": null,
    "prize": "3천만원~1천만원 · 1등 500만원",
    "place": null,
    "target": "대학생",
@@ -1871,10 +1860,6 @@
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353328"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111314",
@@ -3559,41 +3544,6 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111087",
-   "source": "wevity",
-   "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
-   "host": "의정부도시공사",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111087",
-   "officialUrl": "https://www.uiuc.or.kr/companyNotice/noticePage/notice/view.do?bbsId=BBSMSTR_000000000001&nttId=5514",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-11-08",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 20만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111087",
-     "_detail": {
-      "applyStart": "2026-09-15",
-      "applyEnd": "2026-11-08",
-      "prize": "1천만원이하 · 1등 20만원",
-      "officialUrl": "https://www.uiuc.or.kr/companyNotice/noticePage/notice/view.do?bbsId=BBSMSTR_000000000001&nttId=5514",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "linkareer:355217",
    "source": "linkareer",
    "title": "[한국어촌어항공단] 2026 청년 어촌창업 아이디어 공모전",
@@ -4166,6 +4116,44 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
+   "id": "wevity:111787",
+   "source": "wevity",
+   "title": "세종사이버대 국방융합학과 AI 영상 숏폼·광고 공모전",
+   "host": "세종사이버대 국방융합학과",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111787",
+   "officialUrl": "https://cms.sjcu.ac.kr/military/news/notice.do?mode=view&articleNo=135178&article.offset=0&articleLimit=10",
+   "applyStart": "2026-05-27",
+   "applyEnd": "2026-11-12",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 50만원",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111787",
+     "_detail": {
+      "applyStart": "2026-05-27",
+      "applyEnd": "2026-11-12",
+      "prize": "1천만원이하 · 1등 50만원",
+      "officialUrl": "https://cms.sjcu.ac.kr/military/news/notice.do?mode=view&articleNo=135178&article.offset=0&articleLimit=10",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-22",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:358042",
    "source": "linkareer",
    "title": "2026 대경권 캠퍼스 IR 챔피언십 (창업 공모전)",
@@ -4598,6 +4586,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359000"
+    },
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/358856"
