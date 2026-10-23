@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-23T11:41:58.459Z",
- "today": "2026-10-23",
+ "generatedAt": "2026-10-23T17:10:15.498Z",
+ "today": "2026-10-24",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 80,
-   "fetchedAt": "2026-10-23T11:41:58.256Z"
+   "count": 86,
+   "fetchedAt": "2026-10-23T17:10:14.796Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-23T11:41:58.256Z"
+   "fetchedAt": "2026-10-23T17:10:14.796Z"
   },
   "wevity": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-10-23T11:41:58.256Z"
+   "count": 41,
+   "fetchedAt": "2026-10-23T17:10:14.796Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-23T11:41:58.256Z"
+   "fetchedAt": "2026-10-23T17:10:14.796Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-10-23T11:41:58.256Z"
+   "count": 14,
+   "fetchedAt": "2026-10-23T17:10:14.796Z"
   }
  },
- "count": 151,
+ "count": 152,
  "items": [
   {
    "id": "hola:6ad48a77b2e45876ca5921ac",
@@ -187,79 +187,38 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:358938",
-   "source": "linkareer",
-   "title": "「2026년 충청 스타트업 벤처포럼」 1회차(AI) - IR 데모데이",
-   "host": "주식회사 알파브라더스",
-   "url": "https://linkareer.com/activity/358938",
-   "officialUrl": null,
-   "applyStart": "2026-10-20",
+   "id": "hola:6aa92b4dfdf75b86efb381ff",
+   "source": "hola",
+   "title": "[행정안전부] 공공 웹사이트 불법광고 탐지 도구 개발 공모전",
+   "host": "행정안전부/한국지능정보사회진흥원",
+   "url": "https://holaworld.io/hola-it/6aa92b4dfdf75b86efb381ff",
+   "officialUrl": "https://mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458",
+   "applyStart": "2026-09-14",
    "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-22",
+   "eventStart": "2026-09-14",
+   "eventEnd": "2026-10-23",
+   "postedAt": "2026-09-15",
    "prize": null,
-   "place": null,
-   "target": "직장인/일반인",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358938"
-    }
-   ],
-   "firstSeen": "2026-10-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111346",
-   "source": "wevity",
-   "title": "2026 CWNU SW-DNA² 챌린지 대학생 AI·SW 경진대회",
-   "host": "국립창원대학교",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111346",
-   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111346",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-09-29",
-   "prize": "다양한 혜택",
    "place": "온라인",
-   "target": "대학생, 기타",
-   "sourceCategory": "게임/소프트웨어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
-    "ai",
     "dev"
    ],
-   "eventStart": "2026-09-29",
-   "eventEnd": "2026-10-23",
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353664"
-    },
-    {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe2a"
+     "url": "https://holaworld.io/hola-it/6aa92b4dfdf75b86efb381ff"
     },
     {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111346",
-     "_detail": {
-      "applyStart": "2026-09-29",
-      "applyEnd": "2026-10-23",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111346",
-      "target": "대학생, 기타"
-     }
+     "source": "devevent",
+     "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458"
     }
    ],
-   "firstSeen": "2026-09-29",
+   "firstSeen": "2026-10-24",
    "grade": "추천",
    "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acf7bb3ee012963f8216b79",
@@ -291,108 +250,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:356430",
-   "source": "linkareer",
-   "title": "2026 Tech Discovery 실험실창업 경진대회 참가팀 모집",
-   "host": "더합협동조합",
-   "url": "https://linkareer.com/activity/356430",
-   "officialUrl": "https://learncle.com/event/hAP5b",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-13",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 과학/공학",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356430"
-    }
-   ],
-   "firstSeen": "2026-10-13",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "kstartup:179516",
-   "source": "kstartup",
-   "title": "2026-9회 충청권 엔젤투자 피칭룸 프로그램 참가기업 모집",
-   "host": "한국엔젤투자협회",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516",
-   "officialUrl": null,
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-10-15",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179516"
-    }
-   ],
-   "firstSeen": "2026-10-17",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:110998",
-   "source": "wevity",
-   "title": "공공 웹사이트 불법광고 탐지 도구 개발 공모전",
-   "host": "행정안전부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110998",
-   "officialUrl": "https://mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-23",
-   "postedAt": "2026-09-15",
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "dev"
-   ],
-   "eventStart": "2026-09-14",
-   "eventEnd": "2026-10-23",
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa92b4dfdf75b86efb381ff"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110998",
-     "_detail": {
-      "applyStart": "2026-09-14",
-      "applyEnd": "2026-10-23",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458",
-      "target": "제한없음"
-     }
-    },
-    {
-     "source": "devevent",
-     "url": "https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000006&nttId=129458"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aba73e2ee012963f80a4bce",
@@ -460,6 +317,35 @@
     "대상 불가"
    ],
    "reasonText": "'강원' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
+   "id": "linkareer:353062",
+   "source": "linkareer",
+   "title": "[드론플레이x곰랩] 드론 영상•사진 공모전",
+   "host": "주식회사 곰앤컴퍼니",
+   "url": "https://linkareer.com/activity/353062",
+   "officialUrl": "https://www.gomlab.com/event/page/dronplaycontest",
+   "applyStart": "2026-09-23",
+   "applyEnd": "2026-10-25",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 기타",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353062"
+    }
+   ],
+   "firstSeen": "2026-10-24",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(랩)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356000",
@@ -1448,31 +1334,40 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "hola:6ab4c28bfdf75b86efbf5536",
-   "source": "hola",
-   "title": "[BytePlus × AI-Kive] Seedance 2.5 AI 시리즈 제작지원 공모전",
-   "host": "BytePlus / (주)스튜디오프리윌루전, AI-Kive",
-   "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536",
-   "officialUrl": "https://aikive.com/event/c1f47e0aa9eb45ae9e28305b65c14ce0",
+   "id": "linkareer:353269",
+   "source": "linkareer",
+   "title": "[BytePlus x AI-Kive] Seedance2.5 AI 시리즈 제작지원 공모전",
+   "host": "BytePlus / 스튜디오프리윌루전,AI-Kive",
+   "url": "https://linkareer.com/activity/353269",
+   "officialUrl": "https://aikive.com/event",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-09-24",
+   "postedAt": "2026-09-28",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
    "tags": [
-    "ai"
+    "ai",
+    "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353269"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353237"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536"
     }
    ],
-   "firstSeen": "2026-10-22",
+   "eventStart": "2026-10-01",
+   "eventEnd": "2026-10-30",
+   "firstSeen": "2026-10-24",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -1676,7 +1571,7 @@
    "officialUrl": "https://dataen.ai/challenge",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": null,
+   "postedAt": "2026-09-28",
    "prize": "3천만원~1천만원 · 1등 500만원",
    "place": null,
    "target": "대학생",
@@ -1686,6 +1581,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353328"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111314",
@@ -2140,6 +2039,38 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:353155",
+   "source": "linkareer",
+   "title": "[시립노원청소년미래진로센터] 제2회 인공지능 활용 우수사례 공모전",
+   "host": "시립노원청소년미래진로센터",
+   "url": "https://linkareer.com/activity/353155",
+   "officialUrl": "https://andyouth.or.kr/kr/community/notice.php?bgu=view&idx=1669&utm_source=chatgpt.com",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-10-31",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "문학/시나리오, 사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353155"
+    }
+   ],
+   "firstSeen": "2026-10-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치",
+    "대상 불가"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요. '청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
    "id": "linkareer:355244",
    "source": "linkareer",
    "title": "[제주관광공사] 2026 제주 관광 데이터 활용사례 공모전(~10/31)",
@@ -2237,32 +2168,34 @@
    "reasonText": "제목·분야에 '공예' 키워드가 있어요."
   },
   {
-   "id": "devevent:https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
-   "source": "devevent",
+   "id": "linkareer:353451",
+   "source": "linkareer",
    "title": "2026년 AI 라이프 솔루션 챌린지",
-   "host": "산업통상부 / 한국산업기술기획평가원(KEIT)",
-   "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
+   "host": "한국산업기술기획평가원",
+   "url": "https://linkareer.com/activity/353451",
    "officialUrl": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
    "applyStart": "2026-09-30",
    "applyEnd": "2026-10-31",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
+   "postedAt": "2026-09-29",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 과학/공학",
    "tags": [
-    "dev",
-    "ai"
+    "ai",
+    "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353451"
+    },
     {
      "source": "devevent",
      "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385"
     }
    ],
-   "firstSeen": "2026-10-23",
+   "firstSeen": "2026-10-24",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -2680,7 +2613,7 @@
    "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
    "applyStart": "2026-09-28",
    "applyEnd": "2026-11-01",
-   "postedAt": "2026-10-02",
+   "postedAt": "2026-09-28",
    "prize": "1천만원이하 · 1등 150만원",
    "place": "온라인",
    "target": "제한없음",
@@ -2691,6 +2624,10 @@
    "eventStart": "2026-09-28",
    "eventEnd": "2026-11-01",
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353386"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d"
@@ -2713,6 +2650,48 @@
     "지역 불가"
    ],
    "reasonText": "'제천시' 지역 한정으로 보여요."
+  },
+  {
+   "id": "wevity:111271",
+   "source": "wevity",
+   "title": "제 3회 AI·디지털 융합 교육 콘텐츠 개발 경진대회 참가자 모집",
+   "host": "부산대학교, 부산교육대학교, 부산에듀테크소프트랩,AIEDAP 경남권역 사업지원단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111271",
+   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111271",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-11-01",
+   "postedAt": "2026-09-24",
+   "prize": "1천만원이하 · 1등 200만원",
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/352987"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111271",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-11-01",
+      "prize": "1천만원이하 · 1등 200만원",
+      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111271",
+      "target": "대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:110895",
@@ -3673,6 +3652,34 @@
     "지역 불가"
    ],
    "reasonText": "'세종' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:353374",
+   "source": "linkareer",
+   "title": "[대학생 킥오프 챌린지] 나 사실, 이거 해보고 싶었어!",
+   "host": "키키스튜디오",
+   "url": "https://linkareer.com/activity/353374",
+   "officialUrl": "https://www.kikickstudio.co.kr/test/1",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-11-09",
+   "postedAt": "2026-09-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "광고/마케팅, 기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353374"
+    }
+   ],
+   "firstSeen": "2026-10-24",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aba73e1ee012963f80a4bb5",
@@ -4819,6 +4826,41 @@
     }
    ],
    "firstSeen": "2026-10-21",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:353664",
+   "source": "linkareer",
+   "title": "2026 CWNU SW-DNA² 챌린지 대학생 AI·SW 경진대회",
+   "host": "주식회사 휘테커",
+   "url": "https://linkareer.com/activity/353664",
+   "officialUrl": "https://forms.gle/5jQ9qUvQor4fEeej9",
+   "applyStart": "2026-09-29",
+   "applyEnd": "2026-12-28",
+   "postedAt": "2026-09-29",
+   "prize": null,
+   "place": "온라인",
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/353664"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe2a"
+    }
+   ],
+   "eventStart": "2026-09-29",
+   "eventEnd": "2026-10-23",
+   "firstSeen": "2026-10-24",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
