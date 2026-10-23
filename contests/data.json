@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-22T21:37:50.380Z",
+ "generatedAt": "2026-10-23T04:52:37.988Z",
  "today": "2026-10-23",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 77,
-   "fetchedAt": "2026-10-22T21:37:50.351Z"
+   "count": 78,
+   "fetchedAt": "2026-10-23T04:52:37.957Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-22T21:37:50.352Z"
+   "fetchedAt": "2026-10-23T04:52:37.957Z"
   },
   "wevity": {
    "ok": true,
-   "count": 41,
-   "fetchedAt": "2026-10-22T21:37:50.352Z"
+   "count": 40,
+   "fetchedAt": "2026-10-23T04:52:37.957Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-22T21:37:50.352Z"
+   "fetchedAt": "2026-10-23T04:52:37.957Z"
   },
   "kstartup": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-10-22T21:37:50.352Z"
+   "fetchedAt": "2026-10-23T04:52:37.957Z"
   }
  },
- "count": 146,
+ "count": 148,
  "items": [
   {
    "id": "devevent:https://event-us.kr/medici/event/137520",
@@ -254,6 +254,35 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:358938",
+   "source": "linkareer",
+   "title": "「2026년 충청 스타트업 벤처포럼」 1회차(AI) - IR 데모데이",
+   "host": "주식회사 알파브라더스",
+   "url": "https://linkareer.com/activity/358938",
+   "officialUrl": null,
+   "applyStart": "2026-10-20",
+   "applyEnd": "2026-10-23",
+   "postedAt": "2026-10-22",
+   "prize": null,
+   "place": null,
+   "target": "직장인/일반인",
+   "sourceCategory": "창업",
+   "tags": [
+    "startup",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358938"
+    }
+   ],
+   "firstSeen": "2026-10-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111346",
@@ -560,42 +589,6 @@
     "대상 불가"
    ],
    "reasonText": "'강원' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "wevity:111290",
-   "source": "wevity",
-   "title": "[드론플레이x곰랩] 드론 영상•사진 공모전",
-   "host": "주식회사 곰앤컴퍼니",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111290",
-   "officialUrl": "https://cafe.naver.com/dronplay/849366",
-   "applyStart": "2026-09-23",
-   "applyEnd": "2026-10-25",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111290",
-     "_detail": {
-      "applyStart": "2026-09-23",
-      "applyEnd": "2026-10-25",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://cafe.naver.com/dronplay/849366",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(랩)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356000",
@@ -1238,6 +1231,62 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:356688",
+   "source": "linkareer",
+   "title": "K-콘텐츠 관광마케팅 아카데미 2기 : 기초과정",
+   "host": "(주)엘투플랜",
+   "url": "https://linkareer.com/activity/356688",
+   "officialUrl": null,
+   "applyStart": "2026-10-13",
+   "applyEnd": "2026-10-26",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356688"
+    }
+   ],
+   "firstSeen": "2026-10-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:356693",
+   "source": "linkareer",
+   "title": "K-콘텐츠 관광마케팅 아카데미 2기 : 심화과정",
+   "host": "(주)엘투플랜",
+   "url": "https://linkareer.com/activity/356693",
+   "officialUrl": null,
+   "applyStart": "2026-10-13",
+   "applyEnd": "2026-10-26",
+   "postedAt": "2026-10-14",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업, 기타",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356693"
+    }
+   ],
+   "firstSeen": "2026-10-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:354668",
    "source": "linkareer",
    "title": "The recruitment for the 2026 OASIS-6 (Global Startup Challenge) (2026 외국인 창업대전(OASIS-6) 참가자 모집)",
@@ -1726,7 +1775,7 @@
    "officialUrl": "https://dataen.ai/challenge",
    "applyStart": "2026-10-01",
    "applyEnd": "2026-10-30",
-   "postedAt": "2026-09-28",
+   "postedAt": null,
    "prize": "3천만원~1천만원 · 1등 500만원",
    "place": null,
    "target": "대학생",
@@ -1736,10 +1785,6 @@
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353328"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111314",
@@ -2734,7 +2779,7 @@
    "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
    "applyStart": "2026-09-28",
    "applyEnd": "2026-11-01",
-   "postedAt": "2026-09-28",
+   "postedAt": "2026-10-02",
    "prize": "1천만원이하 · 1등 150만원",
    "place": "온라인",
    "target": "제한없음",
@@ -2745,10 +2790,6 @@
    "eventStart": "2026-09-28",
    "eventEnd": "2026-11-01",
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353386"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d"
@@ -3643,34 +3684,6 @@
     "지역 불가"
    ],
    "reasonText": "'세종' 지역 한정으로 보여요."
-  },
-  {
-   "id": "linkareer:353374",
-   "source": "linkareer",
-   "title": "[대학생 킥오프 챌린지] 나 사실, 이거 해보고 싶었어!",
-   "host": "키키스튜디오",
-   "url": "https://linkareer.com/activity/353374",
-   "officialUrl": "https://www.kikickstudio.co.kr/test/1",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-11-09",
-   "postedAt": "2026-09-28",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "광고/마케팅, 기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353374"
-    }
-   ],
-   "firstSeen": "2026-09-29",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aba73e1ee012963f80a4bb5",
@@ -4577,6 +4590,35 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(숏폼·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:358711",
+   "source": "linkareer",
+   "title": "2026 한국세라믹기술원 AI 영상 공모전 「세라믹이 사라진 세상」",
+   "host": "한국세라믹기술원",
+   "url": "https://linkareer.com/activity/358711",
+   "officialUrl": "https://www.kicet.re.kr/main.web",
+   "applyStart": "2026-10-23",
+   "applyEnd": "2026-11-23",
+   "postedAt": "2026-10-21",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 과학/공학",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358711"
+    }
+   ],
+   "firstSeen": "2026-10-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110305",
