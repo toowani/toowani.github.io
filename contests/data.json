@@ -1,191 +1,35 @@
 {
- "generatedAt": "2026-10-24T11:04:22.826Z",
- "today": "2026-10-24",
+ "generatedAt": "2026-10-24T15:58:45.369Z",
+ "today": "2026-10-25",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 86,
-   "fetchedAt": "2026-10-24T11:04:22.789Z"
+   "count": 88,
+   "fetchedAt": "2026-10-24T15:58:45.331Z"
   },
   "hola": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-10-24T11:04:22.789Z"
+   "count": 37,
+   "fetchedAt": "2026-10-24T15:58:45.331Z"
   },
   "wevity": {
    "ok": true,
    "count": 43,
-   "fetchedAt": "2026-10-24T11:04:22.789Z"
+   "fetchedAt": "2026-10-24T15:58:45.331Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-24T11:04:22.789Z"
+   "fetchedAt": "2026-10-24T15:58:45.331Z"
   },
   "kstartup": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-10-24T11:04:22.790Z"
+   "fetchedAt": "2026-10-24T15:58:45.331Z"
   }
  },
- "count": 153,
+ "count": 149,
  "items": [
-  {
-   "id": "hola:6ad48a77b2e45876ca5921ac",
-   "source": "hola",
-   "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 인증 이벤트>",
-   "host": "과학기술정보통신부, 한국데이터산업진흥원",
-   "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac",
-   "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/22",
-   "applyStart": "2026-10-16",
-   "applyEnd": "2026-10-22",
-   "eventStart": "2026-10-16",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-10-18",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad48a77b2e45876ca5921ac"
-    }
-   ],
-   "firstSeen": "2026-10-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6a9d96abd7320aa75232b1fd",
-   "source": "hola",
-   "title": "2026 데이터+AI 혁신챌린지 데이터안심구역 경진대회",
-   "host": "과학기술정보통신부 / 한국데이터산업진흥원",
-   "url": "https://holaworld.io/hola-it/6a9d96abd7320aa75232b1fd",
-   "officialUrl": "https://dsz.kdata.or.kr/contest/introduce/main.do",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-10-22",
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d96abd7320aa75232b1fd"
-    }
-   ],
-   "firstSeen": "2026-10-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ad48a7bb2e45876ca5921c7",
-   "source": "hola",
-   "title": "2026 동해시 AI 활용 해커톤 대회",
-   "host": "동해시 & 한림대학교 G-Lab",
-   "url": "https://holaworld.io/hola-it/6ad48a7bb2e45876ca5921c7",
-   "officialUrl": "https://www.dh.go.kr/www/selectBbsNttView.do?key=478&bbsNo=87&nttNo=205503&searchCtgry=&searchCnd=all&searchKrwd=&integrDeptCode=&pageIndex=1",
-   "applyStart": "2026-10-17",
-   "applyEnd": "2026-10-22",
-   "eventStart": "2026-10-17",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-10-18",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad48a7bb2e45876ca5921c7"
-    }
-   ],
-   "firstSeen": "2026-10-23",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'동해시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6aa751d4847411b719e2e536",
-   "source": "hola",
-   "title": "2026데이터·AI혁신챌린지 통합경진대회 데이터문제해결부문 모집",
-   "host": "AI데이터문제해결은행홍보사무국",
-   "url": "https://holaworld.io/hola-it/6aa751d4847411b719e2e536",
-   "officialUrl": "https://www.kdata.or.kr/datahub/portal/home",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-22",
-   "eventStart": "2026-09-08",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-09-14",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751d4847411b719e2e536"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6a9d96b0d7320aa75232b252",
-   "source": "hola",
-   "title": "데이터안심구역 경진대회",
-   "host": "유재은",
-   "url": "https://holaworld.io/hola-it/6a9d96b0d7320aa75232b252",
-   "officialUrl": "https://event-us.kr/eventdatasafetyzone/event/134171",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-10-22",
-   "eventStart": "2026-09-01",
-   "eventEnd": "2026-10-22",
-   "postedAt": "2026-09-07",
-   "prize": null,
-   "place": "오프라인 · 온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a9d96b0d7320aa75232b252"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6aa92b4dfdf75b86efb381ff",
    "source": "hola",
@@ -1249,7 +1093,7 @@
    "officialUrl": "https://www.lline-edu.co.kr/270201notice/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174664521&t=board",
    "applyStart": "2026-09-23",
    "applyEnd": "2026-10-28",
-   "postedAt": null,
+   "postedAt": "2026-09-23",
    "prize": "1천만원이하 · 1등 100만원",
    "place": null,
    "target": "대학생, 기타",
@@ -1258,6 +1102,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/352914"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111192",
@@ -1980,6 +1828,37 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:352846",
+   "source": "linkareer",
+   "title": "제 2회 K-슈즈 메이킹 챌린지",
+   "host": "경남정보대학교",
+   "url": "https://linkareer.com/activity/352846",
+   "officialUrl": "https://startup.kit.ac.kr/",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-09-23",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 디자인/순수미술/공예",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/352846"
+    }
+   ],
+   "firstSeen": "2026-10-25",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치",
+    "지역 불가"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요. '경남' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111885",
