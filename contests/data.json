@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-23T21:26:13.758Z",
+ "generatedAt": "2026-10-24T04:39:17.687Z",
  "today": "2026-10-24",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 86,
-   "fetchedAt": "2026-10-23T21:26:13.715Z"
+   "fetchedAt": "2026-10-24T04:39:17.623Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-23T21:26:13.715Z"
+   "fetchedAt": "2026-10-24T04:39:17.624Z"
   },
   "wevity": {
    "ok": true,
-   "count": 41,
-   "fetchedAt": "2026-10-23T21:26:13.715Z"
+   "count": 43,
+   "fetchedAt": "2026-10-24T04:39:17.624Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-10-23T21:26:13.715Z"
+   "fetchedAt": "2026-10-24T04:39:17.624Z"
   },
   "kstartup": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-10-23T21:26:13.715Z"
+   "fetchedAt": "2026-10-24T04:39:17.624Z"
   }
  },
- "count": 152,
+ "count": 153,
  "items": [
   {
    "id": "hola:6ad48a77b2e45876ca5921ac",
@@ -1982,6 +1982,41 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "wevity:111885",
+   "source": "wevity",
+   "title": "제1회 배경데이터 활용 콘텐츠개발 아이디어 공모전",
+   "host": "재단법인 광주정보문화산업진흥원",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111885",
+   "officialUrl": "https://www.gicon.or.kr/board.es?act=view&bid=0003&list_no=32319&mid=a10204000000",
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-10-30",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 300만원",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111885",
+     "_detail": {
+      "applyStart": "2026-10-28",
+      "applyEnd": "2026-10-30",
+      "prize": "1천만원이하 · 1등 300만원",
+      "officialUrl": "https://www.gicon.or.kr/board.es?act=view&bid=0003&list_no=32319&mid=a10204000000",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-24",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:355412",
    "source": "linkareer",
    "title": "초광역 외 유입인력 장려금 지원사업 참여 근로자 모집 공고",
@@ -2922,19 +2957,19 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:359305",
-   "source": "linkareer",
+   "id": "wevity:111884",
+   "source": "wevity",
    "title": "2026 청도 바이브코딩 해커톤 with 해커그라운드",
    "host": "해커그라운드",
-   "url": "https://linkareer.com/activity/359305",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111884",
    "officialUrl": "https://hackersground.kr",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-03",
    "postedAt": "2026-10-23",
-   "prize": null,
+   "prize": "1천만원이하",
    "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "target": "일반인, 대학생, 청소년",
+   "sourceCategory": "게임/소프트웨어",
    "tags": [
     "ai",
     "dev"
@@ -2943,12 +2978,25 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/359305"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111884",
+     "_detail": {
+      "applyStart": "2026-10-23",
+      "applyEnd": "2026-11-03",
+      "prize": "1천만원이하",
+      "officialUrl": "https://hackersground.kr",
+      "target": "일반인, 대학생, 청소년"
+     }
     }
    ],
-   "firstSeen": "2026-10-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "firstSeen": "2026-10-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "wevity:111614",
