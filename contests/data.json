@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-27T18:04:16.181Z",
+ "generatedAt": "2026-10-27T22:15:48.441Z",
  "today": "2026-10-28",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 79,
-   "fetchedAt": "2026-10-27T18:04:16.146Z"
+   "fetchedAt": "2026-10-27T22:15:48.243Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-27T18:04:16.146Z"
+   "fetchedAt": "2026-10-27T22:15:48.243Z"
   },
   "wevity": {
    "ok": true,
    "count": 41,
-   "fetchedAt": "2026-10-27T18:04:16.146Z"
+   "fetchedAt": "2026-10-27T22:15:48.243Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-27T18:04:16.146Z"
+   "fetchedAt": "2026-10-27T22:15:48.243Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-27T18:04:16.146Z"
+   "fetchedAt": "2026-10-27T22:15:48.243Z"
   }
  },
  "count": 145,
