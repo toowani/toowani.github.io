@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-27T05:08:19.558Z",
+ "generatedAt": "2026-10-27T12:15:14.857Z",
  "today": "2026-10-27",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 80,
-   "fetchedAt": "2026-10-27T05:08:19.519Z"
+   "fetchedAt": "2026-10-27T12:15:14.815Z"
   },
   "hola": {
    "ok": true,
-   "count": 47,
-   "fetchedAt": "2026-10-27T05:08:19.519Z"
+   "count": 46,
+   "fetchedAt": "2026-10-27T12:15:14.816Z"
   },
   "wevity": {
    "ok": true,
    "count": 40,
-   "fetchedAt": "2026-10-27T05:08:19.519Z"
+   "fetchedAt": "2026-10-27T12:15:14.816Z"
   },
   "devevent": {
    "ok": true,
-   "count": 21,
-   "fetchedAt": "2026-10-27T05:08:19.519Z"
+   "count": 19,
+   "fetchedAt": "2026-10-27T12:15:14.816Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-10-27T05:08:19.519Z"
+   "fetchedAt": "2026-10-27T12:15:14.816Z"
   }
  },
- "count": 148,
+ "count": 146,
  "items": [
   {
    "id": "hola:6acce4d2ee012963f81ebc8f",
@@ -95,72 +95,6 @@
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "devevent:https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184",
-   "source": "devevent",
-   "title": "2026 제주 환경 해커톤",
-   "host": "서울대학교 빅데이터혁신융합대학사업단",
-   "url": "https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184",
-   "officialUrl": "https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-10-25",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(제주)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://bigdatahub.ac.kr/information/notice?bbs_section=view&idx=184"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'제주' 지역 한정으로 보여요."
-  },
-  {
-   "id": "devevent:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
-   "source": "devevent",
-   "title": "AI Platform Build Challenge 예선",
-   "host": "서울특별시 / 관악구 / 금천청년꿈터 / 서울대학교 앵커사업단",
-   "url": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
-   "officialUrl": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims",
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-25",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims"
-    }
-   ],
-   "firstSeen": "2026-10-01",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
    "id": "hola:6acce4d1ee012963f81ebc8a",
    "source": "hola",
    "title": "나랏돈 50조 찾기 : 나라장터 해커톤",
@@ -207,8 +141,7 @@
    "target": null,
    "sourceCategory": "해커톤",
    "tags": [
-    "dev",
-    "ai"
+    "dev"
    ],
    "sources": [
     {
@@ -218,47 +151,12 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6acf7bb3ee012963f8216b74"
-    },
-    {
-     "source": "devevent",
-     "url": "https://hackathon.savetax.now/"
     }
    ],
    "firstSeen": "2026-10-26",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "devevent:https://event-us.kr/2026acd/event/137541",
-   "source": "devevent",
-   "title": "2026 AI 해킹 방어 대회 (ACDC)",
-   "host": "과학기술정보통신부 / 한국인터넷진흥원(KISA) / 한국정보보호산업협회(KISIA)",
-   "url": "https://event-us.kr/2026acd/event/137541",
-   "officialUrl": "https://event-us.kr/2026acd/event/137541",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-26",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://event-us.kr/2026acd/event/137541"
-    }
-   ],
-   "firstSeen": "2026-10-19",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acf7baeee012963f8216b42",
@@ -327,37 +225,6 @@
     "지역 불가"
    ],
    "reasonText": "'부산' 지역 한정으로 보여요."
-  },
-  {
-   "id": "devevent:https://www.bigcontest.or.kr/",
-   "source": "devevent",
-   "title": "2026 제14회 빅콘테스트 AI·데이터 경진대회",
-   "host": "과학기술정보통신부 / 한국정보통신진흥협회(KAIT)",
-   "url": "https://www.bigcontest.or.kr/",
-   "officialUrl": "https://www.bigcontest.or.kr/",
-   "applyStart": "2026-09-08",
-   "applyEnd": "2026-10-26",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://www.bigcontest.or.kr/"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6adf16cdb2e45876ca6637e3",
@@ -500,35 +367,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:353700",
-   "source": "linkareer",
-   "title": "[영화 예고편 숏폼 챌린지] 일단에디터 구함!",
-   "host": "(주)퓨어글로벌",
-   "url": "https://linkareer.com/activity/353700",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-28",
-   "postedAt": "2026-09-29",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353700"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(숏폼)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:358255",
@@ -748,6 +586,34 @@
     "지역 불가"
    ],
    "reasonText": "'의성군' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:360055",
+   "source": "linkareer",
+   "title": "[국토교통부] 2026 SCX NEXT 청년 스마트건설 AI 랩",
+   "host": "국토교통부",
+   "url": "https://linkareer.com/activity/360055",
+   "officialUrl": "https://www.molit.go.kr",
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 건축/건설/인테리어",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360055"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(랩·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:359170",
@@ -1958,36 +1824,32 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:353592",
-   "source": "linkareer",
+   "id": "hola:6abe8b21ee012963f80ebe57",
+   "source": "hola",
    "title": "2026 전국 대학생 SW 창업아이디어톤",
-   "host": "한양대학교 ERICA",
-   "url": "https://linkareer.com/activity/353592",
-   "officialUrl": "https://www.hanyang.ac.kr/erica",
+   "host": "한양대 ERICA SW중심대학사업단",
+   "url": "https://holaworld.io/hola-it/6abe8b21ee012963f80ebe57",
+   "officialUrl": "https://histarter.wixsite.com/2026ericasw",
    "applyStart": "2026-09-28",
    "applyEnd": "2026-11-01",
-   "postedAt": "2026-09-29",
+   "eventStart": "2026-09-28",
+   "eventEnd": "2026-11-01",
+   "postedAt": "2026-10-02",
    "prize": null,
    "place": "오프라인 · 온라인",
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev",
     "startup"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353592"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b21ee012963f80ebe57"
     }
    ],
-   "eventStart": "2026-09-28",
-   "eventEnd": "2026-11-01",
-   "firstSeen": "2026-10-26",
+   "firstSeen": "2026-10-27",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -2076,39 +1938,6 @@
     "대상 불가"
    ],
    "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "linkareer:353847",
-   "source": "linkareer",
-   "title": "[데이콘] 항만 문제해결을 위한 AI 기술 공모전(~11/2)",
-   "host": "데이콘 주식회사",
-   "url": "https://linkareer.com/activity/353847",
-   "officialUrl": "https://dacon.io/competitions/official/236771/overview/description",
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-11-02",
-   "postedAt": "2026-09-30",
-   "prize": null,
-   "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353847"
-    },
-    {
-     "source": "devevent",
-     "url": "https://dacon.io/competitions/official/236771/overview/description"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356311",
@@ -2299,6 +2128,39 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "devevent:https://dacon.io/competitions/official/236771/overview/description",
+   "source": "devevent",
+   "title": "항만 문제해결을 위한 AI 기술 공모전",
+   "host": "해양수산부 / 울산항만공사 / 한국정보산업연합회",
+   "url": "https://dacon.io/competitions/official/236771/overview/description",
+   "officialUrl": "https://dacon.io/competitions/official/236771/overview/description",
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-11-02",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://dacon.io/competitions/official/236771/overview/description"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'울산' 지역 한정으로 보여요."
+  },
+  {
    "id": "devevent:https://whitehat2026.kr/",
    "source": "devevent",
    "title": "화이트햇 2026 (WHITEHAT 2026) 국방 사이버보안 콘테스트",
@@ -2360,6 +2222,35 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:360003",
+   "source": "linkareer",
+   "title": "[바르면 살빠지는 케이스키니] 사용챌린지 영상 공모전 (턱살 케어 챌린지)",
+   "host": "엘팸",
+   "url": "https://linkareer.com/activity/360003",
+   "officialUrl": "https://www.kskinny.co.kr/",
+   "applyStart": "2026-10-27",
+   "applyEnd": "2026-11-03",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360003"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "wevity:111884",
    "source": "wevity",
    "title": "2026 청도 바이브코딩 해커톤 with 해커그라운드",
@@ -2402,6 +2293,10 @@
       "officialUrl": "https://hackersground.kr",
       "target": "일반인, 대학생, 청소년"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://hackersground.kr/"
     }
    ],
    "firstSeen": "2026-10-24",
@@ -3459,6 +3354,40 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:359962",
+   "source": "linkareer",
+   "title": "2026 의왕시 청년 e-Room 창업 아이디어 공모전 참가자 모집",
+   "host": "(주)이노어스",
+   "url": "https://linkareer.com/activity/359962",
+   "officialUrl": "https://www.innous.kr",
+   "applyStart": "2026-10-16",
+   "applyEnd": "2026-11-11",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359962"
+    },
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179565"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'의왕시' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:359550",
    "source": "linkareer",
    "title": "2026 의왕시 청년e-Room 창업아이디어 공모전",
@@ -3482,36 +3411,6 @@
     }
    ],
    "firstSeen": "2026-10-26",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'의왕시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "kstartup:179565",
-   "source": "kstartup",
-   "title": "2026 의왕시 청년e-Room 창업아이디어 공모전 참가자 모집",
-   "host": "의왕시청",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179565",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-11-11",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "지자체, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179565"
-    }
-   ],
-   "firstSeen": "2026-10-21",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -3789,35 +3688,6 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:353862",
-   "source": "linkareer",
-   "title": "5극3특 성장엔진 미래지도 AI 영상 공모전",
-   "host": "한국산업기술진흥원",
-   "url": "https://linkareer.com/activity/353862",
-   "officialUrl": null,
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-11-13",
-   "postedAt": "2026-09-30",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353862"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "hola:6aa92b64fdf75b86efb38247",
    "source": "hola",
    "title": "AI 활용 옥외광고 간판 디자인 공모전",
@@ -3917,6 +3787,36 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:360083",
+   "source": "linkareer",
+   "title": "디지털 디톡스 챌린지",
+   "host": "세종사이버대학교 아동가족학부",
+   "url": "https://linkareer.com/activity/360083",
+   "officialUrl": null,
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-15",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "직장인/일반인",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360083"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:359362",
@@ -4130,6 +4030,10 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663770"
+    },
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/jeju-ai-bigdata-agent-challenge"
     }
    ],
    "eventStart": "2026-10-26",
@@ -4587,6 +4491,34 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:359841",
+   "source": "linkareer",
+   "title": "[한국프로세스혁신협회] 2026 AI 서비스 기획 공모전",
+   "host": "한국프로세스혁신협회",
+   "url": "https://linkareer.com/activity/359841",
+   "officialUrl": "https://idea2026.kpii.or.kr",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-30",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359841"
+    }
+   ],
+   "firstSeen": "2026-10-27",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "hola:6adf16c0b2e45876ca663766",
    "source": "hola",
    "title": "VIVID RE : PLAY - 총상금 2천만원 AI 영상 창작 공모전",
@@ -4749,36 +4681,32 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:353664",
-   "source": "linkareer",
-   "title": "2026 CWNU SW-DNA² 챌린지 대학생 AI·SW 경진대회",
-   "host": "주식회사 휘테커",
-   "url": "https://linkareer.com/activity/353664",
-   "officialUrl": "https://forms.gle/5jQ9qUvQor4fEeej9",
-   "applyStart": "2026-09-29",
-   "applyEnd": "2026-12-28",
-   "postedAt": "2026-09-29",
+   "id": "devevent:https://daker.ai/public/hackathons/2026-hai-hecto-ai-challenge",
+   "source": "devevent",
+   "title": "2026 HAI(하이)! - Hecto AI x Wallet Service Challenge",
+   "host": "헥토(Hecto)",
+   "url": "https://daker.ai/public/hackathons/2026-hai-hecto-ai-challenge",
+   "officialUrl": "https://daker.ai/public/hackathons/2026-hai-hecto-ai-challenge",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-12-21",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
    "prize": null,
    "place": "온라인",
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "대회, AI, 블록체인",
    "tags": [
-    "ai",
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353664"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b1eee012963f80ebe2a"
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/2026-hai-hecto-ai-challenge"
     }
    ],
-   "eventStart": "2026-09-29",
-   "eventEnd": "2026-10-23",
-   "firstSeen": "2026-10-26",
+   "firstSeen": "2026-10-27",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
