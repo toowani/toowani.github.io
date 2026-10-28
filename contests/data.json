@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-27T22:15:48.441Z",
+ "generatedAt": "2026-10-28T05:44:52.320Z",
  "today": "2026-10-28",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 79,
-   "fetchedAt": "2026-10-27T22:15:48.243Z"
+   "count": 82,
+   "fetchedAt": "2026-10-28T05:44:52.294Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-27T22:15:48.243Z"
+   "fetchedAt": "2026-10-28T05:44:52.294Z"
   },
   "wevity": {
    "ok": true,
    "count": 41,
-   "fetchedAt": "2026-10-27T22:15:48.243Z"
+   "fetchedAt": "2026-10-28T05:44:52.294Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-27T22:15:48.243Z"
+   "fetchedAt": "2026-10-28T05:44:52.294Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 13,
-   "fetchedAt": "2026-10-27T22:15:48.243Z"
+   "count": 14,
+   "fetchedAt": "2026-10-28T05:44:52.294Z"
   }
  },
- "count": 145,
+ "count": 146,
  "items": [
   {
    "id": "hola:6acf7baeee012963f8216b42",
@@ -318,34 +318,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:357812",
-   "source": "linkareer",
-   "title": "2026 제 2회 데이터로 미래를 그리는 AI 아이디어 공모전",
-   "host": "한국능률협회 / AI캠퍼스",
-   "url": "https://linkareer.com/activity/357812",
-   "officialUrl": "https://contest-platform-taupe.vercel.app/admin",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-29",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/357812"
-    }
-   ],
-   "firstSeen": "2026-10-21",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ab4c28bfdf75b86efbf5536",
@@ -1881,34 +1853,6 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:353986",
-   "source": "linkareer",
-   "title": "2026 한국외식산업연구원 외식경영스타 아이디어 공모전",
-   "host": "한국외식산업연구원",
-   "url": "https://linkareer.com/activity/353986",
-   "officialUrl": null,
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-11-02",
-   "postedAt": "2026-09-30",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/353986"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "linkareer:359611",
    "source": "linkareer",
    "title": "하나온 청년온 [2026 해방촌 신흥시장 AI 콘텐츠 공모전]",
@@ -2162,7 +2106,7 @@
    "id": "linkareer:360080",
    "source": "linkareer",
    "title": "LOTTE AX CHALLENGE 2026",
-   "host": "(주)엔에이치알",
+   "host": "롯데지주",
    "url": "https://linkareer.com/activity/360080",
    "officialUrl": null,
    "applyStart": "2026-10-28",
@@ -2323,6 +2267,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "kstartup:179625",
+   "source": "kstartup",
+   "title": "2026 신한금융희망재단 - 함께일하는재단, 사회연대경제 먹거리 으뜸경연대회 참여기업 모집",
+   "host": "(재)함께일하는재단",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179625",
+   "officialUrl": null,
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-05",
+   "postedAt": "2026-10-28",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "민간, 사업화",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179625"
+    }
+   ],
+   "firstSeen": "2026-10-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110273",
@@ -3293,6 +3265,36 @@
    "reasonText": "'의왕시' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:360224",
+   "source": "linkareer",
+   "title": "2026년 지역문제해결 아이디어 발굴 부여 솔버톤 대회",
+   "host": "부여군, 부여군지역공동체활성화재단",
+   "url": "https://linkareer.com/activity/360224",
+   "officialUrl": "https://buyeostartup.kr/",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-11",
+   "postedAt": "2026-10-28",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360224"
+    }
+   ],
+   "firstSeen": "2026-10-28",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부여군' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:354705",
    "source": "linkareer",
    "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전",
@@ -3659,6 +3661,34 @@
     }
    ],
    "firstSeen": "2026-10-20",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:360309",
+   "source": "linkareer",
+   "title": "2026 대구 대학(원) AI 드래프톤",
+   "host": "대구테크노파크",
+   "url": "https://linkareer.com/activity/360309",
+   "officialUrl": "http://drafthon.ai.kr/",
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-11-15",
+   "postedAt": "2026-10-28",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 기타",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360309"
+    }
+   ],
+   "firstSeen": "2026-10-28",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -4040,7 +4070,7 @@
    "officialUrl": "https://wma.co.kr/ax",
    "applyStart": "2026-10-21",
    "applyEnd": "2026-11-20",
-   "postedAt": "2026-10-22",
+   "postedAt": "2026-10-27",
    "prize": "3천만원~1천만원 · 1등 500만원",
    "place": null,
    "target": "제한없음",
@@ -4050,6 +4080,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360109"
+    },
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/359000"
@@ -4394,37 +4428,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "hola:6adf16c0b2e45876ca663766",
-   "source": "hola",
-   "title": "VIVID RE : PLAY - 총상금 2천만원 AI 영상 창작 공모전",
-   "host": "ARKAIN / VIVID",
-   "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663766",
-   "officialUrl": "https://vivid.ing/",
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-11-30",
-   "eventStart": "2026-10-30",
-   "eventEnd": "2026-11-30",
-   "postedAt": "2026-10-26",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663766"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "wevity:110305",
    "source": "wevity",
    "title": "제1회 한아전 게임 시나리오·그래픽 공모전",
@@ -4471,7 +4474,7 @@
    "officialUrl": "https://chmbc.co.kr/board/xIvIVD3L-sLOuri_C9M/single/RDm4i-4inc",
    "applyStart": "2026-10-27",
    "applyEnd": "2026-12-10",
-   "postedAt": null,
+   "postedAt": "2026-10-28",
    "prize": "1천만원이하 · 1등 200만원",
    "place": null,
    "target": "제한없음",
@@ -4481,6 +4484,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360286"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111869",
@@ -4493,6 +4500,41 @@
      }
     }
    ],
+   "firstSeen": "2026-10-28",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:360253",
+   "source": "linkareer",
+   "title": "VIVID RE: PLAY - 총상금 2천만원 AI 영상 창작 공모전",
+   "host": "ARKAIN",
+   "url": "https://linkareer.com/activity/360253",
+   "officialUrl": "https://vivid.ing/contest",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-12-13",
+   "postedAt": "2026-10-28",
+   "prize": null,
+   "place": "온라인",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360253"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663766"
+    }
+   ],
+   "eventStart": "2026-10-30",
+   "eventEnd": "2026-11-30",
    "firstSeen": "2026-10-28",
    "grade": "추천",
    "reasonTags": [],
@@ -4885,7 +4927,7 @@
    "officialUrl": "https://www.go-simsa.com/recruit/Jozu4OXw",
    "applyStart": "2026-10-21",
    "applyEnd": "2027-11-16",
-   "postedAt": null,
+   "postedAt": "2026-10-28",
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "제한없음",
@@ -4894,6 +4936,10 @@
     "startup"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360251"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111964",
