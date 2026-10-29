@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WANI.SYS — AI VIDEO QUESTIONS</title>
+<meta name="description" content="AI 영상 공모전 1등을 위해 답할 질문과 답변.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../../../assets/favicon.svg">
+<meta name="theme-color" content="#0a1410">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Gothic+A1:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../shared/tokens.css">
+<link rel="stylesheet" href="../../../css/style.css">
+<link rel="stylesheet" href="../../contests.css">
+<link rel="stylesheet" href="../ai-video.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand-group">
+    <a class="brand" href="../../../">
+      <span class="chrome-text gothic">WANI.SYS</span>
+      <small>ai video tracker</small>
+    </a>
+  </div>
+  <div class="header-right">
+    <button id="btn-theme" class="pill-btn" title="라이트/다크 전환">◐ Theme</button>
+    <a class="back-link" href="../../">← Radar</a>
+  </div>
+</header>
+
+<main>
+  <nav class="page-tabs" aria-label="페이지">
+    <a class="page-tab" href="../">📅 일정</a>
+    <a class="page-tab on" href="./" aria-current="page">✍️ 질문 · 답변 <span class="n" id="tab-wait"></span></a>
+  </nav>
+
+  <section class="block">
+    <p class="qa-lede">대회를 몰라도 괜찮아요. 질문에 <strong>내 경험과 생각</strong>으로 답하면, 형식(길이·비율·필수 문구)에 맞춘 영상은 Claude가 만듭니다. 답변은 이 브라우저에 자동 저장되고, <strong>답변 보내기</strong>를 누르면 Claude에게 전달돼요.</p>
+    <div class="qa">
+      <aside class="qa-side" id="qa-side" aria-label="대회 목록"><p class="empty-note">불러오는 중…</p></aside>
+      <article class="qa-main" id="qa-main" aria-live="polite"></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span class="plain">공고 요약은 Claude가 원문을 읽고 정리한 것이라 틀릴 수 있어요. 제출 전에는 반드시 원문에서 다시 확인하세요.<br>
+    답변은 비공개 저장소 toowani/ai-video-contest 의 이슈로 전달됩니다.</span><br>
+  WANI · @toowani · <a href="../">← 일정</a>
+</footer>
+
+<script src="../common.js"></script>
+<script src="questions.js"></script>
+</body>
+</html>
