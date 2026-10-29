@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WANI.SYS — AI VIDEO TRACKER</title>
+<meta name="description" content="AI 영상 공모전 진행 상황, 마감·발표 일정, 1등을 위한 핵심 질문 보드.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
+<meta name="theme-color" content="#0a1410">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Gothic+A1:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../shared/tokens.css">
+<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../contests.css">
+<link rel="stylesheet" href="ai-video.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand-group">
+    <a class="brand" href="../../">
+      <span class="chrome-text gothic">WANI.SYS</span>
+      <small>ai video tracker</small>
+    </a>
+  </div>
+  <div class="header-right">
+    <button id="btn-ics" class="pill-btn" title="마감·발표·시상 일정을 캘린더 파일로 받기">📅 캘린더</button>
+    <button id="btn-theme" class="pill-btn" title="라이트/다크 전환">◐ Theme</button>
+    <a class="back-link" href="../">← Radar</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero-compact">
+    <span class="eyebrow">Contest Pipeline</span>
+    <h1 class="gothic chrome-text">AI VIDEO TRACKER</h1>
+    <p class="lede">AI 영상 공모전의 <strong>진행 상황 · 마감 · 발표일</strong>을 한눈에. 대회를 몰라도 괜찮아요. 아래 <strong>질문</strong>에만 답하면 형식에 맞춘 영상은 Claude가 만듭니다.</p>
+  </section>
+
+  <section class="block">
+    <div class="stat-grid">
+      <div class="stat urgent"><span class="stat-n" id="st-wait">–</span><span class="stat-l">내 답변 대기</span></div>
+      <div class="stat new"><span class="stat-n" id="st-work">–</span><span class="stat-l">제작 중</span></div>
+      <div class="stat star"><span class="stat-n" id="st-submit">–</span><span class="stat-l">제출 대기</span></div>
+      <div class="stat applied"><span class="stat-n" id="st-done">–</span><span class="stat-l">발표 대기</span></div>
+      <div class="stat"><span class="stat-n" id="st-prize">–</span><span class="stat-l">1등 상금 합계</span></div>
+    </div>
+    <div class="meta"><div id="updated">불러오는 중…</div></div>
+  </section>
+
+  <section class="block">
+    <h2 class="sec-title">다가오는 일정</h2>
+    <div id="timeline" class="timeline" aria-live="polite"><p class="empty-note">불러오는 중…</p></div>
+  </section>
+
+  <section class="block">
+    <h2 class="sec-title">대회 보드</h2>
+    <div class="row chips" id="chips-stage" role="group" aria-label="단계"></div>
+    <div id="board" class="board"><p class="empty-note">불러오는 중…</p></div>
+  </section>
+
+  <section class="block" id="new-block" hidden>
+    <h2 class="sec-title">새로 감지된 AI 영상 공모전 <small>분석 대기</small></h2>
+    <div id="new-list" class="new-list"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span class="plain">일정·조건은 Claude가 공고 원문을 읽고 정리한 것이라 틀릴 수 있어요. 제출 전에는 반드시 원문에서 다시 확인하세요.<br>
+    답변은 이 브라우저에 자동 저장되고, "답변 보내기"를 누르면 비공개 저장소의 이슈로 Claude에게 전달됩니다.</span><br>
+  WANI · @toowani · <a href="../">← Contest Radar</a>
+</footer>
+
+<script src="ai-video.js"></script>
+</body>
+</html>
