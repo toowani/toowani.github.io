@@ -1,65 +1,35 @@
 {
- "generatedAt": "2026-10-29T13:04:36.490Z",
- "today": "2026-10-29",
+ "generatedAt": "2026-10-29T22:46:56.979Z",
+ "today": "2026-10-30",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 77,
-   "fetchedAt": "2026-10-29T13:04:36.461Z"
+   "count": 79,
+   "fetchedAt": "2026-10-29T22:46:56.941Z"
   },
   "hola": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-10-29T13:04:36.461Z"
+   "count": 43,
+   "fetchedAt": "2026-10-29T22:46:56.941Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-10-29T13:04:36.461Z"
+   "fetchedAt": "2026-10-29T22:46:56.941Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-29T13:04:36.461Z"
+   "fetchedAt": "2026-10-29T22:46:56.941Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-29T13:04:36.461Z"
+   "fetchedAt": "2026-10-29T22:46:56.941Z"
   }
  },
- "count": 144,
+ "count": 145,
  "items": [
-  {
-   "id": "hola:6acb3dfeee012963f81ccb4c",
-   "source": "hola",
-   "title": "제7회 하이라이트TV AI 공모전",
-   "host": "하이라이트TV",
-   "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb4c",
-   "officialUrl": "http://highlighttv.co.kr/sub/notice.php?boardid=notice&mode=view&idx=86&sk=&sw=&offset=&category=",
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-10-27",
-   "eventStart": "2026-10-07",
-   "eventEnd": "2026-10-27",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3dfeee012963f81ccb4c"
-    }
-   ],
-   "firstSeen": "2026-10-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6adf16cfb2e45876ca66380f",
    "source": "hola",
@@ -1605,6 +1575,34 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:354703",
+   "source": "linkareer",
+   "title": "2026 신한 스퀘어브릿지 대학생 창업 공모전 HERO IR",
+   "host": "신한금융그룹",
+   "url": "https://linkareer.com/activity/354703",
+   "officialUrl": null,
+   "applyStart": "2026-10-03",
+   "applyEnd": "2026-11-02",
+   "postedAt": "2026-10-03",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354703"
+    }
+   ],
+   "firstSeen": "2026-10-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:359611",
    "source": "linkareer",
    "title": "하나온 청년온 [2026 해방촌 신흥시장 AI 콘텐츠 공모전]",
@@ -2988,7 +2986,7 @@
    "applyEnd": "2026-11-11",
    "postedAt": "2026-10-28",
    "prize": null,
-   "place": null,
+   "place": "오프라인",
    "target": "대학생",
    "sourceCategory": "기획/아이디어, 창업",
    "tags": [
@@ -3000,8 +2998,14 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/360379"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ae355d6b243598fd0ed4e1c"
     }
    ],
+   "eventStart": "2026-10-27",
+   "eventEnd": "2026-11-11",
    "firstSeen": "2026-10-28",
    "grade": "추천",
    "reasonTags": [],
@@ -3176,6 +3180,39 @@
    "reasonText": "'부여군' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:354705",
+   "source": "linkareer",
+   "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전",
+   "host": "한국투자공사",
+   "url": "https://linkareer.com/activity/354705",
+   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
+   "applyStart": "2026-10-03",
+   "applyEnd": "2026-11-12",
+   "postedAt": "2026-10-03",
+   "prize": null,
+   "place": "온라인",
+   "target": "대상 제한 없음",
+   "sourceCategory": "과학/공학",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/354705"
+    },
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
+    }
+   ],
+   "firstSeen": "2026-10-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "kstartup:179533",
    "source": "kstartup",
    "title": "[해수부] 2026년 해양수산 통합데모데이 참가자 모집",
@@ -3204,37 +3241,6 @@
     "지역 불가"
    ],
    "reasonText": "'부산' 지역 한정으로 보여요."
-  },
-  {
-   "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "source": "devevent",
-   "title": "국부펀드 KIC, AI 에이전트 공모전",
-   "host": "한국투자공사(KIC)",
-   "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-11-12",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
-    }
-   ],
-   "firstSeen": "2026-10-29",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111787",
@@ -3468,6 +3474,36 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "hola:6ae355d8b243598fd0ed4e25",
+   "source": "hola",
+   "title": "[크레딧 제공] 제 2회 MAWD START-UP CHALLENGE",
+   "host": "team mawd",
+   "url": "https://holaworld.io/hola-it/6ae355d8b243598fd0ed4e25",
+   "officialUrl": "https://luma.com/ml5gw54p",
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-11-14",
+   "eventStart": "2026-10-28",
+   "eventEnd": "2026-11-14",
+   "postedAt": "2026-10-29",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ae355d8b243598fd0ed4e25"
+    }
+   ],
+   "firstSeen": "2026-10-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "devevent:https://www.spaceappschallenge.org/2026/local-events/seoul/",
