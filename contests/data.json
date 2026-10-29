@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-28T22:37:07.930Z",
+ "generatedAt": "2026-10-29T05:51:18.878Z",
  "today": "2026-10-29",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 79,
-   "fetchedAt": "2026-10-28T22:37:07.761Z"
+   "fetchedAt": "2026-10-29T05:51:18.849Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-28T22:37:07.761Z"
+   "fetchedAt": "2026-10-29T05:51:18.849Z"
   },
   "wevity": {
    "ok": true,
    "count": 40,
-   "fetchedAt": "2026-10-28T22:37:07.761Z"
+   "fetchedAt": "2026-10-29T05:51:18.849Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-28T22:37:07.761Z"
+   "fetchedAt": "2026-10-29T05:51:18.849Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-10-28T22:37:07.761Z"
+   "count": 15,
+   "fetchedAt": "2026-10-29T05:51:18.849Z"
   }
  },
- "count": 144,
+ "count": 145,
  "items": [
   {
    "id": "hola:6acb3dfeee012963f81ccb4c",
@@ -487,6 +487,35 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "kstartup:179645",
+   "source": "kstartup",
+   "title": "2026 연구개발특구 딥테크 스타트업 챌린지 Final Day 행사 사전접수",
+   "host": "리벤처스",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179645",
+   "officialUrl": null,
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-10-30",
+   "postedAt": "2026-10-29",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "민간, 행사ㆍ네트워크",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179645"
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111385",
@@ -1883,6 +1912,37 @@
     "대상 불가"
    ],
    "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
+   "id": "linkareer:360443",
+   "source": "linkareer",
+   "title": "2026 서울시립대학교 AI+X 실전 문제해결 프로젝트 2기",
+   "host": "데이터스케쳐스",
+   "url": "https://linkareer.com/activity/360443",
+   "officialUrl": "https://uos.d-sket.dev/",
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-11-04",
+   "postedAt": "2026-10-28",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업, 기획/아이디어",
+   "tags": [
+    "startup",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360443"
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111614",
@@ -4241,6 +4301,35 @@
    "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:360570",
+   "source": "linkareer",
+   "title": "제6회 숏츠멘터리공모전 [AI시대, 기후기록]",
+   "host": "사단법인 지속가능월드네트워크",
+   "url": "https://linkareer.com/activity/360570",
+   "officialUrl": "https://www.sdgsworld.net/",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-11-28",
+   "postedAt": "2026-10-29",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/360570"
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:359512",
    "source": "linkareer",
    "title": "[제3회] 매경 AI 광고 공모전 대한민국 AI 광고대상",
@@ -4274,35 +4363,6 @@
    ],
    "eventStart": "2026-11-09",
    "eventEnd": "2026-11-30",
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:359442",
-   "source": "linkareer",
-   "title": "[총상금 2천만원] 비비드 RE: PLAY 6개 IP로 만드는 AI 영상 공모전",
-   "host": "ARKaiN(아캐인)",
-   "url": "https://linkareer.com/activity/359442",
-   "officialUrl": null,
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-11-30",
-   "postedAt": "2026-10-25",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 캐릭터/만화/게임",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359442"
-    }
-   ],
    "firstSeen": "2026-10-27",
    "grade": "추천",
    "reasonTags": [],
@@ -4578,35 +4638,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:354452",
-   "source": "linkareer",
-   "title": "[스타트업코드 채용연계 공모전] 7일 교육운영 매니저 챌린지",
-   "host": "주식회사 어치브모먼트",
-   "url": "https://linkareer.com/activity/354452",
-   "officialUrl": "https://www.blaybus.com/activities/1124/landing?utm_source=linkareer&utm_medium=referral&utm_campaign=startupcode_eduops&utm_content=activity",
-   "applyStart": "2026-10-02",
-   "applyEnd": "2026-12-31",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 기타",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354452"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111800",
