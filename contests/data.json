@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-29T05:51:18.878Z",
+ "generatedAt": "2026-10-29T13:04:36.490Z",
  "today": "2026-10-29",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 79,
-   "fetchedAt": "2026-10-29T05:51:18.849Z"
+   "count": 77,
+   "fetchedAt": "2026-10-29T13:04:36.461Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-29T05:51:18.849Z"
+   "fetchedAt": "2026-10-29T13:04:36.461Z"
   },
   "wevity": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-10-29T05:51:18.849Z"
+   "count": 39,
+   "fetchedAt": "2026-10-29T13:04:36.461Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-29T05:51:18.849Z"
+   "fetchedAt": "2026-10-29T13:04:36.461Z"
   },
   "kstartup": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-10-29T05:51:18.849Z"
+   "fetchedAt": "2026-10-29T13:04:36.461Z"
   }
  },
- "count": 145,
+ "count": 144,
  "items": [
   {
    "id": "hola:6acb3dfeee012963f81ccb4c",
@@ -516,42 +516,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111385",
-   "source": "wevity",
-   "title": "2026 자선냄비 나눔 AI 영상공모전",
-   "host": "구세군",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111385",
-   "officialUrl": "https://www.thesalvationarmy.or.kr/story/news/3341?uid=news&page=0&text=",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-30",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 100만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111385",
-     "_detail": {
-      "applyStart": "2026-10-01",
-      "applyEnd": "2026-10-30",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://www.thesalvationarmy.or.kr/story/news/3341?uid=news&page=0&text=",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-01",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111685",
@@ -1239,43 +1203,6 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
-   "id": "wevity:111430",
-   "source": "wevity",
-   "title": "모두의 프로듀서 (전국민 AI 경진대회 뮤직비디오 시즌2)",
-   "host": "과학기술정보통신부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111430",
-   "officialUrl": "https://aichallenge4all.or.kr/competitions/producer",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111430",
-     "_detail": {
-      "applyStart": "2026-10-01",
-      "applyEnd": "2026-10-31",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://aichallenge4all.or.kr/competitions/producer",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-07",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(뮤직비디오·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "wevity:111460",
    "source": "wevity",
    "title": "전국대학생 FTA 활용 비즈니스 경진대회",
@@ -1676,34 +1603,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:354703",
-   "source": "linkareer",
-   "title": "2026 신한 스퀘어브릿지 대학생 창업 공모전 HERO IR",
-   "host": "신한금융그룹",
-   "url": "https://linkareer.com/activity/354703",
-   "officialUrl": null,
-   "applyStart": "2026-10-03",
-   "applyEnd": "2026-11-02",
-   "postedAt": "2026-10-03",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354703"
-    }
-   ],
-   "firstSeen": "2026-10-06",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:359611",
@@ -3109,6 +3008,43 @@
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "wevity:112015",
+   "source": "wevity",
+   "title": "[코리아 인디게임 쇼케이스] 2026 인디게임 서포터즈 모집",
+   "host": "한국콘텐츠진흥원",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112015",
+   "officialUrl": "https://koreaindiegameshowcase.kr",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-11",
+   "postedAt": null,
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "일반인, 대학생",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112015",
+     "_detail": {
+      "applyStart": "2026-10-30",
+      "applyEnd": "2026-11-11",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://koreaindiegameshowcase.kr",
+      "target": "일반인, 대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "분야 확인 필요"
+   ],
+   "reasonText": "'인디게임' 키워드가 있지만 관심 분야 키워드도 같이 있어요."
+  },
+  {
    "id": "wevity:111965",
    "source": "wevity",
    "title": "2026 AI 활용 전국 대학생 창업 해커톤 참가자 모집",
@@ -3240,39 +3176,6 @@
    "reasonText": "'부여군' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:354705",
-   "source": "linkareer",
-   "title": "[데이콘] 국부펀드 KIC, AI 에이전트 공모전",
-   "host": "한국투자공사",
-   "url": "https://linkareer.com/activity/354705",
-   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "applyStart": "2026-10-03",
-   "applyEnd": "2026-11-12",
-   "postedAt": "2026-10-03",
-   "prize": null,
-   "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/354705"
-    },
-    {
-     "source": "devevent",
-     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
-    }
-   ],
-   "firstSeen": "2026-10-06",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "kstartup:179533",
    "source": "kstartup",
    "title": "[해수부] 2026년 해양수산 통합데모데이 참가자 모집",
@@ -3301,6 +3204,37 @@
     "지역 불가"
    ],
    "reasonText": "'부산' 지역 한정으로 보여요."
+  },
+  {
+   "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
+   "source": "devevent",
+   "title": "국부펀드 KIC, AI 에이전트 공모전",
+   "host": "한국투자공사(KIC)",
+   "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
+   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
+   "applyStart": "2026-10-01",
+   "applyEnd": "2026-11-12",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111787",
@@ -4481,6 +4415,35 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:359442",
+   "source": "linkareer",
+   "title": "[총상금 2천만원] 비비드 RE: PLAY 6개 IP로 만드는 AI 영상 공모전",
+   "host": "ARKaiN(아캐인)",
+   "url": "https://linkareer.com/activity/359442",
+   "officialUrl": null,
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-12-13",
+   "postedAt": "2026-10-25",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 캐릭터/만화/게임",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359442"
+    }
+   ],
+   "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:360253",
    "source": "linkareer",
    "title": "VIVID RE: PLAY - 총상금 2천만원 AI 영상 창작 공모전",
@@ -4574,36 +4537,32 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:359518",
-   "source": "linkareer",
+   "id": "hola:6adf16c0b2e45876ca66376b",
+   "source": "hola",
    "title": "[데이콘]HAI(하이)! Hecto AI × Wallet Service Challenge(~12/21)",
-   "host": "데이콘 주식회사",
-   "url": "https://linkareer.com/activity/359518",
+   "host": "헥토",
+   "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca66376b",
    "officialUrl": "https://daker.ai/public/hackathons/2026-hai-hecto-ai-challenge",
    "applyStart": "2026-10-26",
    "applyEnd": "2026-12-21",
+   "eventStart": "2026-10-26",
+   "eventEnd": "2026-12-21",
    "postedAt": "2026-10-26",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359518"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca66376b"
     }
    ],
-   "eventStart": "2026-10-26",
-   "eventEnd": "2026-12-21",
-   "firstSeen": "2026-10-26",
+   "firstSeen": "2026-10-29",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
