@@ -153,7 +153,7 @@
       '<div class="dday ' + cls + '">' + esc(label) + "<small>" +
         (done ? "" : A.isISO(c.applyEnd) ? c.applyEnd.slice(5).replace("-", "/") + " 마감" : "") + "</small></div>" +
       '<div class="srow-main">' +
-        '<div class="title-line">' + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span>" : "") +
+        '<div class="title-line">' + A.newBadge(c) + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span>" : "") +
           '<span class="title">' + esc(c.title) + "</span></div>" +
         (c.stage === "skip" ? '<div class="reason-text">' + esc(c.note || "") + "</div>" :
           A.stageBars(c) +

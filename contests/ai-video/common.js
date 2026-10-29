@@ -65,6 +65,9 @@
     }).join("") + "</div>";
   }
   function shortName(c) { return c.short || c.title; }
+  // 자동 수집으로 들어온 지 3일이 안 된 대회
+  function isNew(c) { return isISO(c.addedAt) && daysUntil(c.addedAt) > -3; }
+  function newBadge(c) { return isNew(c) ? '<span class="badge-new">New</span> ' : ""; }
 
   function toast(msg) {
     var t = document.createElement("div");
@@ -167,7 +170,7 @@
     STAGES: STAGES, STAGE_HINT: STAGE_HINT, KIND_LABEL: KIND_LABEL,
     $: $, lsGet: lsGet, lsSet: lsSet, esc: esc, pad: pad, isISO: isISO, toISO: toISO, todayISO: todayISO,
     daysUntil: daysUntil, ddayText: ddayText, won: won, stageIndex: stageIndex, stageName: stageName,
-    stageBars: stageBars, shortName: shortName, toast: toast, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
+    stageBars: stageBars, shortName: shortName, isNew: isNew, newBadge: newBadge, toast: toast, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
     load: load, downloadICS: downloadICS
   };
 })();

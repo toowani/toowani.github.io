@@ -63,7 +63,7 @@
         : '<span class="qa-badge dim">' + esc(A.stageName(c)) + "</span>";
       html += '<a class="qa-item' + (current && current.id === c.id ? " on" : "") + '" href="#' + esc(c.id) + '">' +
         '<span class="qa-dd' + (g < 2 && n != null && n <= 7 ? " hot" : "") + '">' + (g === 2 || n == null ? "–" : A.ddayText(n)) + "</span>" +
-        '<span class="qa-name"><b>' + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span> " : "") + esc(A.shortName(c)) + "</b>" +
+        '<span class="qa-name"><b>' + A.newBadge(c) + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span> " : "") + esc(A.shortName(c)) + "</b>" +
           '<small>' + esc(c.title) + "</small></span>" +
         badge + "</a>";
     });
@@ -89,7 +89,7 @@
     var f = c.format || {};
     var fmt = [f.length, f.ratio, f.resolution, f.fileType].filter(Boolean).join(" · ");
     var html = '<header class="qa-head">' +
-      '<div class="title-line">' + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span>" : "") +
+      '<div class="title-line">' + A.newBadge(c) + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span>" : "") +
         '<h2 class="qa-title">' + esc(c.title) + "</h2></div>" +
       '<div class="sub"><span class="host">' + esc(c.host) + "</span>" +
         (A.isISO(c.applyEnd) ? '<span class="period">마감 <b>' + c.applyEnd.slice(5).replace("-", "/") + (c.applyEndTime ? " " + esc(c.applyEndTime) : "") + "</b> (" + A.ddayText(n) + ")</span>" : "") +
