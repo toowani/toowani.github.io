@@ -11,6 +11,7 @@
   var tracker = null, list = [], current = null;
 
   A.initTheme();
+  A.initWidth();
 
   A.load("../").then(function (res) {
     tracker = res[0];
@@ -62,7 +63,8 @@
         : '<span class="qa-badge dim">' + esc(A.stageName(c)) + "</span>";
       html += '<a class="qa-item' + (current && current.id === c.id ? " on" : "") + '" href="#' + esc(c.id) + '">' +
         '<span class="qa-dd' + (g < 2 && n != null && n <= 7 ? " hot" : "") + '">' + (g === 2 || n == null ? "–" : A.ddayText(n)) + "</span>" +
-        '<span class="qa-name">' + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span> " : "") + esc(A.shortName(c)) + "</span>" +
+        '<span class="qa-name"><b>' + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span> " : "") + esc(A.shortName(c)) + "</b>" +
+          '<small>' + esc(c.title) + "</small></span>" +
         badge + "</a>";
     });
     $("#qa-side").innerHTML = html;

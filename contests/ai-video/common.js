@@ -88,6 +88,26 @@
     });
   }
 
+  // 페이지 너비: 보통(레이더와 같은 980px) · 넓게 · 전체. 두 페이지가 같은 설정을 공유한다
+  function initWidth() {
+    var group = $("#width-switch");
+    if (!group) return;
+    var w = lsGet("wani-aiv-width") || "wide";
+    function apply() {
+      document.body.dataset.width = w;
+      Array.prototype.forEach.call(group.querySelectorAll("button"), function (b) {
+        b.classList.toggle("on", b.dataset.w === w);
+        b.setAttribute("aria-pressed", b.dataset.w === w ? "true" : "false");
+      });
+    }
+    apply();
+    group.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button[data-w]");
+      if (!b) return;
+      w = b.dataset.w; lsSet("wani-aiv-width", w); apply();
+    });
+  }
+
   // 마감 > 발표 > 시상 > 기타 순으로, 같은 날 같은 대회 일정은 하나만 남긴다
   function eventsOf(c) {
     var ev = [];
@@ -147,7 +167,7 @@
     STAGES: STAGES, STAGE_HINT: STAGE_HINT, KIND_LABEL: KIND_LABEL,
     $: $, lsGet: lsGet, lsSet: lsSet, esc: esc, pad: pad, isISO: isISO, toISO: toISO, todayISO: todayISO,
     daysUntil: daysUntil, ddayText: ddayText, won: won, stageIndex: stageIndex, stageName: stageName,
-    stageBars: stageBars, shortName: shortName, toast: toast, initTheme: initTheme, eventsOf: eventsOf,
+    stageBars: stageBars, shortName: shortName, toast: toast, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
     load: load, downloadICS: downloadICS
   };
 })();

@@ -11,6 +11,7 @@
   var MAX_CHIPS = 3;
 
   A.initTheme();
+  A.initWidth();
 
   A.load("").then(function (res) {
     tracker = res[0];
@@ -63,25 +64,30 @@
       var iso = A.toISO(d), evs = byDate[iso] || [];
       var cls = "cal-day" + (d.getMonth() !== m ? " out" : "") + (iso === today ? " today" : "") +
         (iso === selected ? " sel" : "") + (iso < today ? " past" : "") + (evs.length ? " has" : "");
+      // 일정 칩은 그 대회의 질문 페이지로 바로 가는 링크, 칸의 빈 곳은 날짜 선택
       var chips = evs.slice(0, MAX_CHIPS).map(function (e) {
-        return '<span class="cal-chip k-' + e.kind + '" title="' + esc(A.KIND_LABEL[e.kind] + " · " + e.c.title + " · " + e.text) + '">' +
-          esc(A.shortName(e.c)) + "</span>";
+        return '<a class="cal-chip k-' + e.kind + '" href="questions/#' + esc(e.c.id) + '" title="' +
+          esc(A.KIND_LABEL[e.kind] + " · " + e.c.title + " · " + e.text) + '">' + esc(A.shortName(e.c)) + "</a>";
       }).join("");
       if (evs.length > MAX_CHIPS) chips += '<span class="cal-more">+' + (evs.length - MAX_CHIPS) + "</span>";
       var dots = evs.map(function (e) { return '<i class="k-' + e.kind + '"></i>'; }).join("");
-      html += '<button class="' + cls + '" data-date="' + iso + '" aria-label="' + iso + " 일정 " + evs.length + '개">' +
+      html += '<div class="' + cls + '" role="gridcell" tabindex="0" data-date="' + iso + '" aria-label="' + iso + " 일정 " + evs.length + '개">' +
         '<span class="cal-num' + (d.getDay() === 0 ? " sun" : d.getDay() === 6 ? " sat" : "") + '">' + d.getDate() + "</span>" +
         '<span class="cal-chips">' + chips + "</span>" +
-        '<span class="cal-dots">' + dots + "</span></button>";
+        '<span class="cal-dots">' + dots + "</span></div>";
     }
     var el = $("#cal");
     el.innerHTML = html;
     Array.prototype.forEach.call(el.querySelectorAll(".cal-day"), function (b) {
-      b.addEventListener("click", function () {
+      function pick() {
         selected = b.dataset.date;
         var d = new Date(selected + "T00:00:00");
         if (d.getMonth() !== view.getMonth()) { view = new Date(d.getFullYear(), d.getMonth(), 1); }
         renderCalendar(); renderDay();
+      }
+      b.addEventListener("click", function (ev) { if (!ev.target.closest("a")) pick(); });
+      b.addEventListener("keydown", function (ev) {
+        if ((ev.key === "Enter" || ev.key === " ") && ev.target === b) { ev.preventDefault(); pick(); }
       });
     });
   }
@@ -109,13 +115,12 @@
     } else {
       html += evs.map(function (e) {
         var c = e.c, ask = c.stage === "answer" && (c.questions || []).length;
-        return '<div class="day-ev">' +
+        return '<a class="day-ev" href="questions/#' + esc(c.id) + '">' +
           '<span class="tl-kind k-' + e.kind + '">' + esc(e.kind === "other" ? "일정" : A.KIND_LABEL[e.kind]) + "</span>" +
           '<div class="day-ev-main"><b>' + esc(c.title) + "</b>" +
             '<span class="day-ev-sub">' + esc(e.text) + " · " + esc(A.stageName(c)) + "</span></div>" +
-          (ask ? '<a class="act go" href="questions/#' + esc(c.id) + '">질문 답하기 →</a>'
-               : '<a class="act" href="questions/#' + esc(c.id) + '">상세</a>') +
-        "</div>";
+          (ask ? '<span class="act go">질문 답하기 →</span>' : '<span class="act">상세 →</span>') +
+        "</a>";
       }).join("");
     }
     var el = $("#day-panel");
