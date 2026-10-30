@@ -102,7 +102,7 @@
     html += '<dl class="kv brief">' +
       (c.theme ? "<dt>주제</dt><dd>" + esc(c.theme) + "</dd>" : "") +
       (fmt ? "<dt>형식</dt><dd>" + esc(fmt) + "</dd>" : "") + "</dl>";
-    if (c.winInsight) html += '<div class="note-box insight"><b>1등을 가르는 것</b>' + esc(c.winInsight) + "</div>";
+    if (c.winInsight) html += '<div class="note-box insight"><b>1등을 가르는 것</b>' + A.rich(c.winInsight) + "</div>";
     if (c.note) html += '<div class="note-box"><b>CLAUDE 메모</b>' + esc(c.note) + "</div>";
     if (c.result) html += '<div class="note-box insight"><b>결과</b>' + esc(c.result) + "</div>";
     html += winnersHTML(c.pastWinners);
@@ -120,14 +120,14 @@
     if (!w) return "";
     function list(title, cls, items) {
       return items && items.length ? '<div class="pw-col ' + cls + '"><h4>' + title + "</h4><ul>" +
-        items.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>" : "";
+        items.map(function (s) { return "<li>" + A.rich(s) + "</li>"; }).join("") + "</ul></div>" : "";
     }
     var works = (w.works || []).map(function (x) {
       var t = esc(x.title || "제목 미상");
       if (x.url) t = '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + t + "</a>";
       return "<tr><td class=\"pw-meta\">" + esc([x.year, x.award].filter(Boolean).join(" ")) +
         (x.length ? '<br><span class="why">' + esc(x.length) + "</span>" : "") +
-        "</td><td>" + t + (x.what ? '<br><span class="why">' + esc(x.what) + "</span>" : "") + "</td></tr>";
+        "</td><td>" + t + (x.what ? '<br><span class="why">' + A.rich(x.what) + "</span>" : "") + "</td></tr>";
     }).join("");
     return '<section class="pw">' +
       '<div class="pw-head"><h3>이전 수상작 분석</h3>' + (w.scope ? '<p class="pw-scope">' + esc(w.scope) + "</p>" : "") + "</div>" +
@@ -165,7 +165,7 @@
       '<div class="qs-head"><h3>1등을 위해 답할 질문</h3><span class="qs-progress">' + answeredCount(c) + "/" + c.questions.length + " 답변</span></div>" +
       c.questions.map(function (q, i) {
         return '<div class="q"><label for="q-' + i + '"><span class="n">Q' + (i + 1) + "</span>" + esc(q.q) + "</label>" +
-          (q.why ? '<span class="why">' + esc(q.why) + "</span>" : "") +
+          (q.why ? '<span class="why">' + A.rich(q.why) + "</span>" : "") +
           '<textarea id="q-' + i + '" data-i="' + i + '" placeholder="정답은 없어요. 떠오르는 대로, 구체적인 장면일수록 좋아요.">' + esc(a[i] || "") + "</textarea></div>";
       }).join("") +
       '<div class="qs-actions"><button class="act go" data-send>답변 보내기</button>' +

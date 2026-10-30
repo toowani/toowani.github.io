@@ -202,6 +202,7 @@ body[data-width="full"] .qa { grid-template-columns: 23rem minmax(0, 1fr); }
 .judging td { border-bottom: 1px solid var(--line); padding: 0.35rem 0.4rem; vertical-align: top; }
 .judging td.w { font-family: var(--font-gothic); font-weight: 800; color: var(--acc-glow); white-space: nowrap; text-align: right; }
 .why { font-size: 0.72rem; color: var(--fg-dim); }
+a.ref { color: var(--acc-glow); text-decoration: underline; text-underline-offset: 2px; }
 
 /* ---------- past winners ---------- */
 .pw { display: flex; flex-direction: column; gap: 0.7rem; padding-top: 0.4rem; border-top: 1px solid var(--line); }

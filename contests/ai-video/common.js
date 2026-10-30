@@ -36,6 +36,12 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  // 분석 글 안의 [작품명](URL) 을 링크로 바꾼다. 그 밖의 글자는 모두 이스케이프한다
+  function rich(s) {
+    return esc(s).replace(/\[([^\]\n]+)\]\((https?:\/\/[^\s)]+)\)/g, function (_, t, u) {
+      return '<a class="ref" href="' + u + '" target="_blank" rel="noopener">' + t + "</a>";
+    });
+  }
   function pad(n) { return (n < 10 ? "0" : "") + n; }
   function isISO(s) { return typeof s === "string" && /^\d{4}-\d{2}-\d{2}$/.test(s); }
   function toISO(d) { return d.getFullYear() + "-" + pad(d.getMonth() + 1) + "-" + pad(d.getDate()); }
@@ -168,7 +174,7 @@
 
   window.AIV = {
     STAGES: STAGES, STAGE_HINT: STAGE_HINT, KIND_LABEL: KIND_LABEL,
-    $: $, lsGet: lsGet, lsSet: lsSet, esc: esc, pad: pad, isISO: isISO, toISO: toISO, todayISO: todayISO,
+    $: $, lsGet: lsGet, lsSet: lsSet, esc: esc, rich: rich, pad: pad, isISO: isISO, toISO: toISO, todayISO: todayISO,
     daysUntil: daysUntil, ddayText: ddayText, won: won, stageIndex: stageIndex, stageName: stageName,
     stageBars: stageBars, shortName: shortName, isNew: isNew, newBadge: newBadge, toast: toast, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
     load: load, downloadICS: downloadICS
