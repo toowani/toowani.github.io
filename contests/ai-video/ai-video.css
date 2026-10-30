@@ -203,6 +203,21 @@ body[data-width="full"] .qa { grid-template-columns: 23rem minmax(0, 1fr); }
 .judging td.w { font-family: var(--font-gothic); font-weight: 800; color: var(--acc-glow); white-space: nowrap; text-align: right; }
 .why { font-size: 0.72rem; color: var(--fg-dim); }
 
+/* ---------- past winners ---------- */
+.pw { display: flex; flex-direction: column; gap: 0.7rem; padding-top: 0.4rem; border-top: 1px solid var(--line); }
+.pw-head { padding-top: 0.6rem; }
+.pw-head h3 { margin: 0; font-family: var(--font-gothic); font-weight: 800; font-size: 1.05rem; color: var(--fg); }
+.pw-scope { margin: 0.2rem 0 0; font-size: 0.74rem; color: var(--fg-dim); }
+.pw-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.7rem; }
+.pw-col { padding: 0.6rem 0.85rem; background: var(--chip); border-radius: var(--radius-sm); border-top: 3px solid var(--acc); }
+.pw-col.avoid { border-top-color: var(--warn); }
+.pw-col.lever { border-top-color: var(--line-strong); }
+.pw-col h4 { margin: 0 0 0.3rem; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; color: var(--fg-dim); }
+.pw-col ul { margin: 0; padding-left: 1.05rem; display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.8rem; line-height: 1.55; word-break: keep-all; }
+.pw-works > summary { font-size: 0.82rem; }
+.pw-works .pw-meta { white-space: nowrap; font-weight: 700; width: 1%; }
+.pw-works a { color: var(--acc-glow); text-decoration: underline; text-underline-offset: 2px; }
+
 .qs { display: flex; flex-direction: column; gap: 0.9rem; padding-top: 0.4rem; border-top: 1px solid var(--line); }
 .qs-head { display: flex; justify-content: space-between; align-items: center; gap: 0.6rem; flex-wrap: wrap; padding-top: 0.6rem; }
 .qs-head h3 { margin: 0; font-family: var(--font-gothic); font-weight: 800; font-size: 1.05rem; color: var(--fg); }

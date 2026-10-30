@@ -105,6 +105,7 @@
     if (c.winInsight) html += '<div class="note-box insight"><b>1등을 가르는 것</b>' + esc(c.winInsight) + "</div>";
     if (c.note) html += '<div class="note-box"><b>CLAUDE 메모</b>' + esc(c.note) + "</div>";
     if (c.result) html += '<div class="note-box insight"><b>결과</b>' + esc(c.result) + "</div>";
+    html += winnersHTML(c.pastWinners);
 
     if (c.questions && c.questions.length) html += questionsHTML(c);
     else html += '<p class="day-empty">이 대회는 따로 답할 질문이 없어요. 진행 상황만 확인하세요.</p>';
@@ -112,6 +113,28 @@
     html += detailsHTML(c);
     $("#qa-main").innerHTML = html;
     bindQuestions(c);
+  }
+
+  // 이전 수상작 분석: 패턴은 펼쳐 두고, 작품 목록은 접어 둔다
+  function winnersHTML(w) {
+    if (!w) return "";
+    function list(title, cls, items) {
+      return items && items.length ? '<div class="pw-col ' + cls + '"><h4>' + title + "</h4><ul>" +
+        items.map(function (s) { return "<li>" + esc(s) + "</li>"; }).join("") + "</ul></div>" : "";
+    }
+    var works = (w.works || []).map(function (x) {
+      var t = esc(x.title || "제목 미상");
+      if (x.url) t = '<a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + t + "</a>";
+      return "<tr><td class=\"pw-meta\">" + esc([x.year, x.award].filter(Boolean).join(" ")) +
+        (x.length ? '<br><span class="why">' + esc(x.length) + "</span>" : "") +
+        "</td><td>" + t + (x.what ? '<br><span class="why">' + esc(x.what) + "</span>" : "") + "</td></tr>";
+    }).join("");
+    return '<section class="pw">' +
+      '<div class="pw-head"><h3>이전 수상작 분석</h3>' + (w.scope ? '<p class="pw-scope">' + esc(w.scope) + "</p>" : "") + "</div>" +
+      '<div class="pw-grid">' + list("이긴 작품의 공통점", "win", w.patterns) + list("묻히는 패턴 (피할 것)", "avoid", w.avoid) +
+        list("이번 대회만의 레버", "lever", w.levers) + "</div>" +
+      (works ? '<details class="low-details pw-works"><summary>분석한 작품 ' + w.works.length + "편</summary><table class=\"judging\">" + works + "</table></details>" : "") +
+      "</section>";
   }
 
   function detailsHTML(c) {
