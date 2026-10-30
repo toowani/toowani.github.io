@@ -130,7 +130,7 @@
         "</td><td>" + t + (x.what ? '<br><span class="why">' + A.rich(x.what) + "</span>" : "") + "</td></tr>";
     }).join("");
     return '<section class="pw">' +
-      '<div class="pw-head"><h3>이전 수상작 분석</h3>' + (w.scope ? '<p class="pw-scope">' + esc(w.scope) + "</p>" : "") + "</div>" +
+      '<div class="pw-head"><h3>이전 수상작 분석</h3>' + (w.scope ? '<p class="pw-scope">' + A.rich(w.scope) + "</p>" : "") + "</div>" +
       '<div class="pw-grid">' + list("이긴 작품의 공통점", "win", w.patterns) + list("묻히는 패턴 (피할 것)", "avoid", w.avoid) +
         list("이번 대회만의 레버", "lever", w.levers) + "</div>" +
       (works ? '<details class="low-details pw-works"><summary>분석한 작품 ' + w.works.length + "편</summary><table class=\"judging\">" + works + "</table></details>" : "") +
