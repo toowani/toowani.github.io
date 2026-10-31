@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-31T12:34:04.798Z",
- "today": "2026-10-31",
+ "generatedAt": "2026-10-31T21:37:59.223Z",
+ "today": "2026-11-01",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 57,
-   "fetchedAt": "2026-10-31T12:34:04.773Z"
+   "fetchedAt": "2026-10-31T21:37:59.185Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-31T12:34:04.773Z"
+   "fetchedAt": "2026-10-31T21:37:59.185Z"
   },
   "wevity": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-10-31T12:34:04.773Z"
+   "count": 36,
+   "fetchedAt": "2026-10-31T21:37:59.185Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-10-31T12:34:04.773Z"
+   "fetchedAt": "2026-10-31T21:37:59.185Z"
   },
   "kstartup": {
    "ok": true,
    "count": 11,
-   "fetchedAt": "2026-10-31T12:34:04.773Z"
+   "fetchedAt": "2026-10-31T21:37:59.185Z"
   }
  },
- "count": 128,
+ "count": 126,
  "items": [
   {
    "id": "hola:6ab4c28bfdf75b86efbf5536",
@@ -319,35 +319,6 @@
    "reasonText": "관심 분야(랩·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:357936",
-   "source": "linkareer",
-   "title": "[대박 이벤트] MINDSOS X 원밀리언 '한호흡 챌린지' 같이 할 사람?!",
-   "host": "마인드풀커넥트",
-   "url": "https://linkareer.com/activity/357936",
-   "officialUrl": "https://mindsos.org/",
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-10-31",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/357936"
-    }
-   ],
-   "firstSeen": "2026-10-19",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "hola:6a9d96aed7320aa75232b234",
    "source": "hola",
    "title": "[제주관광공사] 2026 제주 관광 데이터 활용사례 공모전(~10/31)",
@@ -410,35 +381,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:361054",
-   "source": "linkareer",
-   "title": "2026 AI 이미지콘테스트",
-   "host": "사단법인 한국사진작가협회",
-   "url": "https://linkareer.com/activity/361054",
-   "officialUrl": null,
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-10-31",
-   "postedAt": "2026-10-30",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/361054"
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "devevent:https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
    "source": "devevent",
    "title": "2026년 AI 라이프 솔루션 챌린지",
@@ -468,46 +410,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111675",
-   "source": "wevity",
-   "title": "2026년 한국산림복지진흥원 지식재산 아이디어 경진대회",
-   "host": "한국산림복지진흥원",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111675",
-   "officialUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=12&bbsId=9254",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-31",
-   "postedAt": "2026-10-14",
-   "prize": "1천만원이하",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/356948"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111675",
-     "_detail": {
-      "applyStart": "2026-10-14",
-      "applyEnd": "2026-10-31",
-      "prize": "1천만원이하",
-      "officialUrl": "https://www.fowi.or.kr/user/bbs/bbsView.do?bbsManageId=12&bbsId=9254",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-15",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6acb3dffee012963f81ccb5e",
@@ -574,63 +476,26 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
-   "id": "wevity:111460",
-   "source": "wevity",
-   "title": "전국대학생 FTA 활용 비즈니스 경진대회",
-   "host": "한국통상정보학회",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111460",
-   "officialUrl": "https://www.cybertrade.or.kr/user/news/notice/userNewsNotice_view/1V7R1kM03Io",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111460",
-     "_detail": {
-      "applyStart": "2026-10-01",
-      "applyEnd": "2026-10-31",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.cybertrade.or.kr/user/news/notice/userNewsNotice_view/1V7R1kM03Io",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-05",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:358739",
-   "source": "linkareer",
+   "id": "hola:6ad70ebbb2e45876ca5c088d",
+   "source": "hola",
    "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
    "host": "젝트",
-   "url": "https://linkareer.com/activity/358739",
+   "url": "https://holaworld.io/hola-it/6ad70ebbb2e45876ca5c088d",
    "officialUrl": "https://jeckathon.ject.kr/",
-   "applyStart": "2026-10-21",
+   "applyStart": "2026-10-20",
    "applyEnd": "2026-10-31",
-   "postedAt": "2026-10-21",
+   "eventStart": "2026-11-14",
+   "eventEnd": "2026-11-14",
+   "postedAt": "2026-10-20",
    "prize": null,
    "place": "오프라인 · 마루180 이벤트홀",
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "target": null,
+   "sourceCategory": "해커톤",
    "tags": [
-    "ai",
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358739"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad70ebbb2e45876ca5c088d"
@@ -640,9 +505,7 @@
      "url": "https://jeckathon.ject.kr/"
     }
    ],
-   "eventStart": "2026-11-14",
-   "eventEnd": "2026-11-14",
-   "firstSeen": "2026-10-22",
+   "firstSeen": "2026-11-01",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -859,6 +722,34 @@
     "대상 불가"
    ],
    "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
+   "id": "linkareer:356311",
+   "source": "linkareer",
+   "title": "[신한] 2026 대학생 창업 공모전 'HERO IR' 모집(~11/2)",
+   "host": "신한금융그룹",
+   "url": "https://linkareer.com/activity/356311",
+   "officialUrl": null,
+   "applyStart": "2026-10-13",
+   "applyEnd": "2026-11-02",
+   "postedAt": "2026-10-13",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356311"
+    }
+   ],
+   "firstSeen": "2026-11-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111920",
@@ -1183,7 +1074,7 @@
    "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111614",
    "applyStart": "2026-10-08",
    "applyEnd": "2026-11-04",
-   "postedAt": null,
+   "postedAt": "2026-10-13",
    "prize": "1천만원이하 · 1등 100만원",
    "place": null,
    "target": "대학생, 청소년",
@@ -1192,6 +1083,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356305"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111614",
@@ -3138,6 +3033,34 @@
    "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:361137",
+   "source": "linkareer",
+   "title": "2026 현장문제 AX 아이디어 해커톤 참가자 모집",
+   "host": "주식회사 어치브모먼트",
+   "url": "https://linkareer.com/activity/361137",
+   "officialUrl": "https://www.blaybus.com",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-17",
+   "postedAt": "2026-10-31",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361137"
+    }
+   ],
+   "firstSeen": "2026-11-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "kstartup:179562",
    "source": "kstartup",
    "title": "2026 서울창업허브 창동 데모데이 참관 신청",
@@ -3281,7 +3204,7 @@
    "officialUrl": "https://dcnc.or.kr/bbs/board.php?bo_table=notice&wr_id=193",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-11-20",
-   "postedAt": "2026-10-14",
+   "postedAt": "2026-10-13",
    "prize": "1천만원이하 · 1등 130만원",
    "place": "온라인",
    "target": "제한없음",
@@ -3292,6 +3215,10 @@
    "eventStart": "2026-10-12",
    "eventEnd": "2026-11-20",
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/356503"
+    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6acf7ba8ee012963f8216b27"
