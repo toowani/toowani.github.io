@@ -11,7 +11,7 @@
   var MAX_CHIPS = 3;
 
   A.initTheme();
-  A.initWidth();
+  A.initWidth("calendar", "normal");
 
   A.load("").then(function (res) {
     tracker = res[0];

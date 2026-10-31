@@ -11,7 +11,7 @@
   var tracker = null, list = [], current = null;
 
   A.initTheme();
-  A.initWidth();
+  A.initWidth("questions", "wide");
 
   A.load("../").then(function (res) {
     tracker = res[0];

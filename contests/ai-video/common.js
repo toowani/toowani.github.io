@@ -97,11 +97,12 @@
     });
   }
 
-  // 페이지 너비: 보통(레이더와 같은 980px) · 넓게 · 전체. 두 페이지가 같은 설정을 공유한다
-  function initWidth() {
+  // 페이지 너비: 보통(레이더와 같은 980px) · 넓게 · 전체. 페이지마다 따로 기억한다
+  function initWidth(page, def) {
     var group = $("#width-switch");
     if (!group) return;
-    var w = lsGet("wani-aiv-width") || "wide";
+    var key = "wani-aiv-width-" + page;
+    var w = lsGet(key) || def;
     function apply() {
       document.body.dataset.width = w;
       Array.prototype.forEach.call(group.querySelectorAll("button"), function (b) {
@@ -113,7 +114,7 @@
     group.addEventListener("click", function (ev) {
       var b = ev.target.closest("button[data-w]");
       if (!b) return;
-      w = b.dataset.w; lsSet("wani-aiv-width", w); apply();
+      w = b.dataset.w; lsSet(key, w); apply();
     });
   }
 
