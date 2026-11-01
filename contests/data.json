@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-10-31T21:37:59.223Z",
+ "generatedAt": "2026-11-01T06:08:52.046Z",
  "today": "2026-11-01",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 57,
-   "fetchedAt": "2026-10-31T21:37:59.185Z"
+   "fetchedAt": "2026-11-01T06:08:52.009Z"
   },
   "hola": {
    "ok": true,
    "count": 42,
-   "fetchedAt": "2026-10-31T21:37:59.185Z"
+   "fetchedAt": "2026-11-01T06:08:52.009Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-10-31T21:37:59.185Z"
+   "fetchedAt": "2026-11-01T06:08:52.009Z"
   },
   "devevent": {
    "ok": true,
-   "count": 19,
-   "fetchedAt": "2026-10-31T21:37:59.185Z"
+   "count": 17,
+   "fetchedAt": "2026-11-01T06:08:52.009Z"
   },
   "kstartup": {
    "ok": true,
    "count": 11,
-   "fetchedAt": "2026-10-31T21:37:59.185Z"
+   "fetchedAt": "2026-11-01T06:08:52.009Z"
   }
  },
- "count": 126,
+ "count": 125,
  "items": [
   {
    "id": "hola:6ab4c28bfdf75b86efbf5536",
@@ -153,10 +153,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ac125e3ee012963f812bf19"
-    },
-    {
-     "source": "devevent",
-     "url": "https://www.pqcchallenge.kr/"
     }
    ],
    "firstSeen": "2026-10-31",
@@ -224,39 +220,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "devevent:https://luma.com/compiled-8lsr",
-   "source": "devevent",
-   "title": "c0mpiled-17: Seoul",
-   "host": "Transpose Platform / 아산나눔재단 / 한국벤처캐피탈협회 / 한국벤처투자 / 한국무역협회",
-   "url": "https://luma.com/compiled-8lsr",
-   "officialUrl": "https://luma.com/compiled-8lsr",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-30",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 강남구)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://luma.com/compiled-8lsr"
-    }
-   ],
-   "firstSeen": "2026-10-19",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6aa92b4bfdf75b86efb381dc",
@@ -381,37 +344,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "devevent:https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
-   "source": "devevent",
-   "title": "2026년 AI 라이프 솔루션 챌린지",
-   "host": "산업통상부 / 한국산업기술기획평가원(KEIT)",
-   "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
-   "officialUrl": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385",
-   "applyStart": "2026-09-30",
-   "applyEnd": "2026-10-31",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list_no=128385"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "hola:6acb3dffee012963f81ccb5e",
    "source": "hola",
    "title": "AI 뮤직비디오 제작 이벤트 <모두의 프로듀서>",
@@ -443,39 +375,6 @@
    "reasonText": "관심 분야(뮤직비디오·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "devevent:https://hackon.kr/e/1a32b615",
-   "source": "devevent",
-   "title": "Hello World AI 해커톤 — 개인전, 하루 안에 배포까지",
-   "host": "HACK:ON",
-   "url": "https://hackon.kr/e/1a32b615",
-   "officialUrl": "https://hackon.kr/e/1a32b615",
-   "applyStart": null,
-   "applyEnd": "2026-10-31",
-   "eventStart": "2026-10-31",
-   "eventEnd": "2026-10-31",
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 강남구)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://hackon.kr/e/1a32b615"
-    }
-   ],
-   "firstSeen": "2026-10-19",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
    "id": "hola:6ad70ebbb2e45876ca5c088d",
    "source": "hola",
    "title": "젝커톤 2026 | 젝트 X 스위프 AI 해커톤",
@@ -499,46 +398,12 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad70ebbb2e45876ca5c088d"
-    },
-    {
-     "source": "devevent",
-     "url": "https://jeckathon.ject.kr/"
     }
    ],
    "firstSeen": "2026-11-01",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "devevent:https://www.codetree.ai/ko/sheep-sheep-sheep",
-   "source": "devevent",
-   "title": "코드트리 양떼 목장 (4주 코테 습관 만들기)",
-   "host": "코드트리",
-   "url": "https://www.codetree.ai/ko/sheep-sheep-sheep",
-   "officialUrl": "https://www.codetree.ai/ko/sheep-sheep-sheep",
-   "applyStart": "2026-09-01",
-   "applyEnd": "2026-10-31",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://www.codetree.ai/ko/sheep-sheep-sheep"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:358062",
@@ -1118,11 +983,12 @@
    "applyEnd": "2026-11-04",
    "postedAt": "2026-10-27",
    "prize": "3천만원~1천만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "웹/모바일/IT",
    "tags": [
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
     {
@@ -1139,12 +1005,49 @@
       "officialUrl": "https://m.site.naver.com/2jSlw",
       "target": "제한없음"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://lotteaxchallenge.com/"
     }
    ],
    "firstSeen": "2026-10-30",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "devevent:https://luma.com/ahvyoors",
+   "source": "devevent",
+   "title": "OBA.RUN 2nd 해커톤",
+   "host": "Hashed · 마켓핏랩 · vooy (주관 OBA)",
+   "url": "https://luma.com/ahvyoors",
+   "officialUrl": "https://luma.com/ahvyoors",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-04",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(서울 강남구)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://luma.com/ahvyoors"
+    }
+   ],
+   "firstSeen": "2026-11-01",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:358623",
@@ -1542,6 +1445,37 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "devevent:https://resume-show-project.vercel.app/precourse.html",
+   "source": "devevent",
+   "title": "AI 헬스케어 미니 데이터 챌린지",
+   "host": "오즈코딩스쿨 · 데이콘",
+   "url": "https://resume-show-project.vercel.app/precourse.html",
+   "officialUrl": "https://resume-show-project.vercel.app/precourse.html",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-06",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://resume-show-project.vercel.app/precourse.html"
+    }
+   ],
+   "firstSeen": "2026-11-01",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6adf16c9b2e45876ca6637a7",
@@ -3576,6 +3510,39 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "devevent:https://event-us.kr/gdgcampuskorea/event/138371",
+   "source": "devevent",
+   "title": "2026 Devfest: AFK - Away From Keyboard",
+   "host": "GDG Campus Korea",
+   "url": "https://event-us.kr/gdgcampuskorea/event/138371",
+   "officialUrl": "https://event-us.kr/gdgcampuskorea/event/138371",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-27",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(서울 마포구)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/gdgcampuskorea/event/138371"
+    }
+   ],
+   "firstSeen": "2026-11-01",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111837",
