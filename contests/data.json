@@ -1,286 +1,35 @@
 {
- "generatedAt": "2026-11-01T13:27:35.080Z",
- "today": "2026-11-01",
+ "generatedAt": "2026-11-01T22:04:02.876Z",
+ "today": "2026-11-02",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 57,
-   "fetchedAt": "2026-11-01T13:27:35.046Z"
+   "count": 56,
+   "fetchedAt": "2026-11-01T22:04:02.852Z"
   },
   "hola": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-11-01T13:27:35.046Z"
+   "count": 34,
+   "fetchedAt": "2026-11-01T22:04:02.853Z"
   },
   "wevity": {
    "ok": true,
-   "count": 36,
-   "fetchedAt": "2026-11-01T13:27:35.046Z"
+   "count": 34,
+   "fetchedAt": "2026-11-01T22:04:02.853Z"
   },
   "devevent": {
    "ok": true,
    "count": 17,
-   "fetchedAt": "2026-11-01T13:27:35.046Z"
+   "fetchedAt": "2026-11-01T22:04:02.853Z"
   },
   "kstartup": {
    "ok": true,
    "count": 11,
-   "fetchedAt": "2026-11-01T13:27:35.046Z"
+   "fetchedAt": "2026-11-01T22:04:02.853Z"
   }
  },
- "count": 125,
+ "count": 116,
  "items": [
-  {
-   "id": "hola:6ab4c28bfdf75b86efbf5536",
-   "source": "hola",
-   "title": "[BytePlus × AI-Kive] Seedance 2.5 AI 시리즈 제작지원 공모전",
-   "host": "BytePlus / (주)스튜디오프리윌루전, AI-Kive",
-   "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536",
-   "officialUrl": "https://aikive.com/event/c1f47e0aa9eb45ae9e28305b65c14ce0",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ab4c28bfdf75b86efbf5536"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6acf323cee012963f8210b73",
-   "source": "hola",
-   "title": "10/31 Hello World AI 해커톤",
-   "host": "HACK:ON 해커온",
-   "url": "https://holaworld.io/hola-it/6acf323cee012963f8210b73",
-   "officialUrl": "https://hackon.kr/e/1a32b615",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-31",
-   "eventEnd": "2026-10-31",
-   "postedAt": "2026-10-14",
-   "prize": null,
-   "place": "오프라인 · 서울",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acf323cee012963f8210b73"
-    }
-   ],
-   "firstSeen": "2026-10-15",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6ad8b967b2e45876ca5e3852",
-   "source": "hola",
-   "title": "2026 충북글로벌게임센터 AI 게임 개발 공모전",
-   "host": "청주시문화산업진흥재단 / 청주시문화산업진흥재단 충북글로벌게임센터",
-   "url": "https://holaworld.io/hola-it/6ad8b967b2e45876ca5e3852",
-   "officialUrl": "https://cbgame.org/sub.php?code=8&mode=view&no=204&category=&page=1&search=&keyword=",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-26",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b967b2e45876ca5e3852"
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'충북' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6acf7bb6ee012963f8216b92",
-   "source": "hola",
-   "title": "2026년 양자내성암호 전환 경진대회·해커톤",
-   "host": "과학기술정보통신부 / 한국인터넷진흥원(KISA)",
-   "url": "https://holaworld.io/hola-it/6acf7bb6ee012963f8216b92",
-   "officialUrl": "https://www.pqcchallenge.kr/",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-10-14",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acf7bb6ee012963f8216b92"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ac125e3ee012963f812bf19"
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6adf16ceb2e45876ca6637ef",
-   "source": "hola",
-   "title": "2026년도 대한민국 SW기술대상 및 IT 아키텍처대상",
-   "host": "(사)한국소프트웨어기술진흥협회",
-   "url": "https://holaworld.io/hola-it/6adf16ceb2e45876ca6637ef",
-   "officialUrl": "https://www.kosta.or.kr/notice/?bmode=view&idx=175204812&back_url=Lw%3D%3D&t=board&page=1",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-21",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-10-26",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16ceb2e45876ca6637ef"
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6adf16cdb2e45876ca6637de",
-   "source": "hola",
-   "title": "AI 달인의 꿀팁 챌린지 시즌3",
-   "host": "과학기술정보통신부",
-   "url": "https://holaworld.io/hola-it/6adf16cdb2e45876ca6637de",
-   "officialUrl": "https://aichallenge4all.or.kr/competitions/master100_s3",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-14",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-10-26",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16cdb2e45876ca6637de"
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6aa92b4bfdf75b86efb381dc",
-   "source": "hola",
-   "title": "디자인 잇 어워드 챌린지 2026",
-   "host": "(사)한국디자인산업연합회",
-   "url": "https://holaworld.io/hola-it/6aa92b4bfdf75b86efb381dc",
-   "officialUrl": "https://www.itaward-challenge.or.kr/",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-09-14",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa92b4bfdf75b86efb381dc"
-    }
-   ],
-   "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ae2143b7f66f8754e36a1ca",
-   "source": "hola",
-   "title": "젠스파크 후원, SCX NEXT 청년 스마트건설 AI 랩",
-   "host": "메쎄이상",
-   "url": "https://holaworld.io/hola-it/6ae2143b7f66f8754e36a1ca",
-   "officialUrl": "https://smartconexpo.com/youth-ai-la/",
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-10-30",
-   "eventStart": "2026-10-19",
-   "eventEnd": "2026-10-30",
-   "postedAt": "2026-10-29",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae2143b7f66f8754e36a1ca"
-    }
-   ],
-   "firstSeen": "2026-10-29",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(랩·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6a9d96aed7320aa75232b234",
    "source": "hola",
@@ -406,35 +155,6 @@
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:358062",
-   "source": "linkareer",
-   "title": "[2026 농촌여행 숏폼 공모전] 대국민 농촌관광 홍보영상 경진대회 (기간연장)",
-   "host": "한국농어촌공사",
-   "url": "https://linkareer.com/activity/358062",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-11-01",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358062"
-    }
-   ],
-   "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(숏폼)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "hola:6abe8b21ee012963f80ebe57",
    "source": "hola",
    "title": "2026 전국 대학생 SW 창업아이디어톤",
@@ -466,42 +186,31 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111299",
-   "source": "wevity",
+   "id": "hola:6abe8b20ee012963f80ebe4d",
+   "source": "hola",
    "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
    "host": "충청북도 제천시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111299",
+   "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d",
    "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
    "applyStart": "2026-09-28",
    "applyEnd": "2026-11-01",
+   "eventStart": "2026-09-28",
+   "eventEnd": "2026-11-01",
    "postedAt": "2026-10-02",
-   "prize": "1천만원이하 · 1등 150만원",
+   "prize": null,
    "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai"
    ],
-   "eventStart": "2026-09-28",
-   "eventEnd": "2026-11-01",
    "sources": [
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111299",
-     "_detail": {
-      "applyStart": "2026-09-28",
-      "applyEnd": "2026-11-01",
-      "prize": "1천만원이하 · 1등 150만원",
-      "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
-      "target": "제한없음"
-     }
     }
    ],
-   "firstSeen": "2026-10-31",
+   "firstSeen": "2026-11-02",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -509,84 +218,35 @@
    "reasonText": "'제천시' 지역 한정으로 보여요."
   },
   {
-   "id": "wevity:111271",
-   "source": "wevity",
-   "title": "제 3회 AI·디지털 융합 교육 콘텐츠 개발 경진대회 참가자 모집",
-   "host": "부산대학교, 부산교육대학교, 부산에듀테크소프트랩,AIEDAP 경남권역 사업지원단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111271",
-   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111271",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-11-01",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111271",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-11-01",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111271",
-      "target": "대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'부산' 지역 한정으로 보여요."
-  },
-  {
-   "id": "wevity:110895",
-   "source": "wevity",
+   "id": "devevent:https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
+   "source": "devevent",
    "title": "쿵야 IP를 활용한 로블록스(Roblox) 게임 콘텐츠 제작 공모전",
-   "host": "넷마블 MNB",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110895",
+   "host": "넷마블엠엔비",
+   "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
    "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
    "applyStart": "2026-09-11",
    "applyEnd": "2026-11-01",
+   "eventStart": null,
+   "eventEnd": null,
    "postedAt": null,
-   "prize": "3천만원~1천만원 · 1등 500만원",
+   "prize": null,
    "place": "온라인",
-   "target": "대학생, 청소년, 어린이",
-   "sourceCategory": "게임/소프트웨어",
+   "target": null,
+   "sourceCategory": "대회, 기술일반",
    "tags": [
     "dev",
     "video"
    ],
    "sources": [
     {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=110895",
-     "_detail": {
-      "applyStart": "2026-09-11",
-      "applyEnd": "2026-11-01",
-      "prize": "3천만원~1천만원 · 1등 500만원",
-      "officialUrl": null,
-      "target": "대학생, 청소년, 어린이"
-     }
-    },
-    {
      "source": "devevent",
      "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895"
     }
    ],
-   "firstSeen": "2026-09-28",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
+   "firstSeen": "2026-11-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:356311",
@@ -4015,6 +3675,44 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:111222",
+   "source": "wevity",
+   "title": "NEXMUSE AI Music Video Contest 2027",
+   "host": "주식회사 에이아이아트",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
+   "officialUrl": "https://nexmuse.kr/",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-12-28",
+   "postedAt": null,
+   "prize": "3천만원~1천만원 · 1등 1,000만원",
+   "place": null,
+   "target": "일반인, 대학생, 청소년",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-12-28",
+      "prize": "3천만원~1천만원 · 1등 1,000만원",
+      "officialUrl": "https://nexmuse.kr/",
+      "target": "일반인, 대학생, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "wevity:111800",
