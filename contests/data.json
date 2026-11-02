@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-01T22:04:02.876Z",
+ "generatedAt": "2026-11-02T06:07:37.575Z",
  "today": "2026-11-02",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 56,
-   "fetchedAt": "2026-11-01T22:04:02.852Z"
+   "count": 60,
+   "fetchedAt": "2026-11-02T06:07:37.540Z"
   },
   "hola": {
    "ok": true,
    "count": 34,
-   "fetchedAt": "2026-11-01T22:04:02.853Z"
+   "fetchedAt": "2026-11-02T06:07:37.540Z"
   },
   "wevity": {
    "ok": true,
    "count": 34,
-   "fetchedAt": "2026-11-01T22:04:02.853Z"
+   "fetchedAt": "2026-11-02T06:07:37.540Z"
   },
   "devevent": {
    "ok": true,
    "count": 17,
-   "fetchedAt": "2026-11-01T22:04:02.853Z"
+   "fetchedAt": "2026-11-02T06:07:37.540Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 11,
-   "fetchedAt": "2026-11-01T22:04:02.853Z"
+   "count": 12,
+   "fetchedAt": "2026-11-02T06:07:37.540Z"
   }
  },
- "count": 116,
+ "count": 120,
  "items": [
   {
    "id": "hola:6a9d96aed7320aa75232b234",
@@ -1231,6 +1231,34 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:361079",
+   "source": "linkareer",
+   "title": "제 2회 전국 대학생 사회적기업 우수사례발굴 경진대회",
+   "host": "사회적기업학회",
+   "url": "https://linkareer.com/activity/361079",
+   "officialUrl": "https://www.sea.re.kr/bbs/board.php?bo_table=notice&wr_id=125",
+   "applyStart": "2026-10-30",
+   "applyEnd": "2026-11-06",
+   "postedAt": "2026-10-30",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "학술, 기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361079"
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "devevent:https://event-us.kr/teammawd/event/138375",
    "source": "devevent",
    "title": "MAWD 대학생 START-UP HACKATHON",
@@ -1917,6 +1945,34 @@
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:361322",
+   "source": "linkareer",
+   "title": "2026 스마트시티(지식서비스산업) 아이디어 경진대회",
+   "host": "교육부",
+   "url": "https://linkareer.com/activity/361322",
+   "officialUrl": "https://www.hongik.ac.kr/kr/newscenter/notice.do?mode=view&articleNo=159505",
+   "applyStart": "2026-10-23",
+   "applyEnd": "2026-11-11",
+   "postedAt": "2026-11-02",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361322"
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:359962",
    "source": "linkareer",
    "title": "2026 의왕시 청년 e-Room 창업 아이디어 공모전 참가자 모집",
@@ -1979,6 +2035,36 @@
     "지역 불가"
    ],
    "reasonText": "'의왕시' 지역 한정으로 보여요."
+  },
+  {
+   "id": "kstartup:179677",
+   "source": "kstartup",
+   "title": "2026년 대전 테스트베드 연계사업 공모",
+   "host": "한국수자원공사",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179677",
+   "officialUrl": null,
+   "applyStart": "2026-10-28",
+   "applyEnd": "2026-11-11",
+   "postedAt": "2026-11-02",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "공공, 기술개발(R&D)",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179677"
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:360224",
@@ -2629,7 +2715,7 @@
   {
    "id": "linkareer:361137",
    "source": "linkareer",
-   "title": "2026 현장문제 AX 아이디어 해커톤 참가자 모집",
+   "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
    "host": "주식회사 어치브모먼트",
    "url": "https://linkareer.com/activity/361137",
    "officialUrl": "https://www.blaybus.com",
@@ -2683,6 +2769,36 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:361293",
+   "source": "linkareer",
+   "title": "[과학기술정보통신부] AI 달인 꿀팁 챌린지 시즌4",
+   "host": "과학기술정보통신부",
+   "url": "https://linkareer.com/activity/361293",
+   "officialUrl": "https://www.msit.go.kr",
+   "applyStart": "2026-11-02",
+   "applyEnd": "2026-11-20",
+   "postedAt": "2026-11-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 과학/공학",
+   "tags": [
+    "ai",
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361293"
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:359517",
@@ -3107,6 +3223,37 @@
    "reasonText": "'경산시' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:361356",
+   "source": "linkareer",
+   "title": "2026 경산시 AI 미디어 콘텐츠 공모전 「AI·스마트도시·YOUR STORY」",
+   "host": "경산시",
+   "url": "https://linkareer.com/activity/361356",
+   "officialUrl": null,
+   "applyStart": "2026-11-09",
+   "applyEnd": "2026-11-23",
+   "postedAt": "2026-11-02",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361356"
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경산시' 지역 한정으로 보여요."
+  },
+  {
    "id": "wevity:111819",
    "source": "wevity",
    "title": "2026 한국세라믹기술원 AI 영상 공모전 (세라믹이 사라진 세상)",
@@ -3346,37 +3493,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:360717",
-   "source": "linkareer",
-   "title": "2026 문경시 관광 AI 영상 공모전",
-   "host": "(주)슬레이트미디어",
-   "url": "https://linkareer.com/activity/360717",
-   "officialUrl": "https://www.videocon.io",
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-11-30",
-   "postedAt": "2026-10-29",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/360717"
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'문경시' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:110305",
@@ -3677,44 +3793,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111222",
-   "source": "wevity",
-   "title": "NEXMUSE AI Music Video Contest 2027",
-   "host": "주식회사 에이아이아트",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-   "officialUrl": "https://nexmuse.kr/",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-12-28",
-   "postedAt": null,
-   "prize": "3천만원~1천만원 · 1등 1,000만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-12-28",
-      "prize": "3천만원~1천만원 · 1등 1,000만원",
-      "officialUrl": "https://nexmuse.kr/",
-      "target": "일반인, 대학생, 청소년"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-02",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
    "id": "wevity:111800",
    "source": "wevity",
    "title": "2026 AI 플레이 콘텐츠 제작 공모전",
@@ -3879,6 +3957,48 @@
     "대상 불가"
    ],
    "reasonText": "'대전' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
+   "id": "wevity:112066",
+   "source": "wevity",
+   "title": "2026–27 스토리리그 AI 영상 예고편 공모전",
+   "host": "TNJ INTERNATIONAL",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112066",
+   "officialUrl": "https://storyleague.co.kr/",
+   "applyStart": "2026-11-30",
+   "applyEnd": "2027-01-30",
+   "postedAt": "2026-11-02",
+   "prize": "1천만원이하 · 1등 200만원",
+   "place": null,
+   "target": "일반인, 대학생, 청소년",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/361280"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112066",
+     "_detail": {
+      "applyStart": "2026-11-30",
+      "applyEnd": "2027-01-30",
+      "prize": "1천만원이하 · 1등 200만원",
+      "officialUrl": "https://storyleague.co.kr/",
+      "target": "일반인, 대학생, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-02",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "kstartup:177113",
