@@ -1,129 +1,35 @@
 {
- "generatedAt": "2026-11-03T14:18:00.963Z",
- "today": "2026-11-03",
+ "generatedAt": "2026-11-03T23:25:04.045Z",
+ "today": "2026-11-04",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 60,
-   "fetchedAt": "2026-11-03T14:18:00.916Z"
+   "count": 58,
+   "fetchedAt": "2026-11-03T23:25:04.010Z"
   },
   "hola": {
    "ok": true,
-   "count": 42,
-   "fetchedAt": "2026-11-03T14:18:00.916Z"
+   "count": 40,
+   "fetchedAt": "2026-11-03T23:25:04.010Z"
   },
   "wevity": {
    "ok": true,
-   "count": 37,
-   "fetchedAt": "2026-11-03T14:18:00.916Z"
+   "count": 36,
+   "fetchedAt": "2026-11-03T23:25:04.010Z"
   },
   "devevent": {
    "ok": true,
-   "count": 17,
-   "fetchedAt": "2026-11-03T14:18:00.916Z"
+   "count": 16,
+   "fetchedAt": "2026-11-03T23:25:04.010Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-11-03T14:18:00.916Z"
+   "fetchedAt": "2026-11-03T23:25:04.010Z"
   }
  },
- "count": 124,
+ "count": 120,
  "items": [
-  {
-   "id": "hola:6abe8b21ee012963f80ebe57",
-   "source": "hola",
-   "title": "2026 전국 대학생 SW 창업아이디어톤",
-   "host": "한양대 ERICA SW중심대학사업단",
-   "url": "https://holaworld.io/hola-it/6abe8b21ee012963f80ebe57",
-   "officialUrl": "https://histarter.wixsite.com/2026ericasw",
-   "applyStart": "2026-09-28",
-   "applyEnd": "2026-11-01",
-   "eventStart": "2026-09-28",
-   "eventEnd": "2026-11-01",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": "오프라인 · 온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b21ee012963f80ebe57"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6abe8b20ee012963f80ebe4d",
-   "source": "hola",
-   "title": "2026년 제천시 AI 활용 데이터 분석 아이디어 공모전",
-   "host": "충청북도 제천시",
-   "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d",
-   "officialUrl": "https://www.jecheon.go.kr/www/selectBbsNttView.do?key=5233&id=&&bbsNo=18&nttNo=404261&searchCtgry=&searchCnd=&searchKrwd=&pageIndex=1&integrDeptCode=",
-   "applyStart": "2026-09-28",
-   "applyEnd": "2026-11-01",
-   "eventStart": "2026-09-28",
-   "eventEnd": "2026-11-01",
-   "postedAt": "2026-10-02",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6abe8b20ee012963f80ebe4d"
-    }
-   ],
-   "firstSeen": "2026-11-02",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'제천시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "devevent:https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
-   "source": "devevent",
-   "title": "쿵야 IP를 활용한 로블록스(Roblox) 게임 콘텐츠 제작 공모전",
-   "host": "넷마블엠엔비",
-   "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
-   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895",
-   "applyStart": "2026-09-11",
-   "applyEnd": "2026-11-01",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, 기술일반",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://www.wevity.com/?c=find&s=1&gbn=view&ix=110895"
-    }
-   ],
-   "firstSeen": "2026-11-02",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "devevent:https://dacon.io/competitions/official/236771/overview/description",
    "source": "devevent",
@@ -219,89 +125,43 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:360003",
-   "source": "linkareer",
-   "title": "[바르면 살빠지는 케이스키니] 사용챌린지 영상 공모전 (턱살 케어 챌린지)",
-   "host": "엘팸",
-   "url": "https://linkareer.com/activity/360003",
-   "officialUrl": "https://www.kskinny.co.kr/",
-   "applyStart": "2026-10-27",
-   "applyEnd": "2026-11-03",
-   "postedAt": "2026-10-27",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/360003"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111884",
-   "source": "wevity",
+   "id": "hola:6adf16c7b2e45876ca663798",
+   "source": "hola",
    "title": "2026 청도 바이브코딩 해커톤 with 해커그라운드",
-   "host": "해커그라운드",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111884",
+   "host": "해커그라운드, 대구한의대학교",
+   "url": "https://holaworld.io/hola-it/6adf16c7b2e45876ca663798",
    "officialUrl": "https://hackersground.kr",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-03",
-   "postedAt": "2026-10-23",
-   "prize": "1천만원이하",
-   "place": "오프라인 · 청도 신화랑풍류마을 다목적홀",
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "게임/소프트웨어",
+   "eventStart": "2026-10-23",
+   "eventEnd": "2026-11-03",
+   "postedAt": "2026-10-26",
+   "prize": null,
+   "place": "오프라인",
+   "target": null,
+   "sourceCategory": "해커톤",
    "tags": [
-    "ai",
-    "dev"
+    "dev",
+    "ai"
    ],
-   "eventStart": "2026-11-05",
-   "eventEnd": "2026-11-06",
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359305"
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6adf16c7b2e45876ca663798"
     },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c2b2e45876ca663784"
     },
     {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c7b2e45876ca663798"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111884",
-     "_detail": {
-      "applyStart": "2026-10-23",
-      "applyEnd": "2026-11-03",
-      "prize": "1천만원이하",
-      "officialUrl": "https://hackersground.kr",
-      "target": "일반인, 대학생, 청소년"
-     }
-    },
-    {
      "source": "devevent",
      "url": "https://hackersground.kr/"
     }
    ],
-   "firstSeen": "2026-10-24",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
+   "firstSeen": "2026-11-04",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:360443",
