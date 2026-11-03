@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-11-02T15:57:21.616Z",
+ "generatedAt": "2026-11-03T00:59:46.064Z",
  "today": "2026-11-03",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 58,
-   "fetchedAt": "2026-11-02T15:57:21.581Z"
+   "fetchedAt": "2026-11-03T00:59:46.028Z"
   },
   "hola": {
    "ok": true,
    "count": 30,
-   "fetchedAt": "2026-11-02T15:57:21.581Z"
+   "fetchedAt": "2026-11-03T00:59:46.028Z"
   },
   "wevity": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-11-02T15:57:21.581Z"
+   "fetchedAt": "2026-11-03T00:59:46.028Z"
   },
   "devevent": {
    "ok": true,
    "count": 17,
-   "fetchedAt": "2026-11-02T15:57:21.581Z"
+   "fetchedAt": "2026-11-03T00:59:46.028Z"
   },
   "kstartup": {
    "ok": true,
    "count": 13,
-   "fetchedAt": "2026-11-02T15:57:21.581Z"
+   "fetchedAt": "2026-11-03T00:59:46.028Z"
   }
  },
  "count": 117,
@@ -258,15 +258,15 @@
    "applyEnd": "2026-11-03",
    "postedAt": "2026-10-23",
    "prize": "1천만원이하",
-   "place": "오프라인",
+   "place": "오프라인 · 청도 신화랑풍류마을 다목적홀",
    "target": "일반인, 대학생, 청소년",
    "sourceCategory": "게임/소프트웨어",
    "tags": [
     "ai",
     "dev"
    ],
-   "eventStart": "2026-10-23",
-   "eventEnd": "2026-11-03",
+   "eventStart": "2026-11-05",
+   "eventEnd": "2026-11-06",
    "sources": [
     {
      "source": "linkareer",
@@ -274,11 +274,11 @@
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c7b2e45876ca663798"
+     "url": "https://holaworld.io/hola-it/6adf16c2b2e45876ca663784"
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c2b2e45876ca663784"
+     "url": "https://holaworld.io/hola-it/6adf16c7b2e45876ca663798"
     },
     {
      "source": "wevity",
