@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-04T19:47:24.643Z",
+ "generatedAt": "2026-11-05T06:49:54.566Z",
  "today": "2026-11-05",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 60,
-   "fetchedAt": "2026-11-04T19:47:24.606Z"
+   "fetchedAt": "2026-11-05T06:49:54.533Z"
   },
   "hola": {
    "ok": true,
    "count": 40,
-   "fetchedAt": "2026-11-04T19:47:24.606Z"
+   "fetchedAt": "2026-11-05T06:49:54.533Z"
   },
   "wevity": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-11-04T19:47:24.606Z"
+   "fetchedAt": "2026-11-05T06:49:54.533Z"
   },
   "devevent": {
    "ok": true,
    "count": 17,
-   "fetchedAt": "2026-11-04T19:47:24.606Z"
+   "fetchedAt": "2026-11-05T06:49:54.533Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-11-04T19:47:24.606Z"
+   "count": 13,
+   "fetchedAt": "2026-11-05T06:49:54.533Z"
   }
  },
- "count": 123,
+ "count": 122,
  "items": [
   {
    "id": "hola:6adf16c6b2e45876ca663793",
@@ -303,34 +303,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "kstartup:179625",
-   "source": "kstartup",
-   "title": "2026 신한금융희망재단 - 함께일하는재단, 사회연대경제 먹거리 으뜸경연대회 참여기업 모집",
-   "host": "(재)함께일하는재단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179625",
-   "officialUrl": null,
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-05",
-   "postedAt": "2026-10-28",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 사업화",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179625"
-    }
-   ],
-   "firstSeen": "2026-10-28",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:110273",
