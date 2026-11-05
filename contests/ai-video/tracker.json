@@ -4726,7 +4726,8 @@
   {
    "id": "volunteer-ai-20s",
    "sourceIds": [
-    "linkareer:362053"
+    "linkareer:362053",
+    "wevity:112075"
    ],
    "addedAt": "2026-11-04",
    "priority": "S",
