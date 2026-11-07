@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-07T06:00:15.077Z",
+ "generatedAt": "2026-11-07T13:04:18.298Z",
  "today": "2026-11-07",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 56,
-   "fetchedAt": "2026-11-07T06:00:15.040Z"
+   "count": 57,
+   "fetchedAt": "2026-11-07T13:04:18.256Z"
   },
   "hola": {
    "ok": true,
    "count": 36,
-   "fetchedAt": "2026-11-07T06:00:15.041Z"
+   "fetchedAt": "2026-11-07T13:04:18.256Z"
   },
   "wevity": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-11-07T06:00:15.041Z"
+   "fetchedAt": "2026-11-07T13:04:18.256Z"
   },
   "devevent": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-11-07T06:00:15.041Z"
+   "fetchedAt": "2026-11-07T13:04:18.256Z"
   },
   "kstartup": {
    "ok": true,
    "count": 12,
-   "fetchedAt": "2026-11-07T06:00:15.041Z"
+   "fetchedAt": "2026-11-07T13:04:18.256Z"
   }
  },
- "count": 114,
+ "count": 115,
  "items": [
   {
    "id": "hola:6ad48a78b2e45876ca5921b4",
@@ -1865,6 +1865,34 @@
     "지역 불가"
    ],
    "reasonText": "'완주군' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:362868",
+   "source": "linkareer",
+   "title": "토마토들 학생회 아이디어톤",
+   "host": "주식회사 리에이크",
+   "url": "https://linkareer.com/activity/362868",
+   "officialUrl": "https://tally.so/r/zENKka?utm_source=linkareer&utm_medium=referral&utm_campaign=idea_student&utm_id=idea_261120",
+   "applyStart": "2026-11-06",
+   "applyEnd": "2026-11-15",
+   "postedAt": "2026-11-07",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/362868"
+    }
+   ],
+   "firstSeen": "2026-11-07",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111802",
