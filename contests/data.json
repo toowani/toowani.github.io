@@ -1,98 +1,35 @@
 {
- "generatedAt": "2026-11-07T13:04:18.298Z",
- "today": "2026-11-07",
+ "generatedAt": "2026-11-07T21:52:49.567Z",
+ "today": "2026-11-08",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 57,
-   "fetchedAt": "2026-11-07T13:04:18.256Z"
+   "fetchedAt": "2026-11-07T21:52:49.537Z"
   },
   "hola": {
    "ok": true,
-   "count": 36,
-   "fetchedAt": "2026-11-07T13:04:18.256Z"
+   "count": 34,
+   "fetchedAt": "2026-11-07T21:52:49.537Z"
   },
   "wevity": {
    "ok": true,
-   "count": 35,
-   "fetchedAt": "2026-11-07T13:04:18.256Z"
+   "count": 34,
+   "fetchedAt": "2026-11-07T21:52:49.537Z"
   },
   "devevent": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-11-07T13:04:18.256Z"
+   "fetchedAt": "2026-11-07T21:52:49.537Z"
   },
   "kstartup": {
    "ok": true,
    "count": 12,
-   "fetchedAt": "2026-11-07T13:04:18.256Z"
+   "fetchedAt": "2026-11-07T21:52:49.537Z"
   }
  },
- "count": 115,
+ "count": 112,
  "items": [
-  {
-   "id": "hola:6ad48a78b2e45876ca5921b4",
-   "source": "hola",
-   "title": "2026 데이터+AI 혁신 챌린지 데이터 문제해결 부문 경진대회 <참가 수기 이벤트>",
-   "host": "과학기술정보통신부, 한국데이터산업진흥원",
-   "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4",
-   "officialUrl": "https://kdata.or.kr/datahub/portal/support/board/6/23",
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-05",
-   "eventStart": "2026-10-23",
-   "eventEnd": "2026-11-05",
-   "postedAt": "2026-10-18",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad48a78b2e45876ca5921b4"
-    }
-   ],
-   "firstSeen": "2026-11-06",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6aae271ffdf75b86efb99eae",
-   "source": "hola",
-   "title": "2026 스페이스 해커톤",
-   "host": "우주항공청 / 한국항공우주연구원, 경상국립대학교, 경상남도 진주시",
-   "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eae",
-   "officialUrl": "https://space-hackathon.kr/",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-11-05",
-   "eventStart": "2026-09-14",
-   "eventEnd": "2026-11-05",
-   "postedAt": "2026-09-19",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aae271ffdf75b86efb99eae"
-    }
-   ],
-   "firstSeen": "2026-11-06",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'진주시' 지역 한정으로 보여요."
-  },
   {
    "id": "devevent:https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
    "source": "devevent",
@@ -283,41 +220,6 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "wevity:111624",
-   "source": "wevity",
-   "title": "한미일 미래협력 아이디어 챌린지 공모전",
-   "host": "외교부",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111624",
-   "officialUrl": "https://www.mofa.go.kr/www/brd/m_4075/view.do?seq=369459&page=1&pitem=10",
-   "applyStart": "2026-10-16",
-   "applyEnd": "2026-11-07",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 50만원",
-   "place": null,
-   "target": "대학생, 기타",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111624",
-     "_detail": {
-      "applyStart": "2026-10-16",
-      "applyEnd": "2026-11-07",
-      "prize": "1천만원이하 · 1등 50만원",
-      "officialUrl": "https://www.mofa.go.kr/www/brd/m_4075/view.do?seq=369459&page=1&pitem=10",
-      "target": "대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-17",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111087",
