@@ -272,3 +272,9 @@ a.ref { color: var(--acc-glow); text-decoration: underline; text-underline-offse
   .kv dt { padding-top: 0.4rem; }
   .qa-main { padding: 0.9rem; }
 }
+
+/* AI 음악 대회 표시 */
+.badge-kind {
+  font-size: 0.62rem; font-weight: 800; letter-spacing: 0.04em; padding: 0.12rem 0.5rem; border-radius: var(--radius-pill);
+  color: var(--acc-glow); border: 1px solid var(--acc-glow); white-space: nowrap;
+}

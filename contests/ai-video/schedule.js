@@ -67,7 +67,7 @@
       // 일정 칩은 그 대회의 질문 페이지로 바로 가는 링크, 칸의 빈 곳은 날짜 선택
       var chips = evs.slice(0, MAX_CHIPS).map(function (e) {
         return '<a class="cal-chip k-' + e.kind + '" href="questions/#' + esc(e.c.id) + '" title="' +
-          esc(A.KIND_LABEL[e.kind] + " · " + e.c.title + " · " + e.text) + '">' + esc(A.shortName(e.c)) + "</a>";
+          esc(A.KIND_LABEL[e.kind] + " · " + e.c.title + " · " + e.text) + '">' + (/music/.test(e.c.kind || "") ? "♪ " : "") + esc(A.shortName(e.c)) + "</a>";
       }).join("");
       if (evs.length > MAX_CHIPS) chips += '<span class="cal-more">+' + (evs.length - MAX_CHIPS) + "</span>";
       var dots = evs.map(function (e) { return '<i class="k-' + e.kind + '"></i>'; }).join("");

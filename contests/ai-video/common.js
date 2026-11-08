@@ -73,7 +73,10 @@
   function shortName(c) { return c.short || c.title; }
   // 자동 수집으로 들어온 지 3일이 안 된 대회
   function isNew(c) { return isISO(c.addedAt) && daysUntil(c.addedAt) > -3; }
-  function newBadge(c) { return isNew(c) ? '<span class="badge-new">New</span> ' : ""; }
+  // AI 음악 대회는 영상 대회와 구분되게 표시한다 (kind 가 없으면 영상)
+  var KIND_BADGE = { music: "♪ 음악", "music+video": "♪ 음악+영상" };
+  function kindBadge(c) { return KIND_BADGE[c.kind] ? '<span class="badge-kind">' + KIND_BADGE[c.kind] + "</span> " : ""; }
+  function newBadge(c) { return (isNew(c) ? '<span class="badge-new">New</span> ' : "") + kindBadge(c); }
 
   function toast(msg) {
     var t = document.createElement("div");
