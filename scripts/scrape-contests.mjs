@@ -445,11 +445,43 @@ async function scrapeKStartup() {
    병합 · 출력
    ============================================================ */
 const SOURCE_PRIORITY = ["wevity", "linkareer", "kstartup", "hola", "devevent"];
+/* 사이트마다 제목을 조금씩 다르게 쓴다("참가자 모집", 「부제」, 띄어쓰기). 마감일이 같고
+   긴 공통 부분이 있거나 글자 쌍이 많이 겹치면 같은 대회로 본다 */
+function looseKey(t) {
+  return titleKey(String(t).replace(/「.*?」|‘.*?’|'.*?'|<.*?>/g, " "))
+    .replace(/참가자|참여자|참가팀|모집|공모전|공모|경진대회|대회|챌린지|콘테스트|이벤트|안내|해커톤|challenge|contest|hackathon|competition/g, "");
+}
+function bigrams(s) { const g = new Set(); for (let i = 0; i < s.length - 1; i++) g.add(s.slice(i, i + 2)); return g; }
+function longestCommon(a, b) {
+  let best = 0; const prev = new Array(b.length + 1).fill(0);
+  for (let i = 1; i <= a.length; i++) {
+    let diag = 0;
+    for (let j = 1; j <= b.length; j++) {
+      const tmp = prev[j];
+      prev[j] = a[i - 1] === b[j - 1] ? diag + 1 : 0;
+      if (prev[j] > best) best = prev[j];
+      diag = tmp;
+    }
+  }
+  return best;
+}
+function sameContest(x, y) {
+  if (!x.applyEnd || x.applyEnd !== y.applyEnd) return false;
+  const a = looseKey(x.title), b = looseKey(y.title);
+  if (!a || !b) return false;
+  if (longestCommon(a, b) >= Math.max(6, Math.min(8, a.length, b.length))) return true;
+  const ga = bigrams(a), gb = bigrams(b);
+  let hit = 0; for (const g of ga) if (gb.has(g)) hit++;
+  return (2 * hit) / (ga.size + gb.size || 1) >= 0.6;
+}
 function mergeDuplicates(items) {
   const byKey = new Map();
   for (const it of items) {
-    const k = titleKey(it.title);
+    let k = titleKey(it.title);
     if (!k) continue;
+    if (!byKey.has(k)) {
+      for (const [k2, v] of byKey) if (sameContest(v, it)) { k = k2; break; }
+    }
     const prev = byKey.get(k);
     if (!prev) {
       byKey.set(k, { ...it, sources: [{ source: it.source, url: it.url }] });

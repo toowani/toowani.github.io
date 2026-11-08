@@ -191,10 +191,30 @@
     tracker.contests.forEach(function (c) { (c.sourceIds || []).concat([c.id]).forEach(function (s) { known[s] = 1; }); });
     (tracker.ignoredIds || []).forEach(function (s) { known[s] = 1; });
     var today = A.todayISO();
+    // 같은 대회가 다른 사이트 공고로 또 잡힌 것: 마감이 3일 안쪽이고 제목에 긴 공통 부분이 있으면 같다고 본다
+    function key(t) {
+      return String(t || "").replace(/\[[^\]]*\]|\([^)]*\)|<[^>]*>|「|」|《|》|['"‘’“”]/g, " ")
+        .replace(/공모전|공고|콘테스트|챌린지|경진대회|참가자|모집|\d{4}|제\s*\d+\s*회/g, " ").replace(/\s+/g, "");
+    }
+    function common(a, b) {
+      var best = 0;
+      for (var i = 0; i < a.length; i++) for (var j = 0; j < b.length; j++) {
+        var n = 0; while (a[i + n] && a[i + n] === b[j + n]) n++;
+        if (n > best) best = n;
+      }
+      return best;
+    }
+    function near(a, b) { return a && b && Math.abs(A.daysUntil(a) - A.daysUntil(b)) <= 3; }
+    function same(x, y) { return near(x.applyEnd, y.applyEnd) && common(key(x.title), key(y.title)) >= 6; }
+    var shown = [];
     var fresh = items.filter(function (i) {
       var video = (i.tags || []).indexOf("video") >= 0 || /영상|숏폼|뮤직비디오|MV|필름/.test(i.title || "");
+      var music = /음악|노래|작곡|작사|뮤직|(?:^|[^방])송|song|music|음원|BGM|징글|가요/i.test(i.title || "");
       var ai = /AI|인공지능|생성형/i.test((i.title || "") + " " + (i.tags || []).join(" "));
-      return video && ai && !known[i.id] && (!i.applyEnd || i.applyEnd >= today);
+      if (!((video || music) && ai) || known[i.id] || (i.applyEnd && i.applyEnd < today)) return false;
+      if (tracker.contests.some(function (c) { return same(c, i); }) || shown.some(function (x) { return same(x, i); })) return false;
+      shown.push(i);
+      return true;
     }).sort(function (a, b) { return (a.applyEnd || "9") < (b.applyEnd || "9") ? -1 : 1; });
     if (!fresh.length) return;
     $("#new-block").hidden = false;
