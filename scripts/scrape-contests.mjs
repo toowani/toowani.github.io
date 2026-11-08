@@ -448,7 +448,8 @@ const SOURCE_PRIORITY = ["wevity", "linkareer", "kstartup", "hola", "devevent"];
 /* 사이트마다 제목을 조금씩 다르게 쓴다("참가자 모집", 「부제」, 띄어쓰기). 마감일이 같고
    긴 공통 부분이 있거나 글자 쌍이 많이 겹치면 같은 대회로 본다 */
 function looseKey(t) {
-  return titleKey(String(t).replace(/「.*?」|‘.*?’|'.*?'|<.*?>/g, " "))
+  // 「부제」·‘따옴표’ 안이 대회 이름인 경우가 많아서 괄호만 지우고 글자는 남긴다
+  return titleKey(String(t).replace(/[「」『』‘’'"<>]/g, " "))
     .replace(/참가자|참여자|참가팀|모집|공모전|공모|경진대회|대회|챌린지|콘테스트|이벤트|안내|해커톤|challenge|contest|hackathon|competition/g, "");
 }
 function bigrams(s) { const g = new Set(); for (let i = 0; i < s.length - 1; i++) g.add(s.slice(i, i + 2)); return g; }
@@ -465,42 +466,53 @@ function longestCommon(a, b) {
   }
   return best;
 }
-function sameContest(x, y) {
-  if (!x.applyEnd || x.applyEnd !== y.applyEnd) return false;
-  const a = looseKey(x.title), b = looseKey(y.title);
+/* 마감일이 같고 제목이 닮았으면 같은 대회: 긴 공통 부분(8자), 또는 6자 공통 + 글자 쌍이 꽤 겹침 */
+function sameTitle(ta, tb) {
+  const a = looseKey(ta), b = looseKey(tb);
   if (!a || !b) return false;
-  if (longestCommon(a, b) >= Math.max(6, Math.min(8, a.length, b.length))) return true;
+  if (a === b) return true;
+  const lc = longestCommon(a, b);
+  if (lc >= Math.max(6, Math.min(8, a.length, b.length))) return true;
   const ga = bigrams(a), gb = bigrams(b);
   let hit = 0; for (const g of ga) if (gb.has(g)) hit++;
-  return (2 * hit) / (ga.size + gb.size || 1) >= 0.6;
+  const dice = (2 * hit) / (ga.size + gb.size || 1);
+  return dice >= 0.6 || (lc >= 6 && dice >= 0.4);
+}
+function sameContest(x, y) {
+  if (!x.applyEnd || x.applyEnd !== y.applyEnd) return false;
+  return x._titles.some((t) => y._titles.some((u) => sameTitle(t, u)));
+}
+// 우선순위 높은 소스를 대표로, 빈 필드는 서로 채운다
+function mergeInto(prev, it) {
+  const a = SOURCE_PRIORITY.indexOf(prev.source);
+  const b = SOURCE_PRIORITY.indexOf(it.source);
+  const main = b < a ? { ...it } : { ...prev };
+  const other = b < a ? prev : it;
+  for (const f of ["host", "officialUrl", "applyStart", "applyEnd", "eventStart", "eventEnd", "postedAt", "prize", "place", "target", "sourceCategory"]) {
+    if (main[f] == null && other[f] != null) main[f] = other[f];
+  }
+  main.tags = [...new Set([...(prev.tags || []), ...(it.tags || [])])];
+  main.sources = [...prev.sources, ...it.sources];
+  main._titles = [...prev._titles, ...it._titles];
+  return main;
 }
 function mergeDuplicates(items) {
-  const byKey = new Map();
-  for (const it of items) {
-    let k = titleKey(it.title);
-    if (!k) continue;
-    if (!byKey.has(k)) {
-      for (const [k2, v] of byKey) if (sameContest(v, it)) { k = k2; break; }
+  let groups = [];
+  for (const raw of items) {
+    if (!titleKey(raw.title)) continue;
+    const it = { ...raw, sources: [{ source: raw.source, url: raw.url }], _titles: [raw.title] };
+    const hits = groups.filter((g) => g._keys.has(titleKey(raw.title)) || sameContest(g, it));
+    let merged = it;
+    merged._keys = new Set([titleKey(raw.title)]);
+    for (const g of hits) {
+      const keys = new Set([...g._keys, ...merged._keys]);
+      merged = mergeInto(g, merged);
+      merged._keys = keys;
     }
-    const prev = byKey.get(k);
-    if (!prev) {
-      byKey.set(k, { ...it, sources: [{ source: it.source, url: it.url }] });
-      continue;
-    }
-    // 우선순위 높은 소스를 대표로, 빈 필드는 서로 채운다
-    const a = SOURCE_PRIORITY.indexOf(prev.source);
-    const b = SOURCE_PRIORITY.indexOf(it.source);
-    const main = b < a ? { ...it } : { ...prev };
-    const other = b < a ? prev : it;
-    for (const f of ["host", "officialUrl", "applyStart", "applyEnd", "eventStart", "eventEnd", "postedAt", "prize", "place", "target", "sourceCategory"]) {
-      if (main[f] == null && other[f] != null) main[f] = other[f];
-    }
-    main.tags = [...new Set([...(prev.tags || []), ...(it.tags || [])])];
-    main.sources = [...prev.sources, { source: it.source, url: it.url }];
-    main.id = main.sources.map((s) => s.source).includes(main.source) ? main.id : prev.id;
-    byKey.set(k, main);
+    groups = groups.filter((g) => !hits.includes(g));
+    groups.push(merged);
   }
-  return [...byKey.values()];
+  return groups.map(({ _titles, _keys, ...g }) => g);
 }
 
 async function main() {
