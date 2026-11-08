@@ -149,7 +149,7 @@
 
   function icsEsc(s) { return String(s).replace(/([,;])/g, "\\$1").replace(/\n/g, "\\n"); }
   function downloadICS(tracker) {
-    var lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//toowani//ai-video-tracker//KO", "CALSCALE:GREGORIAN", "X-WR-CALNAME:AI 영상 공모전"];
+    var lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//toowani//ai-video-tracker//KO", "CALSCALE:GREGORIAN", "X-WR-CALNAME:AI 영상·음악 공모전"];
     var stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
     tracker.contests.filter(function (c) { return c.stage !== "skip"; }).forEach(function (c) {
       eventsOf(c).forEach(function (e) {

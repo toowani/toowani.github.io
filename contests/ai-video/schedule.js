@@ -183,7 +183,7 @@
     }
   }
 
-  // ---------- 아직 분석하지 않은 AI 영상 공모전 ----------
+  // ---------- 아직 분석하지 않은 AI 영상·음악 공모전 ----------
   function renderNew(radar) {
     if (!radar) return;
     var items = radar.items || Object.keys(radar).map(function (k) { return radar[k]; }).filter(Array.isArray)[0] || [];
