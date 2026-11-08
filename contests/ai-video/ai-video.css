@@ -278,3 +278,12 @@ a.ref { color: var(--acc-glow); text-decoration: underline; text-underline-offse
   font-size: 0.62rem; font-weight: 800; letter-spacing: 0.04em; padding: 0.12rem 0.5rem; border-radius: var(--radius-pill);
   color: var(--acc-glow); border: 1px solid var(--acc-glow); white-space: nowrap;
 }
+
+/* 관심 없는 대회 숨기기 */
+.hide-btn {
+  font: inherit; font-size: 0.66rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: var(--radius-pill);
+  border: 1px dashed var(--line); background: transparent; color: var(--fg-dim); cursor: pointer; white-space: nowrap;
+}
+.hide-btn:hover { color: var(--fg); border-color: var(--line-strong); }
+.new-row .hide-btn { margin-left: auto; }
+.qa-item.hidden-item { opacity: 0.55; }

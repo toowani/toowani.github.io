@@ -15,7 +15,18 @@
 
   A.load("../").then(function (res) {
     tracker = res[0];
-    // 패스한 대회는 빼고, 답변 대기 → 그 밖의 진행 중 → 제출 끝난 순서
+    sortList();
+    A.onHideClick(function () { sortList(); renderSide(); if (current) renderMain(current); });
+    var id = decodeURIComponent(location.hash.slice(1));
+    var first = list.filter(function (c) { return group(c) < 3; })[0] || list[0];
+    select(list.some(function (c) { return c.id === id; }) ? id : (first && first.id), false);
+    window.addEventListener("hashchange", function () { select(decodeURIComponent(location.hash.slice(1)), false); });
+  }).catch(function (e) {
+    $("#qa-side").innerHTML = '<p class="empty-note">불러오기 실패: ' + esc(e.message) + "</p>";
+  });
+
+  // 패스한 대회는 빼고, 답변 대기 → 그 밖의 진행 중 → 제출 끝난 순서, 숨긴 대회는 맨 아래
+  function sortList() {
     list = tracker.contests.filter(function (c) { return c.stage !== "skip"; }).sort(function (a, b) {
       var ga = group(a), gb = group(b);
       if (ga !== gb) return ga - gb;
@@ -24,16 +35,12 @@
       if (pa !== pb) return pa - pb;
       return (a.applyEnd || "9") < (b.applyEnd || "9") ? -1 : 1;
     });
-    var wait = list.filter(function (c) { return c.stage === "answer"; }).length;
+    var wait = list.filter(function (c) { return group(c) === 0; }).length;
     $("#tab-wait").textContent = wait || "";
-    var id = decodeURIComponent(location.hash.slice(1));
-    select(list.some(function (c) { return c.id === id; }) ? id : (list[0] && list[0].id), false);
-    window.addEventListener("hashchange", function () { select(decodeURIComponent(location.hash.slice(1)), false); });
-  }).catch(function (e) {
-    $("#qa-side").innerHTML = '<p class="empty-note">불러오기 실패: ' + esc(e.message) + "</p>";
-  });
+  }
 
   function group(c) {
+    if (A.isHidden(c.id)) return 3;
     if (c.stage === "answer") return 0;
     return A.stageIndex(c.stage) >= A.stageIndex("submitted") ? 2 : 1;
   }
@@ -50,7 +57,7 @@
   }
 
   // ---------- sidebar ----------
-  var GROUP_LABEL = ["답변 대기", "진행 중", "제출 완료"];
+  var GROUP_LABEL = ["답변 대기", "진행 중", "제출 완료", "숨긴 대회"];
   function renderSide() {
     var html = "", last = -1;
     list.forEach(function (c) {
@@ -61,8 +68,8 @@
       var sent = A.lsGet(sentKey(c.id));
       var badge = g === 0 && qn ? (sent ? '<span class="qa-badge ok">보냄</span>' : '<span class="qa-badge' + (an === qn ? " ok" : "") + '">' + an + "/" + qn + "</span>")
         : '<span class="qa-badge dim">' + esc(A.stageName(c)) + "</span>";
-      html += '<a class="qa-item' + (current && current.id === c.id ? " on" : "") + '" href="#' + esc(c.id) + '">' +
-        '<span class="qa-dd' + (g < 2 && n != null && n <= 7 ? " hot" : "") + '">' + (g === 2 || n == null ? "–" : A.ddayText(n)) + "</span>" +
+      html += '<a class="qa-item' + (current && current.id === c.id ? " on" : "") + (g === 3 ? " hidden-item" : "") + '" href="#' + esc(c.id) + '">' +
+        '<span class="qa-dd' + (g < 2 && n != null && n <= 7 ? " hot" : "") + '">' + (g >= 2 || n == null ? "–" : A.ddayText(n)) + "</span>" +
         '<span class="qa-name"><b>' + A.newBadge(c) + (c.priority ? '<span class="prio p-' + esc(c.priority) + '">' + esc(c.priority) + "</span> " : "") + esc(A.shortName(c)) + "</b>" +
           '<small>' + esc(c.title) + "</small></span>" +
         badge + "</a>";
@@ -96,7 +103,8 @@
         (c.announceDate ? '<span class="period">발표 <b>' + esc(c.announceDate) + "</b></span>" : "") +
         (c.firstPrize ? '<span class="prize">1등 ' + A.won(c.firstPrize) + "</span>" : "") + "</div>" +
       A.stageBars(c) +
-      '<div class="tags"><span class="stage-label">' + esc(A.stageName(c)) + "</span><span class=\"tag\">" + esc(A.STAGE_HINT[c.stage] || "") + "</span></div>" +
+      '<div class="tags"><span class="stage-label">' + esc(A.stageName(c)) + "</span><span class=\"tag\">" + esc(A.STAGE_HINT[c.stage] || "") + "</span>" +
+        A.hideBtn(c.id) + "</div>" +
     "</header>";
 
     html += '<dl class="kv brief">' +

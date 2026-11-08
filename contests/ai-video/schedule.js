@@ -5,7 +5,7 @@
 (function () {
   "use strict";
   var A = window.AIV, $ = A.$, esc = A.esc;
-  var tracker = null, events = [], byDate = {};
+  var tracker = null, radarData = null, events = [], byDate = {};
   var view = new Date(); view.setDate(1);
   var selected = A.todayISO();
   var MAX_CHIPS = 3;
@@ -14,15 +14,18 @@
   A.initWidth("calendar", "normal");
 
   A.load("").then(function (res) {
-    tracker = res[0];
-    render(res[1]);
+    tracker = res[0]; radarData = res[1];
+    render(radarData);
+    A.onHideClick(function () { render(radarData); });
   }).catch(function (e) {
     $("#updated").textContent = "불러오기 실패: " + e.message;
   });
 
   function render(radar) {
     var cs = tracker.contests;
-    var live = cs.filter(function (c) { return c.stage !== "skip"; });
+    events = []; byDate = {};
+    var hidden = cs.filter(function (c) { return c.stage !== "skip" && A.isHidden(c.id); });
+    var live = cs.filter(function (c) { return c.stage !== "skip" && !A.isHidden(c.id); });
     var wait = cs.filter(function (c) { return c.stage === "answer"; }).length;
     $("#updated").textContent = "보드 갱신 " + (tracker.updatedAt || "?") + " · 대회 " + cs.length + "개 (진행 " + live.length + " · 패스 " + (cs.length - live.length) + ")";
     $("#st-wait").textContent = wait;
@@ -46,7 +49,7 @@
     renderCalendar();
     renderDay();
     renderStatus(live, cs.filter(function (c) { return c.stage === "skip"; }));
-    renderNew(radar);
+    renderNew(radar, hidden);
   }
 
   // ---------- calendar ----------
@@ -165,7 +168,8 @@
       "</div>" +
       '<div class="srow-side">' + (c.firstPrize ? '<span class="prize">1등 ' + A.won(c.firstPrize) + "</span>" : "") +
         (c.stage === "skip" ? "" : ask ? '<a class="act go" href="questions/#' + esc(c.id) + '">질문 답하기 →</a>'
-          : '<a class="act" href="questions/#' + esc(c.id) + '">상세</a>') + "</div>" +
+          : '<a class="act" href="questions/#' + esc(c.id) + '">상세</a>') +
+        (c.stage === "skip" ? "" : A.hideBtn(c.id)) + "</div>" +
     "</div>";
   }
 
@@ -184,8 +188,22 @@
   }
 
   // ---------- 아직 분석하지 않은 AI 영상·음악 공모전 ----------
-  function renderNew(radar) {
-    if (!radar) return;
+  function newRow(i) {
+    return '<div class="new-row"><span class="d">' + (i.applyEnd ? A.ddayText(A.daysUntil(i.applyEnd)) : "미정") + "</span>" +
+      '<a href="' + esc(i.officialUrl || i.url) + '" target="_blank" rel="noopener">' + esc(i.title) + "</a>" +
+      '<span class="tag">' + esc(i.host || "") + "</span>" + A.hideBtn(i.id) + "</div>";
+  }
+  // 숨긴 대회: 보드 대회와 아직 분석 전인 레이더 공고를 함께 모아 되돌릴 수 있게 한다
+  function renderHidden(contests, radarItems) {
+    var n = contests.length + radarItems.length;
+    $("#hidden-block").hidden = !n;
+    $("#hidden-summary").textContent = "숨긴 대회 " + n + "개";
+    $("#hidden-list").innerHTML = contests.map(statusRow).join("") +
+      (radarItems.length ? '<div class="new-list">' + radarItems.map(newRow).join("") + "</div>" : "");
+  }
+
+  function renderNew(radar, hiddenContests) {
+    if (!radar) { renderHidden(hiddenContests, []); return; }
     var items = radar.items || Object.keys(radar).map(function (k) { return radar[k]; }).filter(Array.isArray)[0] || [];
     var known = {};
     tracker.contests.forEach(function (c) { (c.sourceIds || []).concat([c.id]).forEach(function (s) { known[s] = 1; }); });
@@ -206,7 +224,7 @@
     }
     function near(a, b) { return a && b && Math.abs(A.daysUntil(a) - A.daysUntil(b)) <= 3; }
     function same(x, y) { return near(x.applyEnd, y.applyEnd) && common(key(x.title), key(y.title)) >= 6; }
-    var shown = [];
+    var shown = [], hiddenRadar = [];
     var fresh = items.filter(function (i) {
       var video = (i.tags || []).indexOf("video") >= 0 || /영상|숏폼|뮤직비디오|MV|필름/.test(i.title || "");
       var music = /음악|노래|작곡|작사|뮤직|(?:^|[^방])송|song|music|음원|BGM|징글|가요/i.test(i.title || "");
@@ -214,14 +232,11 @@
       if (!((video || music) && ai) || known[i.id] || (i.applyEnd && i.applyEnd < today)) return false;
       if (tracker.contests.some(function (c) { return same(c, i); }) || shown.some(function (x) { return same(x, i); })) return false;
       shown.push(i);
+      if (A.isHidden(i.id)) { hiddenRadar.push(i); return false; }
       return true;
     }).sort(function (a, b) { return (a.applyEnd || "9") < (b.applyEnd || "9") ? -1 : 1; });
-    if (!fresh.length) return;
-    $("#new-block").hidden = false;
-    $("#new-list").innerHTML = fresh.map(function (i) {
-      return '<div class="new-row"><span class="d">' + (i.applyEnd ? A.ddayText(A.daysUntil(i.applyEnd)) : "미정") + "</span>" +
-        '<a href="' + esc(i.officialUrl || i.url) + '" target="_blank" rel="noopener">' + esc(i.title) + "</a>" +
-        '<span class="tag">' + esc(i.host || "") + "</span></div>";
-    }).join("");
+    renderHidden(hiddenContests, hiddenRadar);
+    $("#new-block").hidden = !fresh.length;
+    $("#new-list").innerHTML = fresh.map(newRow).join("");
   }
 })();

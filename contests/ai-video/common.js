@@ -121,6 +121,33 @@
     });
   }
 
+  // 관심 없는 대회 숨기기. 이 브라우저에만 저장되고, 두 페이지가 같은 목록을 쓴다
+  var HIDE_KEY = "wani-aiv-hidden";
+  function hiddenIds() { try { return JSON.parse(lsGet(HIDE_KEY) || "[]"); } catch (e) { return []; } }
+  function isHidden(id) { return hiddenIds().indexOf(id) >= 0; }
+  function setHidden(id, on) {
+    var h = hiddenIds().filter(function (x) { return x !== id; });
+    if (on) h.push(id);
+    lsSet(HIDE_KEY, JSON.stringify(h));
+  }
+  function hideBtn(id) {
+    var on = isHidden(id);
+    return '<button type="button" class="hide-btn" data-hide="' + esc(id) + '" title="' + (on ? "다시 보이기" : "관심 없음: 목록과 캘린더에서 숨기기") + '">' +
+      (on ? "↺ 다시 보기" : "✕ 숨기기") + "</button>";
+  }
+  // [data-hide] 버튼을 누르면 숨김을 뒤집고 다시 그린다
+  function onHideClick(rerender) {
+    document.addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-hide]");
+      if (!b) return;
+      ev.preventDefault(); ev.stopPropagation();
+      var id = b.dataset.hide, on = !isHidden(id);
+      setHidden(id, on);
+      toast(on ? "숨겼어요. 아래 '숨긴 대회'에서 되돌릴 수 있어요" : "다시 보이게 했어요");
+      rerender();
+    });
+  }
+
   // 마감 > 발표 > 시상 > 기타 순으로, 같은 날 같은 대회 일정은 하나만 남긴다
   function eventsOf(c) {
     var ev = [];
@@ -180,7 +207,7 @@
     STAGES: STAGES, STAGE_HINT: STAGE_HINT, KIND_LABEL: KIND_LABEL,
     $: $, lsGet: lsGet, lsSet: lsSet, esc: esc, rich: rich, pad: pad, isISO: isISO, toISO: toISO, todayISO: todayISO,
     daysUntil: daysUntil, ddayText: ddayText, won: won, stageIndex: stageIndex, stageName: stageName,
-    stageBars: stageBars, shortName: shortName, isNew: isNew, newBadge: newBadge, toast: toast, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
+    stageBars: stageBars, shortName: shortName, isNew: isNew, newBadge: newBadge, toast: toast, isHidden: isHidden, hiddenIds: hiddenIds, hideBtn: hideBtn, onHideClick: onHideClick, initTheme: initTheme, initWidth: initWidth, eventsOf: eventsOf,
     load: load, downloadICS: downloadICS
   };
 })();
