@@ -1,193 +1,35 @@
 {
- "generatedAt": "2026-11-08T13:27:18.586Z",
- "today": "2026-11-08",
+ "generatedAt": "2026-11-08T22:07:49.710Z",
+ "today": "2026-11-09",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 55,
-   "fetchedAt": "2026-11-08T13:27:18.397Z"
+   "count": 52,
+   "fetchedAt": "2026-11-08T22:07:49.400Z"
   },
   "hola": {
    "ok": true,
-   "count": 32,
-   "fetchedAt": "2026-11-08T13:27:18.397Z"
+   "count": 29,
+   "fetchedAt": "2026-11-08T22:07:49.400Z"
   },
   "wevity": {
    "ok": true,
-   "count": 34,
-   "fetchedAt": "2026-11-08T13:27:18.397Z"
+   "count": 32,
+   "fetchedAt": "2026-11-08T22:07:49.400Z"
   },
   "devevent": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-11-08T13:27:18.397Z"
+   "count": 12,
+   "fetchedAt": "2026-11-08T22:07:49.400Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 12,
-   "fetchedAt": "2026-11-08T13:27:18.397Z"
+   "count": 9,
+   "fetchedAt": "2026-11-08T22:07:49.400Z"
   }
  },
- "count": 96,
+ "count": 84,
  "items": [
-  {
-   "id": "devevent:https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-   "source": "devevent",
-   "title": "2026 DATA·AI 분석 경진대회",
-   "host": "과학기술정보통신부 / 한국과학기술정보연구원(KISTI)",
-   "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-   "officialUrl": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-11-06",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do"
-    }
-   ],
-   "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ae214387f66f8754e36a19d",
-   "source": "hola",
-   "title": "2026년 제2회 Tech-GPT 서비스 경진대회",
-   "host": "39 안기훈",
-   "url": "https://holaworld.io/hola-it/6ae214387f66f8754e36a19d",
-   "officialUrl": "https://event-us.kr/techgpt2026/event/138551",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-06",
-   "eventStart": "2026-10-26",
-   "eventEnd": "2026-11-06",
-   "postedAt": "2026-10-29",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae214387f66f8754e36a19d"
-    }
-   ],
-   "firstSeen": "2026-11-07",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "devevent:https://resume-show-project.vercel.app/precourse.html",
-   "source": "devevent",
-   "title": "AI 헬스케어 미니 데이터 챌린지",
-   "host": "오즈코딩스쿨 · 데이콘",
-   "url": "https://resume-show-project.vercel.app/precourse.html",
-   "officialUrl": "https://resume-show-project.vercel.app/precourse.html",
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-11-06",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://resume-show-project.vercel.app/precourse.html"
-    }
-   ],
-   "firstSeen": "2026-11-01",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6adf16c9b2e45876ca6637a7",
-   "source": "hola",
-   "title": "TRILLION AGENT AI HACKATHON 2026",
-   "host": "트릴리온랩스(Trillion Labs)",
-   "url": "https://holaworld.io/hola-it/6adf16c9b2e45876ca6637a7",
-   "officialUrl": "https://hackathon.trillionlabs.co/",
-   "applyStart": "2026-10-16",
-   "applyEnd": "2026-11-06",
-   "eventStart": "2026-10-16",
-   "eventEnd": "2026-11-06",
-   "postedAt": "2026-10-26",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c9b2e45876ca6637a7"
-    },
-    {
-     "source": "devevent",
-     "url": "https://hackathon.trillionlabs.co/"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(랩·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6acb3df4ee012963f81ccafe",
-   "source": "hola",
-   "title": "구름톤 아레나 2026 — 전국 프로그래밍 챔피언십",
-   "host": "주식회사 구름",
-   "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe",
-   "officialUrl": "https://raphael-at-goorm.github.io/goormthon-arena-2026/",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-11-06",
-   "eventStart": "2026-10-01",
-   "eventEnd": "2026-11-06",
-   "postedAt": "2026-10-11",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6acb3df4ee012963f81ccafe"
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "devevent:https://event-us.kr/teammawd/event/138375",
    "source": "devevent",
@@ -220,70 +62,6 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "wevity:111087",
-   "source": "wevity",
-   "title": "[의정부도시공사] AI 혁신 아이디어 공모전",
-   "host": "의정부도시공사",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111087",
-   "officialUrl": "https://www.uiuc.or.kr/companyNotice/noticePage/notice/view.do?bbsId=BBSMSTR_000000000001&nttId=5514",
-   "applyStart": "2026-09-15",
-   "applyEnd": "2026-11-08",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 20만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111087",
-     "_detail": {
-      "applyStart": "2026-09-15",
-      "applyEnd": "2026-11-08",
-      "prize": "1천만원이하 · 1등 20만원",
-      "officialUrl": "https://www.uiuc.or.kr/companyNotice/noticePage/notice/view.do?bbsId=BBSMSTR_000000000001&nttId=5514",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-31",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "kstartup:179676",
-   "source": "kstartup",
-   "title": "2026 별별상상 스타트업 챌린지",
-   "host": "주식회사 툰즈",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179676",
-   "officialUrl": null,
-   "applyStart": "2026-11-01",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-11-02",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179676"
-    }
-   ],
-   "firstSeen": "2026-11-03",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ad48a7ab2e45876ca5921c0",
@@ -319,98 +97,6 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:359801",
-   "source": "linkareer",
-   "title": "2026년 EBS AI교육 실습 도구 명칭 공모전",
-   "host": "EBS",
-   "url": "https://linkareer.com/activity/359801",
-   "officialUrl": null,
-   "applyStart": "2026-10-27",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-27",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "네이밍/슬로건",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359801"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359505"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:358665",
-   "source": "linkareer",
-   "title": "2026년 제4회 청소년 안전 AI 영상 공모전 공모전",
-   "host": "서울특별시립청소년활동진흥센터",
-   "url": "https://linkareer.com/activity/358665",
-   "officialUrl": "https://www.sy0404.or.kr/bbs/board.php?bo_table=notice&wr_id=1463",
-   "applyStart": "2026-09-03",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358665"
-    }
-   ],
-   "firstSeen": "2026-10-21",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가",
-    "대상 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "kstartup:179448",
-   "source": "kstartup",
-   "title": "2026년 청년 어촌창업 아이디어 공모전",
-   "host": "한국어촌어항공단",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448",
-   "officialUrl": null,
-   "applyStart": "2026-10-07",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-08",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 사업화",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179448"
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "devevent:https://axacademy.ai/axwar/samilpwc-1",
    "source": "devevent",
    "title": "AX인재전쟁 ONLINE - 삼일PwC",
@@ -440,137 +126,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:358501",
-   "source": "linkareer",
-   "title": "doodll 2nd AI Makeathon",
-   "host": "(주)컴포랩스",
-   "url": "https://linkareer.com/activity/358501",
-   "officialUrl": "https://doodll.com/",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 디자인/순수미술/공예",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358501"
-    }
-   ],
-   "firstSeen": "2026-10-21",
-   "grade": "확인 필요",
-   "reasonTags": [
-    "분야 확인 필요"
-   ],
-   "reasonText": "'공예' 키워드가 있지만 관심 분야 키워드도 같이 있어요."
-  },
-  {
-   "id": "kstartup:179447",
-   "source": "kstartup",
-   "title": "의정부 FIT데이(Demo Day) 2회차 기업 모집 공고",
-   "host": "경기창조경제혁신센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447",
-   "officialUrl": null,
-   "applyStart": "2026-10-08",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-08",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 행사ㆍ네트워크",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179447"
-    }
-   ],
-   "firstSeen": "2026-10-17",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'경기' 지역 한정으로 보여요."
-  },
-  {
-   "id": "wevity:112075",
-   "source": "wevity",
-   "title": "자원봉사 × AI 영상 공모전",
-   "host": "한국중앙자원봉사센터",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112075",
-   "officialUrl": "https://www.v1365.or.kr/board/notice/read/6989",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-11-04",
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362053"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112075",
-     "_detail": {
-      "applyStart": "2026-10-26",
-      "applyEnd": "2026-11-08",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://www.v1365.or.kr/board/notice/read/6989",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-05",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:359141",
-   "source": "linkareer",
-   "title": "제 2회 직스캐드 AX 경진대회 (CAD 공모전, 설계 공모전, 영상 공모전)",
-   "host": "주식회사 직스테크놀로지",
-   "url": "https://linkareer.com/activity/359141",
-   "officialUrl": "https://zyx.co.kr/",
-   "applyStart": "2026-08-31",
-   "applyEnd": "2026-11-08",
-   "postedAt": "2026-10-23",
-   "prize": null,
-   "place": null,
-   "target": "청소년, 대학생",
-   "sourceCategory": "사진/영상/UCC, 건축/건설/인테리어",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359141"
-    }
-   ],
-   "firstSeen": "2026-10-23",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "hola:6a60d0194e4a0d457b180963",
@@ -663,6 +218,65 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:357087",
+   "source": "linkareer",
+   "title": "2026년 국립낙동강생물자원관 제3회 생물 체험 교구 개발 공모전",
+   "host": "국립낙동강생물자원관",
+   "url": "https://linkareer.com/activity/357087",
+   "officialUrl": null,
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-11-09",
+   "postedAt": "2026-10-15",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "디자인/순수미술/공예",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357087"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
+  },
+  {
+   "id": "linkareer:357190",
+   "source": "linkareer",
+   "title": "2026 CBC KOREA 창업경진대회",
+   "host": "스마트크리에이터",
+   "url": "https://linkareer.com/activity/357190",
+   "officialUrl": null,
+   "applyStart": "2026-10-15",
+   "applyEnd": "2026-11-10",
+   "postedAt": "2026-10-15",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기타, 창업",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/357190"
+    }
+   ],
+   "firstSeen": "2026-11-09",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6a7d1cb1bcb0b5b2e7537200",

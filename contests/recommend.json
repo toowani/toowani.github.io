@@ -1,80 +1,68 @@
 {
- "date": "2026-11-08",
+ "date": "2026-11-09",
  "items": [
+  {
+   "id": "wevity:112142",
+   "score": 8,
+   "grade": "추천",
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 21일, 상금·지원금 안내 있음."
+  },
+  {
+   "id": "wevity:112049",
+   "score": 8,
+   "grade": "추천",
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 11일, 상금·지원금 안내 있음."
+  },
+  {
+   "id": "linkareer:360524",
+   "score": 7,
+   "grade": "추천",
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 13일."
+  },
+  {
+   "id": "linkareer:359512",
+   "score": 7,
+   "grade": "추천",
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 21일."
+  },
+  {
+   "id": "wevity:112221",
+   "score": 7,
+   "grade": "추천",
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 21일, 상금·지원금 안내 있음."
+  },
   {
    "id": "wevity:111804",
    "score": 7,
    "grade": "추천",
-   "reasonText": "숏폼·AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 14일, 상금·지원금 안내 있음."
+   "reasonText": "숏폼·AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 13일, 상금·지원금 안내 있음."
   },
   {
-   "id": "linkareer:359538",
+   "id": "linkareer:359841",
    "score": 7,
    "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 5일."
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 21일."
   },
   {
-   "id": "hola:6ad91c3fb2e45876ca5e9dcf",
+   "id": "linkareer:362007",
    "score": 7,
    "grade": "추천",
-   "reasonText": "해커톤 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 8일."
-  },
-  {
-   "id": "hola:6ae9e0d241142deba60613d2",
-   "score": 7,
-   "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 12일."
-  },
-  {
-   "id": "linkareer:362560",
-   "score": 6,
-   "grade": "추천",
-   "reasonText": "창업 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 10일."
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 9일."
   },
   {
    "id": "wevity:111847",
    "score": 6,
    "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 12일, 상금·지원금 안내 있음."
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 11일, 상금·지원금 안내 있음."
   },
   {
-   "id": "wevity:111628",
+   "id": "wevity:112021",
    "score": 6,
    "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 14일, 상금·지원금 안내 있음."
-  },
-  {
-   "id": "devevent:https://event-us.kr/tug/event/139112",
-   "score": 6,
-   "grade": "추천",
-   "reasonText": "AI·해커톤 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 3일."
-  },
-  {
-   "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "score": 6,
-   "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 4일."
-  },
-  {
-   "id": "wevity:111819",
-   "score": 6,
-   "grade": "추천",
-   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 마감까지 15일, 상금·지원금 안내 있음."
+   "reasonText": "AI 분야라 관심사와 맞고 지원 자격이 될 것 같아요. 상금·지원금 안내 있음."
   }
  ],
  "history": {
-  "2026-11-05": [
-   "devevent:https://event-us.kr/tug/event/139112",
-   "wevity:111628",
-   "linkareer:362007",
-   "wevity:112075",
-   "linkareer:359552",
-   "linkareer:360524",
-   "linkareer:358160",
-   "hola:6ae9e0ce41142deba60613a3",
-   "wevity:111804",
-   "wevity:112049"
-  ],
   "2026-11-06": [
    "linkareer:362560",
    "linkareer:360379",
@@ -110,6 +98,18 @@
    "devevent:https://event-us.kr/tug/event/139112",
    "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
    "wevity:111819"
+  ],
+  "2026-11-09": [
+   "wevity:112142",
+   "wevity:112049",
+   "linkareer:360524",
+   "linkareer:359512",
+   "wevity:112221",
+   "wevity:111804",
+   "linkareer:359841",
+   "linkareer:362007",
+   "wevity:111847",
+   "wevity:112021"
   ]
  }
 }
