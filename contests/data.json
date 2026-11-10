@@ -1,101 +1,35 @@
 {
- "generatedAt": "2026-11-10T07:21:18.453Z",
- "today": "2026-11-10",
+ "generatedAt": "2026-11-10T19:45:32.062Z",
+ "today": "2026-11-11",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 61,
-   "fetchedAt": "2026-11-10T07:21:18.253Z"
+   "count": 64,
+   "fetchedAt": "2026-11-10T19:45:31.911Z"
   },
   "hola": {
    "ok": true,
-   "count": 31,
-   "fetchedAt": "2026-11-10T07:21:18.253Z"
+   "count": 29,
+   "fetchedAt": "2026-11-10T19:45:31.911Z"
   },
   "wevity": {
    "ok": true,
-   "count": 35,
-   "fetchedAt": "2026-11-10T07:21:18.253Z"
+   "count": 37,
+   "fetchedAt": "2026-11-10T19:45:31.911Z"
   },
   "devevent": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-11-10T07:21:18.253Z"
+   "fetchedAt": "2026-11-10T19:45:31.911Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 9,
-   "fetchedAt": "2026-11-10T07:21:18.253Z"
+   "count": 10,
+   "fetchedAt": "2026-11-10T19:45:31.911Z"
   }
  },
- "count": 93,
+ "count": 96,
  "items": [
-  {
-   "id": "hola:6ad48a7ab2e45876ca5921c0",
-   "source": "hola",
-   "title": "2026 서울AI디지털배움터 청년 AI 해커톤",
-   "host": "서울AI디지털배움터",
-   "url": "https://holaworld.io/hola-it/6ad48a7ab2e45876ca5921c0",
-   "officialUrl": "https://forms.gle/HNx9CiyYZS3sXuwj9",
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-11-08",
-   "eventStart": "2026-10-12",
-   "eventEnd": "2026-11-08",
-   "postedAt": "2026-10-18",
-   "prize": null,
-   "place": "오프라인 · 온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad48a7ab2e45876ca5921c0"
-    }
-   ],
-   "firstSeen": "2026-10-18",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6a60d0194e4a0d457b180963",
-   "source": "hola",
-   "title": "컴퓨터·AI공학과『바이브코딩 활용 후기』공모전(~ 11.08) - 나의 솔직한 바이브코딩 이야기!",
-   "host": "세종사이버대학교 컴퓨터·AI공학과",
-   "url": "https://holaworld.io/hola-it/6a60d0194e4a0d457b180963",
-   "officialUrl": "https://tinyurl.com/sjcu-2026event",
-   "applyStart": "2026-05-13",
-   "applyEnd": "2026-11-08",
-   "eventStart": "2026-05-13",
-   "eventEnd": "2026-11-08",
-   "postedAt": "2026-07-22",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a60d0194e4a0d457b180963"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
-  },
   {
    "id": "hola:6aba73e1ee012963f80a4bb5",
    "source": "hola",
@@ -669,6 +603,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:358042",
+   "source": "linkareer",
+   "title": "2026 대경권 캠퍼스 IR 챔피언십 (창업 공모전)",
+   "host": "(주)포항연합기술지주",
+   "url": "https://linkareer.com/activity/358042",
+   "officialUrl": null,
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-11-13",
+   "postedAt": "2026-10-19",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358042"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ab4c28dfdf75b86efbf5547",
@@ -1457,6 +1419,36 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "kstartup:179690",
+   "source": "kstartup",
+   "title": "2026년 경희대학교 캠퍼스타운 제6회 데모데이: 刮目相對괄목상대",
+   "host": "경희대학교 창업보육센터(서울)",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179690",
+   "officialUrl": null,
+   "applyStart": "2026-11-02",
+   "applyEnd": "2026-11-19",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": null,
+   "sourceCategory": "행사ㆍ네트워크",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179690"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:112128",
@@ -2960,6 +2952,36 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:358054",
+   "source": "linkareer",
+   "title": "제1회 웨이노벨 웹소설 공모전 FIRST STORY CHALLENGE 2026",
+   "host": "웨이노벨",
+   "url": "https://linkareer.com/activity/358054",
+   "officialUrl": null,
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-12-13",
+   "postedAt": "2026-10-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "문학/시나리오",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358054"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요."
+  },
+  {
    "id": "linkareer:358536",
    "source": "linkareer",
    "title": "[saaskr] 2026 saaskr 게임 어워드 — AI로 만든 웹게임 연말 시상",
@@ -3017,6 +3039,41 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "wevity:112285",
+   "source": "wevity",
+   "title": "세종사이버대학교 전국민 AI 공모전 (AI 불씨)",
+   "host": "세종사이버대학교",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112285",
+   "officialUrl": "https://www.sjcu.ac.kr/aispark/main/index.asp",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-20",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 200만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "웹/모바일/IT",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112285",
+     "_detail": {
+      "applyStart": "2026-11-23",
+      "applyEnd": "2026-12-20",
+      "prize": "1천만원이하 · 1등 200만원",
+      "officialUrl": "https://www.sjcu.ac.kr/aispark/main/index.asp",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "hola:6adf16c0b2e45876ca66376b",
    "source": "hola",
    "title": "[데이콘]HAI(하이)! Hecto AI × Wallet Service Challenge(~12/21)",
@@ -3050,6 +3107,48 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112295",
+   "source": "wevity",
+   "title": "[부산과학기술대학교·KNN] 2026 부산 미래 직업·평생교육 AI 영상 공모전",
+   "host": "부산과학기술대학교",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112295",
+   "officialUrl": "https://bit.ly/4A2mJ2J",
+   "applyStart": "2026-11-09",
+   "applyEnd": "2026-12-23",
+   "postedAt": "2026-11-04",
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/362093"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112295",
+     "_detail": {
+      "applyStart": "2026-11-09",
+      "applyEnd": "2026-12-23",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://bit.ly/4A2mJ2J",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:363354",
