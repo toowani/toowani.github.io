@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-09T22:23:26.328Z",
+ "generatedAt": "2026-11-10T07:21:18.453Z",
  "today": "2026-11-10",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 58,
-   "fetchedAt": "2026-11-09T22:23:26.126Z"
+   "count": 61,
+   "fetchedAt": "2026-11-10T07:21:18.253Z"
   },
   "hola": {
    "ok": true,
    "count": 31,
-   "fetchedAt": "2026-11-09T22:23:26.127Z"
+   "fetchedAt": "2026-11-10T07:21:18.253Z"
   },
   "wevity": {
    "ok": true,
    "count": 35,
-   "fetchedAt": "2026-11-09T22:23:26.127Z"
+   "fetchedAt": "2026-11-10T07:21:18.253Z"
   },
   "devevent": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-11-09T22:23:26.127Z"
+   "fetchedAt": "2026-11-10T07:21:18.253Z"
   },
   "kstartup": {
    "ok": true,
    "count": 9,
-   "fetchedAt": "2026-11-09T22:23:26.127Z"
+   "fetchedAt": "2026-11-10T07:21:18.253Z"
   }
  },
- "count": 91,
+ "count": 93,
  "items": [
   {
    "id": "hola:6ad48a7ab2e45876ca5921c0",
@@ -490,6 +490,41 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:363391",
+   "source": "linkareer",
+   "title": "2026 핀테크 라이징 스타 챌린지",
+   "host": "전북특별자치도",
+   "url": "https://linkareer.com/activity/363391",
+   "officialUrl": null,
+   "applyStart": "2026-10-14",
+   "applyEnd": "2026-11-12",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363391"
+    },
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179746"
+    }
+   ],
+   "firstSeen": "2026-11-10",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'전북' 지역 한정으로 보여요."
+  },
+  {
    "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
    "source": "devevent",
    "title": "국부펀드 KIC, AI 에이전트 공모전",
@@ -557,37 +592,6 @@
     "지역 불가"
    ],
    "reasonText": "'세종' 지역 한정으로 보여요."
-  },
-  {
-   "id": "kstartup:179746",
-   "source": "kstartup",
-   "title": "전북핀테크지원센터 「핀테크 라이징 스타 챌린지」참가자 모집",
-   "host": "전북창조경제혁신센터",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179746",
-   "officialUrl": null,
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-11-12",
-   "postedAt": "2026-11-09",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 사업화",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179746"
-    }
-   ],
-   "firstSeen": "2026-11-09",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'전북' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111912",
@@ -665,34 +669,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:358042",
-   "source": "linkareer",
-   "title": "2026 대경권 캠퍼스 IR 챔피언십 (창업 공모전)",
-   "host": "(주)포항연합기술지주",
-   "url": "https://linkareer.com/activity/358042",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-11-13",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358042"
-    }
-   ],
-   "firstSeen": "2026-11-07",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6ab4c28dfdf75b86efbf5547",
@@ -1888,7 +1864,7 @@
    "officialUrl": "https://blog.naver.com/ppspr/224439199284",
    "applyStart": "2026-10-12",
    "applyEnd": "2026-11-22",
-   "postedAt": "2026-10-19",
+   "postedAt": "2026-10-18",
    "prize": "1천만원이하 · 1등 200만원",
    "place": "온라인",
    "target": "제한없음",
@@ -1899,10 +1875,6 @@
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/357796"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad48a76b2e45876ca5921a5"
@@ -2161,6 +2133,34 @@
    "reasonText": "'광명시' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:363233",
+   "source": "linkareer",
+   "title": "2026 K-콘텐츠 관광마케팅 기초 아카데미 모집 (~11/25)",
+   "host": "(주)엘투플랜",
+   "url": "https://linkareer.com/activity/363233",
+   "officialUrl": null,
+   "applyStart": "2026-11-06",
+   "applyEnd": "2026-11-25",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "창업, 기획/아이디어",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363233"
+    }
+   ],
+   "firstSeen": "2026-11-10",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:362797",
    "source": "linkareer",
    "title": "제1회 Daum AI 숏드라마 시나리오 공모전",
@@ -2324,6 +2324,35 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:363236",
+   "source": "linkareer",
+   "title": "『2026 SVC Seoul AI 해커톤』 | 현대건설과 함께하는 주거생활 AI 아이디어 도전",
+   "host": "앤에이솔루션(주)",
+   "url": "https://linkareer.com/activity/363236",
+   "officialUrl": "https://nasolution.co.kr/",
+   "applyStart": "2026-11-10",
+   "applyEnd": "2026-11-29",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 건축/건설/인테리어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363236"
+    }
+   ],
+   "firstSeen": "2026-11-10",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:359512",
    "source": "linkareer",
    "title": "[제3회] 매경 AI 광고 공모전 대한민국 AI 광고대상",
@@ -2434,7 +2463,7 @@
    "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112221",
    "applyStart": "2026-11-06",
    "applyEnd": "2026-11-30",
-   "postedAt": null,
+   "postedAt": "2026-11-10",
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "제한없음",
@@ -2444,6 +2473,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363213"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112221",
@@ -2927,36 +2960,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:358054",
-   "source": "linkareer",
-   "title": "제1회 웨이노벨 웹소설 공모전 FIRST STORY CHALLENGE 2026",
-   "host": "웨이노벨",
-   "url": "https://linkareer.com/activity/358054",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-12-13",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "문학/시나리오",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358054"
-    }
-   ],
-   "firstSeen": "2026-11-07",
-   "grade": "비추천",
-   "reasonTags": [
-    "분야 불일치"
-   ],
-   "reasonText": "제목·분야에 '문학' 키워드가 있어요."
-  },
-  {
    "id": "linkareer:358536",
    "source": "linkareer",
    "title": "[saaskr] 2026 saaskr 게임 어워드 — AI로 만든 웹게임 연말 시상",
@@ -2980,6 +2983,35 @@
     }
    ],
    "firstSeen": "2026-10-21",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:363343",
+   "source": "linkareer",
+   "title": "[세종사이버대학교] 2026 전국민 AI 공모전 AI 불씨",
+   "host": "세종사이버대학교",
+   "url": "https://linkareer.com/activity/363343",
+   "officialUrl": "https://www.sjcu.ac.kr",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-20",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363343"
+    }
+   ],
+   "firstSeen": "2026-11-10",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -3015,6 +3047,35 @@
     }
    ],
    "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:363354",
+   "source": "linkareer",
+   "title": "[SCENE] 2026 SCENE AI·실사 웹드라마 공모전",
+   "host": "SCENE",
+   "url": "https://linkareer.com/activity/363354",
+   "officialUrl": "https://scenedramas.com/",
+   "applyStart": "2026-11-01",
+   "applyEnd": "2026-12-31",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363354"
+    }
+   ],
+   "firstSeen": "2026-11-10",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
