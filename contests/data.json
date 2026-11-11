@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-10T19:45:32.062Z",
+ "generatedAt": "2026-11-11T06:25:19.714Z",
  "today": "2026-11-11",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 64,
-   "fetchedAt": "2026-11-10T19:45:31.911Z"
+   "fetchedAt": "2026-11-11T06:25:19.571Z"
   },
   "hola": {
    "ok": true,
    "count": 29,
-   "fetchedAt": "2026-11-10T19:45:31.911Z"
+   "fetchedAt": "2026-11-11T06:25:19.571Z"
   },
   "wevity": {
    "ok": true,
    "count": 37,
-   "fetchedAt": "2026-11-10T19:45:31.911Z"
+   "fetchedAt": "2026-11-11T06:25:19.571Z"
   },
   "devevent": {
    "ok": true,
-   "count": 14,
-   "fetchedAt": "2026-11-10T19:45:31.911Z"
+   "count": 15,
+   "fetchedAt": "2026-11-11T06:25:19.571Z"
   },
   "kstartup": {
    "ok": true,
    "count": 10,
-   "fetchedAt": "2026-11-10T19:45:31.911Z"
+   "fetchedAt": "2026-11-11T06:25:19.571Z"
   }
  },
- "count": 96,
+ "count": 97,
  "items": [
   {
    "id": "hola:6aba73e1ee012963f80a4bb5",
@@ -605,34 +605,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:358042",
-   "source": "linkareer",
-   "title": "2026 대경권 캠퍼스 IR 챔피언십 (창업 공모전)",
-   "host": "(주)포항연합기술지주",
-   "url": "https://linkareer.com/activity/358042",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-11-13",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358042"
-    }
-   ],
-   "firstSeen": "2026-11-11",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "hola:6ab4c28dfdf75b86efbf5547",
    "source": "hola",
    "title": "2026 동남 버그바운티 대회",
@@ -1011,6 +983,37 @@
     "지역 불가"
    ],
    "reasonText": "'세종' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:363610",
+   "source": "linkareer",
+   "title": "생성형 AI를 활용한 평택시청소년재단 캐릭터(마스코트) 공모전",
+   "host": "평택시",
+   "url": "https://linkareer.com/activity/363610",
+   "officialUrl": "https://www.pyf.or.kr/web/lay1/bbs/S1T236C44/H/10/view.do?article_seq=3913&cpage=1&rows=10&condition=TITLE&keyword=ai&site_id=",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-11-15",
+   "postedAt": "2026-11-11",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "디자인/순수미술/공예, 캐릭터/만화/게임",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363610"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가",
+    "대상 불가"
+   ],
+   "reasonText": "'평택시' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "linkareer:359362",
@@ -2802,6 +2805,36 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:363649",
+   "source": "linkareer",
+   "title": "제2회 저상버스 인식개선 사진·AI 이미지 공모전",
+   "host": "부산뇌병변복지관",
+   "url": "https://linkareer.com/activity/363649",
+   "officialUrl": "http://busancp.or.kr/%EB%B3%B5%EC%A7%80%EA%B4%80-%EC%86%8C%EC%8B%9D/%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD/?no=6276",
+   "applyStart": "2026-11-04",
+   "applyEnd": "2026-12-04",
+   "postedAt": "2026-11-11",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363649"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'부산' 지역 한정으로 보여요."
+  },
+  {
    "id": "devevent:https://extriver.com/event1",
    "source": "devevent",
    "title": "Hack the Audience 2026: Creator-to-CEO Hackathon",
@@ -2950,36 +2983,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:358054",
-   "source": "linkareer",
-   "title": "제1회 웨이노벨 웹소설 공모전 FIRST STORY CHALLENGE 2026",
-   "host": "웨이노벨",
-   "url": "https://linkareer.com/activity/358054",
-   "officialUrl": null,
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-12-13",
-   "postedAt": "2026-10-19",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "문학/시나리오",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358054"
-    }
-   ],
-   "firstSeen": "2026-11-11",
-   "grade": "비추천",
-   "reasonTags": [
-    "분야 불일치"
-   ],
-   "reasonText": "제목·분야에 '문학' 키워드가 있어요."
   },
   {
    "id": "linkareer:358536",
@@ -3282,6 +3285,36 @@
    "reasonText": "'창원시' 지역 한정으로 보여요."
   },
   {
+   "id": "devevent:https://www.codetree.ai/ko/sheep-sheep-sheep",
+   "source": "devevent",
+   "title": "코드트리 양떼 목장 (4주 코테 습관 만들기)",
+   "host": "코드트리",
+   "url": "https://www.codetree.ai/ko/sheep-sheep-sheep",
+   "officialUrl": "https://www.codetree.ai/ko/sheep-sheep-sheep",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-12-31",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "대회",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://www.codetree.ai/ko/sheep-sheep-sheep"
+    }
+   ],
+   "firstSeen": "2026-11-11",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "wevity:111713",
    "source": "wevity",
    "title": "[방송미디어통신위원회] 제12회 한국문화AI영상대전",
@@ -3329,7 +3362,7 @@
    "officialUrl": "https://storyleague.co.kr/",
    "applyStart": "2026-11-30",
    "applyEnd": "2027-01-30",
-   "postedAt": "2026-11-09",
+   "postedAt": "2026-11-02",
    "prize": "1천만원이하 · 1등 200만원",
    "place": null,
    "target": "일반인, 대학생, 청소년",
@@ -3339,10 +3372,6 @@
     "video"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363031"
-    },
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/361280"
