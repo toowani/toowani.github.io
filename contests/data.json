@@ -1,68 +1,35 @@
 {
- "generatedAt": "2026-11-12T07:13:30.389Z",
- "today": "2026-11-12",
+ "generatedAt": "2026-11-12T19:55:59.882Z",
+ "today": "2026-11-13",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 61,
-   "fetchedAt": "2026-11-12T07:13:30.247Z"
+   "count": 64,
+   "fetchedAt": "2026-11-12T19:55:59.681Z"
   },
   "hola": {
    "ok": true,
-   "count": 28,
-   "fetchedAt": "2026-11-12T07:13:30.247Z"
+   "count": 27,
+   "fetchedAt": "2026-11-12T19:55:59.681Z"
   },
   "wevity": {
    "ok": true,
-   "count": 38,
-   "fetchedAt": "2026-11-12T07:13:30.247Z"
+   "count": 41,
+   "fetchedAt": "2026-11-12T19:55:59.681Z"
   },
   "devevent": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-11-12T07:13:30.247Z"
+   "fetchedAt": "2026-11-12T19:55:59.681Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-12T07:13:30.247Z"
+   "fetchedAt": "2026-11-12T19:55:59.681Z"
   }
  },
- "count": 99,
+ "count": 103,
  "items": [
-  {
-   "id": "hola:6a7d1cb1bcb0b5b2e7537200",
-   "source": "hola",
-   "title": "2026 DATA·AI 분석 경진대회 신규",
-   "host": "한국과학기술정보연구원 / 과기정통부, 과기연구회, 국회도서관, 대전광역시, 해양경찰청, 한국수자원공사, 대전중구청",
-   "url": "https://holaworld.io/hola-it/6a7d1cb1bcb0b5b2e7537200",
-   "officialUrl": "https://aida.kisti.re.kr/competition/main/competition/COMP_000000000000050/detail.do",
-   "applyStart": "2026-08-11",
-   "applyEnd": "2026-11-10",
-   "eventStart": "2026-08-11",
-   "eventEnd": "2026-11-10",
-   "postedAt": "2026-08-13",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6a7d1cb1bcb0b5b2e7537200"
-    }
-   ],
-   "firstSeen": "2026-09-28",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'대전' 지역 한정으로 보여요."
-  },
   {
    "id": "hola:6ad8b96bb2e45876ca5e386b",
    "source": "hola",
@@ -163,36 +130,6 @@
    "reasonText": "'의왕시' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:363391",
-   "source": "linkareer",
-   "title": "2026 핀테크 라이징 스타 챌린지",
-   "host": "전북특별자치도",
-   "url": "https://linkareer.com/activity/363391",
-   "officialUrl": null,
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-11-12",
-   "postedAt": "2026-11-10",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363391"
-    }
-   ],
-   "firstSeen": "2026-11-10",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'전북' 지역 한정으로 보여요."
-  },
-  {
    "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
    "source": "devevent",
    "title": "국부펀드 KIC, AI 에이전트 공모전",
@@ -222,44 +159,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111787",
-   "source": "wevity",
-   "title": "세종사이버대 국방융합학과 AI 영상 숏폼·광고 공모전",
-   "host": "세종사이버대 국방융합학과",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111787",
-   "officialUrl": "https://cms.sjcu.ac.kr/military/news/notice.do?mode=view&articleNo=135178&article.offset=0&articleLimit=10",
-   "applyStart": "2026-05-27",
-   "applyEnd": "2026-11-12",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 50만원",
-   "place": null,
-   "target": "일반인, 대학생, 기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111787",
-     "_detail": {
-      "applyStart": "2026-05-27",
-      "applyEnd": "2026-11-12",
-      "prize": "1천만원이하 · 1등 50만원",
-      "officialUrl": "https://cms.sjcu.ac.kr/military/news/notice.do?mode=view&articleNo=135178&article.offset=0&articleLimit=10",
-      "target": "일반인, 대학생, 기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-22",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:111912",
@@ -1609,6 +1508,35 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:364010",
+   "source": "linkareer",
+   "title": "제3회 초단편 웹소설 챌린지 퇴근길 나도작가",
+   "host": "작가다방",
+   "url": "https://linkareer.com/activity/364010",
+   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLScePZg6xJQ9wyV4MhPLDHw0eNr-XX2wVLbZjaawKfjc_Mxd_Q/viewform",
+   "applyStart": "2026-11-16",
+   "applyEnd": "2026-11-20",
+   "postedAt": "2026-11-12",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "광고/마케팅, 사진/영상/UCC",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364010"
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "devevent:https://luma.com/z8hzosog",
    "source": "devevent",
    "title": "[2회차] 디노티시아 NIPA 오픈소스 해커톤",
@@ -1754,7 +1682,7 @@
    "officialUrl": "https://www.namuhx.com/events/6f150f44-01e0-4263-a538-d051e8b5f3b8",
    "applyStart": "2026-10-19",
    "applyEnd": "2026-11-22",
-   "postedAt": "2026-10-20",
+   "postedAt": null,
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "일반인, 대학생",
@@ -1764,10 +1692,6 @@
     "video"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358366"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111804",
@@ -1863,6 +1787,34 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
+   "id": "linkareer:364086",
+   "source": "linkareer",
+   "title": "토마토들 일본 지역 관광 아이디어톤",
+   "host": "주식회사 리에이크",
+   "url": "https://linkareer.com/activity/364086",
+   "officialUrl": null,
+   "applyStart": "2026-11-13",
+   "applyEnd": "2026-11-22",
+   "postedAt": "2026-11-12",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 광고/마케팅",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364086"
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:360524",
    "source": "linkareer",
    "title": "하나은행 『하나원픽 CUP AI 게임창작대회』",
@@ -1889,6 +1841,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:364057",
+   "source": "linkareer",
+   "title": "「2026년 벤처브릿지 오픈이노베이션」",
+   "host": "주식회사 알파브라더스",
+   "url": "https://linkareer.com/activity/364057",
+   "officialUrl": "https://www.alphabrothers.co.kr",
+   "applyStart": "2026-11-12",
+   "applyEnd": "2026-11-23",
+   "postedAt": "2026-11-12",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364057"
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:112022",
@@ -2306,6 +2286,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:364040",
+   "source": "linkareer",
+   "title": "쉽고 바른 정보통신기술(ICT) 공공언어 웹툰 공모전",
+   "host": "문화체육관광부 / 동아대학교 국어문화원·정보통신정책연구원",
+   "url": "https://linkareer.com/activity/364040",
+   "officialUrl": null,
+   "applyStart": "2026-11-09",
+   "applyEnd": "2026-11-29",
+   "postedAt": "2026-11-12",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "캐릭터/만화/게임, 과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364040"
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:363787",
@@ -2836,6 +2844,48 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "wevity:112333",
+   "source": "wevity",
+   "title": "서울 로컬브랜드 AI 숏폼 공모전",
+   "host": "명지전문대학",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112333",
+   "officialUrl": "https://docs.google.com/forms/d/19CFa9_l8pprNRuNXrf_WMjlDHThiskLOQEd5MlZIVjA/edit?ts=6af5010d",
+   "applyStart": "2026-11-13",
+   "applyEnd": "2026-12-04",
+   "postedAt": "2026-11-12",
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "일반인, 대학생",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363957"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112333",
+     "_detail": {
+      "applyStart": "2026-11-13",
+      "applyEnd": "2026-12-04",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://docs.google.com/forms/d/19CFa9_l8pprNRuNXrf_WMjlDHThiskLOQEd5MlZIVjA/edit?ts=6af5010d",
+      "target": "일반인, 대학생"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:363649",
    "source": "linkareer",
    "title": "제2회 저상버스 인식개선 사진·AI 이미지 공모전",
@@ -2891,6 +2941,41 @@
     }
    ],
    "firstSeen": "2026-11-10",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112329",
+   "source": "wevity",
+   "title": "2026 제천시장배 전국 e-스포츠 대회",
+   "host": "제천시",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112329",
+   "officialUrl": null,
+   "applyStart": "2026-11-05",
+   "applyEnd": "2026-12-07",
+   "postedAt": null,
+   "prize": "3천만원~1천만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112329",
+     "_detail": {
+      "applyStart": "2026-11-05",
+      "applyEnd": "2026-12-07",
+      "prize": "3천만원~1천만원",
+      "officialUrl": null,
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-13",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
@@ -3020,34 +3105,6 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:358536",
-   "source": "linkareer",
-   "title": "[saaskr] 2026 saaskr 게임 어워드 — AI로 만든 웹게임 연말 시상",
-   "host": "엠제이커넥트",
-   "url": "https://linkareer.com/activity/358536",
-   "officialUrl": "https://game.saaskr.com/awards",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-12-20",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "캐릭터/만화/게임",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358536"
-    }
-   ],
-   "firstSeen": "2026-10-21",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "linkareer:363343",
    "source": "linkareer",
    "title": "[세종사이버대학교] 2026 전국민 AI 공모전 AI 불씨",
@@ -3075,6 +3132,48 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112277",
+   "source": "wevity",
+   "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
+   "host": "saaskr",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112277",
+   "officialUrl": "https://game.saaskr.com/awards",
+   "applyStart": "2026-10-20",
+   "applyEnd": "2026-12-20",
+   "postedAt": "2026-10-21",
+   "prize": "다양한 혜택",
+   "place": null,
+   "target": "일반인, 대학생, 청소년",
+   "sourceCategory": "게임/소프트웨어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358536"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112277",
+     "_detail": {
+      "applyStart": "2026-10-20",
+      "applyEnd": "2026-12-20",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://game.saaskr.com/awards",
+      "target": "일반인, 대학생, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "wevity:112285",
@@ -3263,6 +3362,44 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112330",
+   "source": "wevity",
+   "title": "대만의 동쪽 23.5°N 국제 관광 시간제한 영상 창작 공모전 East of Taiwan 23.5°N: International Tourism Film limited-time Challenge",
+   "host": "교통부 관광서 화둥종곡 국가풍경구 관리처",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112330",
+   "officialUrl": "https://eastoftaiwan235.com/kr/",
+   "applyStart": "2026-10-26",
+   "applyEnd": "2026-12-31",
+   "postedAt": null,
+   "prize": "1천만원이하",
+   "place": null,
+   "target": "일반인, 청소년",
+   "sourceCategory": "영상/UCC/사진, 해외",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112330",
+     "_detail": {
+      "applyStart": "2026-10-26",
+      "applyEnd": "2026-12-31",
+      "prize": "1천만원이하",
+      "officialUrl": "https://eastoftaiwan235.com/kr/",
+      "target": "일반인, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
    "id": "hola:6a5f30d4ab365fa3b03f4aba",
