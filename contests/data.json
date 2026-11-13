@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-12T19:55:59.882Z",
+ "generatedAt": "2026-11-13T06:48:28.139Z",
  "today": "2026-11-13",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 64,
-   "fetchedAt": "2026-11-12T19:55:59.681Z"
+   "count": 63,
+   "fetchedAt": "2026-11-13T06:48:27.829Z"
   },
   "hola": {
    "ok": true,
    "count": 27,
-   "fetchedAt": "2026-11-12T19:55:59.681Z"
+   "fetchedAt": "2026-11-13T06:48:27.829Z"
   },
   "wevity": {
    "ok": true,
-   "count": 41,
-   "fetchedAt": "2026-11-12T19:55:59.681Z"
+   "count": 40,
+   "fetchedAt": "2026-11-13T06:48:27.829Z"
   },
   "devevent": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-11-12T19:55:59.681Z"
+   "fetchedAt": "2026-11-13T06:48:27.829Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-12T19:55:59.681Z"
+   "fetchedAt": "2026-11-13T06:48:27.829Z"
   }
  },
- "count": 103,
+ "count": 104,
  "items": [
   {
    "id": "hola:6ad8b96bb2e45876ca5e386b",
@@ -1952,7 +1952,7 @@
    "officialUrl": "https://www.kicet.re.kr/00020/00117/00120.web?gcode=1015&idx=12357&amode=view",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-23",
-   "postedAt": "2026-10-21",
+   "postedAt": null,
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "제한없음",
@@ -1962,10 +1962,6 @@
     "video"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358711"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111819",
@@ -2288,32 +2284,38 @@
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:364040",
+   "id": "linkareer:364265",
    "source": "linkareer",
    "title": "쉽고 바른 정보통신기술(ICT) 공공언어 웹툰 공모전",
-   "host": "문화체육관광부 / 동아대학교 국어문화원·정보통신정책연구원",
-   "url": "https://linkareer.com/activity/364040",
-   "officialUrl": null,
+   "host": "동아대 국어문화원",
+   "url": "https://linkareer.com/activity/364265",
+   "officialUrl": "http://korea.donga.ac.kr",
    "applyStart": "2026-11-09",
    "applyEnd": "2026-11-29",
-   "postedAt": "2026-11-12",
+   "postedAt": "2026-11-13",
    "prize": null,
    "place": null,
    "target": "대상 제한 없음",
-   "sourceCategory": "캐릭터/만화/게임, 과학/공학",
+   "sourceCategory": "디자인/순수미술/공예, 기타",
    "tags": [
     "dev"
    ],
    "sources": [
     {
      "source": "linkareer",
+     "url": "https://linkareer.com/activity/364265"
+    },
+    {
+     "source": "linkareer",
      "url": "https://linkareer.com/activity/364040"
     }
    ],
    "firstSeen": "2026-11-13",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '공예' 키워드가 있어요."
   },
   {
    "id": "linkareer:363787",
@@ -2344,6 +2346,36 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(숏폼·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:364102",
+   "source": "linkareer",
+   "title": "[대전] 글로벌 스타트업 브릿지 2026 - 한국인 학생 × 외국인 유학생 공동창업 데모데이 참가팀 모집",
+   "host": "주식회사 비욘드랩",
+   "url": "https://linkareer.com/activity/364102",
+   "officialUrl": "https://www.beyondlab.re.kr",
+   "applyStart": "2026-11-10",
+   "applyEnd": "2026-11-30",
+   "postedAt": "2026-11-12",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "창업, 기획/아이디어",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364102"
+    }
+   ],
+   "firstSeen": "2026-11-13",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:359512",
@@ -2844,19 +2876,19 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:112333",
-   "source": "wevity",
+   "id": "linkareer:363957",
+   "source": "linkareer",
    "title": "서울 로컬브랜드 AI 숏폼 공모전",
-   "host": "명지전문대학",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112333",
-   "officialUrl": "https://docs.google.com/forms/d/19CFa9_l8pprNRuNXrf_WMjlDHThiskLOQEd5MlZIVjA/edit?ts=6af5010d",
+   "host": "한국에스엔에스인재개발원",
+   "url": "https://linkareer.com/activity/363957",
+   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdE6FQwSVs6RZvDrZk4feQyULOPiqEVPErJB0B2vdgcWRimlg/viewform",
    "applyStart": "2026-11-13",
    "applyEnd": "2026-12-04",
    "postedAt": "2026-11-12",
-   "prize": "1천만원이하 · 1등 100만원",
+   "prize": null,
    "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "영상/UCC/사진",
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "광고/마케팅, 사진/영상/UCC",
    "tags": [
     "ai",
     "video"
@@ -2865,17 +2897,6 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/363957"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112333",
-     "_detail": {
-      "applyStart": "2026-11-13",
-      "applyEnd": "2026-12-04",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://docs.google.com/forms/d/19CFa9_l8pprNRuNXrf_WMjlDHThiskLOQEd5MlZIVjA/edit?ts=6af5010d",
-      "target": "일반인, 대학생"
-     }
     }
    ],
    "firstSeen": "2026-11-13",
@@ -3142,7 +3163,7 @@
    "officialUrl": "https://game.saaskr.com/awards",
    "applyStart": "2026-10-20",
    "applyEnd": "2026-12-20",
-   "postedAt": "2026-10-21",
+   "postedAt": null,
    "prize": "다양한 혜택",
    "place": null,
    "target": "일반인, 대학생, 청소년",
@@ -3152,10 +3173,6 @@
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/358536"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112277",
