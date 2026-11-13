@@ -1,134 +1,35 @@
 {
- "generatedAt": "2026-11-13T06:48:28.139Z",
- "today": "2026-11-13",
+ "generatedAt": "2026-11-13T19:44:45.954Z",
+ "today": "2026-11-14",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 63,
-   "fetchedAt": "2026-11-13T06:48:27.829Z"
+   "count": 61,
+   "fetchedAt": "2026-11-13T19:44:45.771Z"
   },
   "hola": {
    "ok": true,
-   "count": 27,
-   "fetchedAt": "2026-11-13T06:48:27.829Z"
+   "count": 24,
+   "fetchedAt": "2026-11-13T19:44:45.771Z"
   },
   "wevity": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-11-13T06:48:27.829Z"
+   "count": 39,
+   "fetchedAt": "2026-11-13T19:44:45.771Z"
   },
   "devevent": {
    "ok": true,
    "count": 16,
-   "fetchedAt": "2026-11-13T06:48:27.829Z"
+   "fetchedAt": "2026-11-13T19:44:45.771Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-13T06:48:27.829Z"
+   "fetchedAt": "2026-11-13T19:44:45.771Z"
   }
  },
- "count": 104,
+ "count": 100,
  "items": [
-  {
-   "id": "hola:6ad8b96bb2e45876ca5e386b",
-   "source": "hola",
-   "title": "[산사람 x AI-Kive] 진짜 오타쿠 AI MV 챌린지",
-   "host": "㈜과나(산사람) / ㈜스튜디오프리윌루전(AI-Kive)",
-   "url": "https://holaworld.io/hola-it/6ad8b96bb2e45876ca5e386b",
-   "officialUrl": "https://aikive.com/event/207f776111a4416a9bf9c5130e1d8f93",
-   "applyStart": "2026-10-14",
-   "applyEnd": "2026-11-11",
-   "eventStart": "2026-10-14",
-   "eventEnd": "2026-11-11",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b96bb2e45876ca5e386b"
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ae9e0ce41142deba60613a3",
-   "source": "hola",
-   "title": "2026 AI 활용 전국 대학생 창업 해커톤 대회",
-   "host": "이희수",
-   "url": "https://holaworld.io/hola-it/6ae9e0ce41142deba60613a3",
-   "officialUrl": "https://event-us.kr/tug/event/139112",
-   "applyStart": "2026-11-02",
-   "applyEnd": "2026-11-11",
-   "eventStart": "2026-11-19",
-   "eventEnd": "2026-11-20",
-   "postedAt": "2026-11-03",
-   "prize": null,
-   "place": "오프라인 · 한림대학교 레크레이션센터 3층 체육관",
-   "target": null,
-   "sourceCategory": "해커톤",
-   "tags": [
-    "dev",
-    "ai",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae9e0ce41142deba60613a3"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae355d6b243598fd0ed4e1c"
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ae051c97f66f8754e336a8a",
-   "source": "hola",
-   "title": "2026 의왕시 청년 e-Room 창업 아이디어 공모전 참여자 모집",
-   "host": "의왕시청",
-   "url": "https://holaworld.io/hola-it/6ae051c97f66f8754e336a8a",
-   "officialUrl": "https://uiwang-eroom-2026.yhnskyd88.chatgpt.site/?utm_source=youth_policy&utm_medium=referral&utm_campaign=uiwang_2026",
-   "applyStart": "2026-10-16",
-   "applyEnd": "2026-11-11",
-   "eventStart": "2026-11-17",
-   "eventEnd": "2026-12-25",
-   "postedAt": "2026-10-27",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae051c97f66f8754e336a8a"
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'의왕시' 지역 한정으로 보여요."
-  },
   {
    "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
    "source": "devevent",
@@ -161,78 +62,32 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111912",
-   "source": "wevity",
-   "title": "[CJ제일제당] 햇반 30주년 AI 공모전 (갓 지은 AI디어)",
-   "host": "CJ제일제당",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111912",
-   "officialUrl": "https://www.instagram.com/hetbahn.30years/",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-13",
-   "postedAt": "2026-10-26",
-   "prize": "5천만원~3천만원 · 1등 1,000만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "웹/모바일/IT",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359538"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111912",
-     "_detail": {
-      "applyStart": "2026-10-26",
-      "applyEnd": "2026-11-13",
-      "prize": "5천만원~3천만원 · 1등 1,000만원",
-      "officialUrl": "https://www.instagram.com/hetbahn.30years/",
-      "target": "일반인, 대학생, 청소년"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "linkareer:359552",
-   "source": "linkareer",
+   "id": "hola:6adf16c1b2e45876ca663775",
+   "source": "hola",
    "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
-   "host": "엘리스",
-   "url": "https://linkareer.com/activity/359552",
-   "officialUrl": "https://ai-challenge.elice.page/home/main",
+   "host": "엘리스그룹",
+   "url": "https://holaworld.io/hola-it/6adf16c1b2e45876ca663775",
+   "officialUrl": "https://forms.cloud.microsoft/r/BR9vZsPMg8",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-13",
+   "eventStart": "2026-10-23",
+   "eventEnd": "2026-11-13",
    "postedAt": "2026-10-26",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
     {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359552"
-    },
-    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c1b2e45876ca663775"
     }
    ],
-   "eventStart": "2026-10-23",
-   "eventEnd": "2026-11-13",
-   "firstSeen": "2026-10-26",
+   "firstSeen": "2026-11-14",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -302,38 +157,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:362570",
-   "source": "linkareer",
-   "title": "AI를 활용한 3분 숏츠 챌린지 대회",
-   "host": "대전일자리경제진흥원",
-   "url": "https://linkareer.com/activity/362570",
-   "officialUrl": null,
-   "applyStart": "2026-11-06",
-   "applyEnd": "2026-11-13",
-   "postedAt": "2026-11-06",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "ai",
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362570"
-    }
-   ],
-   "firstSeen": "2026-11-06",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'대전' 지역 한정으로 보여요."
   },
   {
    "id": "hola:6ae355d8b243598fd0ed4e25",
@@ -2805,6 +2628,34 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:364398",
+   "source": "linkareer",
+   "title": "하비코 챌린지 휘핑크림 레시피 콘테스트 이벤트",
+   "host": "하비코 챌린지 휘핑크림",
+   "url": "https://linkareer.com/activity/364398",
+   "officialUrl": null,
+   "applyStart": "2026-11-13",
+   "applyEnd": "2026-11-30",
+   "postedAt": "2026-11-13",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364398"
+    }
+   ],
+   "firstSeen": "2026-11-14",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "wevity:112160",
    "source": "wevity",
    "title": "[한국체육산업개발(주)] 공공데이터 활용 경진대회",
@@ -2878,10 +2729,10 @@
   {
    "id": "linkareer:363957",
    "source": "linkareer",
-   "title": "서울 로컬브랜드 AI 숏폼 공모전",
+   "title": "서울 로컬브랜드 AI 기반 콘텐츠 마케팅 공모전",
    "host": "한국에스엔에스인재개발원",
    "url": "https://linkareer.com/activity/363957",
-   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdE6FQwSVs6RZvDrZk4feQyULOPiqEVPErJB0B2vdgcWRimlg/viewform",
+   "officialUrl": "https://docs.google.com/forms/d/19CFa9_l8pprNRuNXrf_WMjlDHThiskLOQEd5MlZIVjA/edit?ts=6af5010d",
    "applyStart": "2026-11-13",
    "applyEnd": "2026-12-04",
    "postedAt": "2026-11-12",
