@@ -1,66 +1,35 @@
 {
- "generatedAt": "2026-11-14T06:26:32.482Z",
- "today": "2026-11-14",
+ "generatedAt": "2026-11-14T18:04:45.399Z",
+ "today": "2026-11-15",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 61,
-   "fetchedAt": "2026-11-14T06:26:32.178Z"
+   "count": 62,
+   "fetchedAt": "2026-11-14T18:04:45.244Z"
   },
   "hola": {
    "ok": true,
    "count": 24,
-   "fetchedAt": "2026-11-14T06:26:32.179Z"
+   "fetchedAt": "2026-11-14T18:04:45.244Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-11-14T06:26:32.179Z"
+   "fetchedAt": "2026-11-14T18:04:45.244Z"
   },
   "devevent": {
    "ok": true,
-   "count": 16,
-   "fetchedAt": "2026-11-14T06:26:32.179Z"
+   "count": 15,
+   "fetchedAt": "2026-11-14T18:04:45.244Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-14T06:26:32.179Z"
+   "fetchedAt": "2026-11-14T18:04:45.244Z"
   }
  },
  "count": 100,
  "items": [
-  {
-   "id": "devevent:https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "source": "devevent",
-   "title": "국부펀드 KIC, AI 에이전트 공모전",
-   "host": "한국투자공사(KIC)",
-   "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "officialUrl": "https://daker.ai/public/hackathons/kic-ai-agent-competition",
-   "applyStart": "2026-10-01",
-   "applyEnd": "2026-11-12",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://daker.ai/public/hackathons/kic-ai-agent-competition"
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6adf16c1b2e45876ca663775",
    "source": "hola",
@@ -753,6 +722,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:364458",
+   "source": "linkareer",
+   "title": "2026 동남권 이노베이션 해커톤 ICT INNOHACK",
+   "host": "주식회사 패스파인더",
+   "url": "https://linkareer.com/activity/364458",
+   "officialUrl": null,
+   "applyStart": "2026-11-14",
+   "applyEnd": "2026-11-17",
+   "postedAt": "2026-11-14",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기타",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364458"
+    }
+   ],
+   "firstSeen": "2026-11-15",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:361137",
