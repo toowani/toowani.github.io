@@ -1,132 +1,35 @@
 {
- "generatedAt": "2026-11-15T06:35:54.848Z",
- "today": "2026-11-15",
+ "generatedAt": "2026-11-15T18:52:53.116Z",
+ "today": "2026-11-16",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 62,
-   "fetchedAt": "2026-11-15T06:35:54.704Z"
+   "count": 60,
+   "fetchedAt": "2026-11-15T18:52:52.725Z"
   },
   "hola": {
    "ok": true,
-   "count": 24,
-   "fetchedAt": "2026-11-15T06:35:54.704Z"
+   "count": 20,
+   "fetchedAt": "2026-11-15T18:52:52.726Z"
   },
   "wevity": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-11-15T06:35:54.704Z"
+   "count": 36,
+   "fetchedAt": "2026-11-15T18:52:52.726Z"
   },
   "devevent": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-11-15T06:35:54.704Z"
+   "count": 14,
+   "fetchedAt": "2026-11-15T18:52:52.726Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-15T06:35:54.704Z"
+   "fetchedAt": "2026-11-15T18:52:52.726Z"
   }
  },
- "count": 100,
+ "count": 91,
  "items": [
-  {
-   "id": "hola:6adf16c1b2e45876ca663775",
-   "source": "hola",
-   "title": "[엘리스] 과기부 × 엘리스 AI 챌린지 : 일상 속 문제, AI로 해결하다 (전국민 AI 경진대회)",
-   "host": "엘리스그룹",
-   "url": "https://holaworld.io/hola-it/6adf16c1b2e45876ca663775",
-   "officialUrl": "https://forms.cloud.microsoft/r/BR9vZsPMg8",
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-13",
-   "eventStart": "2026-10-23",
-   "eventEnd": "2026-11-13",
-   "postedAt": "2026-10-26",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16c1b2e45876ca663775"
-    }
-   ],
-   "firstSeen": "2026-11-14",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ab4c28dfdf75b86efbf5547",
-   "source": "hola",
-   "title": "2026 동남 버그바운티 대회",
-   "host": "과기정통부,부산시,한국인터넷진흥원,부산정보산업진흥원,울산정보산업진흥원,경남테크노파크",
-   "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547",
-   "officialUrl": "http://www.findthegap.co.kr",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-11-13",
-   "eventStart": "2026-09-21",
-   "eventEnd": "2026-11-13",
-   "postedAt": "2026-09-24",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ab4c28dfdf75b86efbf5547"
-    },
-    {
-     "source": "devevent",
-     "url": "https://linkareer.com/activity/352004"
-    }
-   ],
-   "firstSeen": "2026-10-20",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'부산' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6aa92b64fdf75b86efb38247",
-   "source": "hola",
-   "title": "AI 활용 옥외광고 간판 디자인 공모전",
-   "host": "한국지방재정공제회 한국옥외광고센터",
-   "url": "https://holaworld.io/hola-it/6aa92b64fdf75b86efb38247",
-   "officialUrl": "https://ai간판디자인공모전.com",
-   "applyStart": "2026-09-14",
-   "applyEnd": "2026-11-13",
-   "eventStart": "2026-09-14",
-   "eventEnd": "2026-11-13",
-   "postedAt": "2026-09-15",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa92b64fdf75b86efb38247"
-    }
-   ],
-   "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6ae355d8b243598fd0ed4e25",
    "source": "hola",
@@ -188,77 +91,32 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111666",
-   "source": "wevity",
-   "title": "[한국도로공사] AI 활용 아이디어 공모전",
-   "host": "한국도로공사",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111666",
-   "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=a80de8d7090348d689cffb81b055a62d&pagetype=bbs",
-   "applyStart": "2026-10-19",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-09-14",
-   "prize": "1천만원이하 · 1등 100만원",
-   "place": "온라인",
-   "target": "제한없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aa751d3847411b719e2e531"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111666",
-     "_detail": {
-      "applyStart": "2026-10-19",
-      "applyEnd": "2026-11-15",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?menu_id=527&bbs_id=a80de8d7090348d689cffb81b055a62d&pagetype=bbs",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "eventStart": "2026-09-07",
-   "eventEnd": "2026-10-02",
-   "firstSeen": "2026-10-20",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:361047",
-   "source": "linkareer",
+   "id": "hola:6ae9e0d741142deba60613e8",
+   "source": "hola",
    "title": "2026 Soul Mate Pioneers 창업경진대회",
-   "host": "서울앵커센터",
-   "url": "https://linkareer.com/activity/361047",
+   "host": "서울앵커센터, 성균관대학교 앵커사업단",
+   "url": "https://holaworld.io/hola-it/6ae9e0d741142deba60613e8",
    "officialUrl": "https://forms.gle/NH7zRSAqDt8G9Vr47",
    "applyStart": "2026-10-30",
    "applyEnd": "2026-11-15",
-   "postedAt": "2026-10-30",
+   "eventStart": "2026-10-30",
+   "eventEnd": "2026-11-15",
+   "postedAt": "2026-11-03",
    "prize": null,
    "place": "온라인",
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 창업",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
-    "startup",
-    "dev"
+    "dev",
+    "startup"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/361047"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ae9e0d741142deba60613e8"
     }
    ],
-   "eventStart": "2026-10-30",
-   "eventEnd": "2026-11-15",
-   "firstSeen": "2026-10-30",
+   "firstSeen": "2026-11-16",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -266,289 +124,69 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:360881",
-   "source": "linkareer",
-   "title": "2026 대구 대학(원) AI 드래프톤",
-   "host": "대구시",
-   "url": "https://linkareer.com/activity/360881",
-   "officialUrl": "http://drafthon.ai.kr/",
-   "applyStart": "2026-10-28",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-10-30",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "학술",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/360881"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/360309"
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "확인 필요",
-   "reasonTags": [
-    "지역 확인 필요"
-   ],
-   "reasonText": "지역 조건이 공고에서 분명하지 않아요."
-  },
-  {
-   "id": "wevity:112070",
-   "source": "wevity",
-   "title": "2026 세종사이버대학교 아동학과 공모전 (디지털 디톡스 챌린지)",
-   "host": "세종사이버대학교 아동학과",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112070",
-   "officialUrl": "https://home.sjcu.ac.kr/child/intro/contest_notice.do?mode=view&articleNo=139931&article.offset=0&articleLimit=9#!/list",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-15",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 30만원",
-   "place": null,
-   "target": "어린이",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112070",
-     "_detail": {
-      "applyStart": "2026-10-26",
-      "applyEnd": "2026-11-15",
-      "prize": "1천만원이하 · 1등 30만원",
-      "officialUrl": "https://home.sjcu.ac.kr/child/intro/contest_notice.do?mode=view&articleNo=139931&article.offset=0&articleLimit=9#!/list",
-      "target": "어린이"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-03",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
-  },
-  {
-   "id": "wevity:112097",
-   "source": "wevity",
-   "title": "2026 진안고원 치유골목 AI 쇼츠영상 콘테스트",
-   "host": "진안군",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112097",
-   "officialUrl": "https://www.jinan.go.kr/board/view.jinan?boardId=BBS_0000026&&menuCd=DOM_000000107001000000&paging=ok&startPage=1&categoryCode3=COM01&dataSid=216912",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-11-06",
-   "prize": "다양한 혜택",
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362617"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112097",
-     "_detail": {
-      "applyStart": "2026-11-09",
-      "applyEnd": "2026-11-15",
-      "prize": "다양한 혜택",
-      "officialUrl": "https://www.jinan.go.kr/board/view.jinan?boardId=BBS_0000026&&menuCd=DOM_000000107001000000&paging=ok&startPage=1&categoryCode3=COM01&dataSid=216912",
-      "target": null
-     }
-    }
-   ],
-   "firstSeen": "2026-11-06",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'진안군' 지역 한정으로 보여요."
-  },
-  {
-   "id": "linkareer:360083",
-   "source": "linkareer",
-   "title": "디지털 디톡스 챌린지",
-   "host": "세종사이버대학교 아동가족학부",
-   "url": "https://linkareer.com/activity/360083",
-   "officialUrl": null,
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-10-27",
-   "prize": null,
-   "place": null,
-   "target": "직장인/일반인",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/360083"
-    }
-   ],
-   "firstSeen": "2026-10-27",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
-  },
-  {
-   "id": "linkareer:363610",
-   "source": "linkareer",
-   "title": "생성형 AI를 활용한 평택시청소년재단 캐릭터(마스코트) 공모전",
-   "host": "평택시",
-   "url": "https://linkareer.com/activity/363610",
-   "officialUrl": "https://www.pyf.or.kr/web/lay1/bbs/S1T236C44/H/10/view.do?article_seq=3913&cpage=1&rows=10&condition=TITLE&keyword=ai&site_id=",
-   "applyStart": "2026-10-26",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-11-11",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "디자인/순수미술/공예, 캐릭터/만화/게임",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363610"
-    }
-   ],
-   "firstSeen": "2026-11-11",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가",
-    "대상 불가"
-   ],
-   "reasonText": "'평택시' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "linkareer:359362",
-   "source": "linkareer",
-   "title": "완주군 피지컬AI 실증단지 명칭 공모전",
-   "host": "완주군",
-   "url": "https://linkareer.com/activity/359362",
-   "officialUrl": null,
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-15",
-   "postedAt": "2026-10-23",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "네이밍/슬로건",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359362"
-    }
-   ],
-   "firstSeen": "2026-10-26",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'완주군' 지역 한정으로 보여요."
-  },
-  {
-   "id": "linkareer:362868",
-   "source": "linkareer",
+   "id": "hola:6af131a541142deba612cc95",
+   "source": "hola",
    "title": "토마토들 학생회 아이디어톤",
    "host": "주식회사 리에이크",
-   "url": "https://linkareer.com/activity/362868",
-   "officialUrl": "https://tally.so/r/zENKka?utm_source=linkareer&utm_medium=referral&utm_campaign=idea_student&utm_id=idea_261120",
+   "url": "https://holaworld.io/hola-it/6af131a541142deba612cc95",
+   "officialUrl": "https://tally.so/r/zENKka?utm_source=thinkyou&utm_medium=referral&utm_campaign=idea_student&utm_id=idea_261120",
    "applyStart": "2026-11-06",
    "applyEnd": "2026-11-15",
-   "postedAt": "2026-11-07",
+   "eventStart": "2026-11-06",
+   "eventEnd": "2026-11-15",
+   "postedAt": "2026-11-09",
    "prize": null,
    "place": "오프라인",
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362868"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6af131a541142deba612cc95"
     }
    ],
-   "eventStart": "2026-11-06",
-   "eventEnd": "2026-11-15",
-   "firstSeen": "2026-11-07",
+   "firstSeen": "2026-11-16",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "wevity:111802",
-   "source": "wevity",
+   "id": "hola:6ad8b96cb2e45876ca5e3870",
+   "source": "hola",
    "title": "현대자동차그룹 차량용 앱 개발 공모전",
    "host": "현대자동차그룹",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111802",
-   "officialUrl": "https://appdevchallenge.auto-hmg.io/landing",
+   "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870",
+   "officialUrl": "https://appdevchallenge.auto-hmg.io/",
    "applyStart": "2026-10-21",
    "applyEnd": "2026-11-15",
+   "eventStart": "2026-10-21",
+   "eventEnd": "2026-11-15",
    "postedAt": "2026-10-21",
-   "prize": "5천만원이상",
+   "prize": null,
    "place": "오프라인",
-   "target": "일반인, 대학생",
-   "sourceCategory": "웹/모바일/IT",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "dev"
    ],
    "sources": [
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b951b2e45876ca5e37df"
-    },
-    {
-     "source": "hola",
      "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870"
     },
     {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111802",
-     "_detail": {
-      "applyStart": "2026-10-21",
-      "applyEnd": "2026-11-15",
-      "prize": "5천만원이상",
-      "officialUrl": "https://appdevchallenge.auto-hmg.io/landing",
-      "target": "일반인, 대학생"
-     }
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6ad8b951b2e45876ca5e37df"
     },
     {
      "source": "devevent",
      "url": "https://appdevchallenge.auto-hmg.io/"
     }
    ],
-   "eventStart": "2026-10-21",
-   "eventEnd": "2026-11-15",
-   "firstSeen": "2026-10-20",
+   "firstSeen": "2026-11-16",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
@@ -1042,6 +680,46 @@
    "reasonText": "'제주' 지역 한정으로 보여요."
   },
   {
+   "id": "wevity:111490",
+   "source": "wevity",
+   "title": "[제천문화관광재단] 2026 시민 AI영상 공모전",
+   "host": "제천문화관광재단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111490",
+   "officialUrl": "https://jccf.or.kr/",
+   "applyStart": "2026-09-28",
+   "applyEnd": "2026-11-20",
+   "postedAt": "2026-10-27",
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "기타",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359799"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111490",
+     "_detail": {
+      "applyStart": "2026-09-28",
+      "applyEnd": "2026-11-20",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://jccf.or.kr/",
+      "target": "기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-16",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "kstartup:176406",
    "source": "kstartup",
    "title": "2026 대경권 엔젤투자 피칭룸 참여기업 모집 공고",
@@ -1219,35 +897,6 @@
    "eventStart": "2026-11-02",
    "eventEnd": "2026-11-20",
    "firstSeen": "2026-10-30",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:359799",
-   "source": "linkareer",
-   "title": "2026 시민 AI영상 공모전 <응답하라, 제천> 공고",
-   "host": "(재)제천문화관광재단",
-   "url": "https://linkareer.com/activity/359799",
-   "officialUrl": null,
-   "applyStart": "2026-10-27",
-   "applyEnd": "2026-11-20",
-   "postedAt": "2026-10-27",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359799"
-    }
-   ],
-   "firstSeen": "2026-10-27",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -1502,7 +1151,7 @@
    "officialUrl": "https://www.namuhx.com/events/6f150f44-01e0-4263-a538-d051e8b5f3b8",
    "applyStart": "2026-10-19",
    "applyEnd": "2026-11-22",
-   "postedAt": null,
+   "postedAt": "2026-10-20",
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "일반인, 대학생",
@@ -1512,6 +1161,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358366"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111804",
@@ -1772,7 +1425,7 @@
    "officialUrl": "https://www.kicet.re.kr/00020/00117/00120.web?gcode=1015&idx=12357&amode=view",
    "applyStart": "2026-10-23",
    "applyEnd": "2026-11-23",
-   "postedAt": null,
+   "postedAt": "2026-10-21",
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "제한없음",
@@ -1782,6 +1435,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358711"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111819",
@@ -2974,6 +2631,36 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:358054",
+   "source": "linkareer",
+   "title": "제1회 웨이노벨 웹소설 공모전 FIRST STORY CHALLENGE 2026",
+   "host": "웨이노벨",
+   "url": "https://linkareer.com/activity/358054",
+   "officialUrl": null,
+   "applyStart": "2026-10-19",
+   "applyEnd": "2026-12-13",
+   "postedAt": "2026-10-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "문학/시나리오",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358054"
+    }
+   ],
+   "firstSeen": "2026-11-16",
+   "grade": "비추천",
+   "reasonTags": [
+    "분야 불일치"
+   ],
+   "reasonText": "제목·분야에 '문학' 키워드가 있어요."
+  },
+  {
    "id": "linkareer:363343",
    "source": "linkareer",
    "title": "[세종사이버대학교] 2026 전국민 AI 공모전 AI 불씨",
@@ -3011,7 +2698,7 @@
    "officialUrl": "https://game.saaskr.com/awards",
    "applyStart": "2026-10-20",
    "applyEnd": "2026-12-20",
-   "postedAt": null,
+   "postedAt": "2026-10-21",
    "prize": "다양한 혜택",
    "place": null,
    "target": "일반인, 대학생, 청소년",
@@ -3021,6 +2708,10 @@
     "dev"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358536"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112277",
@@ -3161,7 +2852,7 @@
    "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=111800",
    "applyStart": "2026-10-20",
    "applyEnd": "2026-12-31",
-   "postedAt": null,
+   "postedAt": "2026-10-20",
    "prize": "1천만원이하 · 1등 30만원",
    "place": null,
    "target": "기타",
@@ -3171,6 +2862,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358358"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111800",
