@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-11-14T22:26:37.740Z",
+ "generatedAt": "2026-11-15T06:35:54.848Z",
  "today": "2026-11-15",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 62,
-   "fetchedAt": "2026-11-14T22:26:37.534Z"
+   "fetchedAt": "2026-11-15T06:35:54.704Z"
   },
   "hola": {
    "ok": true,
    "count": 24,
-   "fetchedAt": "2026-11-14T22:26:37.534Z"
+   "fetchedAt": "2026-11-15T06:35:54.704Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-11-14T22:26:37.534Z"
+   "fetchedAt": "2026-11-15T06:35:54.704Z"
   },
   "devevent": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-11-14T22:26:37.534Z"
+   "fetchedAt": "2026-11-15T06:35:54.704Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-14T22:26:37.534Z"
+   "fetchedAt": "2026-11-15T06:35:54.704Z"
   }
  },
  "count": 100,
@@ -524,11 +524,11 @@
    "sources": [
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870"
+     "url": "https://holaworld.io/hola-it/6ad8b951b2e45876ca5e37df"
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b951b2e45876ca5e37df"
+     "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870"
     },
     {
      "source": "wevity",
