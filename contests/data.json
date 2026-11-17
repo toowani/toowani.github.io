@@ -1,132 +1,35 @@
 {
- "generatedAt": "2026-11-17T07:57:10.890Z",
- "today": "2026-11-17",
+ "generatedAt": "2026-11-17T20:57:26.957Z",
+ "today": "2026-11-18",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 61,
-   "fetchedAt": "2026-11-17T07:57:10.738Z"
+   "count": 59,
+   "fetchedAt": "2026-11-17T20:57:26.737Z"
   },
   "hola": {
    "ok": true,
-   "count": 20,
-   "fetchedAt": "2026-11-17T07:57:10.738Z"
+   "count": 17,
+   "fetchedAt": "2026-11-17T20:57:26.737Z"
   },
   "wevity": {
    "ok": true,
-   "count": 37,
-   "fetchedAt": "2026-11-17T07:57:10.738Z"
+   "count": 36,
+   "fetchedAt": "2026-11-17T20:57:26.737Z"
   },
   "devevent": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-11-17T07:57:10.738Z"
+   "fetchedAt": "2026-11-17T20:57:26.737Z"
   },
   "kstartup": {
    "ok": true,
    "count": 10,
-   "fetchedAt": "2026-11-17T07:57:10.738Z"
+   "fetchedAt": "2026-11-17T20:57:26.737Z"
   }
  },
- "count": 99,
+ "count": 95,
  "items": [
-  {
-   "id": "hola:6ae9e0d741142deba60613e8",
-   "source": "hola",
-   "title": "2026 Soul Mate Pioneers 창업경진대회",
-   "host": "서울앵커센터, 성균관대학교 앵커사업단",
-   "url": "https://holaworld.io/hola-it/6ae9e0d741142deba60613e8",
-   "officialUrl": "https://forms.gle/NH7zRSAqDt8G9Vr47",
-   "applyStart": "2026-10-30",
-   "applyEnd": "2026-11-15",
-   "eventStart": "2026-10-30",
-   "eventEnd": "2026-11-15",
-   "postedAt": "2026-11-03",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev",
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae9e0d741142deba60613e8"
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6af131a541142deba612cc95",
-   "source": "hola",
-   "title": "토마토들 학생회 아이디어톤",
-   "host": "주식회사 리에이크",
-   "url": "https://holaworld.io/hola-it/6af131a541142deba612cc95",
-   "officialUrl": "https://tally.so/r/zENKka?utm_source=thinkyou&utm_medium=referral&utm_campaign=idea_student&utm_id=idea_261120",
-   "applyStart": "2026-11-06",
-   "applyEnd": "2026-11-15",
-   "eventStart": "2026-11-06",
-   "eventEnd": "2026-11-15",
-   "postedAt": "2026-11-09",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6af131a541142deba612cc95"
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "hola:6ad8b96cb2e45876ca5e3870",
-   "source": "hola",
-   "title": "현대자동차그룹 차량용 앱 개발 공모전",
-   "host": "현대자동차그룹",
-   "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870",
-   "officialUrl": "https://appdevchallenge.auto-hmg.io/",
-   "applyStart": "2026-10-21",
-   "applyEnd": "2026-11-15",
-   "eventStart": "2026-10-21",
-   "eventEnd": "2026-11-15",
-   "postedAt": "2026-10-21",
-   "prize": null,
-   "place": "오프라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b96cb2e45876ca5e3870"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad8b951b2e45876ca5e37df"
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
   {
    "id": "hola:6af131a241142deba612cc7f",
    "source": "hola",
@@ -222,124 +125,36 @@
    "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:361901",
-   "source": "linkareer",
-   "title": "[1등상금 50만원] 15만원 앰플 공짜로 써보는 '케이스키니' 사용챌린지 영상 공모전",
-   "host": "KSKINNY",
-   "url": "https://linkareer.com/activity/361901",
-   "officialUrl": "https://www.kskinny.co.kr/",
-   "applyStart": "2026-10-27",
-   "applyEnd": "2026-11-17",
-   "postedAt": "2026-11-04",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/361901"
-    }
-   ],
-   "firstSeen": "2026-11-04",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:362949",
-   "source": "linkareer",
-   "title": "[LG전자] LG 어나더 아이디어 챌린지",
-   "host": "LG전자",
-   "url": "https://linkareer.com/activity/362949",
-   "officialUrl": "https://www.lge.co.kr",
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-17",
-   "postedAt": "2026-11-09",
-   "prize": null,
-   "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "dev",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362949"
-    }
-   ],
-   "firstSeen": "2026-11-09",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:364458",
-   "source": "linkareer",
-   "title": "2026 동남권 이노베이션 해커톤 ICT INNOHACK",
-   "host": "주식회사 패스파인더",
-   "url": "https://linkareer.com/activity/364458",
-   "officialUrl": null,
-   "applyStart": "2026-11-14",
-   "applyEnd": "2026-11-17",
-   "postedAt": "2026-11-14",
-   "prize": null,
-   "place": null,
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기타",
-   "tags": [
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/364458"
-    }
-   ],
-   "firstSeen": "2026-11-15",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:361137",
-   "source": "linkareer",
-   "title": "2026 현장문제 AX 업무혁신 아이디어 해커톤 참가자 모집",
-   "host": "주식회사 어치브모먼트",
-   "url": "https://linkareer.com/activity/361137",
-   "officialUrl": "https://www.blaybus.com",
+   "id": "hola:6ae9e0d141142deba60613be",
+   "source": "hola",
+   "title": "[KAIST] 2026 현장문제 AX 아이디어 해커톤",
+   "host": "중소벤처기업진흥공단·충청남도·천안시·아산시·충남TP / KAIST",
+   "url": "https://holaworld.io/hola-it/6ae9e0d141142deba60613be",
+   "officialUrl": "https://www.blaybus.com/program/1148/landing?utm_source=allforyoung&utm_medium=contest&utm_campaign=kaist_hackathon",
    "applyStart": "2026-10-30",
    "applyEnd": "2026-11-17",
-   "postedAt": "2026-10-31",
+   "eventStart": "2026-10-30",
+   "eventEnd": "2026-11-17",
+   "postedAt": "2026-11-03",
    "prize": null,
    "place": "오프라인",
-   "target": "대학생, 직장인/일반인",
-   "sourceCategory": "기획/아이디어, 과학/공학",
+   "target": null,
+   "sourceCategory": "해커톤",
    "tags": [
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/361137"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6ae9e0d141142deba60613be"
     }
    ],
-   "eventStart": "2026-10-30",
-   "eventEnd": "2026-11-17",
-   "firstSeen": "2026-11-01",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+   "firstSeen": "2026-11-18",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'충남' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:179562",
@@ -598,46 +413,6 @@
    "reasonText": "'제주' 지역 한정으로 보여요."
   },
   {
-   "id": "wevity:111490",
-   "source": "wevity",
-   "title": "[제천문화관광재단] 2026 시민 AI영상 공모전",
-   "host": "제천문화관광재단",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111490",
-   "officialUrl": "https://jccf.or.kr/",
-   "applyStart": "2026-09-28",
-   "applyEnd": "2026-11-20",
-   "postedAt": "2026-10-27",
-   "prize": "1천만원이하 · 1등 100만원",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359799"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111490",
-     "_detail": {
-      "applyStart": "2026-09-28",
-      "applyEnd": "2026-11-20",
-      "prize": "1천만원이하 · 1등 100만원",
-      "officialUrl": "https://jccf.or.kr/",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "kstartup:176406",
    "source": "kstartup",
    "title": "2026 대경권 엔젤투자 피칭룸 참여기업 모집 공고",
@@ -741,6 +516,10 @@
      "url": "https://linkareer.com/activity/359000"
     },
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/358856"
+    },
+    {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111847",
      "_detail": {
@@ -811,6 +590,35 @@
    "eventStart": "2026-11-02",
    "eventEnd": "2026-11-20",
    "firstSeen": "2026-10-30",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:359799",
+   "source": "linkareer",
+   "title": "2026 시민 AI영상 공모전 <응답하라, 제천> 공고",
+   "host": "(재)제천문화관광재단",
+   "url": "https://linkareer.com/activity/359799",
+   "officialUrl": null,
+   "applyStart": "2026-10-27",
+   "applyEnd": "2026-11-20",
+   "postedAt": "2026-10-27",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/359799"
+    }
+   ],
+   "firstSeen": "2026-11-18",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -1025,6 +833,34 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:365185",
+   "source": "linkareer",
+   "title": "[Liner Scholar] 3주 리서치 챌린지",
+   "host": "라이너",
+   "url": "https://linkareer.com/activity/365185",
+   "officialUrl": null,
+   "applyStart": "2026-11-17",
+   "applyEnd": "2026-11-22",
+   "postedAt": "2026-11-17",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "학술, 과학/공학",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365185"
+    }
+   ],
+   "firstSeen": "2026-11-18",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:363885",
@@ -1677,6 +1513,34 @@
     "지역 불가"
    ],
    "reasonText": "'대전' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:365200",
+   "source": "linkareer",
+   "title": "2027 지역 창업 솔버톤 대회 참가자 모집 (~11/28)",
+   "host": "주식회사 유디임팩트",
+   "url": "https://linkareer.com/activity/365200",
+   "officialUrl": null,
+   "applyStart": "2026-11-16",
+   "applyEnd": "2026-11-28",
+   "postedAt": "2026-11-17",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365200"
+    }
+   ],
+   "firstSeen": "2026-11-18",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:364831",
