@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-18T20:33:46.617Z",
+ "generatedAt": "2026-11-19T07:28:29.458Z",
  "today": "2026-11-19",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 56,
-   "fetchedAt": "2026-11-18T20:33:46.469Z"
+   "count": 59,
+   "fetchedAt": "2026-11-19T07:28:29.310Z"
   },
   "hola": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-11-18T20:33:46.470Z"
+   "fetchedAt": "2026-11-19T07:28:29.310Z"
   },
   "wevity": {
    "ok": true,
    "count": 38,
-   "fetchedAt": "2026-11-18T20:33:46.470Z"
+   "fetchedAt": "2026-11-19T07:28:29.310Z"
   },
   "devevent": {
    "ok": true,
    "count": 14,
-   "fetchedAt": "2026-11-18T20:33:46.470Z"
+   "fetchedAt": "2026-11-19T07:28:29.310Z"
   },
   "kstartup": {
    "ok": true,
    "count": 10,
-   "fetchedAt": "2026-11-18T20:33:46.470Z"
+   "fetchedAt": "2026-11-19T07:28:29.310Z"
   }
  },
- "count": 93,
+ "count": 97,
  "items": [
   {
    "id": "hola:6ae9e0d141142deba60613be",
@@ -163,28 +163,26 @@
    "reasonText": "'전북' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:359517",
-   "source": "linkareer",
+   "id": "hola:6adf16c0b2e45876ca663770",
+   "source": "hola",
    "title": "[데이콘] 제주 AI·빅데이터 활용 AI Agent 개발 챌린지(~11/20)",
-   "host": "데이콘 주식회사",
-   "url": "https://linkareer.com/activity/359517",
+   "host": "제주테크노파크",
+   "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663770",
    "officialUrl": "https://daker.ai/public/hackathons/jeju-ai-bigdata-agent-challenge",
    "applyStart": "2026-10-26",
    "applyEnd": "2026-11-20",
+   "eventStart": "2026-10-26",
+   "eventEnd": "2026-11-20",
    "postedAt": "2026-10-26",
    "prize": null,
    "place": "온라인",
-   "target": "대상 제한 없음",
-   "sourceCategory": "과학/공학, 기획/아이디어",
+   "target": null,
+   "sourceCategory": "공모전",
    "tags": [
     "ai",
     "dev"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/359517"
-    },
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663770"
@@ -194,9 +192,7 @@
      "url": "https://daker.ai/public/hackathons/jeju-ai-bigdata-agent-challenge"
     }
    ],
-   "eventStart": "2026-10-26",
-   "eventEnd": "2026-11-20",
-   "firstSeen": "2026-10-26",
+   "firstSeen": "2026-11-19",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -755,6 +751,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:365486",
+   "source": "linkareer",
+   "title": "LG 어나더 아이디어 챌린지",
+   "host": "히트커뮤니케이션즈",
+   "url": "https://linkareer.com/activity/365486",
+   "officialUrl": null,
+   "applyStart": "2026-10-23",
+   "applyEnd": "2026-11-22",
+   "postedAt": "2026-11-18",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "기획/아이디어, 기타",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365486"
+    }
+   ],
+   "firstSeen": "2026-11-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:111804",
@@ -1418,6 +1442,38 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:365635",
+   "source": "linkareer",
+   "title": "[울산] 코딩 몰라도 OK, 1박 2일 AI 해커톤 INNO-CODER (총상금 200만 원·무료)",
+   "host": "팀모노리스",
+   "url": "https://linkareer.com/activity/365635",
+   "officialUrl": "https://landing.jitda.io",
+   "applyStart": "2026-11-19",
+   "applyEnd": "2026-11-29",
+   "postedAt": "2026-11-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup",
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365635"
+    }
+   ],
+   "firstSeen": "2026-11-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'울산' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:363236",
@@ -2600,6 +2656,66 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:363343",
+   "source": "linkareer",
+   "title": "[세종사이버대학교] 2026 전국민 AI 공모전 AI 불씨",
+   "host": "세종사이버대학교",
+   "url": "https://linkareer.com/activity/363343",
+   "officialUrl": "https://www.sjcu.ac.kr",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-20",
+   "postedAt": "2026-11-10",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363343"
+    }
+   ],
+   "firstSeen": "2026-11-19",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:365707",
+   "source": "linkareer",
+   "title": "[월드 AI 사운드 마스터즈 협회] 제1회 제주어 AI 음악 경진대회",
+   "host": "월드 AI 사운드 마스터즈 협회",
+   "url": "https://linkareer.com/activity/365707",
+   "officialUrl": "https://aimusicstudio.store/contest.html#apply",
+   "applyStart": "2026-11-18",
+   "applyEnd": "2026-12-20",
+   "postedAt": "2026-11-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기타",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365707"
+    }
+   ],
+   "firstSeen": "2026-11-19",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'제주' 지역 한정으로 보여요."
+  },
+  {
    "id": "wevity:112277",
    "source": "wevity",
    "title": "2026 saaskr 게임 어워드 - AI로 만든 웹게임 연말 시상",
@@ -2636,41 +2752,6 @@
     "대상 불가"
    ],
    "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
-   "id": "linkareer:365189",
-   "source": "linkareer",
-   "title": "AI공모전 'AI 불씨'",
-   "host": "세종사이버대학교",
-   "url": "https://linkareer.com/activity/365189",
-   "officialUrl": "https://www.sjcu.ac.kr/aispark/main/index.asp",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-12-20",
-   "postedAt": "2026-11-17",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "캐릭터/만화/게임, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/365189"
-    },
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363343"
-    }
-   ],
-   "firstSeen": "2026-11-18",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:112285",
@@ -2738,6 +2819,34 @@
     }
    ],
    "firstSeen": "2026-10-29",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:365596",
+   "source": "linkareer",
+   "title": "[그린대로] AI 서비스 오픈 기념 이벤트",
+   "host": "크리스피드",
+   "url": "https://linkareer.com/activity/365596",
+   "officialUrl": "https://www.greendaero.go.kr/svc/rfph/guide/front/news/noticeDetail.do?seq=198490",
+   "applyStart": "2026-11-19",
+   "applyEnd": "2026-12-22",
+   "postedAt": "2026-11-19",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기타",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365596"
+    }
+   ],
+   "firstSeen": "2026-11-19",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
