@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-19T20:39:41.839Z",
+ "generatedAt": "2026-11-20T07:18:35.342Z",
  "today": "2026-11-20",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 60,
-   "fetchedAt": "2026-11-19T20:39:41.649Z"
+   "count": 61,
+   "fetchedAt": "2026-11-20T07:18:34.999Z"
   },
   "hola": {
    "ok": true,
-   "count": 21,
-   "fetchedAt": "2026-11-19T20:39:41.649Z"
+   "count": 20,
+   "fetchedAt": "2026-11-20T07:18:34.999Z"
   },
   "wevity": {
    "ok": true,
    "count": 39,
-   "fetchedAt": "2026-11-19T20:39:41.649Z"
+   "fetchedAt": "2026-11-20T07:18:34.999Z"
   },
   "devevent": {
    "ok": true,
-   "count": 17,
-   "fetchedAt": "2026-11-19T20:39:41.649Z"
+   "count": 19,
+   "fetchedAt": "2026-11-20T07:18:34.999Z"
   },
   "kstartup": {
    "ok": true,
    "count": 8,
-   "fetchedAt": "2026-11-19T20:39:41.649Z"
+   "fetchedAt": "2026-11-20T07:18:34.999Z"
   }
  },
- "count": 96,
+ "count": 99,
  "items": [
   {
    "id": "hola:6adf16c0b2e45876ca663770",
@@ -54,10 +54,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16c0b2e45876ca663770"
-    },
-    {
-     "source": "devevent",
-     "url": "https://daker.ai/public/hackathons/jeju-ai-bigdata-agent-challenge"
     }
    ],
    "firstSeen": "2026-11-19",
@@ -255,10 +251,6 @@
      "url": "https://holaworld.io/hola-it/6ae9e0d341142deba60613dc"
     },
     {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ae9e0d241142deba60613d2"
-    },
-    {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112029",
      "_detail": {
@@ -425,6 +417,39 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "devevent:https://form.naver.com/response/38PbnPPGCJT",
+   "source": "devevent",
+   "title": "NAVER Connect Robotics Cup 2026 결승전 현장 관람",
+   "host": "네이버 커넥트재단",
+   "url": "https://form.naver.com/response/38PbnPPGCJT",
+   "officialUrl": "https://form.naver.com/response/38PbnPPGCJT",
+   "applyStart": "2026-11-18",
+   "applyEnd": "2026-11-20",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(경기 성남)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://form.naver.com/response/38PbnPPGCJT"
+    }
+   ],
+   "firstSeen": "2026-11-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경기' 지역 한정으로 보여요."
   },
   {
    "id": "linkareer:364010",
@@ -1289,6 +1314,39 @@
    "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "devevent:https://event-us.kr/gdgcloudkr/event/140493",
+   "source": "devevent",
+   "title": "DevFest Cloud x Pangyo 2026",
+   "host": "GDG Cloud Korea · GDG Pangyo",
+   "url": "https://event-us.kr/gdgcloudkr/event/140493",
+   "officialUrl": "https://event-us.kr/gdgcloudkr/event/140493",
+   "applyStart": "2026-11-17",
+   "applyEnd": "2026-11-28",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(경기 성남)",
+   "target": null,
+   "sourceCategory": "대회, AI, 클라우드",
+   "tags": [
+    "dev",
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://event-us.kr/gdgcloudkr/event/140493"
+    }
+   ],
+   "firstSeen": "2026-11-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'경기' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:364831",
    "source": "linkareer",
    "title": "TripPups AI Game Hackathon 2026",
@@ -1317,7 +1375,7 @@
     }
    ],
    "eventStart": "2026-10-26",
-   "eventEnd": "2026-11-28",
+   "eventEnd": "2026-12-12",
    "firstSeen": "2026-11-17",
    "grade": "추천",
    "reasonTags": [],
@@ -1363,7 +1421,7 @@
    "applyEnd": "2026-11-29",
    "postedAt": "2026-11-10",
    "prize": null,
-   "place": "오프라인 · 온라인",
+   "place": "오프라인 · SVC Seoul B1 오픈스테이지",
    "target": "대학생",
    "sourceCategory": "기획/아이디어, 건축/건설/인테리어",
    "tags": [
@@ -1377,10 +1435,6 @@
     },
     {
      "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aff14b341142deba627959e"
-    },
-    {
-     "source": "hola",
      "url": "https://holaworld.io/hola-it/6afa5f8a41142deba61f968c"
     },
     {
@@ -1388,38 +1442,34 @@
      "url": "https://onoffmix.com/event/353176"
     }
    ],
-   "eventStart": "2026-11-10",
-   "eventEnd": "2026-11-29",
+   "eventStart": "2026-12-07",
+   "eventEnd": "2026-12-11",
    "firstSeen": "2026-11-10",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI·해커톤)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "hola:6aff149b41142deba62794f7",
-   "source": "hola",
-   "title": "2026 서울관광 프롬프톤",
+   "id": "devevent:https://prompt2026.sto.or.kr/",
+   "source": "devevent",
+   "title": "2026 서울관광 프롬프톤 (Seoul Tourism Prompt-thon)",
    "host": "서울관광재단",
-   "url": "https://holaworld.io/hola-it/6aff149b41142deba62794f7",
-   "officialUrl": "https://sto.or.kr/unitrcrit/AI%ED%98%81%EC%8B%A0%ED%8C%80-2026-%EC%84%9C%EC%9A%B8%EA%B4%80%EA%B4%91-%ED%94%84%EB%A1%AC%ED%94%84%ED%86%A4-%EC%B0%B8%EA%B0%80%EC%9E%90-%EB%AA%A8%EC%A7%91-%EA%B3%B5%EA%B3%A0-119~1129_/16809#qopen",
-   "applyStart": "2026-11-10",
+   "url": "https://prompt2026.sto.or.kr/",
+   "officialUrl": "https://prompt2026.sto.or.kr/",
+   "applyStart": "2026-11-09",
    "applyEnd": "2026-11-29",
-   "eventStart": "2026-11-10",
-   "eventEnd": "2026-11-29",
-   "postedAt": "2026-11-20",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
    "prize": null,
-   "place": "온라인",
+   "place": "오프라인(서울 종로구)",
    "target": null,
-   "sourceCategory": "해커톤",
+   "sourceCategory": "대회, AI",
    "tags": [
     "dev",
     "ai"
    ],
    "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6aff149b41142deba62794f7"
-    },
     {
      "source": "devevent",
      "url": "https://prompt2026.sto.or.kr/"
@@ -1504,17 +1554,21 @@
    "officialUrl": "https://ccei.creativekorea.or.kr/ulsan/service/program_view.do?no=10647&rnum=2&sMenuType=00040002&mainGo=Y",
    "applyStart": "2026-11-19",
    "applyEnd": "2026-11-29",
-   "postedAt": "2026-11-19",
+   "postedAt": "2026-11-20",
    "prize": "1천만원이하 · 1등 80만원",
-   "place": null,
+   "place": "오프라인(울산)",
    "target": "대학생, 기타",
    "sourceCategory": "게임/소프트웨어",
    "tags": [
-    "startup",
     "ai",
-    "dev"
+    "dev",
+    "startup"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365966"
+    },
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/365635"
@@ -1529,6 +1583,10 @@
       "officialUrl": "https://ccei.creativekorea.or.kr/ulsan/service/program_view.do?no=10647&rnum=2&sMenuType=00040002&mainGo=Y",
       "target": "대학생, 기타"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://forms.gle/csx3ieajaqKMWgKh6"
     }
    ],
    "firstSeen": "2026-11-20",
@@ -1621,10 +1679,6 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6adf16bfb2e45876ca663757"
-    },
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6adf16beb2e45876ca663752"
     }
    ],
    "firstSeen": "2026-11-19",
@@ -1859,6 +1913,37 @@
     "지역 불가"
    ],
    "reasonText": "'문경시' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:365981",
+   "source": "linkareer",
+   "title": "2026 포항 MICE 창업 해커톤",
+   "host": "포항시",
+   "url": "https://linkareer.com/activity/365981",
+   "officialUrl": "https://allmice.org/",
+   "applyStart": "2026-11-20",
+   "applyEnd": "2026-11-30",
+   "postedAt": "2026-11-20",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 과학/공학",
+   "tags": [
+    "dev",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/365981"
+    }
+   ],
+   "firstSeen": "2026-11-20",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'포항시' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:112184",
