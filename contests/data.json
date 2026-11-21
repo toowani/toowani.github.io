@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-20T20:23:41.085Z",
+ "generatedAt": "2026-11-21T07:11:44.719Z",
  "today": "2026-11-21",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 56,
-   "fetchedAt": "2026-11-20T20:23:40.921Z"
+   "fetchedAt": "2026-11-21T07:11:44.573Z"
   },
   "hola": {
    "ok": true,
-   "count": 20,
-   "fetchedAt": "2026-11-20T20:23:40.921Z"
+   "count": 24,
+   "fetchedAt": "2026-11-21T07:11:44.574Z"
   },
   "wevity": {
    "ok": true,
    "count": 33,
-   "fetchedAt": "2026-11-20T20:23:40.921Z"
+   "fetchedAt": "2026-11-21T07:11:44.574Z"
   },
   "devevent": {
    "ok": true,
    "count": 19,
-   "fetchedAt": "2026-11-20T20:23:40.921Z"
+   "fetchedAt": "2026-11-21T07:11:44.574Z"
   },
   "kstartup": {
    "ok": true,
    "count": 6,
-   "fetchedAt": "2026-11-20T20:23:40.921Z"
+   "fetchedAt": "2026-11-21T07:11:44.574Z"
   }
  },
- "count": 93,
+ "count": 95,
  "items": [
   {
    "id": "hola:6adf16c0b2e45876ca663770",
@@ -1310,7 +1310,7 @@
    "applyEnd": "2026-11-29",
    "postedAt": "2026-11-20",
    "prize": "1천만원이하 · 1등 80만원",
-   "place": "오프라인(울산)",
+   "place": "온라인",
    "target": "대학생, 기타",
    "sourceCategory": "게임/소프트웨어",
    "tags": [
@@ -1328,6 +1328,10 @@
      "url": "https://linkareer.com/activity/365635"
     },
     {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b013e4b225b408d6c241561"
+    },
+    {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112474",
      "_detail": {
@@ -1343,6 +1347,8 @@
      "url": "https://forms.gle/csx3ieajaqKMWgKh6"
     }
    ],
+   "eventStart": "2026-11-19",
+   "eventEnd": "2026-11-29",
    "firstSeen": "2026-11-20",
    "grade": "비추천",
    "reasonTags": [
@@ -2153,6 +2159,38 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "hola:6b013e43225b408d6c241550",
+   "source": "hola",
+   "title": "2026 서울 야간경제 활성화 해커톤(Dopamine 24)",
+   "host": "서울특별시/서울창업허브·SBA(서울경제진흥원)",
+   "url": "https://holaworld.io/hola-it/6b013e43225b408d6c241550",
+   "officialUrl": "https://aifactory.space/ko/competitions/9320",
+   "applyStart": "2026-11-18",
+   "applyEnd": "2026-12-07",
+   "eventStart": "2026-11-18",
+   "eventEnd": "2026-12-07",
+   "postedAt": "2026-11-21",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "해커톤",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b013e43225b408d6c241550"
+    }
+   ],
+   "firstSeen": "2026-11-21",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
    "id": "wevity:112329",
    "source": "wevity",
    "title": "2026 제천시장배 전국 e-스포츠 대회",
@@ -2287,6 +2325,39 @@
    "reasonText": "'밀양시' 지역 한정으로 보여요."
   },
   {
+   "id": "hola:6b013e61225b408d6c2415ec",
+   "source": "hola",
+   "title": "📢AI학과 2026『일상의 편리를 위한 AI서비스개발 공모전』",
+   "host": "세종사이버대학교 AI학과",
+   "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec",
+   "officialUrl": "https://buly.kr/31WMJCW",
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-12-11",
+   "eventStart": "2026-10-06",
+   "eventEnd": "2026-12-11",
+   "postedAt": "2026-11-21",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec"
+    }
+   ],
+   "firstSeen": "2026-11-21",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
+  },
+  {
    "id": "wevity:112438",
    "source": "wevity",
    "title": "2026년 서울교육 AI 활용 공모전",
@@ -2295,15 +2366,19 @@
    "officialUrl": "https://dbedu.sen.go.kr/CMS/school/school02/school0202/1360510_2820.html",
    "applyStart": "2026-11-16",
    "applyEnd": "2026-12-11",
-   "postedAt": null,
+   "postedAt": "2026-11-21",
    "prize": "다양한 혜택",
-   "place": null,
+   "place": "온라인",
    "target": "기타",
    "sourceCategory": "웹/모바일/IT",
    "tags": [
     "ai"
    ],
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b013e4d225b408d6c24157c"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112438",
@@ -2316,6 +2391,8 @@
      }
     }
    ],
+   "eventStart": "2026-11-16",
+   "eventEnd": "2026-12-11",
    "firstSeen": "2026-11-20",
    "grade": "비추천",
    "reasonTags": [
