@@ -1,34 +1,34 @@
 {
- "generatedAt": "2026-11-22T19:43:17.318Z",
+ "generatedAt": "2026-11-23T07:41:40.367Z",
  "today": "2026-11-23",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 36,
-   "fetchedAt": "2026-11-22T19:43:17.136Z"
+   "count": 40,
+   "fetchedAt": "2026-11-23T07:41:40.261Z"
   },
   "hola": {
    "ok": true,
    "count": 25,
-   "fetchedAt": "2026-11-22T19:43:17.136Z"
+   "fetchedAt": "2026-11-23T07:41:40.262Z"
   },
   "wevity": {
    "ok": true,
    "count": 30,
-   "fetchedAt": "2026-11-22T19:43:17.136Z"
+   "fetchedAt": "2026-11-23T07:41:40.262Z"
   },
   "devevent": {
    "ok": true,
    "count": 15,
-   "fetchedAt": "2026-11-22T19:43:17.136Z"
+   "fetchedAt": "2026-11-23T07:41:40.262Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 6,
-   "fetchedAt": "2026-11-22T19:43:17.136Z"
+   "count": 4,
+   "fetchedAt": "2026-11-23T07:41:40.262Z"
   }
  },
- "count": 85,
+ "count": 84,
  "items": [
   {
    "id": "devevent:https://luma.com/z8hzosog",
@@ -128,6 +128,34 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:366239",
+   "source": "linkareer",
+   "title": "「2026 한-아랍 스타트업 공모전」 참가 스타트업 모집(~11. 23.(월) 17:00)",
+   "host": "한-아랍 스타트업 공모전 운영사무국",
+   "url": "https://linkareer.com/activity/366239",
+   "officialUrl": null,
+   "applyStart": "2026-11-10",
+   "applyEnd": "2026-11-23",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "창업",
+   "tags": [
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366239"
+    }
+   ],
+   "firstSeen": "2026-11-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:364057",
    "source": "linkareer",
    "title": "「2026년 벤처브릿지 오픈이노베이션」",
@@ -192,37 +220,6 @@
     "지역 불가"
    ],
    "reasonText": "'경산시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "kstartup:179772",
-   "source": "kstartup",
-   "title": "2026 전북콘텐츠코리아랩 AI 활용 콘텐츠(캐릭터) 아이디어 발굴 캠프",
-   "host": "(재)전라북도콘텐츠융합진흥원",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179772",
-   "officialUrl": null,
-   "applyStart": "2026-11-10",
-   "applyEnd": "2026-11-23",
-   "postedAt": "2026-11-11",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "공공, 멘토링ㆍ컨설팅ㆍ교육",
-   "tags": [
-    "startup",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179772"
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'전북' 지역 한정으로 보여요."
   },
   {
    "id": "kstartup:179785",
@@ -465,36 +462,6 @@
    "reasonText": "'서울' 지역 한정으로 보여요."
   },
   {
-   "id": "linkareer:362189",
-   "source": "linkareer",
-   "title": "2026년 AI·디지털 활용 연구·선도학교 우수사례 공모전",
-   "host": "한국교육학술정보원",
-   "url": "https://linkareer.com/activity/362189",
-   "officialUrl": null,
-   "applyStart": "2026-11-04",
-   "applyEnd": "2026-11-27",
-   "postedAt": "2026-11-04",
-   "prize": null,
-   "place": null,
-   "target": "직장인/일반인",
-   "sourceCategory": "기획/아이디어, 문학/시나리오",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/362189"
-    }
-   ],
-   "firstSeen": "2026-11-05",
-   "grade": "확인 필요",
-   "reasonTags": [
-    "분야 확인 필요"
-   ],
-   "reasonText": "'문학' 키워드가 있지만 관심 분야 키워드도 같이 있어요."
-  },
-  {
    "id": "wevity:111837",
    "source": "wevity",
    "title": "제2회 2026 대한민국 AI 창조공모대전",
@@ -731,6 +698,41 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
+   "id": "wevity:112518",
+   "source": "wevity",
+   "title": "Build with Qwen: AutoRAG Hackathon 2026",
+   "host": "알리바바 클라우드, Markr, 브레인크루",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112518",
+   "officialUrl": "https://luma.com/pcd9sjr8",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-11-29",
+   "postedAt": null,
+   "prize": "3천만원~1천만원 · 1등 400만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "웹/모바일/IT",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112518",
+     "_detail": {
+      "applyStart": "2026-11-23",
+      "applyEnd": "2026-11-29",
+      "prize": "3천만원~1천만원 · 1등 400만원",
+      "officialUrl": "https://luma.com/pcd9sjr8",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "linkareer:364763",
@@ -1720,31 +1722,37 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "hola:6b013e43225b408d6c241550",
-   "source": "hola",
+   "id": "linkareer:366279",
+   "source": "linkareer",
    "title": "2026 서울 야간경제 활성화 해커톤(Dopamine 24)",
-   "host": "서울특별시/서울창업허브·SBA(서울경제진흥원)",
-   "url": "https://holaworld.io/hola-it/6b013e43225b408d6c241550",
-   "officialUrl": "https://aifactory.space/ko/competitions/9320",
+   "host": "서울특별시",
+   "url": "https://linkareer.com/activity/366279",
+   "officialUrl": "https://aifactory.space/ko",
    "applyStart": "2026-11-18",
    "applyEnd": "2026-12-07",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": "2026-11-21",
+   "postedAt": "2026-11-23",
    "prize": null,
    "place": "온라인",
-   "target": null,
-   "sourceCategory": "해커톤",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 학술",
    "tags": [
     "dev"
    ],
    "sources": [
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366279"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366175"
+    },
+    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6b013e43225b408d6c241550"
     }
    ],
-   "firstSeen": "2026-11-21",
+   "firstSeen": "2026-11-23",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -1787,35 +1795,6 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "kstartup:179829",
-   "source": "kstartup",
-   "title": "「2027년 농촌창업 경진대회」 참가자 모집",
-   "host": "더컴퍼니씨 협동조합",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179829",
-   "officialUrl": null,
-   "applyStart": "2026-11-17",
-   "applyEnd": "2026-12-10",
-   "postedAt": "2026-11-18",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 행사ㆍ네트워크",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179829"
-    }
-   ],
-   "firstSeen": "2026-11-18",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "wevity:111869",
    "source": "wevity",
    "title": "2026 춘천MBC AI영상 공모전",
@@ -1852,6 +1831,39 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:366236",
+   "source": "linkareer",
+   "title": "2027 농촌창업 경진대회",
+   "host": "더컴퍼니씨 협동조합(The Company C)",
+   "url": "https://linkareer.com/activity/366236",
+   "officialUrl": "http://www.농촌창업경진대회.com",
+   "applyStart": "2026-11-13",
+   "applyEnd": "2026-12-10",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어, 창업",
+   "tags": [
+    "startup",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366236"
+    },
+    {
+     "source": "kstartup",
+     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179829"
+    }
+   ],
+   "firstSeen": "2026-11-23",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "linkareer:365775",
    "source": "linkareer",
    "title": "[밀양시] 밀양아리랑대축제 AI 포스터 공모전",
@@ -1880,39 +1892,6 @@
     "지역 불가"
    ],
    "reasonText": "'밀양시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "hola:6b013e61225b408d6c2415ec",
-   "source": "hola",
-   "title": "📢AI학과 2026『일상의 편리를 위한 AI서비스개발 공모전』",
-   "host": "세종사이버대학교 AI학과",
-   "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec",
-   "officialUrl": "https://buly.kr/31WMJCW",
-   "applyStart": "2026-10-06",
-   "applyEnd": "2026-12-11",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": "2026-11-21",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec"
-    }
-   ],
-   "firstSeen": "2026-11-21",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "wevity:112438",
@@ -1954,6 +1933,41 @@
     "지역 불가"
    ],
    "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:366278",
+   "source": "linkareer",
+   "title": "AI학과 2026『일상의 편리를 위한 AI서비스개발 공모전』",
+   "host": "세종사이버대학교 AI학과",
+   "url": "https://linkareer.com/activity/366278",
+   "officialUrl": "https://cms.sjcu.ac.kr/artificial-intelligence/",
+   "applyStart": "2026-10-06",
+   "applyEnd": "2026-12-11",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": "온라인",
+   "target": "대상 제한 없음",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366278"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec"
+    }
+   ],
+   "firstSeen": "2026-11-23",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'세종' 지역 한정으로 보여요."
   },
   {
    "id": "devevent:https://luma.com/aisecurityseoul",
@@ -2378,44 +2392,6 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
-   "id": "wevity:111222",
-   "source": "wevity",
-   "title": "NEXMUSE AI Music Video Contest 2027",
-   "host": "주식회사 에이아이아트",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-   "officialUrl": "https://nexmuse.kr/",
-   "applyStart": "2026-09-21",
-   "applyEnd": "2026-12-28",
-   "postedAt": null,
-   "prize": "3천만원~1천만원 · 1등 1,000만원",
-   "place": null,
-   "target": "일반인, 대학생, 청소년",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
-     "_detail": {
-      "applyStart": "2026-09-21",
-      "applyEnd": "2026-12-28",
-      "prize": "3천만원~1천만원 · 1등 1,000만원",
-      "officialUrl": "https://nexmuse.kr/",
-      "target": "일반인, 대학생, 청소년"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-23",
-   "grade": "비추천",
-   "reasonTags": [
-    "대상 불가"
-   ],
-   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
-  },
-  {
    "id": "linkareer:365034",
    "source": "linkareer",
    "title": "[주한EU대표부] 2026년 슈만 챌린지: 한-EU 파트너십 강화를 위한 정책아이디어 공모",
@@ -2755,6 +2731,37 @@
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:366078",
+   "source": "linkareer",
+   "title": "제1회 멜로이 대학생 AI 채팅 콘텐츠 공모전",
+   "host": "네오사피엔스 주식회사",
+   "url": "https://linkareer.com/activity/366078",
+   "officialUrl": "https://melloy.io",
+   "applyStart": "2026-12-01",
+   "applyEnd": "2027-01-10",
+   "postedAt": "2026-11-20",
+   "prize": null,
+   "place": null,
+   "target": "대학생",
+   "sourceCategory": "문학/시나리오, 기획/아이디어",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366078"
+    }
+   ],
+   "firstSeen": "2026-11-23",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "분야 확인 필요"
+   ],
+   "reasonText": "'문학' 키워드가 있지만 관심 분야 키워드도 같이 있어요."
+  },
+  {
    "id": "wevity:112066",
    "source": "wevity",
    "title": "2026–27 스토리리그 AI 영상 예고편 공모전",
@@ -2850,35 +2857,6 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "kstartup:179808",
-   "source": "kstartup",
-   "title": "「올해의 K-스타트업 2026」 창업경진대회 왕중왕전 청중평가단 모집",
-   "host": null,
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179808",
-   "officialUrl": null,
-   "applyStart": null,
-   "applyEnd": null,
-   "postedAt": null,
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "행사ㆍ네트워크",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179808"
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aae270dfdf75b86efb99e31",
