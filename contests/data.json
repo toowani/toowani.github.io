@@ -1,101 +1,35 @@
 {
- "generatedAt": "2026-11-23T07:41:40.367Z",
- "today": "2026-11-23",
+ "generatedAt": "2026-11-23T23:55:39.975Z",
+ "today": "2026-11-24",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 40,
-   "fetchedAt": "2026-11-23T07:41:40.261Z"
+   "count": 42,
+   "fetchedAt": "2026-11-23T23:55:39.865Z"
   },
   "hola": {
    "ok": true,
-   "count": 25,
-   "fetchedAt": "2026-11-23T07:41:40.262Z"
+   "count": 26,
+   "fetchedAt": "2026-11-23T23:55:39.865Z"
   },
   "wevity": {
    "ok": true,
    "count": 30,
-   "fetchedAt": "2026-11-23T07:41:40.262Z"
+   "fetchedAt": "2026-11-23T23:55:39.865Z"
   },
   "devevent": {
    "ok": true,
-   "count": 15,
-   "fetchedAt": "2026-11-23T07:41:40.262Z"
+   "count": 23,
+   "fetchedAt": "2026-11-23T23:55:39.865Z"
   },
   "kstartup": {
    "ok": true,
-   "count": 4,
-   "fetchedAt": "2026-11-23T07:41:40.262Z"
+   "count": 3,
+   "fetchedAt": "2026-11-23T23:55:39.865Z"
   }
  },
- "count": 84,
+ "count": 83,
  "items": [
-  {
-   "id": "devevent:https://luma.com/z8hzosog",
-   "source": "devevent",
-   "title": "[2회차] 디노티시아 NIPA 오픈소스 해커톤",
-   "host": "모두의연구소 커뮤니티 · 디노티시아",
-   "url": "https://luma.com/z8hzosog",
-   "officialUrl": "https://luma.com/z8hzosog",
-   "applyStart": null,
-   "applyEnd": "2026-11-21",
-   "eventStart": "2026-11-21",
-   "eventEnd": "2026-11-21",
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 강남구)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://luma.com/z8hzosog"
-    }
-   ],
-   "firstSeen": "2026-11-10",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
-  {
-   "id": "devevent:https://luma.com/vc6rmvaz",
-   "source": "devevent",
-   "title": "Notion AI Hackathon Seoul",
-   "host": "Team.HUMAN (Notion Korea 지원)",
-   "url": "https://luma.com/vc6rmvaz",
-   "officialUrl": "https://luma.com/vc6rmvaz",
-   "applyStart": null,
-   "applyEnd": "2026-11-21",
-   "eventStart": "2026-11-21",
-   "eventEnd": "2026-11-21",
-   "postedAt": null,
-   "prize": null,
-   "place": "오프라인(서울 서초구)",
-   "target": null,
-   "sourceCategory": "대회, AI",
-   "tags": [
-    "dev",
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "devevent",
-     "url": "https://luma.com/vc6rmvaz"
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'서울' 지역 한정으로 보여요."
-  },
   {
    "id": "hola:6ad48a76b2e45876ca5921a5",
    "source": "hola",
@@ -123,165 +57,6 @@
     }
    ],
    "firstSeen": "2026-11-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:366239",
-   "source": "linkareer",
-   "title": "「2026 한-아랍 스타트업 공모전」 참가 스타트업 모집(~11. 23.(월) 17:00)",
-   "host": "한-아랍 스타트업 공모전 운영사무국",
-   "url": "https://linkareer.com/activity/366239",
-   "officialUrl": null,
-   "applyStart": "2026-11-10",
-   "applyEnd": "2026-11-23",
-   "postedAt": "2026-11-23",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/366239"
-    }
-   ],
-   "firstSeen": "2026-11-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:364057",
-   "source": "linkareer",
-   "title": "「2026년 벤처브릿지 오픈이노베이션」",
-   "host": "주식회사 알파브라더스",
-   "url": "https://linkareer.com/activity/364057",
-   "officialUrl": "https://www.alphabrothers.co.kr",
-   "applyStart": "2026-11-12",
-   "applyEnd": "2026-11-23",
-   "postedAt": "2026-11-12",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "창업",
-   "tags": [
-    "startup"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/364057"
-    }
-   ],
-   "firstSeen": "2026-11-13",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(창업)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:112022",
-   "source": "wevity",
-   "title": "2026 경산시 AI 미디어 콘텐츠 공모전",
-   "host": "경산시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112022",
-   "officialUrl": "https://aiart.gbgs.art/",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-11-23",
-   "postedAt": null,
-   "prize": "5천만원~3천만원 · 1등 500만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112022",
-     "_detail": {
-      "applyStart": "2026-11-09",
-      "applyEnd": "2026-11-23",
-      "prize": "5천만원~3천만원 · 1등 500만원",
-      "officialUrl": "https://aiart.gbgs.art/",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-30",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'경산시' 지역 한정으로 보여요."
-  },
-  {
-   "id": "kstartup:179785",
-   "source": "kstartup",
-   "title": "2026 펨테크 산업 육성사업 DEMO DAY",
-   "host": "씨엔티테크(주)",
-   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179785",
-   "officialUrl": null,
-   "applyStart": "2026-11-12",
-   "applyEnd": "2026-11-23",
-   "postedAt": "2026-11-16",
-   "prize": null,
-   "place": null,
-   "target": null,
-   "sourceCategory": "민간, 행사ㆍ네트워크",
-   "tags": [
-    "startup",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "kstartup",
-     "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179785"
-    }
-   ],
-   "firstSeen": "2026-11-16",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:111819",
-   "source": "wevity",
-   "title": "2026 한국세라믹기술원 AI 영상 공모전 (세라믹이 사라진 세상)",
-   "host": "한국세라믹기술원",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111819",
-   "officialUrl": "https://www.kicet.re.kr/00020/00117/00120.web?gcode=1015&idx=12357&amode=view",
-   "applyStart": "2026-10-23",
-   "applyEnd": "2026-11-23",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
-   "target": "제한없음",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111819",
-     "_detail": {
-      "applyStart": "2026-10-23",
-      "applyEnd": "2026-11-23",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://www.kicet.re.kr/00020/00117/00120.web?gcode=1015&idx=12357&amode=view",
-      "target": "제한없음"
-     }
-    }
-   ],
-   "firstSeen": "2026-10-23",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -708,15 +483,24 @@
    "officialUrl": "https://luma.com/pcd9sjr8",
    "applyStart": "2026-11-23",
    "applyEnd": "2026-11-29",
-   "postedAt": null,
+   "postedAt": "2026-11-23",
    "prize": "3천만원~1천만원 · 1등 400만원",
-   "place": null,
+   "place": "오프라인",
    "target": "제한없음",
    "sourceCategory": "웹/모바일/IT",
    "tags": [
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366450"
+    },
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b0461e0638860094c28001f"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112518",
@@ -727,6 +511,10 @@
       "officialUrl": "https://luma.com/pcd9sjr8",
       "target": "제한없음"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://luma.com/pcd9sjr8"
     }
    ],
    "firstSeen": "2026-11-23",
@@ -1108,6 +896,10 @@
     },
     {
      "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b0461f5638860094c28003e"
+    },
+    {
+     "source": "hola",
      "url": "https://holaworld.io/hola-it/6b029ef8ba2362b044d766f5"
     },
     {
@@ -1126,6 +918,8 @@
      "url": "https://www.dgucenter.or.kr/bbs/board.php?bo_table=notice&wr_id=744"
     }
    ],
+   "eventStart": "2026-11-30",
+   "eventEnd": "2026-11-30",
    "firstSeen": "2026-11-09",
    "grade": "확인 필요",
    "reasonTags": [
@@ -1181,12 +975,17 @@
    "target": null,
    "sourceCategory": "해커톤",
    "tags": [
-    "dev"
+    "dev",
+    "ai"
    ],
    "sources": [
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6b029f0dba2362b044d76723"
+    },
+    {
+     "source": "devevent",
+     "url": "https://forwardthon.com/"
     }
    ],
    "firstSeen": "2026-11-23",
@@ -1442,6 +1241,34 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "linkareer:366458",
+   "source": "linkareer",
+   "title": "흥얼 Lift You High 7일 챌린지",
+   "host": "순비스튜디오",
+   "url": "https://linkareer.com/activity/366458",
+   "officialUrl": null,
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-11-30",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "예체능/패션",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366458"
+    }
+   ],
+   "firstSeen": "2026-11-24",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
    "id": "hola:6afc2ab341142deba622ff91",
    "source": "hola",
    "title": "[무료/창업] 아이디어를 MVP로, MVP가 첫 고객을 만나기까지🍊오렌지파크 해커톤",
@@ -1459,12 +1286,17 @@
    "sourceCategory": "해커톤",
    "tags": [
     "dev",
-    "startup"
+    "startup",
+    "ai"
    ],
    "sources": [
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6afc2ab341142deba622ff91"
+    },
+    {
+     "source": "devevent",
+     "url": "https://www.orangepark.or.kr/articles/A8345675"
     }
    ],
    "firstSeen": "2026-11-19",
@@ -1485,7 +1317,7 @@
    "applyEnd": "2026-12-01",
    "postedAt": null,
    "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
+   "place": "온라인",
    "target": "제한없음",
    "sourceCategory": "웹/모바일/IT",
    "tags": [
@@ -1503,6 +1335,10 @@
       "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112160",
       "target": "제한없음"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://www.ssgsag.kr/posters/29549"
     }
    ],
    "firstSeen": "2026-11-05",
@@ -1534,6 +1370,10 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6b0263096de791e55740961b"
+    },
+    {
+     "source": "devevent",
+     "url": "https://dorahacks.io/hackathon/hskchainseoul/detail"
     }
    ],
    "firstSeen": "2026-11-23",
@@ -1722,6 +1562,40 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
+   "id": "devevent:https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
+   "source": "devevent",
+   "title": "2026 강원 AI 창업아이디어 경진대회",
+   "host": "상지대학교 앵커사업단 · 상상력집단",
+   "url": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
+   "officialUrl": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-07",
+   "eventStart": null,
+   "eventEnd": null,
+   "postedAt": null,
+   "prize": null,
+   "place": "오프라인(강원 원주)",
+   "target": null,
+   "sourceCategory": "대회, AI",
+   "tags": [
+    "dev",
+    "ai",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "devevent",
+     "url": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/"
+    }
+   ],
+   "firstSeen": "2026-11-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'강원' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:366279",
    "source": "linkareer",
    "title": "2026 서울 야간경제 활성화 해커톤(Dopamine 24)",
@@ -1749,9 +1623,19 @@
     },
     {
      "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b0461c2638860094c27ffee"
+    },
+    {
+     "source": "hola",
      "url": "https://holaworld.io/hola-it/6b013e43225b408d6c241550"
+    },
+    {
+     "source": "devevent",
+     "url": "https://aifactory.space/ko/competitions/9320"
     }
    ],
+   "eventStart": "2026-11-23",
+   "eventEnd": "2026-12-07",
    "firstSeen": "2026-11-23",
    "grade": "비추천",
    "reasonTags": [
@@ -1960,6 +1844,10 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6b013e61225b408d6c2415ec"
+    },
+    {
+     "source": "devevent",
+     "url": "https://cms.sjcu.ac.kr/artificial-intelligence/community/data.do?mode=view&articleNo=138524"
     }
    ],
    "firstSeen": "2026-11-23",
@@ -2125,7 +2013,8 @@
    "target": "제한없음",
    "sourceCategory": "과학/공학",
    "tags": [
-    "ai"
+    "ai",
+    "dev"
    ],
    "sources": [
     {
@@ -2146,9 +2035,49 @@
       "officialUrl": "https://smartcity-ai.kr/",
       "target": "제한없음"
      }
+    },
+    {
+     "source": "devevent",
+     "url": "https://smartcity-ai.kr/"
     }
    ],
    "firstSeen": "2026-11-17",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112528",
+   "source": "wevity",
+   "title": "제1회 AI 영상 공모전 (AI가 상상하는 중국)",
+   "host": "공자아카데미㈜",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112528",
+   "officialUrl": "https://www.kongzi.co.kr/?c1=2&c2=1511&uid=1497",
+   "applyStart": "2026-11-25",
+   "applyEnd": "2026-12-16",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 50만원",
+   "place": null,
+   "target": "제한없음",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112528",
+     "_detail": {
+      "applyStart": "2026-11-25",
+      "applyEnd": "2026-12-16",
+      "prize": "1천만원이하 · 1등 50만원",
+      "officialUrl": "https://www.kongzi.co.kr/?c1=2&c2=1511&uid=1497",
+      "target": "제한없음"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-24",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -2392,6 +2321,44 @@
    "reasonText": "'부산' 지역 한정으로 보여요."
   },
   {
+   "id": "wevity:111222",
+   "source": "wevity",
+   "title": "NEXMUSE AI Music Video Contest 2027",
+   "host": "주식회사 에이아이아트",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
+   "officialUrl": "https://nexmuse.kr/",
+   "applyStart": "2026-09-21",
+   "applyEnd": "2026-12-28",
+   "postedAt": null,
+   "prize": "3천만원~1천만원 · 1등 1,000만원",
+   "place": null,
+   "target": "일반인, 대학생, 청소년",
+   "sourceCategory": "영상/UCC/사진",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=111222",
+     "_detail": {
+      "applyStart": "2026-09-21",
+      "applyEnd": "2026-12-28",
+      "prize": "3천만원~1천만원 · 1등 1,000만원",
+      "officialUrl": "https://nexmuse.kr/",
+      "target": "일반인, 대학생, 청소년"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "대상 불가"
+   ],
+   "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
+  },
+  {
    "id": "linkareer:365034",
    "source": "linkareer",
    "title": "[주한EU대표부] 2026년 슈만 챌린지: 한-EU 파트너십 강화를 위한 정책아이디어 공모",
@@ -2494,6 +2461,34 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "linkareer:366375",
+   "source": "linkareer",
+   "title": "2026 청년 전세사기 피해예방 수기 공모전 「전세사기 ZERO 챌린지」 (~12/31)",
+   "host": "사피엔스4.0",
+   "url": "https://linkareer.com/activity/366375",
+   "officialUrl": "https://www.sapiens.or.kr/zero/",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-31",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": null,
+   "target": "대학생, 직장인/일반인",
+   "sourceCategory": "기타",
+   "tags": [
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366375"
+    }
+   ],
+   "firstSeen": "2026-11-24",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "wevity:112330",
@@ -2665,6 +2660,37 @@
    "reasonText": "'대전' 지역 한정으로 보여요. '청소년' 조건이라 지원 대상이 아니에요."
   },
   {
+   "id": "linkareer:366445",
+   "source": "linkareer",
+   "title": "제1회 서울국제AI광고영상제 (SIADAFF)",
+   "host": "(주)케이미디어진흥원",
+   "url": "https://linkareer.com/activity/366445",
+   "officialUrl": null,
+   "applyStart": "2026-11-23",
+   "applyEnd": "2027-01-07",
+   "postedAt": "2026-11-23",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 광고/마케팅",
+   "tags": [
+    "ai",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366445"
+    }
+   ],
+   "firstSeen": "2026-11-24",
+   "grade": "비추천",
+   "reasonTags": [
+    "지역 불가"
+   ],
+   "reasonText": "'서울' 지역 한정으로 보여요."
+  },
+  {
    "id": "linkareer:365130",
    "source": "linkareer",
    "title": "2027 제 2회 Superb AI X BDAI Vision AI 해커톤",
@@ -2694,6 +2720,10 @@
     {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6aff13e341142deba627923a"
+    },
+    {
+     "source": "devevent",
+     "url": "https://bdai.co.kr/lectures/contest/18/"
     }
    ],
    "firstSeen": "2026-11-17",
