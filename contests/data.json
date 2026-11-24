@@ -1,104 +1,35 @@
 {
- "generatedAt": "2026-11-24T09:56:27.294Z",
- "today": "2026-11-24",
+ "generatedAt": "2026-11-24T22:28:35.833Z",
+ "today": "2026-11-25",
  "sources": {
   "linkareer": {
    "ok": true,
-   "count": 39,
-   "fetchedAt": "2026-11-24T09:56:27.105Z"
+   "count": 40,
+   "fetchedAt": "2026-11-24T22:28:35.635Z"
   },
   "hola": {
    "ok": true,
-   "count": 26,
-   "fetchedAt": "2026-11-24T09:56:27.105Z"
+   "count": 27,
+   "fetchedAt": "2026-11-24T22:28:35.636Z"
   },
   "wevity": {
    "ok": true,
-   "count": 30,
-   "fetchedAt": "2026-11-24T09:56:27.105Z"
+   "count": 32,
+   "fetchedAt": "2026-11-24T22:28:35.636Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-11-24T09:56:27.105Z"
+   "fetchedAt": "2026-11-24T22:28:35.636Z"
   },
   "kstartup": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-24T09:56:27.105Z"
+   "fetchedAt": "2026-11-24T22:28:35.636Z"
   }
  },
- "count": 83,
+ "count": 85,
  "items": [
-  {
-   "id": "hola:6ad48a76b2e45876ca5921a5",
-   "source": "hola",
-   "title": "2026 조달청 AI 게임·콘텐츠 공모전",
-   "host": "조달청",
-   "url": "https://holaworld.io/hola-it/6ad48a76b2e45876ca5921a5",
-   "officialUrl": "https://blog.naver.com/ppspr/224439199284",
-   "applyStart": "2026-10-12",
-   "applyEnd": "2026-11-22",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": "2026-10-18",
-   "prize": null,
-   "place": "온라인",
-   "target": null,
-   "sourceCategory": "공모전",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "hola",
-     "url": "https://holaworld.io/hola-it/6ad48a76b2e45876ca5921a5"
-    }
-   ],
-   "firstSeen": "2026-11-23",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "wevity:112266",
-   "source": "wevity",
-   "title": "광명역 미래비전 AI 영상 공모전",
-   "host": "광명시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112266",
-   "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112266",
-   "applyStart": "2026-11-11",
-   "applyEnd": "2026-11-24",
-   "postedAt": null,
-   "prize": "1천만원이하 · 1등 200만원",
-   "place": null,
-   "target": "일반인, 대학생",
-   "sourceCategory": "영상/UCC/사진",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112266",
-     "_detail": {
-      "applyStart": "2026-11-11",
-      "applyEnd": "2026-11-24",
-      "prize": "1천만원이하 · 1등 200만원",
-      "officialUrl": "https://www.wevity.com/?c=find&s=1&gbn=view&gp=1&ix=112266",
-      "target": "일반인, 대학생"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-10",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'광명시' 지역 한정으로 보여요."
-  },
   {
    "id": "linkareer:363233",
    "source": "linkareer",
@@ -751,6 +682,42 @@
     }
    ],
    "firstSeen": "2026-11-10",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112493",
+   "source": "wevity",
+   "title": "2026 AI·데이터 기반 융복합 기업가정신 아이디어 공모전",
+   "host": "포스텍 산업경영공학과",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112493",
+   "officialUrl": "https://ime.postech.ac.kr/ime/news/seminar.do?mode=view&articleNo=55975&article.offset=0&articleLimit=10",
+   "applyStart": "2026-09-30",
+   "applyEnd": "2026-11-30",
+   "postedAt": null,
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "기타",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai",
+    "startup"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112493",
+     "_detail": {
+      "applyStart": "2026-09-30",
+      "applyEnd": "2026-11-30",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://ime.postech.ac.kr/ime/news/seminar.do?mode=view&articleNo=55975&article.offset=0&articleLimit=10",
+      "target": "기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-25",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -1543,33 +1510,68 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "devevent:https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
-   "source": "devevent",
+   "id": "hola:6b05c626638860094c2aa18d",
+   "source": "hola",
+   "title": "2026 제5회 대국민 K-water AI 경진대회",
+   "host": "조재승",
+   "url": "https://holaworld.io/hola-it/6b05c626638860094c2aa18d",
+   "officialUrl": "https://event-us.kr/illusionists1004/event/141015",
+   "applyStart": "2026-11-24",
+   "applyEnd": "2026-12-06",
+   "eventStart": "2026-11-24",
+   "eventEnd": "2026-12-06",
+   "postedAt": "2026-11-25",
+   "prize": null,
+   "place": "온라인",
+   "target": null,
+   "sourceCategory": "공모전",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b05c626638860094c2aa18d"
+    }
+   ],
+   "firstSeen": "2026-11-25",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "hola:6b05c67a638860094c2aa204",
+   "source": "hola",
    "title": "2026 강원 AI 창업아이디어 경진대회",
    "host": "상지대학교 앵커사업단 · 상상력집단",
-   "url": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
+   "url": "https://holaworld.io/hola-it/6b05c67a638860094c2aa204",
    "officialUrl": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/",
    "applyStart": "2026-11-23",
    "applyEnd": "2026-12-07",
-   "eventStart": null,
-   "eventEnd": null,
-   "postedAt": null,
+   "eventStart": "2026-12-16",
+   "eventEnd": "2026-12-16",
+   "postedAt": "2026-11-25",
    "prize": null,
-   "place": "오프라인(강원 원주)",
+   "place": "오프라인 · 원주 시티호텔 기업도시점 애스톤포레홀",
    "target": null,
-   "sourceCategory": "대회, AI",
+   "sourceCategory": "공모전",
    "tags": [
-    "dev",
     "ai",
+    "dev",
     "startup"
    ],
    "sources": [
+    {
+     "source": "hola",
+     "url": "https://holaworld.io/hola-it/6b05c67a638860094c2aa204"
+    },
     {
      "source": "devevent",
      "url": "https://sangji-ai-startup-2026.workspace-700806.chatgpt.site/"
     }
    ],
-   "firstSeen": "2026-11-24",
+   "firstSeen": "2026-11-25",
    "grade": "비추천",
    "reasonTags": [
     "지역 불가"
@@ -1652,6 +1654,44 @@
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112549",
+   "source": "wevity",
+   "title": "대구광역시 남구 AI 행정혁신 경진대회",
+   "host": "대구광역시 남구청, 계명대학교 창업지원단",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112549",
+   "officialUrl": "https://kubic.kmu.ac.kr/kubic2025/35015/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa3ViaWMyMDI1JTJGMjQ0MSUyRjI0MTkxNyUyRmFydGNsVmlldy5kbyUzRnBhZ2UlM0QxJTI2ZmluZFR5cGUlM0QlMjZmaW5kV29yZCUzRCUyNmZpbmRDbFNlcSUzRCUyNmZpbmRPcG53cmQlM0QlMjZyZ3NCZ25kZVN0ciUzRCUyNnJn",
+   "applyStart": "2026-11-24",
+   "applyEnd": "2026-12-09",
+   "postedAt": null,
+   "prize": "5천만원~3천만원",
+   "place": null,
+   "target": "일반인, 대학생, 기타",
+   "sourceCategory": "웹/모바일/IT",
+   "tags": [
+    "ai",
+    "dev"
+   ],
+   "sources": [
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112549",
+     "_detail": {
+      "applyStart": "2026-11-24",
+      "applyEnd": "2026-12-09",
+      "prize": "5천만원~3천만원",
+      "officialUrl": "https://kubic.kmu.ac.kr/kubic2025/35015/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGa3ViaWMyMDI1JTJGMjQ0MSUyRjI0MTkxNyUyRmFydGNsVmlldy5kbyUzRnBhZ2UlM0QxJTI2ZmluZFR5cGUlM0QlMjZmaW5kV29yZCUzRCUyNmZpbmRDbFNlcSUzRCUyNmZpbmRPcG53cmQlM0QlMjZyZ3NCZ25kZVN0ciUzRCUyNnJn",
+      "target": "일반인, 대학생, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-25",
+   "grade": "확인 필요",
+   "reasonTags": [
+    "지역 확인 필요"
+   ],
+   "reasonText": "지역 조건이 공고에서 분명하지 않아요."
   },
   {
    "id": "wevity:111869",
@@ -2362,19 +2402,19 @@
    "reasonText": "'청소년' 조건이라 지원 대상이 아니에요."
   },
   {
-   "id": "linkareer:365034",
-   "source": "linkareer",
-   "title": "[주한EU대표부] 2026년 슈만 챌린지: 한-EU 파트너십 강화를 위한 정책아이디어 공모",
-   "host": "(주)이디엔 에서 공모전 행사 대행",
-   "url": "https://linkareer.com/activity/365034",
-   "officialUrl": "https://www.instagram.com/euinkorea/",
-   "applyStart": "2026-11-17",
+   "id": "wevity:112488",
+   "source": "wevity",
+   "title": "2026 슈만 챌린지: EU-한 파트너십 강화를 위한 정책 아이디어 공모전",
+   "host": "주한유럽연합대표부 (EU 공공·문화외교 프로젝트)",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112488",
+   "officialUrl": "https://www.eeas.europa.eu/delegations/south-korea/gongmo-2026-syuman-chaellinji-eu-han-pateuneosib-ganghwaleul-wihan-jeongchaeg-aidieo-gongmojeon_ko?s=179",
+   "applyStart": "2026-11-18",
    "applyEnd": "2026-12-30",
    "postedAt": "2026-11-17",
-   "prize": null,
+   "prize": "다양한 혜택",
    "place": null,
-   "target": "대학생",
-   "sourceCategory": "기획/아이디어, 학술",
+   "target": "대학생, 기타",
+   "sourceCategory": "기획/아이디어",
    "tags": [
     "dev"
    ],
@@ -2382,9 +2422,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/365034"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112488",
+     "_detail": {
+      "applyStart": "2026-11-18",
+      "applyEnd": "2026-12-30",
+      "prize": "다양한 혜택",
+      "officialUrl": "https://www.eeas.europa.eu/delegations/south-korea/gongmo-2026-syuman-chaellinji-eu-han-pateuneosib-ganghwaleul-wihan-jeongchaeg-aidieo-gongmojeon_ko?s=179",
+      "target": "대학생, 기타"
+     }
     }
    ],
-   "firstSeen": "2026-11-18",
+   "firstSeen": "2026-11-25",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
@@ -2861,6 +2912,35 @@
     "지역 불가"
    ],
    "reasonText": "'경남' 지역 한정으로 보여요."
+  },
+  {
+   "id": "linkareer:363049",
+   "source": "linkareer",
+   "title": "1등 경품이 무려 bhc 치킨 1년 이용권! ㅣ bhc 뚝닭댄스챌린지",
+   "host": "bhc",
+   "url": "https://linkareer.com/activity/363049",
+   "officialUrl": "https://www.instagram.com/p/De6jL83Cd53/",
+   "applyStart": "2026-11-06",
+   "applyEnd": "2027-02-06",
+   "postedAt": "2026-11-09",
+   "prize": null,
+   "place": null,
+   "target": "대상 제한 없음",
+   "sourceCategory": "사진/영상/UCC, 예체능/패션",
+   "tags": [
+    "dev",
+    "video"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/363049"
+    }
+   ],
+   "firstSeen": "2026-11-25",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
    "id": "hola:6aae270dfdf75b86efb99e31",
