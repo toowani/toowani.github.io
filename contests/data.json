@@ -1,77 +1,35 @@
 {
- "generatedAt": "2026-11-25T08:37:32.144Z",
- "today": "2026-11-25",
+ "generatedAt": "2026-11-25T21:43:49.962Z",
+ "today": "2026-11-26",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 38,
-   "fetchedAt": "2026-11-25T08:37:31.949Z"
+   "fetchedAt": "2026-11-25T21:43:49.765Z"
   },
   "hola": {
    "ok": true,
    "count": 27,
-   "fetchedAt": "2026-11-25T08:37:31.949Z"
+   "fetchedAt": "2026-11-25T21:43:49.766Z"
   },
   "wevity": {
    "ok": true,
-   "count": 35,
-   "fetchedAt": "2026-11-25T08:37:31.949Z"
+   "count": 36,
+   "fetchedAt": "2026-11-25T21:43:49.766Z"
   },
   "devevent": {
    "ok": true,
    "count": 23,
-   "fetchedAt": "2026-11-25T08:37:31.949Z"
+   "fetchedAt": "2026-11-25T21:43:49.766Z"
   },
   "kstartup": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-25T08:37:31.949Z"
+   "fetchedAt": "2026-11-25T21:43:49.766Z"
   }
  },
- "count": 86,
+ "count": 84,
  "items": [
-  {
-   "id": "wevity:112316",
-   "source": "wevity",
-   "title": "포항시 지역사회 문제 해결을 위한 AI 솔루션 아이디어 경진대회",
-   "host": "포항시",
-   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112316",
-   "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLScvo0AU03GtMCI1SI-SXwsB7sLo4ToORE1QZ7N9N9q7v3VSFA/viewform ",
-   "applyStart": "2026-11-09",
-   "applyEnd": "2026-11-25",
-   "postedAt": "2026-11-12",
-   "prize": "1천만원이하 · 1등 300만원",
-   "place": null,
-   "target": "기타",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai",
-    "dev"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363898"
-    },
-    {
-     "source": "wevity",
-     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112316",
-     "_detail": {
-      "applyStart": "2026-11-09",
-      "applyEnd": "2026-11-25",
-      "prize": "1천만원이하 · 1등 300만원",
-      "officialUrl": "https://docs.google.com/forms/d/e/1FAIpQLScvo0AU03GtMCI1SI-SXwsB7sLo4ToORE1QZ7N9N9q7v3VSFA/viewform ",
-      "target": "기타"
-     }
-    }
-   ],
-   "firstSeen": "2026-11-12",
-   "grade": "비추천",
-   "reasonTags": [
-    "지역 불가"
-   ],
-   "reasonText": "'포항시' 지역 한정으로 보여요."
-  },
   {
    "id": "devevent:https://event-us.kr/gdgcampuskorea/event/138371",
    "source": "devevent",
@@ -1449,34 +1407,6 @@
    "reasonText": "자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:366888",
-   "source": "linkareer",
-   "title": "[한전KPS] AI 활용 전력설비 정비 및 안전지원 서비스 아이디어 공모전",
-   "host": "한전KPS",
-   "url": "https://linkareer.com/activity/366888",
-   "officialUrl": "https://www.mokpo.ac.kr/www/308/subview.do;jsessionid=342DF5ADF1F396C62313CC1CBDFB50EC.worker1?enc=Zm5jdDF8QEB8JTJGYmJzJTJGd3d3JTJGMTQ4JTJGMTc1ODY2JTJGYXJ0Y2xWaWV3LmRvJTNG",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-12-06",
-   "postedAt": "2026-11-25",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어",
-   "tags": [
-    "ai"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/366888"
-    }
-   ],
-   "firstSeen": "2026-11-25",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
    "id": "wevity:112565",
    "source": "wevity",
    "title": "2026 제5회 대국민 K-water AI 경진대회",
@@ -1496,6 +1426,10 @@
    ],
    "sources": [
     {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/367086"
+    },
+    {
      "source": "hola",
      "url": "https://holaworld.io/hola-it/6b05c626638860094c2aa18d"
     },
@@ -1514,6 +1448,45 @@
    "eventStart": "2026-11-24",
    "eventEnd": "2026-12-06",
    "firstSeen": "2026-11-25",
+   "grade": "추천",
+   "reasonTags": [],
+   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
+  },
+  {
+   "id": "wevity:112519",
+   "source": "wevity",
+   "title": "한전KPS AI 활용 전력설비 정비 및 안전지원 서비스 아이디어 공모전",
+   "host": "한전KPS",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112519",
+   "officialUrl": "https://www.kps.co.kr/web/Board/47820/detailView.do?pageIndex=1&menu=2467",
+   "applyStart": "2026-11-23",
+   "applyEnd": "2026-12-06",
+   "postedAt": "2026-11-25",
+   "prize": "1천만원이하 · 1등 100만원",
+   "place": null,
+   "target": "제한없음, 기타",
+   "sourceCategory": "기획/아이디어",
+   "tags": [
+    "ai"
+   ],
+   "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/366888"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112519",
+     "_detail": {
+      "applyStart": "2026-11-23",
+      "applyEnd": "2026-12-06",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://www.kps.co.kr/web/Board/47820/detailView.do?pageIndex=1&menu=2467",
+      "target": "제한없음, 기타"
+     }
+    }
+   ],
+   "firstSeen": "2026-11-26",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -1646,7 +1619,7 @@
    "officialUrl": "https://www.instagram.com/samsaekisu/p/DgJtxU3mQ4M/",
    "applyStart": "2026-11-25",
    "applyEnd": "2026-12-08",
-   "postedAt": null,
+   "postedAt": "2026-11-25",
    "prize": "1천만원이하 · 1등 50만원",
    "place": null,
    "target": "제한없음",
@@ -1656,6 +1629,10 @@
     "video"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/367083"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112572",
@@ -1793,7 +1770,7 @@
    "officialUrl": "https://bigtori.kalis.or.kr/contest/ai-idea-contest",
    "applyStart": "2026-11-23",
    "applyEnd": "2026-12-10",
-   "postedAt": null,
+   "postedAt": "2026-11-25",
    "prize": "1천만원이하 · 1등 20만원",
    "place": null,
    "target": "제한없음",
@@ -1802,6 +1779,10 @@
     "ai"
    ],
    "sources": [
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/367085"
+    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112568",
@@ -1992,19 +1973,19 @@
    "reasonText": "관심 분야(작곡·AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
   },
   {
-   "id": "linkareer:366610",
-   "source": "linkareer",
-   "title": "AI x Seoul 혁신 콘텐츠 공모전",
-   "host": "성균관대",
-   "url": "https://linkareer.com/activity/366610",
+   "id": "wevity:112505",
+   "source": "wevity",
+   "title": "AI x Seoul 혁신 콘텐츠 공모전 작품 공모",
+   "host": "성균관대학교 문화예술미디어융합원 외",
+   "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112505",
    "officialUrl": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?articleNo=142007&mode=view",
    "applyStart": "2026-11-09",
    "applyEnd": "2026-12-13",
    "postedAt": "2026-11-24",
-   "prize": null,
+   "prize": "1천만원이하 · 1등 100만원",
    "place": null,
-   "target": "대학생",
-   "sourceCategory": "사진/영상/UCC, 기획/아이디어",
+   "target": "대학생, 기타",
+   "sourceCategory": "영상/UCC/사진",
    "tags": [
     "ai",
     "video"
@@ -2013,9 +1994,20 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/366610"
+    },
+    {
+     "source": "wevity",
+     "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112505",
+     "_detail": {
+      "applyStart": "2026-11-09",
+      "applyEnd": "2026-12-13",
+      "prize": "1천만원이하 · 1등 100만원",
+      "officialUrl": "https://www.skku.edu/skku/campus/skk_comm/notice01.do?articleNo=142007&mode=view",
+      "target": "대학생, 기타"
+     }
     }
    ],
-   "firstSeen": "2026-11-24",
+   "firstSeen": "2026-11-26",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -2178,35 +2170,6 @@
     }
    ],
    "firstSeen": "2026-11-24",
-   "grade": "추천",
-   "reasonTags": [],
-   "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
-  },
-  {
-   "id": "linkareer:363343",
-   "source": "linkareer",
-   "title": "[세종사이버대학교] 2026 전국민 AI 공모전 AI 불씨",
-   "host": "세종사이버대학교",
-   "url": "https://linkareer.com/activity/363343",
-   "officialUrl": "https://www.sjcu.ac.kr",
-   "applyStart": "2026-11-23",
-   "applyEnd": "2026-12-20",
-   "postedAt": "2026-11-10",
-   "prize": null,
-   "place": null,
-   "target": "대상 제한 없음",
-   "sourceCategory": "기획/아이디어, 사진/영상/UCC",
-   "tags": [
-    "ai",
-    "video"
-   ],
-   "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363343"
-    }
-   ],
-   "firstSeen": "2026-11-19",
    "grade": "추천",
    "reasonTags": [],
    "reasonText": "관심 분야(AI)와 맞고 자격 조건에 걸리는 내용이 안 보여요."
@@ -2542,7 +2505,7 @@
    "officialUrl": "https://scenedramas.com/competition",
    "applyStart": "2026-11-01",
    "applyEnd": "2026-12-31",
-   "postedAt": "2026-11-10",
+   "postedAt": null,
    "prize": "1천만원이하 · 1등 300만원",
    "place": null,
    "target": "제한없음",
@@ -2552,10 +2515,6 @@
     "video"
    ],
    "sources": [
-    {
-     "source": "linkareer",
-     "url": "https://linkareer.com/activity/363354"
-    },
     {
      "source": "wevity",
      "url": "https://www.wevity.com/?c=find&s=1&gub=1&gbn=view&ix=112319",
