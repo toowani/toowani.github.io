@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-11-27T21:19:21.115Z",
+ "generatedAt": "2026-11-28T07:52:06.757Z",
  "today": "2026-11-28",
  "sources": {
   "linkareer": {
    "ok": true,
    "count": 45,
-   "fetchedAt": "2026-11-27T21:19:20.904Z"
+   "fetchedAt": "2026-11-28T07:52:06.635Z"
   },
   "hola": {
    "ok": true,
    "count": 34,
-   "fetchedAt": "2026-11-27T21:19:20.904Z"
+   "fetchedAt": "2026-11-28T07:52:06.635Z"
   },
   "wevity": {
    "ok": true,
    "count": 37,
-   "fetchedAt": "2026-11-27T21:19:20.904Z"
+   "fetchedAt": "2026-11-28T07:52:06.635Z"
   },
   "devevent": {
    "ok": true,
    "count": 30,
-   "fetchedAt": "2026-11-27T21:19:20.904Z"
+   "fetchedAt": "2026-11-28T07:52:06.635Z"
   },
   "kstartup": {
    "ok": true,
    "count": 4,
-   "fetchedAt": "2026-11-27T21:19:20.904Z"
+   "fetchedAt": "2026-11-28T07:52:06.635Z"
   }
  },
  "count": 93,
@@ -424,6 +424,10 @@
     {
      "source": "linkareer",
      "url": "https://linkareer.com/activity/364265"
+    },
+    {
+     "source": "linkareer",
+     "url": "https://linkareer.com/activity/364040"
     }
    ],
    "firstSeen": "2026-11-13",
